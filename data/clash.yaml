@@ -5,491 +5,583 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1A, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: 93ab181c-660f-457f-bfd7-0baf28d2d3f4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: NODE2-VPN-1A, server: node2-vpn.hrzy.me, port: 443, type: trojan, password: 46bb9a5e-30f2-4ec8-a616-3bd3599d674c, skip-cert-verify: false, udp: true}
-  - {name: 🇧🇷 巴西 1 X1, server: slur.izenny.com, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: 11a86796-d9e4-42a0-9d61-dd353ae2cdf8, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-004-1J, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: 9ffdfc72-9910-44c2-9633-ade3ea3dd8df, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
+  - {name: 🇺🇸 中转美国1 X1, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 168829f2-d289-4bda-a389-329cce56af40, udp: true}
+  - {name: 🇺🇸 US-05-1E, server: cf.090227.xyz, port: 8443, type: vless, uuid: 61d7bdd0-a697-4e3a-a1a6-99c9fe8e2835, tls: true, servername: vps.bluexray.net, client-fingerprint: chrome, network: ws, ws-opts: {path: /vless-cf, headers: {Host: vps.bluexray.net}}, udp: true}
+  - {name: 🇯🇵 日本1 X1, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 168829f2-d289-4bda-a389-329cce56af40, udp: true}
+  - {name: 🇸🇬 SG-001-FREE-1E, server: 13.229.46.36, port: 8443, type: hysteria2, password: 23798772-1952-4b6c-89b4-224923ce8665, auth: 23798772-1952-4b6c-89b4-224923ce8665, skip-cert-verify: true, udp: true}
   - {name: 🇩🇪 德国-法兰克福-003-1I, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: aae103fa-b99e-4582-b496-a46ad6dcfd64, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
-  - {name: 🇸🇬 SG-001-FREE-1C, server: 13.229.46.36, port: 8443, type: hysteria2, password: 1b75e66a-83ec-4242-85b1-818d34bc92f3, auth: 1b75e66a-83ec-4242-85b1-818d34bc92f3, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1A, server: cdnfire.xiaomispeed.com, port: 21103, type: trojan, password: 93ab181c-660f-457f-bfd7-0baf28d2d3f4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 HY-04 | US, server: usflare1.cloudaddy.top, port: 30005, type: hysteria2, password: eda53710-c462-4f11-ace7-97bd93f59c1c, auth: eda53710-c462-4f11-ace7-97bd93f59c1c, sni: www.iq.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1A, server: cdnfire.xiaomispeed.com, port: 25502, type: trojan, password: 93ab181c-660f-457f-bfd7-0baf28d2d3f4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-003-1H, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 195db5a1-777f-4ab4-9d95-686d222e0006, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
-  - {name: 🇺🇸 美国5-高级月卡专用, server: node3.adami.icu, port: 40006, type: hysteria2, password: 3c227c23-1a0f-4dde-91f8-802a8745f67f, auth: 3c227c23-1a0f-4dde-91f8-802a8745f67f, sni: node3.adami.icu, skip-cert-verify: true, obfs: salamander, obfs-password: ZVY8lIsu22AMT4kO, udp: true}
-  - {name: 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1A, server: cdnfire.xiaomispeed.com, port: 24421, type: trojan, password: 93ab181c-660f-457f-bfd7-0baf28d2d3f4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: PC端如无法使用请点-TUN-视频体验-1A, server: cdnfire.xiaomispeed.com, port: 443, type: trojan, password: 93ab181c-660f-457f-bfd7-0baf28d2d3f4, sni: cdntwa.xiaomispeed.com, skip-cert-verify: false, udp: true}
-  - {name: NODE1-VPN-1E, server: node1-vpn.hrzy.me, port: 443, type: trojan, password: 3dbec91d-0e07-432d-b138-da69b9da7b4a, skip-cert-verify: false, udp: true}
-  - {name: 🇹🇼 台湾高速节点3, server: 118.232.199.14, port: 443, type: trojan, password: 86c97887-4d61-4d3b-8082-4390c081d00e, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 台湾高速节点, server: 103.137.63.77, port: 443, type: trojan, password: 86c97887-4d61-4d3b-8082-4390c081d00e, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
-  - {name: P8-JNA, server: empty.node, port: 443, type: trojan, password: e3de3f3a-4326-4f5f-a5ff-274c81ee78bf, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 25502, type: trojan, password: 1eef1f7e-969c-468f-a61f-9038c0800ccd, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 美B3, server: shadow.adami.icu, port: 41002, type: hysteria2, password: 4021d940-3552-42ad-811d-a286fea35feb, auth: 4021d940-3552-42ad-811d-a286fea35feb, sni: shadow.adami.icu, skip-cert-verify: true, obfs: salamander, obfs-password: ZVY8lIsu22AMT4kO, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-004-1C, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: 3fce8b5b-e909-4593-9224-f3a0f5cdbb80, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
+  - {name: 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 21103, type: trojan, password: 93ab181c-660f-457f-bfd7-0baf28d2d3f4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US-03-1E, server: node.bluexray.net, port: 36000, type: hysteria2, password: 61d7bdd0-a697-4e3a-a1a6-99c9fe8e2835, auth: 61d7bdd0-a697-4e3a-a1a6-99c9fe8e2835, sni: node.bluexray.net, skip-cert-verify: false, obfs: salamander, obfs-password: f4ck, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-001-1J, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: 9ffdfc72-9910-44c2-9633-ade3ea3dd8df, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-004-1E, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: 6ba1ff73-2981-49bc-8fa6-85f2c36f4b37, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
+  - {name: NODE2-VPN-1A, server: node2-vpn.hrzy.me, port: 443, type: trojan, password: d56b3113-a50f-4ba4-98d8-d7506e3dd432, skip-cert-verify: false, udp: true}
+  - {name: NODE1-VPN-1E, server: node1-vpn.hrzy.me, port: 443, type: trojan, password: 23798772-1952-4b6c-89b4-224923ce8665, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1C, server: cdnfire.xiaomispeed.com, port: 21103, type: trojan, password: 1e68c539-98ae-4558-bb58-54360275f0b0, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国高速节点1, server: 144.34.178.66, port: 1443, type: trojan, password: 6f57ba54-fa01-4ba4-9565-3cfaa343b8f9, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾高速节点3, server: 118.232.199.14, port: 443, type: trojan, password: 6f57ba54-fa01-4ba4-9565-3cfaa343b8f9, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1A, server: cdnfire.xiaomispeed.com, port: 25502, type: trojan, password: 1eef1f7e-969c-468f-a61f-9038c0800ccd, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: NODE2-VPN-1F, server: node2-vpn.hrzy.me, port: 443, type: trojan, password: 5e69b1ec-0be6-4f06-8c0e-584a814189da, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1C, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: 1e68c539-98ae-4558-bb58-54360275f0b0, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1A, server: cdnfire.xiaomispeed.com, port: 23311, type: trojan, password: 1eef1f7e-969c-468f-a61f-9038c0800ccd, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: NODE2-VPN-1D, server: node2-vpn.hrzy.me, port: 443, type: trojan, password: 46bb9a5e-30f2-4ec8-a616-3bd3599d674c, skip-cert-verify: false, udp: true}
   - {name: 🇺🇸 US-03-1D, server: node.bluexray.net, port: 36000, type: hysteria2, password: abcb4d86-1362-4ad4-bad2-03c87f035f4c, auth: abcb4d86-1362-4ad4-bad2-03c87f035f4c, sni: node.bluexray.net, skip-cert-verify: false, obfs: salamander, obfs-password: f4ck, udp: true}
-  - {name: 🇭🇰 香港 1 X1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 11a86796-d9e4-42a0-9d61-dd353ae2cdf8, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-004-1I, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: aae103fa-b99e-4582-b496-a46ad6dcfd64, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
-  - {name: 美B3, server: shadow.adami.icu, port: 41002, type: hysteria2, password: 3c227c23-1a0f-4dde-91f8-802a8745f67f, auth: 3c227c23-1a0f-4dde-91f8-802a8745f67f, sni: shadow.adami.icu, skip-cert-verify: true, obfs: salamander, obfs-password: ZVY8lIsu22AMT4kO, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-001-1B, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: a28c65dc-a6ef-4add-b0d7-7791e604aae1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
-  - {name: NODE1-VPN-1B, server: node1-vpn.hrzy.me, port: 443, type: trojan, password: b974594c-11b2-4d77-bf30-f1340c370bd0, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 24422, type: trojan, password: 1eef1f7e-969c-468f-a61f-9038c0800ccd, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG-001-FREE-1B, server: 13.229.46.36, port: 8443, type: hysteria2, password: b974594c-11b2-4d77-bf30-f1340c370bd0, auth: b974594c-11b2-4d77-bf30-f1340c370bd0, skip-cert-verify: true, udp: true}
-  - {name: NODE2-VPN-1F, server: node2-vpn.hrzy.me, port: 443, type: trojan, password: 23798772-1952-4b6c-89b4-224923ce8665, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-001-1D, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: 5caa1a4c-5c2b-4d74-a02f-28ee596e9c68, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-003-1C, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 6ba1ff73-2981-49bc-8fa6-85f2c36f4b37, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
-  - {name: 🇺🇸 美国3-高级月卡专用, server: node3.adami.icu, port: 40003, type: hysteria2, password: 3c227c23-1a0f-4dde-91f8-802a8745f67f, auth: 3c227c23-1a0f-4dde-91f8-802a8745f67f, sni: node3.adami.icua, skip-cert-verify: true, udp: true}
-  - {name: 🇵🇱 PL-IKN, server: empty.node, port: 443, type: trojan, password: 2265fefd-98fd-4ac5-8c62-3ebc19b9e9e6, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 US-05-1B, server: cf.090227.xyz, port: 8443, type: vless, uuid: cbdbb4ff-12ea-4528-ab32-0f1f8044a554, tls: true, servername: vps.bluexray.net, client-fingerprint: chrome, network: ws, ws-opts: {path: /vless-cf, headers: {Host: vps.bluexray.net}}, udp: true}
-  - {name: 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: 1eef1f7e-969c-468f-a61f-9038c0800ccd, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false, udp: true}
-  - {name: 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1A, server: cdnfire.xiaomispeed.com, port: 23311, type: trojan, password: 93ab181c-660f-457f-bfd7-0baf28d2d3f4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇲🇽 墨西哥 1 X1, server: slur.izenny.com, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: 11a86796-d9e4-42a0-9d61-dd353ae2cdf8, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-001-1I, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: aae103fa-b99e-4582-b496-a46ad6dcfd64, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
-  - {name: NODE1-VPN-1F, server: node1-vpn.hrzy.me, port: 443, type: trojan, password: 23798772-1952-4b6c-89b4-224923ce8665, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 HY-02 | US, server: usflare1.cloudaddy.top, port: 30003, type: hysteria2, password: eda53710-c462-4f11-ace7-97bd93f59c1c, auth: eda53710-c462-4f11-ace7-97bd93f59c1c, sni: www.iq.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: 1eef1f7e-969c-468f-a61f-9038c0800ccd, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US-01-1C, server: cloud.bluexray.net, port: 5501, type: ss, cipher: chacha20-ietf-poly1305, password: d163b8d1-7b7e-43d0-958d-605c4398a7fa, udp: true}
-  - {name: 🇹🇼 台湾高速节点2, server: 118.232.199.29, port: 443, type: trojan, password: 86c97887-4d61-4d3b-8082-4390c081d00e, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-001-1G, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: 3fce8b5b-e909-4593-9224-f3a0f5cdbb80, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
-  - {name: 🇺🇸 US-03-1C, server: node.bluexray.net, port: 36000, type: hysteria2, password: d163b8d1-7b7e-43d0-958d-605c4398a7fa, auth: d163b8d1-7b7e-43d0-958d-605c4398a7fa, sni: node.bluexray.net, skip-cert-verify: false, obfs: salamander, obfs-password: f4ck, udp: true}
-  - {name: 🇺🇸 US-03-1A, server: node.bluexray.net, port: 36000, type: hysteria2, password: f5ac663a-e4d8-4893-818b-b1ff0fc7fc65, auth: f5ac663a-e4d8-4893-818b-b1ff0fc7fc65, sni: node.bluexray.net, skip-cert-verify: false, obfs: salamander, obfs-password: f4ck, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-002-1D, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 5caa1a4c-5c2b-4d74-a02f-28ee596e9c68, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
-  - {name: 🇸🇬 新加坡解锁 1 X1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 11a86796-d9e4-42a0-9d61-dd353ae2cdf8, udp: true}
-  - {name: 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 22231, type: trojan, password: 1eef1f7e-969c-468f-a61f-9038c0800ccd, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-004-1H, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: 195db5a1-777f-4ab4-9d95-686d222e0006, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
-  - {name: 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1A, server: cdnfire.xiaomispeed.com, port: 22231, type: trojan, password: 93ab181c-660f-457f-bfd7-0baf28d2d3f4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-001-1F, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: e13382a5-cec7-42c6-b829-135b7fa23a16, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-004-1B, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: a28c65dc-a6ef-4add-b0d7-7791e604aae1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-001-1H, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: 195db5a1-777f-4ab4-9d95-686d222e0006, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
-  - {name: 🇰🇷 韩国 1 X1, server: slur.izenny.com, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: 11a86796-d9e4-42a0-9d61-dd353ae2cdf8, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-003-1B, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: a28c65dc-a6ef-4add-b0d7-7791e604aae1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
-  - {name: 🇺🇸 HY-03 | US, server: usflare1.cloudaddy.top, port: 30004, type: hysteria2, password: eda53710-c462-4f11-ace7-97bd93f59c1c, auth: eda53710-c462-4f11-ace7-97bd93f59c1c, sni: us1.cloudsegl1.ccwu.cc, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 US-03-1B, server: node.bluexray.net, port: 36000, type: hysteria2, password: cbdbb4ff-12ea-4528-ab32-0f1f8044a554, auth: cbdbb4ff-12ea-4528-ab32-0f1f8044a554, sni: node.bluexray.net, skip-cert-verify: false, obfs: salamander, obfs-password: f4ck, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-004-1A, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: ec3d4542-938f-453d-b2a3-b0b664977ab2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-003-1G, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 3fce8b5b-e909-4593-9224-f3a0f5cdbb80, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
-  - {name: 🇺🇸 HY-05| US, server: usflare1.cloudaddy.top, port: 30006, type: hysteria2, password: eda53710-c462-4f11-ace7-97bd93f59c1c, auth: eda53710-c462-4f11-ace7-97bd93f59c1c, sni: www.iq.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1A, server: cdnfire.xiaomispeed.com, port: 21115, type: trojan, password: 93ab181c-660f-457f-bfd7-0baf28d2d3f4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: NODE1-VPN-1C, server: node1-vpn.hrzy.me, port: 443, type: trojan, password: 1b75e66a-83ec-4242-85b1-818d34bc92f3, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-002-1B, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: a28c65dc-a6ef-4add-b0d7-7791e604aae1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
-  - {name: NODE2-VPN-1D, server: node2-vpn.hrzy.me, port: 443, type: trojan, password: d56b3113-a50f-4ba4-98d8-d7506e3dd432, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1A, server: cdnfire.xiaomispeed.com, port: 24422, type: trojan, password: 93ab181c-660f-457f-bfd7-0baf28d2d3f4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: M0-DTA, server: empty.node, port: 443, type: trojan, password: 38fe587f-b49f-4dd1-b20c-9921b102157c, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: PU-OTC, server: basic9873cheap.fq-number-01.co, port: 52891, type: ss, cipher: aes-128-gcm, password: c51967b2-cb68-4ddc, udp: true}
-  - {name: 🇸🇬 SG-001-FREE-1D, server: 13.229.46.36, port: 8443, type: hysteria2, password: d56b3113-a50f-4ba4-98d8-d7506e3dd432, auth: d56b3113-a50f-4ba4-98d8-d7506e3dd432, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US-01-1B, server: cloud.bluexray.net, port: 5501, type: ss, cipher: chacha20-ietf-poly1305, password: cbdbb4ff-12ea-4528-ab32-0f1f8044a554, udp: true}
-  - {name: 🇺🇸 US-05-1A, server: cf.090227.xyz, port: 8443, type: vless, uuid: f5ac663a-e4d8-4893-818b-b1ff0fc7fc65, tls: true, servername: vps.bluexray.net, client-fingerprint: chrome, network: ws, ws-opts: {path: /vless-cf, headers: {Host: vps.bluexray.net}}, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-003-1A, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: ec3d4542-938f-453d-b2a3-b0b664977ab2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-004-1G, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: 3fce8b5b-e909-4593-9224-f3a0f5cdbb80, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
-  - {name: 🇸🇬 SG-001-FREE-1A, server: 13.229.46.36, port: 8443, type: hysteria2, password: 46bb9a5e-30f2-4ec8-a616-3bd3599d674c, auth: 46bb9a5e-30f2-4ec8-a616-3bd3599d674c, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US-05-1C, server: cf.090227.xyz, port: 8443, type: vless, uuid: d163b8d1-7b7e-43d0-958d-605c4398a7fa, tls: true, servername: vps.bluexray.net, client-fingerprint: chrome, network: ws, ws-opts: {path: /vless-cf, headers: {Host: vps.bluexray.net}}, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-004-1C, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: 6ba1ff73-2981-49bc-8fa6-85f2c36f4b37, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-004-1F, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: e13382a5-cec7-42c6-b829-135b7fa23a16, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-002-1A, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: ec3d4542-938f-453d-b2a3-b0b664977ab2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-003-1E, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: ad2b5b2c-a82a-477d-a0d4-a8ee0774e75c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-002-1H, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 195db5a1-777f-4ab4-9d95-686d222e0006, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-003-1F, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: e13382a5-cec7-42c6-b829-135b7fa23a16, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-002-1G, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 3fce8b5b-e909-4593-9224-f3a0f5cdbb80, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
-  - {name: 🇮🇳 印度 1 X1, server: slur.izenny.com, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: 11a86796-d9e4-42a0-9d61-dd353ae2cdf8, udp: true}
-  - {name: 🇺🇸 美国1, server: shadow.adami.icu, port: 40006, type: hysteria2, password: 3c227c23-1a0f-4dde-91f8-802a8745f67f, auth: 3c227c23-1a0f-4dde-91f8-802a8745f67f, sni: shadow.adami.icu, skip-cert-verify: true, obfs: salamander, obfs-password: ZVY8lIsu22AMT4kO, udp: true}
-  - {name: 🇸🇬 SG-001-FREE-1E, server: 13.229.46.36, port: 8443, type: hysteria2, password: 3dbec91d-0e07-432d-b138-da69b9da7b4a, auth: 3dbec91d-0e07-432d-b138-da69b9da7b4a, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-003-1D, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 5caa1a4c-5c2b-4d74-a02f-28ee596e9c68, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
-  - {name: 🇺🇸 美国高速节点1, server: 144.34.178.66, port: 1443, type: trojan, password: 86c97887-4d61-4d3b-8082-4390c081d00e, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 23311, type: trojan, password: 1eef1f7e-969c-468f-a61f-9038c0800ccd, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇮🇸 冰岛 1 X1, server: slur.izenny.com, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: 168829f2-d289-4bda-a389-329cce56af40, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-003-1J, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 9ffdfc72-9910-44c2-9633-ade3ea3dd8df, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
+  - {name: 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 24423, type: trojan, password: 93ab181c-660f-457f-bfd7-0baf28d2d3f4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US-01-1A, server: cloud.bluexray.net, port: 5501, type: ss, cipher: chacha20-ietf-poly1305, password: f5ac663a-e4d8-4893-818b-b1ff0fc7fc65, udp: true}
-  - {name: 🇯🇵 日本1 X1, server: slur.izenny.com, port: 53387, type: ss, cipher: chacha20-ietf-poly1305, password: 11a86796-d9e4-42a0-9d61-dd353ae2cdf8, udp: true}
-  - {name: NODE1-VPN-1A, server: node1-vpn.hrzy.me, port: 443, type: trojan, password: 46bb9a5e-30f2-4ec8-a616-3bd3599d674c, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-001-1A, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: ec3d4542-938f-453d-b2a3-b0b664977ab2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-002-1E, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: ad2b5b2c-a82a-477d-a0d4-a8ee0774e75c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
-  - {name: 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 24421, type: trojan, password: 1eef1f7e-969c-468f-a61f-9038c0800ccd, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: NODE2-VPN-1B, server: node2-vpn.hrzy.me, port: 443, type: trojan, password: b974594c-11b2-4d77-bf30-f1340c370bd0, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: 1eef1f7e-969c-468f-a61f-9038c0800ccd, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-001-1E, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: ad2b5b2c-a82a-477d-a0d4-a8ee0774e75c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-002-1F, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: e13382a5-cec7-42c6-b829-135b7fa23a16, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
-  - {name: 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1A, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: 93ab181c-660f-457f-bfd7-0baf28d2d3f4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false, udp: true}
-  - {name: 🇨🇳 中国联通节点1, server: 115.231.220.33, port: 5443, type: trojan, password: 86c97887-4d61-4d3b-8082-4390c081d00e, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 21103, type: trojan, password: 1eef1f7e-969c-468f-a61f-9038c0800ccd, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US-01-1C, server: cloud.bluexray.net, port: 5501, type: ss, cipher: chacha20-ietf-poly1305, password: d163b8d1-7b7e-43d0-958d-605c4398a7fa, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-003-1F, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 195db5a1-777f-4ab4-9d95-686d222e0006, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-001-1D, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: ec3d4542-938f-453d-b2a3-b0b664977ab2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
+  - {name: PC端如无法使用请点-TUN-视频体验-1A, server: cdnfire.xiaomispeed.com, port: 443, type: trojan, password: 1eef1f7e-969c-468f-a61f-9038c0800ccd, sni: cdntwa.xiaomispeed.com, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-003-1G, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: a28c65dc-a6ef-4add-b0d7-7791e604aae1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
+  - {name: 🇺🇸 美国5-高级月卡专用, server: node3.adami.icu, port: 40006, type: hysteria2, password: 4021d940-3552-42ad-811d-a286fea35feb, auth: 4021d940-3552-42ad-811d-a286fea35feb, sni: node3.adami.icu, skip-cert-verify: true, obfs: salamander, obfs-password: ZVY8lIsu22AMT4kO, udp: true}
+  - {name: 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1A, server: cdnfire.xiaomispeed.com, port: 24421, type: trojan, password: 1eef1f7e-969c-468f-a61f-9038c0800ccd, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: F1-VCK, server: basic9873cheap.fq-number-01.co, port: 52891, type: ss, cipher: aes-128-gcm, password: c51967b2-cb68-4ddc, udp: true}
+  - {name: 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 23311, type: trojan, password: 93ab181c-660f-457f-bfd7-0baf28d2d3f4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-004-1D, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: ec3d4542-938f-453d-b2a3-b0b664977ab2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-002-1H, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: e13382a5-cec7-42c6-b829-135b7fa23a16, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-003-1D, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: ec3d4542-938f-453d-b2a3-b0b664977ab2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-004-1K, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: 4d7e1156-1640-4927-819c-fd463ca13e1f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
+  - {name: NODE1-VPN-1D, server: node1-vpn.hrzy.me, port: 443, type: trojan, password: 46bb9a5e-30f2-4ec8-a616-3bd3599d674c, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-003-1B, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: ad2b5b2c-a82a-477d-a0d4-a8ee0774e75c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
   - {name: 🇺🇸 US-01-1D, server: cloud.bluexray.net, port: 5501, type: ss, cipher: chacha20-ietf-poly1305, password: abcb4d86-1362-4ad4-bad2-03c87f035f4c, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-002-1C, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 6ba1ff73-2981-49bc-8fa6-85f2c36f4b37, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
-  - {name: 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 24423, type: trojan, password: 1eef1f7e-969c-468f-a61f-9038c0800ccd, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-004-1E, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: ad2b5b2c-a82a-477d-a0d4-a8ee0774e75c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
-  - {name: 🇺🇸 中转美国1 X1, server: slur.izenny.com, port: 40063, type: ss, cipher: chacha20-ietf-poly1305, password: 11a86796-d9e4-42a0-9d61-dd353ae2cdf8, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-001-1C, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: 3fce8b5b-e909-4593-9224-f3a0f5cdbb80, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
+  - {name: 🇲🇽 墨西哥 1 X1, server: slur.izenny.com, port: 48907, type: ss, cipher: chacha20-ietf-poly1305, password: 168829f2-d289-4bda-a389-329cce56af40, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-002-1G, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: a28c65dc-a6ef-4add-b0d7-7791e604aae1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
+  - {name: PW-YZR, server: empty.node, port: 443, type: trojan, password: cdd08d72-80b6-4813-9555-1f21840571be, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 HY-04 | US, server: usflare1.cloudaddy.top, port: 30005, type: hysteria2, password: 5de82597-aaaa-4b6b-bb63-ac51cebe4723, auth: 5de82597-aaaa-4b6b-bb63-ac51cebe4723, sni: www.iq.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG-001-FREE-1F, server: 13.229.46.36, port: 8443, type: hysteria2, password: 5e69b1ec-0be6-4f06-8c0e-584a814189da, auth: 5e69b1ec-0be6-4f06-8c0e-584a814189da, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-001-1F, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: 195db5a1-777f-4ab4-9d95-686d222e0006, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
+  - {name: PC端如无法使用请点-TUN-视频体验-1B, server: cdnfire.xiaomispeed.com, port: 443, type: trojan, password: 93ab181c-660f-457f-bfd7-0baf28d2d3f4, sni: cdntwa.xiaomispeed.com, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1C, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: 1e68c539-98ae-4558-bb58-54360275f0b0, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1A, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: 1eef1f7e-969c-468f-a61f-9038c0800ccd, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-003-1C, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 3fce8b5b-e909-4593-9224-f3a0f5cdbb80, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
+  - {name: 🇺🇸 HY-03 | US, server: usflare1.cloudaddy.top, port: 30004, type: hysteria2, password: 5de82597-aaaa-4b6b-bb63-ac51cebe4723, auth: 5de82597-aaaa-4b6b-bb63-ac51cebe4723, sni: us1.cloudsegl1.ccwu.cc, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 US-05-1B, server: cf.090227.xyz, port: 8443, type: vless, uuid: cbdbb4ff-12ea-4528-ab32-0f1f8044a554, tls: true, servername: vps.bluexray.net, client-fingerprint: chrome, network: ws, ws-opts: {path: /vless-cf, headers: {Host: vps.bluexray.net}}, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-002-1B, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: ad2b5b2c-a82a-477d-a0d4-a8ee0774e75c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
+  - {name: 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1A, server: cdnfire.xiaomispeed.com, port: 21115, type: trojan, password: 1eef1f7e-969c-468f-a61f-9038c0800ccd, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: PE-NFK, server: empty.node, port: 443, type: trojan, password: 282e37b0-e2e9-4577-b0d4-e049f8a07273, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1A, server: cdnfire.xiaomispeed.com, port: 24423, type: trojan, password: 1eef1f7e-969c-468f-a61f-9038c0800ccd, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US-03-1B, server: node.bluexray.net, port: 36000, type: hysteria2, password: cbdbb4ff-12ea-4528-ab32-0f1f8044a554, auth: cbdbb4ff-12ea-4528-ab32-0f1f8044a554, sni: node.bluexray.net, skip-cert-verify: false, obfs: salamander, obfs-password: f4ck, udp: true}
+  - {name: 🇸🇬 SG-001-FREE-1C, server: 13.229.46.36, port: 8443, type: hysteria2, password: 1b75e66a-83ec-4242-85b1-818d34bc92f3, auth: 1b75e66a-83ec-4242-85b1-818d34bc92f3, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG-001-FREE-1D, server: 13.229.46.36, port: 8443, type: hysteria2, password: 46bb9a5e-30f2-4ec8-a616-3bd3599d674c, auth: 46bb9a5e-30f2-4ec8-a616-3bd3599d674c, skip-cert-verify: true, udp: true}
   - {name: NODE2-VPN-1C, server: node2-vpn.hrzy.me, port: 443, type: trojan, password: 1b75e66a-83ec-4242-85b1-818d34bc92f3, skip-cert-verify: false, udp: true}
-  - {name: PC端如无法使用请点-TUN-视频体验-1B, server: cdnfire.xiaomispeed.com, port: 443, type: trojan, password: 1eef1f7e-969c-468f-a61f-9038c0800ccd, sni: cdntwa.xiaomispeed.com, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-002-1I, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: aae103fa-b99e-4582-b496-a46ad6dcfd64, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
-  - {name: 🇸🇬 SG-001-FREE-1F, server: 13.229.46.36, port: 8443, type: hysteria2, password: 23798772-1952-4b6c-89b4-224923ce8665, auth: 23798772-1952-4b6c-89b4-224923ce8665, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 台湾解锁 1 X1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 11a86796-d9e4-42a0-9d61-dd353ae2cdf8, udp: true}
-  - {name: 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 21115, type: trojan, password: 1eef1f7e-969c-468f-a61f-9038c0800ccd, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇮🇸 冰岛 1 X1, server: slur.izenny.com, port: 32009, type: ss, cipher: chacha20-ietf-poly1305, password: 11a86796-d9e4-42a0-9d61-dd353ae2cdf8, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-004-1G, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: a28c65dc-a6ef-4add-b0d7-7791e604aae1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
+  - {name: 🇺🇸 US-01-1B, server: cloud.bluexray.net, port: 5501, type: ss, cipher: chacha20-ietf-poly1305, password: cbdbb4ff-12ea-4528-ab32-0f1f8044a554, udp: true}
+  - {name: 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1C, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: 1e68c539-98ae-4558-bb58-54360275f0b0, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-003-1K, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 4d7e1156-1640-4927-819c-fd463ca13e1f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-001-1G, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: a28c65dc-a6ef-4add-b0d7-7791e604aae1, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
+  - {name: 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 24422, type: trojan, password: 93ab181c-660f-457f-bfd7-0baf28d2d3f4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-003-1H, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: e13382a5-cec7-42c6-b829-135b7fa23a16, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
+  - {name: 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1C, server: cdnfire.xiaomispeed.com, port: 24423, type: trojan, password: 1e68c539-98ae-4558-bb58-54360275f0b0, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: NODE2-VPN-1E, server: node2-vpn.hrzy.me, port: 443, type: trojan, password: 23798772-1952-4b6c-89b4-224923ce8665, skip-cert-verify: false, udp: true}
+  - {name: PC端如无法使用请点-TUN-视频体验-1C, server: cdnfire.xiaomispeed.com, port: 443, type: trojan, password: 1e68c539-98ae-4558-bb58-54360275f0b0, sni: cdntwa.xiaomispeed.com, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-004-1I, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: aae103fa-b99e-4582-b496-a46ad6dcfd64, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
+  - {name: MV-AEI, server: empty.node, port: 443, type: trojan, password: 11cc562c-28a8-4192-b7c2-207cdb9d0987, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: NODE1-VPN-1F, server: node1-vpn.hrzy.me, port: 443, type: trojan, password: 5e69b1ec-0be6-4f06-8c0e-584a814189da, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-001-1B, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: ad2b5b2c-a82a-477d-a0d4-a8ee0774e75c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
+  - {name: 🇸🇬 SG-001-FREE-1B, server: 13.229.46.36, port: 8443, type: hysteria2, password: b974594c-11b2-4d77-bf30-f1340c370bd0, auth: b974594c-11b2-4d77-bf30-f1340c370bd0, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 US-05-1D, server: cf.090227.xyz, port: 8443, type: vless, uuid: abcb4d86-1362-4ad4-bad2-03c87f035f4c, tls: true, servername: vps.bluexray.net, client-fingerprint: chrome, network: ws, ws-opts: {path: /vless-cf, headers: {Host: vps.bluexray.net}}, udp: true}
-  - {name: NODE2-VPN-1E, server: node2-vpn.hrzy.me, port: 443, type: trojan, password: 3dbec91d-0e07-432d-b138-da69b9da7b4a, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-004-1D, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: 5caa1a4c-5c2b-4d74-a02f-28ee596e9c68, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
-  - {name: 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1A, server: cdnfire.xiaomispeed.com, port: 24423, type: trojan, password: 93ab181c-660f-457f-bfd7-0baf28d2d3f4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: NODE1-VPN-1D, server: node1-vpn.hrzy.me, port: 443, type: trojan, password: d56b3113-a50f-4ba4-98d8-d7506e3dd432, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1A, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: 93ab181c-660f-457f-bfd7-0baf28d2d3f4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-001-1C, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: 6ba1ff73-2981-49bc-8fa6-85f2c36f4b37, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
+  - {name: 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 24421, type: trojan, password: 93ab181c-660f-457f-bfd7-0baf28d2d3f4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 21115, type: trojan, password: 93ab181c-660f-457f-bfd7-0baf28d2d3f4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾高速节点2, server: 118.232.199.29, port: 443, type: trojan, password: 6f57ba54-fa01-4ba4-9565-3cfaa343b8f9, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 HY-02 | US, server: usflare1.cloudaddy.top, port: 30003, type: hysteria2, password: 5de82597-aaaa-4b6b-bb63-ac51cebe4723, auth: 5de82597-aaaa-4b6b-bb63-ac51cebe4723, sni: www.iq.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1A, server: cdnfire.xiaomispeed.com, port: 24422, type: trojan, password: 1eef1f7e-969c-468f-a61f-9038c0800ccd, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1C, server: cdnfire.xiaomispeed.com, port: 24422, type: trojan, password: 1e68c539-98ae-4558-bb58-54360275f0b0, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇧🇷 巴西 1 X1, server: slur.izenny.com, port: 57577, type: ss, cipher: chacha20-ietf-poly1305, password: 168829f2-d289-4bda-a389-329cce56af40, udp: true}
+  - {name: 🇺🇸 美国3-高级月卡专用, server: node3.adami.icu, port: 40003, type: hysteria2, password: 4021d940-3552-42ad-811d-a286fea35feb, auth: 4021d940-3552-42ad-811d-a286fea35feb, sni: node3.adami.icua, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 1 X1, server: slur.izenny.com, port: 55407, type: ss, cipher: chacha20-ietf-poly1305, password: 168829f2-d289-4bda-a389-329cce56af40, udp: true}
+  - {name: 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1C, server: cdnfire.xiaomispeed.com, port: 24421, type: trojan, password: 1e68c539-98ae-4558-bb58-54360275f0b0, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US-05-1C, server: cf.090227.xyz, port: 8443, type: vless, uuid: d163b8d1-7b7e-43d0-958d-605c4398a7fa, tls: true, servername: vps.bluexray.net, client-fingerprint: chrome, network: ws, ws-opts: {path: /vless-cf, headers: {Host: vps.bluexray.net}}, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-001-1H, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: e13382a5-cec7-42c6-b829-135b7fa23a16, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-004-1F, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: 195db5a1-777f-4ab4-9d95-686d222e0006, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-002-1D, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: ec3d4542-938f-453d-b2a3-b0b664977ab2, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
+  - {name: 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1C, server: cdnfire.xiaomispeed.com, port: 23311, type: trojan, password: 1e68c539-98ae-4558-bb58-54360275f0b0, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: NODE2-VPN-1B, server: node2-vpn.hrzy.me, port: 443, type: trojan, password: b974594c-11b2-4d77-bf30-f1340c370bd0, skip-cert-verify: false, udp: true}
+  - {name: NODE1-VPN-1B, server: node1-vpn.hrzy.me, port: 443, type: trojan, password: b974594c-11b2-4d77-bf30-f1340c370bd0, skip-cert-verify: false, udp: true}
+  - {name: 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1C, server: cdnfire.xiaomispeed.com, port: 21115, type: trojan, password: 1e68c539-98ae-4558-bb58-54360275f0b0, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-001-1A, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: 5caa1a4c-5c2b-4d74-a02f-28ee596e9c68, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
+  - {name: 🇺🇸 US-01-1E, server: cloud.bluexray.net, port: 5501, type: ss, cipher: chacha20-ietf-poly1305, password: 61d7bdd0-a697-4e3a-a1a6-99c9fe8e2835, udp: true}
+  - {name: 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: 93ab181c-660f-457f-bfd7-0baf28d2d3f4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1A, server: cdnfire.xiaomispeed.com, port: 21103, type: trojan, password: 1eef1f7e-969c-468f-a61f-9038c0800ccd, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-002-1K, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 4d7e1156-1640-4927-819c-fd463ca13e1f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
+  - {name: 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1C, server: cdnfire.xiaomispeed.com, port: 22231, type: trojan, password: 1e68c539-98ae-4558-bb58-54360275f0b0, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 21101, type: trojan, password: 93ab181c-660f-457f-bfd7-0baf28d2d3f4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 新加坡解锁 1 X1, server: slur.izenny.com, port: 36199, type: ss, cipher: chacha20-ietf-poly1305, password: 168829f2-d289-4bda-a389-329cce56af40, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-004-1A, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: 5caa1a4c-5c2b-4d74-a02f-28ee596e9c68, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-003-1E, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 6ba1ff73-2981-49bc-8fa6-85f2c36f4b37, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-003-1A, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 5caa1a4c-5c2b-4d74-a02f-28ee596e9c68, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-004-1H, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: e13382a5-cec7-42c6-b829-135b7fa23a16, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
+  - {name: 🇨🇳 中国联通节点1, server: 115.231.220.33, port: 5443, type: trojan, password: 6f57ba54-fa01-4ba4-9565-3cfaa343b8f9, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 HY-05| US, server: usflare1.cloudaddy.top, port: 30006, type: hysteria2, password: 5de82597-aaaa-4b6b-bb63-ac51cebe4723, auth: 5de82597-aaaa-4b6b-bb63-ac51cebe4723, sni: www.iq.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 22231, type: trojan, password: 93ab181c-660f-457f-bfd7-0baf28d2d3f4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-002-1I, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: aae103fa-b99e-4582-b496-a46ad6dcfd64, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
+  - {name: 🇺🇸 US-03-1C, server: node.bluexray.net, port: 36000, type: hysteria2, password: d163b8d1-7b7e-43d0-958d-605c4398a7fa, auth: d163b8d1-7b7e-43d0-958d-605c4398a7fa, sni: node.bluexray.net, skip-cert-verify: false, obfs: salamander, obfs-password: f4ck, udp: true}
+  - {name: 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1A, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: 1eef1f7e-969c-468f-a61f-9038c0800ccd, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-002-1J, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 9ffdfc72-9910-44c2-9633-ade3ea3dd8df, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
+  - {name: 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1A, server: cdnfire.xiaomispeed.com, port: 25501, type: trojan, password: 1eef1f7e-969c-468f-a61f-9038c0800ccd, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 25502, type: trojan, password: 93ab181c-660f-457f-bfd7-0baf28d2d3f4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US-05-1A, server: cf.090227.xyz, port: 8443, type: vless, uuid: f5ac663a-e4d8-4893-818b-b1ff0fc7fc65, tls: true, servername: vps.bluexray.net, client-fingerprint: chrome, network: ws, ws-opts: {path: /vless-cf, headers: {Host: vps.bluexray.net}}, udp: true}
+  - {name: NODE1-VPN-1C, server: node1-vpn.hrzy.me, port: 443, type: trojan, password: 1b75e66a-83ec-4242-85b1-818d34bc92f3, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 US-03-1A, server: node.bluexray.net, port: 36000, type: hysteria2, password: f5ac663a-e4d8-4893-818b-b1ff0fc7fc65, auth: f5ac663a-e4d8-4893-818b-b1ff0fc7fc65, sni: node.bluexray.net, skip-cert-verify: false, obfs: salamander, obfs-password: f4ck, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-001-1I, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: aae103fa-b99e-4582-b496-a46ad6dcfd64, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
+  - {name: 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1A, server: cdnfire.xiaomispeed.com, port: 22231, type: trojan, password: 1eef1f7e-969c-468f-a61f-9038c0800ccd, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾解锁 1 X1, server: slur.izenny.com, port: 14187, type: ss, cipher: chacha20-ietf-poly1305, password: 168829f2-d289-4bda-a389-329cce56af40, udp: true}
+  - {name: 🇰🇷 韩国 1 X1, server: slur.izenny.com, port: 43295, type: ss, cipher: chacha20-ietf-poly1305, password: 168829f2-d289-4bda-a389-329cce56af40, udp: true}
+  - {name: 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1B, server: cdnfire.xiaomispeed.com, port: 21102, type: trojan, password: 93ab181c-660f-457f-bfd7-0baf28d2d3f4, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-002-1F, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 195db5a1-777f-4ab4-9d95-686d222e0006, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
+  - {name: 🇹🇼 台湾高速节点, server: 103.137.63.77, port: 443, type: trojan, password: 6f57ba54-fa01-4ba4-9565-3cfaa343b8f9, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG-001-FREE-1A, server: 13.229.46.36, port: 8443, type: hysteria2, password: d56b3113-a50f-4ba4-98d8-d7506e3dd432, auth: d56b3113-a50f-4ba4-98d8-d7506e3dd432, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-002-1A, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 5caa1a4c-5c2b-4d74-a02f-28ee596e9c68, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
+  - {name: 🇮🇳 印度 1 X1, server: slur.izenny.com, port: 17254, type: ss, cipher: chacha20-ietf-poly1305, password: 168829f2-d289-4bda-a389-329cce56af40, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-001-1K, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: 4d7e1156-1640-4927-819c-fd463ca13e1f, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-002-1C, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 3fce8b5b-e909-4593-9224-f3a0f5cdbb80, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-004-1B, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: ad2b5b2c-a82a-477d-a0d4-a8ee0774e75c, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-002-1E, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 6ba1ff73-2981-49bc-8fa6-85f2c36f4b37, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
+  - {name: 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1C, server: cdnfire.xiaomispeed.com, port: 25502, type: trojan, password: 1e68c539-98ae-4558-bb58-54360275f0b0, sni: cdnfire.xiaomispeed.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国1, server: shadow.adami.icu, port: 40006, type: hysteria2, password: 4021d940-3552-42ad-811d-a286fea35feb, auth: 4021d940-3552-42ad-811d-a286fea35feb, sni: shadow.adami.icu, skip-cert-verify: true, obfs: salamander, obfs-password: ZVY8lIsu22AMT4kO, udp: true}
+  - {name: NODE1-VPN-1A, server: node1-vpn.hrzy.me, port: 443, type: trojan, password: d56b3113-a50f-4ba4-98d8-d7506e3dd432, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-001-1E, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: 6ba1ff73-2981-49bc-8fa6-85f2c36f4b37, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1A
-      - NODE2-VPN-1A
-      - 🇧🇷 巴西 1 X1
+      - 🇩🇪 德国-法兰克福-004-1J
+      - 🇺🇸 中转美国1 X1
+      - 🇺🇸 US-05-1E
+      - 🇯🇵 日本1 X1
+      - 🇸🇬 SG-001-FREE-1E
       - 🇩🇪 德国-法兰克福-003-1I
-      - 🇸🇬 SG-001-FREE-1C
-      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇺🇸 HY-04 | US
+      - 美B3
+      - 🇩🇪 德国-法兰克福-004-1C
+      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇺🇸 US-03-1E
+      - 🇩🇪 德国-法兰克福-001-1J
+      - 🇩🇪 德国-法兰克福-004-1E
+      - NODE2-VPN-1A
+      - NODE1-VPN-1E
+      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇺🇸 美国高速节点1
+      - 🇹🇼 台湾高速节点3
       - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇩🇪 德国-法兰克福-003-1H
+      - NODE2-VPN-1F
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - NODE2-VPN-1D
+      - 🇺🇸 US-03-1D
+      - 🇮🇸 冰岛 1 X1
+      - 🇩🇪 德国-法兰克福-003-1J
+      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇺🇸 US-01-1A
+      - 🇺🇸 US-01-1C
+      - 🇩🇪 德国-法兰克福-003-1F
+      - 🇩🇪 德国-法兰克福-001-1D
+      - PC端如无法使用请点-TUN-视频体验-1A
+      - 🇩🇪 德国-法兰克福-003-1G
       - 🇺🇸 美国5-高级月卡专用
       - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - PC端如无法使用请点-TUN-视频体验-1A
-      - NODE1-VPN-1E
-      - 🇹🇼 台湾高速节点3
-      - 🇹🇼 台湾高速节点
-      - P8-JNA
-      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇺🇸 US-03-1D
-      - 🇭🇰 香港 1 X1
-      - 🇩🇪 德国-法兰克福-004-1I
-      - 美B3
-      - 🇩🇪 德国-法兰克福-001-1B
-      - NODE1-VPN-1B
-      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇸🇬 SG-001-FREE-1B
-      - NODE2-VPN-1F
-      - 🇩🇪 德国-法兰克福-001-1D
-      - 🇩🇪 德国-法兰克福-003-1C
-      - 🇺🇸 美国3-高级月卡专用
-      - 🇵🇱 PL-IKN
-      - 🇺🇸 US-05-1B
-      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇲🇽 墨西哥 1 X1
-      - 🇩🇪 德国-法兰克福-001-1I
-      - NODE1-VPN-1F
-      - 🇺🇸 HY-02 | US
-      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇺🇸 US-01-1C
-      - 🇹🇼 台湾高速节点2
-      - 🇩🇪 德国-法兰克福-001-1G
-      - 🇺🇸 US-03-1C
-      - 🇺🇸 US-03-1A
-      - 🇩🇪 德国-法兰克福-002-1D
-      - 🇸🇬 新加坡解锁 1 X1
-      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇩🇪 德国-法兰克福-004-1H
-      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇩🇪 德国-法兰克福-001-1F
-      - 🇩🇪 德国-法兰克福-004-1B
-      - 🇩🇪 德国-法兰克福-001-1H
-      - 🇰🇷 韩国 1 X1
-      - 🇩🇪 德国-法兰克福-003-1B
-      - 🇺🇸 HY-03 | US
-      - 🇺🇸 US-03-1B
-      - 🇩🇪 德国-法兰克福-004-1A
-      - 🇩🇪 德国-法兰克福-003-1G
-      - 🇺🇸 HY-05| US
-      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1A
-      - NODE1-VPN-1C
-      - 🇩🇪 德国-法兰克福-002-1B
-      - NODE2-VPN-1D
-      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1A
-      - M0-DTA
-      - PU-OTC
-      - 🇸🇬 SG-001-FREE-1D
-      - 🇺🇸 US-01-1B
-      - 🇺🇸 US-05-1A
-      - 🇩🇪 德国-法兰克福-003-1A
-      - 🇩🇪 德国-法兰克福-004-1G
-      - 🇸🇬 SG-001-FREE-1A
-      - 🇺🇸 US-05-1C
-      - 🇩🇪 德国-法兰克福-004-1C
-      - 🇩🇪 德国-法兰克福-004-1F
-      - 🇩🇪 德国-法兰克福-002-1A
-      - 🇩🇪 德国-法兰克福-003-1E
-      - 🇩🇪 德国-法兰克福-002-1H
-      - 🇩🇪 德国-法兰克福-003-1F
-      - 🇩🇪 德国-法兰克福-002-1G
-      - 🇮🇳 印度 1 X1
-      - 🇺🇸 美国1
-      - 🇸🇬 SG-001-FREE-1E
-      - 🇩🇪 德国-法兰克福-003-1D
-      - 🇺🇸 美国高速节点1
+      - F1-VCK
       - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇺🇸 US-01-1A
-      - 🇯🇵 日本1 X1
-      - NODE1-VPN-1A
-      - 🇩🇪 德国-法兰克福-001-1A
-      - 🇩🇪 德国-法兰克福-002-1E
-      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - NODE2-VPN-1B
-      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇩🇪 德国-法兰克福-001-1E
-      - 🇩🇪 德国-法兰克福-002-1F
-      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇨🇳 中国联通节点1
-      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇺🇸 US-01-1D
-      - 🇩🇪 德国-法兰克福-002-1C
-      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇩🇪 德国-法兰克福-004-1E
-      - 🇺🇸 中转美国1 X1
-      - NODE2-VPN-1C
-      - PC端如无法使用请点-TUN-视频体验-1B
-      - 🇩🇪 德国-法兰克福-002-1I
-      - 🇸🇬 SG-001-FREE-1F
-      - 🇹🇼 台湾解锁 1 X1
-      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇮🇸 冰岛 1 X1
-      - 🇺🇸 US-05-1D
-      - NODE2-VPN-1E
       - 🇩🇪 德国-法兰克福-004-1D
-      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇩🇪 德国-法兰克福-002-1H
+      - 🇩🇪 德国-法兰克福-003-1D
+      - 🇩🇪 德国-法兰克福-004-1K
       - NODE1-VPN-1D
-      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇩🇪 德国-法兰克福-003-1B
+      - 🇺🇸 US-01-1D
       - 🇩🇪 德国-法兰克福-001-1C
+      - 🇲🇽 墨西哥 1 X1
+      - 🇩🇪 德国-法兰克福-002-1G
+      - PW-YZR
+      - 🇺🇸 HY-04 | US
+      - 🇸🇬 SG-001-FREE-1F
+      - 🇩🇪 德国-法兰克福-001-1F
+      - PC端如无法使用请点-TUN-视频体验-1B
+      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇩🇪 德国-法兰克福-003-1C
+      - 🇺🇸 HY-03 | US
+      - 🇺🇸 US-05-1B
+      - 🇩🇪 德国-法兰克福-002-1B
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1A
+      - PE-NFK
+      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇺🇸 US-03-1B
+      - 🇸🇬 SG-001-FREE-1C
+      - 🇸🇬 SG-001-FREE-1D
+      - NODE2-VPN-1C
+      - 🇩🇪 德国-法兰克福-004-1G
+      - 🇺🇸 US-01-1B
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇩🇪 德国-法兰克福-003-1K
+      - 🇩🇪 德国-法兰克福-001-1G
+      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇩🇪 德国-法兰克福-003-1H
+      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1C
+      - NODE2-VPN-1E
+      - PC端如无法使用请点-TUN-视频体验-1C
+      - 🇩🇪 德国-法兰克福-004-1I
+      - MV-AEI
+      - NODE1-VPN-1F
+      - 🇩🇪 德国-法兰克福-001-1B
+      - 🇸🇬 SG-001-FREE-1B
+      - 🇺🇸 US-05-1D
+      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇹🇼 台湾高速节点2
+      - 🇺🇸 HY-02 | US
+      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇧🇷 巴西 1 X1
+      - 🇺🇸 美国3-高级月卡专用
+      - 🇭🇰 香港 1 X1
+      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇺🇸 US-05-1C
+      - 🇩🇪 德国-法兰克福-001-1H
+      - 🇩🇪 德国-法兰克福-004-1F
+      - 🇩🇪 德国-法兰克福-002-1D
+      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1C
+      - NODE2-VPN-1B
+      - NODE1-VPN-1B
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇩🇪 德国-法兰克福-001-1A
+      - 🇺🇸 US-01-1E
+      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇩🇪 德国-法兰克福-002-1K
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇸🇬 新加坡解锁 1 X1
+      - 🇩🇪 德国-法兰克福-004-1A
+      - 🇩🇪 德国-法兰克福-003-1E
+      - 🇩🇪 德国-法兰克福-003-1A
+      - 🇩🇪 德国-法兰克福-004-1H
+      - 🇨🇳 中国联通节点1
+      - 🇺🇸 HY-05| US
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇩🇪 德国-法兰克福-002-1I
+      - 🇺🇸 US-03-1C
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇩🇪 德国-法兰克福-002-1J
+      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇺🇸 US-05-1A
+      - NODE1-VPN-1C
+      - 🇺🇸 US-03-1A
+      - 🇩🇪 德国-法兰克福-001-1I
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇹🇼 台湾解锁 1 X1
+      - 🇰🇷 韩国 1 X1
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇩🇪 德国-法兰克福-002-1F
+      - 🇹🇼 台湾高速节点
+      - 🇸🇬 SG-001-FREE-1A
+      - 🇩🇪 德国-法兰克福-002-1A
+      - 🇮🇳 印度 1 X1
+      - 🇩🇪 德国-法兰克福-001-1K
+      - 🇩🇪 德国-法兰克福-002-1C
+      - 🇩🇪 德国-法兰克福-004-1B
+      - 🇩🇪 德国-法兰克福-002-1E
+      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇺🇸 美国1
+      - NODE1-VPN-1A
+      - 🇩🇪 德国-法兰克福-001-1E
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1A
-      - NODE2-VPN-1A
-      - 🇧🇷 巴西 1 X1
+      - 🇩🇪 德国-法兰克福-004-1J
+      - 🇺🇸 中转美国1 X1
+      - 🇺🇸 US-05-1E
+      - 🇯🇵 日本1 X1
+      - 🇸🇬 SG-001-FREE-1E
       - 🇩🇪 德国-法兰克福-003-1I
-      - 🇸🇬 SG-001-FREE-1C
-      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇺🇸 HY-04 | US
+      - 美B3
+      - 🇩🇪 德国-法兰克福-004-1C
+      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇺🇸 US-03-1E
+      - 🇩🇪 德国-法兰克福-001-1J
+      - 🇩🇪 德国-法兰克福-004-1E
+      - NODE2-VPN-1A
+      - NODE1-VPN-1E
+      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇺🇸 美国高速节点1
+      - 🇹🇼 台湾高速节点3
       - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇩🇪 德国-法兰克福-003-1H
+      - NODE2-VPN-1F
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - NODE2-VPN-1D
+      - 🇺🇸 US-03-1D
+      - 🇮🇸 冰岛 1 X1
+      - 🇩🇪 德国-法兰克福-003-1J
+      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇺🇸 US-01-1A
+      - 🇺🇸 US-01-1C
+      - 🇩🇪 德国-法兰克福-003-1F
+      - 🇩🇪 德国-法兰克福-001-1D
+      - PC端如无法使用请点-TUN-视频体验-1A
+      - 🇩🇪 德国-法兰克福-003-1G
       - 🇺🇸 美国5-高级月卡专用
       - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - PC端如无法使用请点-TUN-视频体验-1A
-      - NODE1-VPN-1E
-      - 🇹🇼 台湾高速节点3
-      - 🇹🇼 台湾高速节点
-      - P8-JNA
-      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇺🇸 US-03-1D
-      - 🇭🇰 香港 1 X1
-      - 🇩🇪 德国-法兰克福-004-1I
-      - 美B3
-      - 🇩🇪 德国-法兰克福-001-1B
-      - NODE1-VPN-1B
-      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇸🇬 SG-001-FREE-1B
-      - NODE2-VPN-1F
-      - 🇩🇪 德国-法兰克福-001-1D
-      - 🇩🇪 德国-法兰克福-003-1C
-      - 🇺🇸 美国3-高级月卡专用
-      - 🇵🇱 PL-IKN
-      - 🇺🇸 US-05-1B
-      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇲🇽 墨西哥 1 X1
-      - 🇩🇪 德国-法兰克福-001-1I
-      - NODE1-VPN-1F
-      - 🇺🇸 HY-02 | US
-      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇺🇸 US-01-1C
-      - 🇹🇼 台湾高速节点2
-      - 🇩🇪 德国-法兰克福-001-1G
-      - 🇺🇸 US-03-1C
-      - 🇺🇸 US-03-1A
-      - 🇩🇪 德国-法兰克福-002-1D
-      - 🇸🇬 新加坡解锁 1 X1
-      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇩🇪 德国-法兰克福-004-1H
-      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇩🇪 德国-法兰克福-001-1F
-      - 🇩🇪 德国-法兰克福-004-1B
-      - 🇩🇪 德国-法兰克福-001-1H
-      - 🇰🇷 韩国 1 X1
-      - 🇩🇪 德国-法兰克福-003-1B
-      - 🇺🇸 HY-03 | US
-      - 🇺🇸 US-03-1B
-      - 🇩🇪 德国-法兰克福-004-1A
-      - 🇩🇪 德国-法兰克福-003-1G
-      - 🇺🇸 HY-05| US
-      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1A
-      - NODE1-VPN-1C
-      - 🇩🇪 德国-法兰克福-002-1B
-      - NODE2-VPN-1D
-      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1A
-      - M0-DTA
-      - PU-OTC
-      - 🇸🇬 SG-001-FREE-1D
-      - 🇺🇸 US-01-1B
-      - 🇺🇸 US-05-1A
-      - 🇩🇪 德国-法兰克福-003-1A
-      - 🇩🇪 德国-法兰克福-004-1G
-      - 🇸🇬 SG-001-FREE-1A
-      - 🇺🇸 US-05-1C
-      - 🇩🇪 德国-法兰克福-004-1C
-      - 🇩🇪 德国-法兰克福-004-1F
-      - 🇩🇪 德国-法兰克福-002-1A
-      - 🇩🇪 德国-法兰克福-003-1E
-      - 🇩🇪 德国-法兰克福-002-1H
-      - 🇩🇪 德国-法兰克福-003-1F
-      - 🇩🇪 德国-法兰克福-002-1G
-      - 🇮🇳 印度 1 X1
-      - 🇺🇸 美国1
-      - 🇸🇬 SG-001-FREE-1E
-      - 🇩🇪 德国-法兰克福-003-1D
-      - 🇺🇸 美国高速节点1
+      - F1-VCK
       - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇺🇸 US-01-1A
-      - 🇯🇵 日本1 X1
-      - NODE1-VPN-1A
-      - 🇩🇪 德国-法兰克福-001-1A
-      - 🇩🇪 德国-法兰克福-002-1E
-      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - NODE2-VPN-1B
-      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇩🇪 德国-法兰克福-001-1E
-      - 🇩🇪 德国-法兰克福-002-1F
-      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇨🇳 中国联通节点1
-      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇺🇸 US-01-1D
-      - 🇩🇪 德国-法兰克福-002-1C
-      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇩🇪 德国-法兰克福-004-1E
-      - 🇺🇸 中转美国1 X1
-      - NODE2-VPN-1C
-      - PC端如无法使用请点-TUN-视频体验-1B
-      - 🇩🇪 德国-法兰克福-002-1I
-      - 🇸🇬 SG-001-FREE-1F
-      - 🇹🇼 台湾解锁 1 X1
-      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇮🇸 冰岛 1 X1
-      - 🇺🇸 US-05-1D
-      - NODE2-VPN-1E
       - 🇩🇪 德国-法兰克福-004-1D
-      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇩🇪 德国-法兰克福-002-1H
+      - 🇩🇪 德国-法兰克福-003-1D
+      - 🇩🇪 德国-法兰克福-004-1K
       - NODE1-VPN-1D
-      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇩🇪 德国-法兰克福-003-1B
+      - 🇺🇸 US-01-1D
       - 🇩🇪 德国-法兰克福-001-1C
+      - 🇲🇽 墨西哥 1 X1
+      - 🇩🇪 德国-法兰克福-002-1G
+      - PW-YZR
+      - 🇺🇸 HY-04 | US
+      - 🇸🇬 SG-001-FREE-1F
+      - 🇩🇪 德国-法兰克福-001-1F
+      - PC端如无法使用请点-TUN-视频体验-1B
+      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇩🇪 德国-法兰克福-003-1C
+      - 🇺🇸 HY-03 | US
+      - 🇺🇸 US-05-1B
+      - 🇩🇪 德国-法兰克福-002-1B
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1A
+      - PE-NFK
+      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇺🇸 US-03-1B
+      - 🇸🇬 SG-001-FREE-1C
+      - 🇸🇬 SG-001-FREE-1D
+      - NODE2-VPN-1C
+      - 🇩🇪 德国-法兰克福-004-1G
+      - 🇺🇸 US-01-1B
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇩🇪 德国-法兰克福-003-1K
+      - 🇩🇪 德国-法兰克福-001-1G
+      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇩🇪 德国-法兰克福-003-1H
+      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1C
+      - NODE2-VPN-1E
+      - PC端如无法使用请点-TUN-视频体验-1C
+      - 🇩🇪 德国-法兰克福-004-1I
+      - MV-AEI
+      - NODE1-VPN-1F
+      - 🇩🇪 德国-法兰克福-001-1B
+      - 🇸🇬 SG-001-FREE-1B
+      - 🇺🇸 US-05-1D
+      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇹🇼 台湾高速节点2
+      - 🇺🇸 HY-02 | US
+      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇧🇷 巴西 1 X1
+      - 🇺🇸 美国3-高级月卡专用
+      - 🇭🇰 香港 1 X1
+      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇺🇸 US-05-1C
+      - 🇩🇪 德国-法兰克福-001-1H
+      - 🇩🇪 德国-法兰克福-004-1F
+      - 🇩🇪 德国-法兰克福-002-1D
+      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1C
+      - NODE2-VPN-1B
+      - NODE1-VPN-1B
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇩🇪 德国-法兰克福-001-1A
+      - 🇺🇸 US-01-1E
+      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇩🇪 德国-法兰克福-002-1K
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇸🇬 新加坡解锁 1 X1
+      - 🇩🇪 德国-法兰克福-004-1A
+      - 🇩🇪 德国-法兰克福-003-1E
+      - 🇩🇪 德国-法兰克福-003-1A
+      - 🇩🇪 德国-法兰克福-004-1H
+      - 🇨🇳 中国联通节点1
+      - 🇺🇸 HY-05| US
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇩🇪 德国-法兰克福-002-1I
+      - 🇺🇸 US-03-1C
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇩🇪 德国-法兰克福-002-1J
+      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇺🇸 US-05-1A
+      - NODE1-VPN-1C
+      - 🇺🇸 US-03-1A
+      - 🇩🇪 德国-法兰克福-001-1I
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇹🇼 台湾解锁 1 X1
+      - 🇰🇷 韩国 1 X1
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇩🇪 德国-法兰克福-002-1F
+      - 🇹🇼 台湾高速节点
+      - 🇸🇬 SG-001-FREE-1A
+      - 🇩🇪 德国-法兰克福-002-1A
+      - 🇮🇳 印度 1 X1
+      - 🇩🇪 德国-法兰克福-001-1K
+      - 🇩🇪 德国-法兰克福-002-1C
+      - 🇩🇪 德国-法兰克福-004-1B
+      - 🇩🇪 德国-法兰克福-002-1E
+      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇺🇸 美国1
+      - NODE1-VPN-1A
+      - 🇩🇪 德国-法兰克福-001-1E
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1A
-      - NODE2-VPN-1A
-      - 🇧🇷 巴西 1 X1
+      - 🇩🇪 德国-法兰克福-004-1J
+      - 🇺🇸 中转美国1 X1
+      - 🇺🇸 US-05-1E
+      - 🇯🇵 日本1 X1
+      - 🇸🇬 SG-001-FREE-1E
       - 🇩🇪 德国-法兰克福-003-1I
-      - 🇸🇬 SG-001-FREE-1C
-      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇺🇸 HY-04 | US
+      - 美B3
+      - 🇩🇪 德国-法兰克福-004-1C
+      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇺🇸 US-03-1E
+      - 🇩🇪 德国-法兰克福-001-1J
+      - 🇩🇪 德国-法兰克福-004-1E
+      - NODE2-VPN-1A
+      - NODE1-VPN-1E
+      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇺🇸 美国高速节点1
+      - 🇹🇼 台湾高速节点3
       - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇩🇪 德国-法兰克福-003-1H
+      - NODE2-VPN-1F
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - NODE2-VPN-1D
+      - 🇺🇸 US-03-1D
+      - 🇮🇸 冰岛 1 X1
+      - 🇩🇪 德国-法兰克福-003-1J
+      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇺🇸 US-01-1A
+      - 🇺🇸 US-01-1C
+      - 🇩🇪 德国-法兰克福-003-1F
+      - 🇩🇪 德国-法兰克福-001-1D
+      - PC端如无法使用请点-TUN-视频体验-1A
+      - 🇩🇪 德国-法兰克福-003-1G
       - 🇺🇸 美国5-高级月卡专用
       - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - PC端如无法使用请点-TUN-视频体验-1A
-      - NODE1-VPN-1E
-      - 🇹🇼 台湾高速节点3
-      - 🇹🇼 台湾高速节点
-      - P8-JNA
-      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇺🇸 US-03-1D
-      - 🇭🇰 香港 1 X1
-      - 🇩🇪 德国-法兰克福-004-1I
-      - 美B3
-      - 🇩🇪 德国-法兰克福-001-1B
-      - NODE1-VPN-1B
-      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇸🇬 SG-001-FREE-1B
-      - NODE2-VPN-1F
-      - 🇩🇪 德国-法兰克福-001-1D
-      - 🇩🇪 德国-法兰克福-003-1C
-      - 🇺🇸 美国3-高级月卡专用
-      - 🇵🇱 PL-IKN
-      - 🇺🇸 US-05-1B
-      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇲🇽 墨西哥 1 X1
-      - 🇩🇪 德国-法兰克福-001-1I
-      - NODE1-VPN-1F
-      - 🇺🇸 HY-02 | US
-      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇺🇸 US-01-1C
-      - 🇹🇼 台湾高速节点2
-      - 🇩🇪 德国-法兰克福-001-1G
-      - 🇺🇸 US-03-1C
-      - 🇺🇸 US-03-1A
-      - 🇩🇪 德国-法兰克福-002-1D
-      - 🇸🇬 新加坡解锁 1 X1
-      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇩🇪 德国-法兰克福-004-1H
-      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇩🇪 德国-法兰克福-001-1F
-      - 🇩🇪 德国-法兰克福-004-1B
-      - 🇩🇪 德国-法兰克福-001-1H
-      - 🇰🇷 韩国 1 X1
-      - 🇩🇪 德国-法兰克福-003-1B
-      - 🇺🇸 HY-03 | US
-      - 🇺🇸 US-03-1B
-      - 🇩🇪 德国-法兰克福-004-1A
-      - 🇩🇪 德国-法兰克福-003-1G
-      - 🇺🇸 HY-05| US
-      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1A
-      - NODE1-VPN-1C
-      - 🇩🇪 德国-法兰克福-002-1B
-      - NODE2-VPN-1D
-      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1A
-      - M0-DTA
-      - PU-OTC
-      - 🇸🇬 SG-001-FREE-1D
-      - 🇺🇸 US-01-1B
-      - 🇺🇸 US-05-1A
-      - 🇩🇪 德国-法兰克福-003-1A
-      - 🇩🇪 德国-法兰克福-004-1G
-      - 🇸🇬 SG-001-FREE-1A
-      - 🇺🇸 US-05-1C
-      - 🇩🇪 德国-法兰克福-004-1C
-      - 🇩🇪 德国-法兰克福-004-1F
-      - 🇩🇪 德国-法兰克福-002-1A
-      - 🇩🇪 德国-法兰克福-003-1E
-      - 🇩🇪 德国-法兰克福-002-1H
-      - 🇩🇪 德国-法兰克福-003-1F
-      - 🇩🇪 德国-法兰克福-002-1G
-      - 🇮🇳 印度 1 X1
-      - 🇺🇸 美国1
-      - 🇸🇬 SG-001-FREE-1E
-      - 🇩🇪 德国-法兰克福-003-1D
-      - 🇺🇸 美国高速节点1
+      - F1-VCK
       - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇺🇸 US-01-1A
-      - 🇯🇵 日本1 X1
-      - NODE1-VPN-1A
-      - 🇩🇪 德国-法兰克福-001-1A
-      - 🇩🇪 德国-法兰克福-002-1E
-      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - NODE2-VPN-1B
-      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇩🇪 德国-法兰克福-001-1E
-      - 🇩🇪 德国-法兰克福-002-1F
-      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇨🇳 中国联通节点1
-      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇺🇸 US-01-1D
-      - 🇩🇪 德国-法兰克福-002-1C
-      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇩🇪 德国-法兰克福-004-1E
-      - 🇺🇸 中转美国1 X1
-      - NODE2-VPN-1C
-      - PC端如无法使用请点-TUN-视频体验-1B
-      - 🇩🇪 德国-法兰克福-002-1I
-      - 🇸🇬 SG-001-FREE-1F
-      - 🇹🇼 台湾解锁 1 X1
-      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇮🇸 冰岛 1 X1
-      - 🇺🇸 US-05-1D
-      - NODE2-VPN-1E
       - 🇩🇪 德国-法兰克福-004-1D
-      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇩🇪 德国-法兰克福-002-1H
+      - 🇩🇪 德国-法兰克福-003-1D
+      - 🇩🇪 德国-法兰克福-004-1K
       - NODE1-VPN-1D
-      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇩🇪 德国-法兰克福-003-1B
+      - 🇺🇸 US-01-1D
       - 🇩🇪 德国-法兰克福-001-1C
+      - 🇲🇽 墨西哥 1 X1
+      - 🇩🇪 德国-法兰克福-002-1G
+      - PW-YZR
+      - 🇺🇸 HY-04 | US
+      - 🇸🇬 SG-001-FREE-1F
+      - 🇩🇪 德国-法兰克福-001-1F
+      - PC端如无法使用请点-TUN-视频体验-1B
+      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇩🇪 德国-法兰克福-003-1C
+      - 🇺🇸 HY-03 | US
+      - 🇺🇸 US-05-1B
+      - 🇩🇪 德国-法兰克福-002-1B
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1A
+      - PE-NFK
+      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇺🇸 US-03-1B
+      - 🇸🇬 SG-001-FREE-1C
+      - 🇸🇬 SG-001-FREE-1D
+      - NODE2-VPN-1C
+      - 🇩🇪 德国-法兰克福-004-1G
+      - 🇺🇸 US-01-1B
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇩🇪 德国-法兰克福-003-1K
+      - 🇩🇪 德国-法兰克福-001-1G
+      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇩🇪 德国-法兰克福-003-1H
+      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1C
+      - NODE2-VPN-1E
+      - PC端如无法使用请点-TUN-视频体验-1C
+      - 🇩🇪 德国-法兰克福-004-1I
+      - MV-AEI
+      - NODE1-VPN-1F
+      - 🇩🇪 德国-法兰克福-001-1B
+      - 🇸🇬 SG-001-FREE-1B
+      - 🇺🇸 US-05-1D
+      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇹🇼 台湾高速节点2
+      - 🇺🇸 HY-02 | US
+      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇧🇷 巴西 1 X1
+      - 🇺🇸 美国3-高级月卡专用
+      - 🇭🇰 香港 1 X1
+      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇺🇸 US-05-1C
+      - 🇩🇪 德国-法兰克福-001-1H
+      - 🇩🇪 德国-法兰克福-004-1F
+      - 🇩🇪 德国-法兰克福-002-1D
+      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1C
+      - NODE2-VPN-1B
+      - NODE1-VPN-1B
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇩🇪 德国-法兰克福-001-1A
+      - 🇺🇸 US-01-1E
+      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇩🇪 德国-法兰克福-002-1K
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇸🇬 新加坡解锁 1 X1
+      - 🇩🇪 德国-法兰克福-004-1A
+      - 🇩🇪 德国-法兰克福-003-1E
+      - 🇩🇪 德国-法兰克福-003-1A
+      - 🇩🇪 德国-法兰克福-004-1H
+      - 🇨🇳 中国联通节点1
+      - 🇺🇸 HY-05| US
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇩🇪 德国-法兰克福-002-1I
+      - 🇺🇸 US-03-1C
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇩🇪 德国-法兰克福-002-1J
+      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇺🇸 US-05-1A
+      - NODE1-VPN-1C
+      - 🇺🇸 US-03-1A
+      - 🇩🇪 德国-法兰克福-001-1I
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇹🇼 台湾解锁 1 X1
+      - 🇰🇷 韩国 1 X1
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇩🇪 德国-法兰克福-002-1F
+      - 🇹🇼 台湾高速节点
+      - 🇸🇬 SG-001-FREE-1A
+      - 🇩🇪 德国-法兰克福-002-1A
+      - 🇮🇳 印度 1 X1
+      - 🇩🇪 德国-法兰克福-001-1K
+      - 🇩🇪 德国-法兰克福-002-1C
+      - 🇩🇪 德国-法兰克福-004-1B
+      - 🇩🇪 德国-法兰克福-002-1E
+      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇺🇸 美国1
+      - NODE1-VPN-1A
+      - 🇩🇪 德国-法兰克福-001-1E
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -508,510 +600,607 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1A
-      - NODE2-VPN-1A
-      - 🇧🇷 巴西 1 X1
+      - 🇩🇪 德国-法兰克福-004-1J
+      - 🇺🇸 中转美国1 X1
+      - 🇺🇸 US-05-1E
+      - 🇯🇵 日本1 X1
+      - 🇸🇬 SG-001-FREE-1E
       - 🇩🇪 德国-法兰克福-003-1I
-      - 🇸🇬 SG-001-FREE-1C
-      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇺🇸 HY-04 | US
+      - 美B3
+      - 🇩🇪 德国-法兰克福-004-1C
+      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇺🇸 US-03-1E
+      - 🇩🇪 德国-法兰克福-001-1J
+      - 🇩🇪 德国-法兰克福-004-1E
+      - NODE2-VPN-1A
+      - NODE1-VPN-1E
+      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇺🇸 美国高速节点1
+      - 🇹🇼 台湾高速节点3
       - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇩🇪 德国-法兰克福-003-1H
+      - NODE2-VPN-1F
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - NODE2-VPN-1D
+      - 🇺🇸 US-03-1D
+      - 🇮🇸 冰岛 1 X1
+      - 🇩🇪 德国-法兰克福-003-1J
+      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇺🇸 US-01-1A
+      - 🇺🇸 US-01-1C
+      - 🇩🇪 德国-法兰克福-003-1F
+      - 🇩🇪 德国-法兰克福-001-1D
+      - PC端如无法使用请点-TUN-视频体验-1A
+      - 🇩🇪 德国-法兰克福-003-1G
       - 🇺🇸 美国5-高级月卡专用
       - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - PC端如无法使用请点-TUN-视频体验-1A
-      - NODE1-VPN-1E
-      - 🇹🇼 台湾高速节点3
-      - 🇹🇼 台湾高速节点
-      - P8-JNA
-      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇺🇸 US-03-1D
-      - 🇭🇰 香港 1 X1
-      - 🇩🇪 德国-法兰克福-004-1I
-      - 美B3
-      - 🇩🇪 德国-法兰克福-001-1B
-      - NODE1-VPN-1B
-      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇸🇬 SG-001-FREE-1B
-      - NODE2-VPN-1F
-      - 🇩🇪 德国-法兰克福-001-1D
-      - 🇩🇪 德国-法兰克福-003-1C
-      - 🇺🇸 美国3-高级月卡专用
-      - 🇵🇱 PL-IKN
-      - 🇺🇸 US-05-1B
-      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇲🇽 墨西哥 1 X1
-      - 🇩🇪 德国-法兰克福-001-1I
-      - NODE1-VPN-1F
-      - 🇺🇸 HY-02 | US
-      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇺🇸 US-01-1C
-      - 🇹🇼 台湾高速节点2
-      - 🇩🇪 德国-法兰克福-001-1G
-      - 🇺🇸 US-03-1C
-      - 🇺🇸 US-03-1A
-      - 🇩🇪 德国-法兰克福-002-1D
-      - 🇸🇬 新加坡解锁 1 X1
-      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇩🇪 德国-法兰克福-004-1H
-      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇩🇪 德国-法兰克福-001-1F
-      - 🇩🇪 德国-法兰克福-004-1B
-      - 🇩🇪 德国-法兰克福-001-1H
-      - 🇰🇷 韩国 1 X1
-      - 🇩🇪 德国-法兰克福-003-1B
-      - 🇺🇸 HY-03 | US
-      - 🇺🇸 US-03-1B
-      - 🇩🇪 德国-法兰克福-004-1A
-      - 🇩🇪 德国-法兰克福-003-1G
-      - 🇺🇸 HY-05| US
-      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1A
-      - NODE1-VPN-1C
-      - 🇩🇪 德国-法兰克福-002-1B
-      - NODE2-VPN-1D
-      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1A
-      - M0-DTA
-      - PU-OTC
-      - 🇸🇬 SG-001-FREE-1D
-      - 🇺🇸 US-01-1B
-      - 🇺🇸 US-05-1A
-      - 🇩🇪 德国-法兰克福-003-1A
-      - 🇩🇪 德国-法兰克福-004-1G
-      - 🇸🇬 SG-001-FREE-1A
-      - 🇺🇸 US-05-1C
-      - 🇩🇪 德国-法兰克福-004-1C
-      - 🇩🇪 德国-法兰克福-004-1F
-      - 🇩🇪 德国-法兰克福-002-1A
-      - 🇩🇪 德国-法兰克福-003-1E
-      - 🇩🇪 德国-法兰克福-002-1H
-      - 🇩🇪 德国-法兰克福-003-1F
-      - 🇩🇪 德国-法兰克福-002-1G
-      - 🇮🇳 印度 1 X1
-      - 🇺🇸 美国1
-      - 🇸🇬 SG-001-FREE-1E
-      - 🇩🇪 德国-法兰克福-003-1D
-      - 🇺🇸 美国高速节点1
+      - F1-VCK
       - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇺🇸 US-01-1A
-      - 🇯🇵 日本1 X1
-      - NODE1-VPN-1A
-      - 🇩🇪 德国-法兰克福-001-1A
-      - 🇩🇪 德国-法兰克福-002-1E
-      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - NODE2-VPN-1B
-      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇩🇪 德国-法兰克福-001-1E
-      - 🇩🇪 德国-法兰克福-002-1F
-      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇨🇳 中国联通节点1
-      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇺🇸 US-01-1D
-      - 🇩🇪 德国-法兰克福-002-1C
-      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇩🇪 德国-法兰克福-004-1E
-      - 🇺🇸 中转美国1 X1
-      - NODE2-VPN-1C
-      - PC端如无法使用请点-TUN-视频体验-1B
-      - 🇩🇪 德国-法兰克福-002-1I
-      - 🇸🇬 SG-001-FREE-1F
-      - 🇹🇼 台湾解锁 1 X1
-      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇮🇸 冰岛 1 X1
-      - 🇺🇸 US-05-1D
-      - NODE2-VPN-1E
       - 🇩🇪 德国-法兰克福-004-1D
-      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇩🇪 德国-法兰克福-002-1H
+      - 🇩🇪 德国-法兰克福-003-1D
+      - 🇩🇪 德国-法兰克福-004-1K
       - NODE1-VPN-1D
-      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇩🇪 德国-法兰克福-003-1B
+      - 🇺🇸 US-01-1D
       - 🇩🇪 德国-法兰克福-001-1C
+      - 🇲🇽 墨西哥 1 X1
+      - 🇩🇪 德国-法兰克福-002-1G
+      - PW-YZR
+      - 🇺🇸 HY-04 | US
+      - 🇸🇬 SG-001-FREE-1F
+      - 🇩🇪 德国-法兰克福-001-1F
+      - PC端如无法使用请点-TUN-视频体验-1B
+      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇩🇪 德国-法兰克福-003-1C
+      - 🇺🇸 HY-03 | US
+      - 🇺🇸 US-05-1B
+      - 🇩🇪 德国-法兰克福-002-1B
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1A
+      - PE-NFK
+      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇺🇸 US-03-1B
+      - 🇸🇬 SG-001-FREE-1C
+      - 🇸🇬 SG-001-FREE-1D
+      - NODE2-VPN-1C
+      - 🇩🇪 德国-法兰克福-004-1G
+      - 🇺🇸 US-01-1B
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇩🇪 德国-法兰克福-003-1K
+      - 🇩🇪 德国-法兰克福-001-1G
+      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇩🇪 德国-法兰克福-003-1H
+      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1C
+      - NODE2-VPN-1E
+      - PC端如无法使用请点-TUN-视频体验-1C
+      - 🇩🇪 德国-法兰克福-004-1I
+      - MV-AEI
+      - NODE1-VPN-1F
+      - 🇩🇪 德国-法兰克福-001-1B
+      - 🇸🇬 SG-001-FREE-1B
+      - 🇺🇸 US-05-1D
+      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇹🇼 台湾高速节点2
+      - 🇺🇸 HY-02 | US
+      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇧🇷 巴西 1 X1
+      - 🇺🇸 美国3-高级月卡专用
+      - 🇭🇰 香港 1 X1
+      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇺🇸 US-05-1C
+      - 🇩🇪 德国-法兰克福-001-1H
+      - 🇩🇪 德国-法兰克福-004-1F
+      - 🇩🇪 德国-法兰克福-002-1D
+      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1C
+      - NODE2-VPN-1B
+      - NODE1-VPN-1B
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇩🇪 德国-法兰克福-001-1A
+      - 🇺🇸 US-01-1E
+      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇩🇪 德国-法兰克福-002-1K
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇸🇬 新加坡解锁 1 X1
+      - 🇩🇪 德国-法兰克福-004-1A
+      - 🇩🇪 德国-法兰克福-003-1E
+      - 🇩🇪 德国-法兰克福-003-1A
+      - 🇩🇪 德国-法兰克福-004-1H
+      - 🇨🇳 中国联通节点1
+      - 🇺🇸 HY-05| US
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇩🇪 德国-法兰克福-002-1I
+      - 🇺🇸 US-03-1C
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇩🇪 德国-法兰克福-002-1J
+      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇺🇸 US-05-1A
+      - NODE1-VPN-1C
+      - 🇺🇸 US-03-1A
+      - 🇩🇪 德国-法兰克福-001-1I
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇹🇼 台湾解锁 1 X1
+      - 🇰🇷 韩国 1 X1
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇩🇪 德国-法兰克福-002-1F
+      - 🇹🇼 台湾高速节点
+      - 🇸🇬 SG-001-FREE-1A
+      - 🇩🇪 德国-法兰克福-002-1A
+      - 🇮🇳 印度 1 X1
+      - 🇩🇪 德国-法兰克福-001-1K
+      - 🇩🇪 德国-法兰克福-002-1C
+      - 🇩🇪 德国-法兰克福-004-1B
+      - 🇩🇪 德国-法兰克福-002-1E
+      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇺🇸 美国1
+      - NODE1-VPN-1A
+      - 🇩🇪 德国-法兰克福-001-1E
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇹🇼 台湾高速节点3
-      - 🇹🇼 台湾高速节点
-      - 🇭🇰 香港 1 X1
-      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇹🇼 台湾高速节点2
-      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1A
       - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇹🇼 台湾解锁 1 X1
+      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇹🇼 台湾高速节点3
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1C
       - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇹🇼 台湾高速节点2
+      - 🇭🇰 香港 1 X1
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇹🇼 台湾解锁 1 X1
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇹🇼 台湾高速节点
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1A
-      - NODE2-VPN-1A
-      - 🇧🇷 巴西 1 X1
+      - 🇩🇪 德国-法兰克福-004-1J
+      - 🇺🇸 中转美国1 X1
+      - 🇺🇸 US-05-1E
+      - 🇯🇵 日本1 X1
+      - 🇸🇬 SG-001-FREE-1E
       - 🇩🇪 德国-法兰克福-003-1I
-      - 🇸🇬 SG-001-FREE-1C
-      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇺🇸 HY-04 | US
+      - 美B3
+      - 🇩🇪 德国-法兰克福-004-1C
+      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇺🇸 US-03-1E
+      - 🇩🇪 德国-法兰克福-001-1J
+      - 🇩🇪 德国-法兰克福-004-1E
+      - NODE2-VPN-1A
+      - NODE1-VPN-1E
+      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇺🇸 美国高速节点1
+      - 🇹🇼 台湾高速节点3
       - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇩🇪 德国-法兰克福-003-1H
+      - NODE2-VPN-1F
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - NODE2-VPN-1D
+      - 🇺🇸 US-03-1D
+      - 🇮🇸 冰岛 1 X1
+      - 🇩🇪 德国-法兰克福-003-1J
+      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇺🇸 US-01-1A
+      - 🇺🇸 US-01-1C
+      - 🇩🇪 德国-法兰克福-003-1F
+      - 🇩🇪 德国-法兰克福-001-1D
+      - PC端如无法使用请点-TUN-视频体验-1A
+      - 🇩🇪 德国-法兰克福-003-1G
       - 🇺🇸 美国5-高级月卡专用
       - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - PC端如无法使用请点-TUN-视频体验-1A
-      - NODE1-VPN-1E
-      - 🇹🇼 台湾高速节点3
-      - 🇹🇼 台湾高速节点
-      - P8-JNA
-      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇺🇸 US-03-1D
-      - 🇭🇰 香港 1 X1
-      - 🇩🇪 德国-法兰克福-004-1I
-      - 美B3
-      - 🇩🇪 德国-法兰克福-001-1B
-      - NODE1-VPN-1B
-      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇸🇬 SG-001-FREE-1B
-      - NODE2-VPN-1F
-      - 🇩🇪 德国-法兰克福-001-1D
-      - 🇩🇪 德国-法兰克福-003-1C
-      - 🇺🇸 美国3-高级月卡专用
-      - 🇵🇱 PL-IKN
-      - 🇺🇸 US-05-1B
-      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇲🇽 墨西哥 1 X1
-      - 🇩🇪 德国-法兰克福-001-1I
-      - NODE1-VPN-1F
-      - 🇺🇸 HY-02 | US
-      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇺🇸 US-01-1C
-      - 🇹🇼 台湾高速节点2
-      - 🇩🇪 德国-法兰克福-001-1G
-      - 🇺🇸 US-03-1C
-      - 🇺🇸 US-03-1A
-      - 🇩🇪 德国-法兰克福-002-1D
-      - 🇸🇬 新加坡解锁 1 X1
-      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇩🇪 德国-法兰克福-004-1H
-      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇩🇪 德国-法兰克福-001-1F
-      - 🇩🇪 德国-法兰克福-004-1B
-      - 🇩🇪 德国-法兰克福-001-1H
-      - 🇰🇷 韩国 1 X1
-      - 🇩🇪 德国-法兰克福-003-1B
-      - 🇺🇸 HY-03 | US
-      - 🇺🇸 US-03-1B
-      - 🇩🇪 德国-法兰克福-004-1A
-      - 🇩🇪 德国-法兰克福-003-1G
-      - 🇺🇸 HY-05| US
-      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1A
-      - NODE1-VPN-1C
-      - 🇩🇪 德国-法兰克福-002-1B
-      - NODE2-VPN-1D
-      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1A
-      - M0-DTA
-      - PU-OTC
-      - 🇸🇬 SG-001-FREE-1D
-      - 🇺🇸 US-01-1B
-      - 🇺🇸 US-05-1A
-      - 🇩🇪 德国-法兰克福-003-1A
-      - 🇩🇪 德国-法兰克福-004-1G
-      - 🇸🇬 SG-001-FREE-1A
-      - 🇺🇸 US-05-1C
-      - 🇩🇪 德国-法兰克福-004-1C
-      - 🇩🇪 德国-法兰克福-004-1F
-      - 🇩🇪 德国-法兰克福-002-1A
-      - 🇩🇪 德国-法兰克福-003-1E
-      - 🇩🇪 德国-法兰克福-002-1H
-      - 🇩🇪 德国-法兰克福-003-1F
-      - 🇩🇪 德国-法兰克福-002-1G
-      - 🇮🇳 印度 1 X1
-      - 🇺🇸 美国1
-      - 🇸🇬 SG-001-FREE-1E
-      - 🇩🇪 德国-法兰克福-003-1D
-      - 🇺🇸 美国高速节点1
+      - F1-VCK
       - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇺🇸 US-01-1A
-      - 🇯🇵 日本1 X1
-      - NODE1-VPN-1A
-      - 🇩🇪 德国-法兰克福-001-1A
-      - 🇩🇪 德国-法兰克福-002-1E
-      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - NODE2-VPN-1B
-      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇩🇪 德国-法兰克福-001-1E
-      - 🇩🇪 德国-法兰克福-002-1F
-      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇨🇳 中国联通节点1
-      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇺🇸 US-01-1D
-      - 🇩🇪 德国-法兰克福-002-1C
-      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇩🇪 德国-法兰克福-004-1E
-      - 🇺🇸 中转美国1 X1
-      - NODE2-VPN-1C
-      - PC端如无法使用请点-TUN-视频体验-1B
-      - 🇩🇪 德国-法兰克福-002-1I
-      - 🇸🇬 SG-001-FREE-1F
-      - 🇹🇼 台湾解锁 1 X1
-      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇮🇸 冰岛 1 X1
-      - 🇺🇸 US-05-1D
-      - NODE2-VPN-1E
       - 🇩🇪 德国-法兰克福-004-1D
-      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇩🇪 德国-法兰克福-002-1H
+      - 🇩🇪 德国-法兰克福-003-1D
+      - 🇩🇪 德国-法兰克福-004-1K
       - NODE1-VPN-1D
-      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇩🇪 德国-法兰克福-003-1B
+      - 🇺🇸 US-01-1D
       - 🇩🇪 德国-法兰克福-001-1C
+      - 🇲🇽 墨西哥 1 X1
+      - 🇩🇪 德国-法兰克福-002-1G
+      - PW-YZR
+      - 🇺🇸 HY-04 | US
+      - 🇸🇬 SG-001-FREE-1F
+      - 🇩🇪 德国-法兰克福-001-1F
+      - PC端如无法使用请点-TUN-视频体验-1B
+      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇩🇪 德国-法兰克福-003-1C
+      - 🇺🇸 HY-03 | US
+      - 🇺🇸 US-05-1B
+      - 🇩🇪 德国-法兰克福-002-1B
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1A
+      - PE-NFK
+      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇺🇸 US-03-1B
+      - 🇸🇬 SG-001-FREE-1C
+      - 🇸🇬 SG-001-FREE-1D
+      - NODE2-VPN-1C
+      - 🇩🇪 德国-法兰克福-004-1G
+      - 🇺🇸 US-01-1B
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇩🇪 德国-法兰克福-003-1K
+      - 🇩🇪 德国-法兰克福-001-1G
+      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇩🇪 德国-法兰克福-003-1H
+      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1C
+      - NODE2-VPN-1E
+      - PC端如无法使用请点-TUN-视频体验-1C
+      - 🇩🇪 德国-法兰克福-004-1I
+      - MV-AEI
+      - NODE1-VPN-1F
+      - 🇩🇪 德国-法兰克福-001-1B
+      - 🇸🇬 SG-001-FREE-1B
+      - 🇺🇸 US-05-1D
+      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇹🇼 台湾高速节点2
+      - 🇺🇸 HY-02 | US
+      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇧🇷 巴西 1 X1
+      - 🇺🇸 美国3-高级月卡专用
+      - 🇭🇰 香港 1 X1
+      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇺🇸 US-05-1C
+      - 🇩🇪 德国-法兰克福-001-1H
+      - 🇩🇪 德国-法兰克福-004-1F
+      - 🇩🇪 德国-法兰克福-002-1D
+      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1C
+      - NODE2-VPN-1B
+      - NODE1-VPN-1B
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇩🇪 德国-法兰克福-001-1A
+      - 🇺🇸 US-01-1E
+      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇩🇪 德国-法兰克福-002-1K
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇸🇬 新加坡解锁 1 X1
+      - 🇩🇪 德国-法兰克福-004-1A
+      - 🇩🇪 德国-法兰克福-003-1E
+      - 🇩🇪 德国-法兰克福-003-1A
+      - 🇩🇪 德国-法兰克福-004-1H
+      - 🇨🇳 中国联通节点1
+      - 🇺🇸 HY-05| US
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇩🇪 德国-法兰克福-002-1I
+      - 🇺🇸 US-03-1C
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇩🇪 德国-法兰克福-002-1J
+      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇺🇸 US-05-1A
+      - NODE1-VPN-1C
+      - 🇺🇸 US-03-1A
+      - 🇩🇪 德国-法兰克福-001-1I
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇹🇼 台湾解锁 1 X1
+      - 🇰🇷 韩国 1 X1
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇩🇪 德国-法兰克福-002-1F
+      - 🇹🇼 台湾高速节点
+      - 🇸🇬 SG-001-FREE-1A
+      - 🇩🇪 德国-法兰克福-002-1A
+      - 🇮🇳 印度 1 X1
+      - 🇩🇪 德国-法兰克福-001-1K
+      - 🇩🇪 德国-法兰克福-002-1C
+      - 🇩🇪 德国-法兰克福-004-1B
+      - 🇩🇪 德国-法兰克福-002-1E
+      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇺🇸 美国1
+      - NODE1-VPN-1A
+      - 🇩🇪 德国-法兰克福-001-1E
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1A
-      - NODE2-VPN-1A
-      - 🇧🇷 巴西 1 X1
+      - 🇩🇪 德国-法兰克福-004-1J
+      - 🇺🇸 中转美国1 X1
+      - 🇺🇸 US-05-1E
+      - 🇯🇵 日本1 X1
+      - 🇸🇬 SG-001-FREE-1E
       - 🇩🇪 德国-法兰克福-003-1I
-      - 🇸🇬 SG-001-FREE-1C
-      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇺🇸 HY-04 | US
+      - 美B3
+      - 🇩🇪 德国-法兰克福-004-1C
+      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇺🇸 US-03-1E
+      - 🇩🇪 德国-法兰克福-001-1J
+      - 🇩🇪 德国-法兰克福-004-1E
+      - NODE2-VPN-1A
+      - NODE1-VPN-1E
+      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇺🇸 美国高速节点1
+      - 🇹🇼 台湾高速节点3
       - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇩🇪 德国-法兰克福-003-1H
+      - NODE2-VPN-1F
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - NODE2-VPN-1D
+      - 🇺🇸 US-03-1D
+      - 🇮🇸 冰岛 1 X1
+      - 🇩🇪 德国-法兰克福-003-1J
+      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇺🇸 US-01-1A
+      - 🇺🇸 US-01-1C
+      - 🇩🇪 德国-法兰克福-003-1F
+      - 🇩🇪 德国-法兰克福-001-1D
+      - PC端如无法使用请点-TUN-视频体验-1A
+      - 🇩🇪 德国-法兰克福-003-1G
       - 🇺🇸 美国5-高级月卡专用
       - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - PC端如无法使用请点-TUN-视频体验-1A
-      - NODE1-VPN-1E
-      - 🇹🇼 台湾高速节点3
-      - 🇹🇼 台湾高速节点
-      - P8-JNA
-      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇺🇸 US-03-1D
-      - 🇭🇰 香港 1 X1
-      - 🇩🇪 德国-法兰克福-004-1I
-      - 美B3
-      - 🇩🇪 德国-法兰克福-001-1B
-      - NODE1-VPN-1B
-      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇸🇬 SG-001-FREE-1B
-      - NODE2-VPN-1F
-      - 🇩🇪 德国-法兰克福-001-1D
-      - 🇩🇪 德国-法兰克福-003-1C
-      - 🇺🇸 美国3-高级月卡专用
-      - 🇵🇱 PL-IKN
-      - 🇺🇸 US-05-1B
-      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇲🇽 墨西哥 1 X1
-      - 🇩🇪 德国-法兰克福-001-1I
-      - NODE1-VPN-1F
-      - 🇺🇸 HY-02 | US
-      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇺🇸 US-01-1C
-      - 🇹🇼 台湾高速节点2
-      - 🇩🇪 德国-法兰克福-001-1G
-      - 🇺🇸 US-03-1C
-      - 🇺🇸 US-03-1A
-      - 🇩🇪 德国-法兰克福-002-1D
-      - 🇸🇬 新加坡解锁 1 X1
-      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇩🇪 德国-法兰克福-004-1H
-      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇩🇪 德国-法兰克福-001-1F
-      - 🇩🇪 德国-法兰克福-004-1B
-      - 🇩🇪 德国-法兰克福-001-1H
-      - 🇰🇷 韩国 1 X1
-      - 🇩🇪 德国-法兰克福-003-1B
-      - 🇺🇸 HY-03 | US
-      - 🇺🇸 US-03-1B
-      - 🇩🇪 德国-法兰克福-004-1A
-      - 🇩🇪 德国-法兰克福-003-1G
-      - 🇺🇸 HY-05| US
-      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1A
-      - NODE1-VPN-1C
-      - 🇩🇪 德国-法兰克福-002-1B
-      - NODE2-VPN-1D
-      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1A
-      - M0-DTA
-      - PU-OTC
-      - 🇸🇬 SG-001-FREE-1D
-      - 🇺🇸 US-01-1B
-      - 🇺🇸 US-05-1A
-      - 🇩🇪 德国-法兰克福-003-1A
-      - 🇩🇪 德国-法兰克福-004-1G
-      - 🇸🇬 SG-001-FREE-1A
-      - 🇺🇸 US-05-1C
-      - 🇩🇪 德国-法兰克福-004-1C
-      - 🇩🇪 德国-法兰克福-004-1F
-      - 🇩🇪 德国-法兰克福-002-1A
-      - 🇩🇪 德国-法兰克福-003-1E
-      - 🇩🇪 德国-法兰克福-002-1H
-      - 🇩🇪 德国-法兰克福-003-1F
-      - 🇩🇪 德国-法兰克福-002-1G
-      - 🇮🇳 印度 1 X1
-      - 🇺🇸 美国1
-      - 🇸🇬 SG-001-FREE-1E
-      - 🇩🇪 德国-法兰克福-003-1D
-      - 🇺🇸 美国高速节点1
+      - F1-VCK
       - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇺🇸 US-01-1A
-      - 🇯🇵 日本1 X1
-      - NODE1-VPN-1A
-      - 🇩🇪 德国-法兰克福-001-1A
-      - 🇩🇪 德国-法兰克福-002-1E
-      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - NODE2-VPN-1B
-      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇩🇪 德国-法兰克福-001-1E
-      - 🇩🇪 德国-法兰克福-002-1F
-      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇨🇳 中国联通节点1
-      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇺🇸 US-01-1D
-      - 🇩🇪 德国-法兰克福-002-1C
-      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇩🇪 德国-法兰克福-004-1E
-      - 🇺🇸 中转美国1 X1
-      - NODE2-VPN-1C
-      - PC端如无法使用请点-TUN-视频体验-1B
-      - 🇩🇪 德国-法兰克福-002-1I
-      - 🇸🇬 SG-001-FREE-1F
-      - 🇹🇼 台湾解锁 1 X1
-      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇮🇸 冰岛 1 X1
-      - 🇺🇸 US-05-1D
-      - NODE2-VPN-1E
       - 🇩🇪 德国-法兰克福-004-1D
-      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇩🇪 德国-法兰克福-002-1H
+      - 🇩🇪 德国-法兰克福-003-1D
+      - 🇩🇪 德国-法兰克福-004-1K
       - NODE1-VPN-1D
-      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇩🇪 德国-法兰克福-003-1B
+      - 🇺🇸 US-01-1D
       - 🇩🇪 德国-法兰克福-001-1C
+      - 🇲🇽 墨西哥 1 X1
+      - 🇩🇪 德国-法兰克福-002-1G
+      - PW-YZR
+      - 🇺🇸 HY-04 | US
+      - 🇸🇬 SG-001-FREE-1F
+      - 🇩🇪 德国-法兰克福-001-1F
+      - PC端如无法使用请点-TUN-视频体验-1B
+      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇩🇪 德国-法兰克福-003-1C
+      - 🇺🇸 HY-03 | US
+      - 🇺🇸 US-05-1B
+      - 🇩🇪 德国-法兰克福-002-1B
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1A
+      - PE-NFK
+      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇺🇸 US-03-1B
+      - 🇸🇬 SG-001-FREE-1C
+      - 🇸🇬 SG-001-FREE-1D
+      - NODE2-VPN-1C
+      - 🇩🇪 德国-法兰克福-004-1G
+      - 🇺🇸 US-01-1B
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇩🇪 德国-法兰克福-003-1K
+      - 🇩🇪 德国-法兰克福-001-1G
+      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇩🇪 德国-法兰克福-003-1H
+      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1C
+      - NODE2-VPN-1E
+      - PC端如无法使用请点-TUN-视频体验-1C
+      - 🇩🇪 德国-法兰克福-004-1I
+      - MV-AEI
+      - NODE1-VPN-1F
+      - 🇩🇪 德国-法兰克福-001-1B
+      - 🇸🇬 SG-001-FREE-1B
+      - 🇺🇸 US-05-1D
+      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇹🇼 台湾高速节点2
+      - 🇺🇸 HY-02 | US
+      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇧🇷 巴西 1 X1
+      - 🇺🇸 美国3-高级月卡专用
+      - 🇭🇰 香港 1 X1
+      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇺🇸 US-05-1C
+      - 🇩🇪 德国-法兰克福-001-1H
+      - 🇩🇪 德国-法兰克福-004-1F
+      - 🇩🇪 德国-法兰克福-002-1D
+      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1C
+      - NODE2-VPN-1B
+      - NODE1-VPN-1B
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇩🇪 德国-法兰克福-001-1A
+      - 🇺🇸 US-01-1E
+      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇩🇪 德国-法兰克福-002-1K
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇸🇬 新加坡解锁 1 X1
+      - 🇩🇪 德国-法兰克福-004-1A
+      - 🇩🇪 德国-法兰克福-003-1E
+      - 🇩🇪 德国-法兰克福-003-1A
+      - 🇩🇪 德国-法兰克福-004-1H
+      - 🇨🇳 中国联通节点1
+      - 🇺🇸 HY-05| US
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇩🇪 德国-法兰克福-002-1I
+      - 🇺🇸 US-03-1C
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇩🇪 德国-法兰克福-002-1J
+      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇺🇸 US-05-1A
+      - NODE1-VPN-1C
+      - 🇺🇸 US-03-1A
+      - 🇩🇪 德国-法兰克福-001-1I
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇹🇼 台湾解锁 1 X1
+      - 🇰🇷 韩国 1 X1
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇩🇪 德国-法兰克福-002-1F
+      - 🇹🇼 台湾高速节点
+      - 🇸🇬 SG-001-FREE-1A
+      - 🇩🇪 德国-法兰克福-002-1A
+      - 🇮🇳 印度 1 X1
+      - 🇩🇪 德国-法兰克福-001-1K
+      - 🇩🇪 德国-法兰克福-002-1C
+      - 🇩🇪 德国-法兰克福-004-1B
+      - 🇩🇪 德国-法兰克福-002-1E
+      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇺🇸 美国1
+      - NODE1-VPN-1A
+      - 🇩🇪 德国-法兰克福-001-1E
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1A
-      - NODE2-VPN-1A
-      - 🇧🇷 巴西 1 X1
+      - 🇩🇪 德国-法兰克福-004-1J
+      - 🇺🇸 中转美国1 X1
+      - 🇺🇸 US-05-1E
+      - 🇯🇵 日本1 X1
+      - 🇸🇬 SG-001-FREE-1E
       - 🇩🇪 德国-法兰克福-003-1I
-      - 🇸🇬 SG-001-FREE-1C
-      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇺🇸 HY-04 | US
+      - 美B3
+      - 🇩🇪 德国-法兰克福-004-1C
+      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇺🇸 US-03-1E
+      - 🇩🇪 德国-法兰克福-001-1J
+      - 🇩🇪 德国-法兰克福-004-1E
+      - NODE2-VPN-1A
+      - NODE1-VPN-1E
+      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇺🇸 美国高速节点1
+      - 🇹🇼 台湾高速节点3
       - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇩🇪 德国-法兰克福-003-1H
+      - NODE2-VPN-1F
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - NODE2-VPN-1D
+      - 🇺🇸 US-03-1D
+      - 🇮🇸 冰岛 1 X1
+      - 🇩🇪 德国-法兰克福-003-1J
+      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇺🇸 US-01-1A
+      - 🇺🇸 US-01-1C
+      - 🇩🇪 德国-法兰克福-003-1F
+      - 🇩🇪 德国-法兰克福-001-1D
+      - PC端如无法使用请点-TUN-视频体验-1A
+      - 🇩🇪 德国-法兰克福-003-1G
       - 🇺🇸 美国5-高级月卡专用
       - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - PC端如无法使用请点-TUN-视频体验-1A
-      - NODE1-VPN-1E
-      - 🇹🇼 台湾高速节点3
-      - 🇹🇼 台湾高速节点
-      - P8-JNA
-      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇺🇸 US-03-1D
-      - 🇭🇰 香港 1 X1
-      - 🇩🇪 德国-法兰克福-004-1I
-      - 美B3
-      - 🇩🇪 德国-法兰克福-001-1B
-      - NODE1-VPN-1B
-      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇸🇬 SG-001-FREE-1B
-      - NODE2-VPN-1F
-      - 🇩🇪 德国-法兰克福-001-1D
-      - 🇩🇪 德国-法兰克福-003-1C
-      - 🇺🇸 美国3-高级月卡专用
-      - 🇵🇱 PL-IKN
-      - 🇺🇸 US-05-1B
-      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇲🇽 墨西哥 1 X1
-      - 🇩🇪 德国-法兰克福-001-1I
-      - NODE1-VPN-1F
-      - 🇺🇸 HY-02 | US
-      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇺🇸 US-01-1C
-      - 🇹🇼 台湾高速节点2
-      - 🇩🇪 德国-法兰克福-001-1G
-      - 🇺🇸 US-03-1C
-      - 🇺🇸 US-03-1A
-      - 🇩🇪 德国-法兰克福-002-1D
-      - 🇸🇬 新加坡解锁 1 X1
-      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇩🇪 德国-法兰克福-004-1H
-      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇩🇪 德国-法兰克福-001-1F
-      - 🇩🇪 德国-法兰克福-004-1B
-      - 🇩🇪 德国-法兰克福-001-1H
-      - 🇰🇷 韩国 1 X1
-      - 🇩🇪 德国-法兰克福-003-1B
-      - 🇺🇸 HY-03 | US
-      - 🇺🇸 US-03-1B
-      - 🇩🇪 德国-法兰克福-004-1A
-      - 🇩🇪 德国-法兰克福-003-1G
-      - 🇺🇸 HY-05| US
-      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1A
-      - NODE1-VPN-1C
-      - 🇩🇪 德国-法兰克福-002-1B
-      - NODE2-VPN-1D
-      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1A
-      - M0-DTA
-      - PU-OTC
-      - 🇸🇬 SG-001-FREE-1D
-      - 🇺🇸 US-01-1B
-      - 🇺🇸 US-05-1A
-      - 🇩🇪 德国-法兰克福-003-1A
-      - 🇩🇪 德国-法兰克福-004-1G
-      - 🇸🇬 SG-001-FREE-1A
-      - 🇺🇸 US-05-1C
-      - 🇩🇪 德国-法兰克福-004-1C
-      - 🇩🇪 德国-法兰克福-004-1F
-      - 🇩🇪 德国-法兰克福-002-1A
-      - 🇩🇪 德国-法兰克福-003-1E
-      - 🇩🇪 德国-法兰克福-002-1H
-      - 🇩🇪 德国-法兰克福-003-1F
-      - 🇩🇪 德国-法兰克福-002-1G
-      - 🇮🇳 印度 1 X1
-      - 🇺🇸 美国1
-      - 🇸🇬 SG-001-FREE-1E
-      - 🇩🇪 德国-法兰克福-003-1D
-      - 🇺🇸 美国高速节点1
+      - F1-VCK
       - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇺🇸 US-01-1A
-      - 🇯🇵 日本1 X1
-      - NODE1-VPN-1A
-      - 🇩🇪 德国-法兰克福-001-1A
-      - 🇩🇪 德国-法兰克福-002-1E
-      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - NODE2-VPN-1B
-      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇩🇪 德国-法兰克福-001-1E
-      - 🇩🇪 德国-法兰克福-002-1F
-      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇨🇳 中国联通节点1
-      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇺🇸 US-01-1D
-      - 🇩🇪 德国-法兰克福-002-1C
-      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇩🇪 德国-法兰克福-004-1E
-      - 🇺🇸 中转美国1 X1
-      - NODE2-VPN-1C
-      - PC端如无法使用请点-TUN-视频体验-1B
-      - 🇩🇪 德国-法兰克福-002-1I
-      - 🇸🇬 SG-001-FREE-1F
-      - 🇹🇼 台湾解锁 1 X1
-      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇮🇸 冰岛 1 X1
-      - 🇺🇸 US-05-1D
-      - NODE2-VPN-1E
       - 🇩🇪 德国-法兰克福-004-1D
-      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇩🇪 德国-法兰克福-002-1H
+      - 🇩🇪 德国-法兰克福-003-1D
+      - 🇩🇪 德国-法兰克福-004-1K
       - NODE1-VPN-1D
-      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇩🇪 德国-法兰克福-003-1B
+      - 🇺🇸 US-01-1D
       - 🇩🇪 德国-法兰克福-001-1C
+      - 🇲🇽 墨西哥 1 X1
+      - 🇩🇪 德国-法兰克福-002-1G
+      - PW-YZR
+      - 🇺🇸 HY-04 | US
+      - 🇸🇬 SG-001-FREE-1F
+      - 🇩🇪 德国-法兰克福-001-1F
+      - PC端如无法使用请点-TUN-视频体验-1B
+      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇩🇪 德国-法兰克福-003-1C
+      - 🇺🇸 HY-03 | US
+      - 🇺🇸 US-05-1B
+      - 🇩🇪 德国-法兰克福-002-1B
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1A
+      - PE-NFK
+      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇺🇸 US-03-1B
+      - 🇸🇬 SG-001-FREE-1C
+      - 🇸🇬 SG-001-FREE-1D
+      - NODE2-VPN-1C
+      - 🇩🇪 德国-法兰克福-004-1G
+      - 🇺🇸 US-01-1B
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇩🇪 德国-法兰克福-003-1K
+      - 🇩🇪 德国-法兰克福-001-1G
+      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇩🇪 德国-法兰克福-003-1H
+      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1C
+      - NODE2-VPN-1E
+      - PC端如无法使用请点-TUN-视频体验-1C
+      - 🇩🇪 德国-法兰克福-004-1I
+      - MV-AEI
+      - NODE1-VPN-1F
+      - 🇩🇪 德国-法兰克福-001-1B
+      - 🇸🇬 SG-001-FREE-1B
+      - 🇺🇸 US-05-1D
+      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇹🇼 台湾高速节点2
+      - 🇺🇸 HY-02 | US
+      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇧🇷 巴西 1 X1
+      - 🇺🇸 美国3-高级月卡专用
+      - 🇭🇰 香港 1 X1
+      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇺🇸 US-05-1C
+      - 🇩🇪 德国-法兰克福-001-1H
+      - 🇩🇪 德国-法兰克福-004-1F
+      - 🇩🇪 德国-法兰克福-002-1D
+      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1C
+      - NODE2-VPN-1B
+      - NODE1-VPN-1B
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇩🇪 德国-法兰克福-001-1A
+      - 🇺🇸 US-01-1E
+      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇩🇪 德国-法兰克福-002-1K
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇸🇬 新加坡解锁 1 X1
+      - 🇩🇪 德国-法兰克福-004-1A
+      - 🇩🇪 德国-法兰克福-003-1E
+      - 🇩🇪 德国-法兰克福-003-1A
+      - 🇩🇪 德国-法兰克福-004-1H
+      - 🇨🇳 中国联通节点1
+      - 🇺🇸 HY-05| US
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇩🇪 德国-法兰克福-002-1I
+      - 🇺🇸 US-03-1C
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇩🇪 德国-法兰克福-002-1J
+      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇺🇸 US-05-1A
+      - NODE1-VPN-1C
+      - 🇺🇸 US-03-1A
+      - 🇩🇪 德国-法兰克福-001-1I
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇹🇼 台湾解锁 1 X1
+      - 🇰🇷 韩国 1 X1
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇩🇪 德国-法兰克福-002-1F
+      - 🇹🇼 台湾高速节点
+      - 🇸🇬 SG-001-FREE-1A
+      - 🇩🇪 德国-法兰克福-002-1A
+      - 🇮🇳 印度 1 X1
+      - 🇩🇪 德国-法兰克福-001-1K
+      - 🇩🇪 德国-法兰克福-002-1C
+      - 🇩🇪 德国-法兰克福-004-1B
+      - 🇩🇪 德国-法兰克福-002-1E
+      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇺🇸 美国1
+      - NODE1-VPN-1A
+      - 🇩🇪 德国-法兰克福-001-1E
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1027,123 +1216,146 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1A
-      - NODE2-VPN-1A
-      - 🇧🇷 巴西 1 X1
+      - 🇩🇪 德国-法兰克福-004-1J
+      - 🇺🇸 中转美国1 X1
+      - 🇺🇸 US-05-1E
+      - 🇯🇵 日本1 X1
+      - 🇸🇬 SG-001-FREE-1E
       - 🇩🇪 德国-法兰克福-003-1I
-      - 🇸🇬 SG-001-FREE-1C
-      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇺🇸 HY-04 | US
+      - 美B3
+      - 🇩🇪 德国-法兰克福-004-1C
+      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇺🇸 US-03-1E
+      - 🇩🇪 德国-法兰克福-001-1J
+      - 🇩🇪 德国-法兰克福-004-1E
+      - NODE2-VPN-1A
+      - NODE1-VPN-1E
+      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇺🇸 美国高速节点1
+      - 🇹🇼 台湾高速节点3
       - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇩🇪 德国-法兰克福-003-1H
+      - NODE2-VPN-1F
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - NODE2-VPN-1D
+      - 🇺🇸 US-03-1D
+      - 🇮🇸 冰岛 1 X1
+      - 🇩🇪 德国-法兰克福-003-1J
+      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇺🇸 US-01-1A
+      - 🇺🇸 US-01-1C
+      - 🇩🇪 德国-法兰克福-003-1F
+      - 🇩🇪 德国-法兰克福-001-1D
+      - PC端如无法使用请点-TUN-视频体验-1A
+      - 🇩🇪 德国-法兰克福-003-1G
       - 🇺🇸 美国5-高级月卡专用
       - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - PC端如无法使用请点-TUN-视频体验-1A
-      - NODE1-VPN-1E
-      - 🇹🇼 台湾高速节点3
-      - 🇹🇼 台湾高速节点
-      - P8-JNA
-      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇺🇸 US-03-1D
-      - 🇭🇰 香港 1 X1
-      - 🇩🇪 德国-法兰克福-004-1I
-      - 美B3
-      - 🇩🇪 德国-法兰克福-001-1B
-      - NODE1-VPN-1B
-      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇸🇬 SG-001-FREE-1B
-      - NODE2-VPN-1F
-      - 🇩🇪 德国-法兰克福-001-1D
-      - 🇩🇪 德国-法兰克福-003-1C
-      - 🇺🇸 美国3-高级月卡专用
-      - 🇵🇱 PL-IKN
-      - 🇺🇸 US-05-1B
-      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇲🇽 墨西哥 1 X1
-      - 🇩🇪 德国-法兰克福-001-1I
-      - NODE1-VPN-1F
-      - 🇺🇸 HY-02 | US
-      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇺🇸 US-01-1C
-      - 🇹🇼 台湾高速节点2
-      - 🇩🇪 德国-法兰克福-001-1G
-      - 🇺🇸 US-03-1C
-      - 🇺🇸 US-03-1A
-      - 🇩🇪 德国-法兰克福-002-1D
-      - 🇸🇬 新加坡解锁 1 X1
-      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇩🇪 德国-法兰克福-004-1H
-      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇩🇪 德国-法兰克福-001-1F
-      - 🇩🇪 德国-法兰克福-004-1B
-      - 🇩🇪 德国-法兰克福-001-1H
-      - 🇰🇷 韩国 1 X1
-      - 🇩🇪 德国-法兰克福-003-1B
-      - 🇺🇸 HY-03 | US
-      - 🇺🇸 US-03-1B
-      - 🇩🇪 德国-法兰克福-004-1A
-      - 🇩🇪 德国-法兰克福-003-1G
-      - 🇺🇸 HY-05| US
-      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1A
-      - NODE1-VPN-1C
-      - 🇩🇪 德国-法兰克福-002-1B
-      - NODE2-VPN-1D
-      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1A
-      - M0-DTA
-      - PU-OTC
-      - 🇸🇬 SG-001-FREE-1D
-      - 🇺🇸 US-01-1B
-      - 🇺🇸 US-05-1A
-      - 🇩🇪 德国-法兰克福-003-1A
-      - 🇩🇪 德国-法兰克福-004-1G
-      - 🇸🇬 SG-001-FREE-1A
-      - 🇺🇸 US-05-1C
-      - 🇩🇪 德国-法兰克福-004-1C
-      - 🇩🇪 德国-法兰克福-004-1F
-      - 🇩🇪 德国-法兰克福-002-1A
-      - 🇩🇪 德国-法兰克福-003-1E
-      - 🇩🇪 德国-法兰克福-002-1H
-      - 🇩🇪 德国-法兰克福-003-1F
-      - 🇩🇪 德国-法兰克福-002-1G
-      - 🇮🇳 印度 1 X1
-      - 🇺🇸 美国1
-      - 🇸🇬 SG-001-FREE-1E
-      - 🇩🇪 德国-法兰克福-003-1D
-      - 🇺🇸 美国高速节点1
+      - F1-VCK
       - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇺🇸 US-01-1A
-      - 🇯🇵 日本1 X1
-      - NODE1-VPN-1A
-      - 🇩🇪 德国-法兰克福-001-1A
-      - 🇩🇪 德国-法兰克福-002-1E
-      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - NODE2-VPN-1B
-      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇩🇪 德国-法兰克福-001-1E
-      - 🇩🇪 德国-法兰克福-002-1F
-      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1A
-      - 🇨🇳 中国联通节点1
-      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇺🇸 US-01-1D
-      - 🇩🇪 德国-法兰克福-002-1C
-      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇩🇪 德国-法兰克福-004-1E
-      - 🇺🇸 中转美国1 X1
-      - NODE2-VPN-1C
-      - PC端如无法使用请点-TUN-视频体验-1B
-      - 🇩🇪 德国-法兰克福-002-1I
-      - 🇸🇬 SG-001-FREE-1F
-      - 🇹🇼 台湾解锁 1 X1
-      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1B
-      - 🇮🇸 冰岛 1 X1
-      - 🇺🇸 US-05-1D
-      - NODE2-VPN-1E
       - 🇩🇪 德国-法兰克福-004-1D
-      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇩🇪 德国-法兰克福-002-1H
+      - 🇩🇪 德国-法兰克福-003-1D
+      - 🇩🇪 德国-法兰克福-004-1K
       - NODE1-VPN-1D
-      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇩🇪 德国-法兰克福-003-1B
+      - 🇺🇸 US-01-1D
       - 🇩🇪 德国-法兰克福-001-1C
+      - 🇲🇽 墨西哥 1 X1
+      - 🇩🇪 德国-法兰克福-002-1G
+      - PW-YZR
+      - 🇺🇸 HY-04 | US
+      - 🇸🇬 SG-001-FREE-1F
+      - 🇩🇪 德国-法兰克福-001-1F
+      - PC端如无法使用请点-TUN-视频体验-1B
+      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇩🇪 德国-法兰克福-003-1C
+      - 🇺🇸 HY-03 | US
+      - 🇺🇸 US-05-1B
+      - 🇩🇪 德国-法兰克福-002-1B
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1A
+      - PE-NFK
+      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇺🇸 US-03-1B
+      - 🇸🇬 SG-001-FREE-1C
+      - 🇸🇬 SG-001-FREE-1D
+      - NODE2-VPN-1C
+      - 🇩🇪 德国-法兰克福-004-1G
+      - 🇺🇸 US-01-1B
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇩🇪 德国-法兰克福-003-1K
+      - 🇩🇪 德国-法兰克福-001-1G
+      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇩🇪 德国-法兰克福-003-1H
+      - 🇯🇵 日本 3号线 NETFLIX等流媒体解锁 解锁-1C
+      - NODE2-VPN-1E
+      - PC端如无法使用请点-TUN-视频体验-1C
+      - 🇩🇪 德国-法兰克福-004-1I
+      - MV-AEI
+      - NODE1-VPN-1F
+      - 🇩🇪 德国-法兰克福-001-1B
+      - 🇸🇬 SG-001-FREE-1B
+      - 🇺🇸 US-05-1D
+      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇹🇼 台湾高速节点2
+      - 🇺🇸 HY-02 | US
+      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇯🇵 日本 2号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇧🇷 巴西 1 X1
+      - 🇺🇸 美国3-高级月卡专用
+      - 🇭🇰 香港 1 X1
+      - 🇯🇵 日本 1号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇺🇸 US-05-1C
+      - 🇩🇪 德国-法兰克福-001-1H
+      - 🇩🇪 德国-法兰克福-004-1F
+      - 🇩🇪 德国-法兰克福-002-1D
+      - 🇸🇬 新加坡 1号线 NETFLIX等流媒体解锁 解锁-1C
+      - NODE2-VPN-1B
+      - NODE1-VPN-1B
+      - 🇭🇰 香港 4号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇩🇪 德国-法兰克福-001-1A
+      - 🇺🇸 US-01-1E
+      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇭🇰 香港 3号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇩🇪 德国-法兰克福-002-1K
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇭🇰 香港 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇸🇬 新加坡解锁 1 X1
+      - 🇩🇪 德国-法兰克福-004-1A
+      - 🇩🇪 德国-法兰克福-003-1E
+      - 🇩🇪 德国-法兰克福-003-1A
+      - 🇩🇪 德国-法兰克福-004-1H
+      - 🇨🇳 中国联通节点1
+      - 🇺🇸 HY-05| US
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇩🇪 德国-法兰克福-002-1I
+      - 🇺🇸 US-03-1C
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇩🇪 德国-法兰克福-002-1J
+      - 🇺🇸 美国 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇺🇸 US-05-1A
+      - NODE1-VPN-1C
+      - 🇺🇸 US-03-1A
+      - 🇩🇪 德国-法兰克福-001-1I
+      - 🇹🇼 台湾 1号线 NETFLIX等流媒体解锁 解锁-1A
+      - 🇹🇼 台湾解锁 1 X1
+      - 🇰🇷 韩国 1 X1
+      - 🇭🇰 香港 2号线 NETFLIX等流媒体解锁 解锁-1B
+      - 🇩🇪 德国-法兰克福-002-1F
+      - 🇹🇼 台湾高速节点
+      - 🇸🇬 SG-001-FREE-1A
+      - 🇩🇪 德国-法兰克福-002-1A
+      - 🇮🇳 印度 1 X1
+      - 🇩🇪 德国-法兰克福-001-1K
+      - 🇩🇪 德国-法兰克福-002-1C
+      - 🇩🇪 德国-法兰克福-004-1B
+      - 🇩🇪 德国-法兰克福-002-1E
+      - 🇺🇸 美国 2号线 NETFLIX等流媒体解锁 解锁-1C
+      - 🇺🇸 美国1
+      - NODE1-VPN-1A
+      - 🇩🇪 德国-法兰克福-001-1E
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
