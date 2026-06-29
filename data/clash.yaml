@@ -5,363 +5,167 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇩🇪 德国-法兰克福-003-1F, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 5e764df9-e97c-4010-9328-3e04fc6d80bf, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-002-1C, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: e902067b-f0db-45cb-83b9-32877409b1ac, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-003-1A, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 56a25e80-5c05-4a51-9c88-280e2c8e3dfe, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
-  - {name: 🇹🇼 台湾高速节点, server: 103.137.63.77, port: 443, type: trojan, password: f7082790-299d-4fbd-a355-1c59495907a7, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG-001-VLESS-1D, server: 13.229.46.36, port: 443, type: vless, uuid: e96cee19-b099-408c-b493-9bddf3eae857, tls: true, reality-opts: {public-key: vnatjkngs-SXz4qE6B13brErmJFSxCOhVYRNKLGa4hY}, servername: gateway.icloud.com, client-fingerprint: safari, network: tcp, udp: true}
-  - {name: 🇺🇸 美国-AI-TK-02-1C, server: usai01.tokenshiba.top, port: 11625, type: vless, uuid: a75afd6e-765e-4ef2-84b6-ffbbf949dd9d, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: btvq8wkAlakNLmYasO7Gi8p8SQcmCaCiWHlAjxbLb2I, short-id: "10cf5e25" }, servername: updates.cdn-apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-003-1E, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 01f9a412-e4f9-4120-b295-6c2b4b67d7f0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
-  - {name: 🇺🇸 美国-AI-TK-02-1B, server: usai01.tokenshiba.top, port: 11625, type: vless, uuid: 7d5760e2-056d-400a-94a6-cadc09aff284, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: btvq8wkAlakNLmYasO7Gi8p8SQcmCaCiWHlAjxbLb2I, short-id: "10cf5e25" }, servername: updates.cdn-apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-002-1G, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: c194feaa-fd79-4771-806c-9e7083884361, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
-  - {name: 🇺🇸 美国AI-TK-R-014-1B, server: usrackw014.tokenshiba.top, port: 36945, type: vless, uuid: 7d5760e2-056d-400a-94a6-cadc09aff284, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: xtLoUkoKYLpqEEta2DsCb0EzLXfRGUUFhDMe3SXaqCE, short-id: "7389bd22" }, servername: updates.cdn-apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: NODE1-VPN-1C, server: node1-vpn.hrzy.me, port: 443, type: trojan, password: ffcc6f95-22c0-467a-89c8-6d16c90d2eaf, skip-cert-verify: false, udp: true}
-  - {name: 🇺🇸 HY-02 | US, server: usflare1.cloudaddy.top, port: 30003, type: hysteria2, password: 22fe308b-5d70-40d0-8d12-78661e67e893, auth: 22fe308b-5d70-40d0-8d12-78661e67e893, sni: www.iq.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国RA-备用-02-1A, server: ra06.tokenshiba.top, port: 29854, type: vless, uuid: 414bd567-789d-4e72-afdc-eee8f796d0dc, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: kwHhwbWvPgsk9zOZnc_e9mo2_7TKBxqPjVe6umCHpVI, short-id: "d9feabab" }, servername: updates.cdn-apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-001-1D, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: cb565ad7-b29f-4ac9-a6aa-ad21fbaafb72, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
-  - {name: 🇯🇵 美国日常-R1-011-1C, server: usrosk00.tokenshiba.top, port: 44189, type: vless, uuid: a75afd6e-765e-4ef2-84b6-ffbbf949dd9d, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: Cl_ciZEB8sL3Fk6PoLHyhfrYtBtU7qIVmMM2Pf0Mzls, short-id: "7b978138" }, servername: www.bing.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇺🇸 美国AI-TK-加速-002-1C, server: ushya.tokenshiba.top, port: 54412, type: hysteria2, password: a75afd6e-765e-4ef2-84b6-ffbbf949dd9d, auth: a75afd6e-765e-4ef2-84b6-ffbbf949dd9d, sni: ushya.tokenshiba.top, skip-cert-verify: false, obfs: salamander, obfs-password: s3ki2JIf59BT2Ag7, udp: true}
-  - {name: 🇺🇸 美国AI-TK-解锁BY-007-1A, server: usbytai07.tokenshiba.top, port: 29754, type: vless, uuid: 414bd567-789d-4e72-afdc-eee8f796d0dc, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: GQFeNvgJn4azK00jgVmq-L-PesEvc-mI1Zg0Q2n1u1I, short-id: "02e63542" }, servername: www.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: NODE1-VPN-1E, server: node1-vpn.hrzy.me, port: 443, type: trojan, password: e4162d54-87a1-447a-8346-c2c02b9936ea, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-002-1H, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 90fa0fa1-03fe-4e3f-9c7e-7e9265ce3e2d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-002-1E, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 01f9a412-e4f9-4120-b295-6c2b4b67d7f0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-001-1A, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: 56a25e80-5c05-4a51-9c88-280e2c8e3dfe, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
-  - {name: 🇺🇸 美国RA-备用-02-1C, server: ra06.tokenshiba.top, port: 29854, type: vless, uuid: a75afd6e-765e-4ef2-84b6-ffbbf949dd9d, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: kwHhwbWvPgsk9zOZnc_e9mo2_7TKBxqPjVe6umCHpVI, short-id: "d9feabab" }, servername: updates.cdn-apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇺🇸 美国AI-TK-加速-002-1B, server: ushya.tokenshiba.top, port: 54412, type: hysteria2, password: 7d5760e2-056d-400a-94a6-cadc09aff284, auth: 7d5760e2-056d-400a-94a6-cadc09aff284, sni: ushya.tokenshiba.top, skip-cert-verify: false, obfs: salamander, obfs-password: s3ki2JIf59BT2Ag7, udp: true}
-  - {name: 🇸🇬 SG-001-FREE-1C, server: 13.229.46.36, port: 8443, type: hysteria2, password: ffcc6f95-22c0-467a-89c8-6d16c90d2eaf, auth: ffcc6f95-22c0-467a-89c8-6d16c90d2eaf, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 SG-001-FREE-1D, server: 13.229.46.36, port: 8443, type: hysteria2, password: e96cee19-b099-408c-b493-9bddf3eae857, auth: e96cee19-b099-408c-b493-9bddf3eae857, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-004-1E, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: 01f9a412-e4f9-4120-b295-6c2b4b67d7f0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
-  - {name: 🇹🇭 泰国-B1, server: 130.94.23.240, port: 24001, type: hysteria2, password: c4908079-d3cf-41ab-987f-7e0eacb170bd, auth: c4908079-d3cf-41ab-987f-7e0eacb170bd, sni: tailand.adami.icu, skip-cert-verify: true, obfs: salamander, obfs-password: rKktEjDqju7j8JL9, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-002-1D, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: cb565ad7-b29f-4ac9-a6aa-ad21fbaafb72, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
-  - {name: 🇭🇰 香港-服务器1-节点1-极速, server: hk1.adami.icu, port: 22001, type: hysteria2, password: c4908079-d3cf-41ab-987f-7e0eacb170bd, auth: c4908079-d3cf-41ab-987f-7e0eacb170bd, sni: hk1.adami.icu, skip-cert-verify: true, obfs: salamander, obfs-password: 2QO7xB3Sy1OwnWoD, udp: true}
-  - {name: 🇺🇸 美国-服务器2-节点3-慢速, server: shadow.adami.icu, port: 41002, type: hysteria2, password: c4908079-d3cf-41ab-987f-7e0eacb170bd, auth: c4908079-d3cf-41ab-987f-7e0eacb170bd, sni: shadow.adami.icu, skip-cert-verify: true, obfs: salamander, obfs-password: ZVY8lIsu22AMT4kO, udp: true}
-  - {name: 🇺🇸 美国AI-TK-解锁BY-007-1B, server: usbytai07.tokenshiba.top, port: 29754, type: vless, uuid: 7d5760e2-056d-400a-94a6-cadc09aff284, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: GQFeNvgJn4azK00jgVmq-L-PesEvc-mI1Zg0Q2n1u1I, short-id: "02e63542" }, servername: www.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-003-1H, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 90fa0fa1-03fe-4e3f-9c7e-7e9265ce3e2d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
-  - {name: 🇺🇸 美国AI-TK-解锁BY-006-1C, server: usbyta006.tokenshiba.top, port: 29485, type: vless, uuid: a75afd6e-765e-4ef2-84b6-ffbbf949dd9d, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: OHiztfFAzICePCCNdbyvyfOltvx_e35o9But8UGtDx0, short-id: "be99e786" }, servername: swcdn.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇯🇵 美国日常-R1-011-1B, server: usrosk00.tokenshiba.top, port: 44189, type: vless, uuid: 7d5760e2-056d-400a-94a6-cadc09aff284, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: Cl_ciZEB8sL3Fk6PoLHyhfrYtBtU7qIVmMM2Pf0Mzls, short-id: "7b978138" }, servername: www.bing.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: M3-LGM, server: empty.node, port: 443, type: trojan, password: 5e1e0a49-555c-47f1-aafd-f186c482e743, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 US-03-1B, server: node.bluexray.net, port: 36000, type: hysteria2, password: 04f34ad4-c64d-481f-8313-fbf149889a5a, auth: 04f34ad4-c64d-481f-8313-fbf149889a5a, sni: node.bluexray.net, skip-cert-verify: false, obfs: salamander, obfs-password: f4ck, udp: true}
+  - {name: 🇺🇸 美国高速节点1, server: 144.34.178.66, port: 1443, type: trojan, password: 3bc7cc8f-2e0a-488a-85b5-a0c3ed35fa12, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇼 台湾高速节点2, server: 118.232.199.29, port: 443, type: trojan, password: 3bc7cc8f-2e0a-488a-85b5-a0c3ed35fa12, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US-05-1B, server: cf.090227.xyz, port: 8443, type: vless, uuid: 04f34ad4-c64d-481f-8313-fbf149889a5a, tls: true, servername: vps.bluexray.net, client-fingerprint: chrome, network: ws, ws-opts: {path: /vless-cf, headers: {Host: vps.bluexray.net}}, udp: true}
   - {name: 🇸🇬 SG-001-VLESS-1B, server: 13.229.46.36, port: 443, type: vless, uuid: 70f0512e-6e13-46bc-8877-c80c4faadb51, tls: true, reality-opts: {public-key: vnatjkngs-SXz4qE6B13brErmJFSxCOhVYRNKLGa4hY}, servername: gateway.icloud.com, client-fingerprint: safari, network: tcp, udp: true}
-  - {name: 🇺🇸 美国AI-TK-R-014-1C, server: usrackw014.tokenshiba.top, port: 36945, type: vless, uuid: a75afd6e-765e-4ef2-84b6-ffbbf949dd9d, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: xtLoUkoKYLpqEEta2DsCb0EzLXfRGUUFhDMe3SXaqCE, short-id: "7389bd22" }, servername: updates.cdn-apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: NODE1-VPN-1D, server: node1-vpn.hrzy.me, port: 443, type: trojan, password: e96cee19-b099-408c-b493-9bddf3eae857, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-001-1C, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: e902067b-f0db-45cb-83b9-32877409b1ac, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-001-1B, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: 53ce1a16-474d-49ed-8815-85375fc6ede3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
-  - {name: 🇺🇸 HY-05| US, server: usflare1.cloudaddy.top, port: 30006, type: hysteria2, password: 22fe308b-5d70-40d0-8d12-78661e67e893, auth: 22fe308b-5d70-40d0-8d12-78661e67e893, sni: www.iq.com, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-004-1H, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: 90fa0fa1-03fe-4e3f-9c7e-7e9265ce3e2d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-004-1D, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: cb565ad7-b29f-4ac9-a6aa-ad21fbaafb72, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
-  - {name: 🇺🇸 US-03, server: node.bluexray.net, port: 36000, type: hysteria2, password: 02120e73-c6df-4e0a-b337-950ee3277d80, auth: 02120e73-c6df-4e0a-b337-950ee3277d80, sni: node.bluexray.net, skip-cert-verify: false, obfs: salamander, obfs-password: f4ck, udp: true}
-  - {name: 🇨🇳 中国联通节点1, server: 115.231.220.33, port: 5443, type: trojan, password: f7082790-299d-4fbd-a355-1c59495907a7, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
-  - {name: NODE1-VPN-1B, server: node1-vpn.hrzy.me, port: 443, type: trojan, password: 70f0512e-6e13-46bc-8877-c80c4faadb51, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-001-1E, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: 01f9a412-e4f9-4120-b295-6c2b4b67d7f0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
-  - {name: 🇺🇸 美国AI-TK-解锁BY-006-1A, server: usbyta006.tokenshiba.top, port: 29485, type: vless, uuid: 414bd567-789d-4e72-afdc-eee8f796d0dc, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: OHiztfFAzICePCCNdbyvyfOltvx_e35o9But8UGtDx0, short-id: "be99e786" }, servername: swcdn.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-003-1C, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: e902067b-f0db-45cb-83b9-32877409b1ac, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
-  - {name: 🇸🇬 SG-001-VLESS-1C, server: 13.229.46.36, port: 443, type: vless, uuid: ffcc6f95-22c0-467a-89c8-6d16c90d2eaf, tls: true, reality-opts: {public-key: vnatjkngs-SXz4qE6B13brErmJFSxCOhVYRNKLGa4hY}, servername: gateway.icloud.com, client-fingerprint: safari, network: tcp, udp: true}
-  - {name: NODE1-VPN-1A, server: node1-vpn.hrzy.me, port: 443, type: trojan, password: e65e38c2-e459-4d7d-8429-6701a3e27503, skip-cert-verify: false, udp: true}
-  - {name: 🇯🇵 美国日常-R1-011-1A, server: usrosk00.tokenshiba.top, port: 44189, type: vless, uuid: 414bd567-789d-4e72-afdc-eee8f796d0dc, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: Cl_ciZEB8sL3Fk6PoLHyhfrYtBtU7qIVmMM2Pf0Mzls, short-id: "7b978138" }, servername: www.bing.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-002-1B, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 53ce1a16-474d-49ed-8815-85375fc6ede3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
-  - {name: 🇺🇸 美国高速节点1, server: 144.34.178.66, port: 1443, type: trojan, password: f7082790-299d-4fbd-a355-1c59495907a7, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-004-1C, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: e902067b-f0db-45cb-83b9-32877409b1ac, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
-  - {name: 🇺🇸 HY-03 | US, server: usflare1.cloudaddy.top, port: 30004, type: hysteria2, password: 22fe308b-5d70-40d0-8d12-78661e67e893, auth: 22fe308b-5d70-40d0-8d12-78661e67e893, sni: us1.cloudsegl1.ccwu.cc, skip-cert-verify: false, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-003-1D, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: cb565ad7-b29f-4ac9-a6aa-ad21fbaafb72, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
-  - {name: 🇹🇼 台湾高速节点2, server: 118.232.199.29, port: 443, type: trojan, password: f7082790-299d-4fbd-a355-1c59495907a7, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-004-1G, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: c194feaa-fd79-4771-806c-9e7083884361, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
-  - {name: 🇺🇸 美国-服务器2-节点1-极速, server: shadow.adami.icu, port: 40006, type: hysteria2, password: c4908079-d3cf-41ab-987f-7e0eacb170bd, auth: c4908079-d3cf-41ab-987f-7e0eacb170bd, sni: shadow.adami.icu, skip-cert-verify: true, obfs: salamander, obfs-password: ZVY8lIsu22AMT4kO, udp: true}
-  - {name: 🇸🇬 SG-001-VLESS-1E, server: 13.229.46.36, port: 443, type: vless, uuid: e4162d54-87a1-447a-8346-c2c02b9936ea, tls: true, reality-opts: {public-key: vnatjkngs-SXz4qE6B13brErmJFSxCOhVYRNKLGa4hY}, servername: gateway.icloud.com, client-fingerprint: safari, network: tcp, udp: true}
-  - {name: 🇸🇬 SG-001-FREE-1A, server: 13.229.46.36, port: 8443, type: hysteria2, password: e65e38c2-e459-4d7d-8429-6701a3e27503, auth: e65e38c2-e459-4d7d-8429-6701a3e27503, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国-AI-TK-02-1A, server: usai01.tokenshiba.top, port: 11625, type: vless, uuid: 414bd567-789d-4e72-afdc-eee8f796d0dc, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: btvq8wkAlakNLmYasO7Gi8p8SQcmCaCiWHlAjxbLb2I, short-id: "10cf5e25" }, servername: updates.cdn-apple.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-001-1B, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: deb38512-2378-400a-8ae2-866494fc3b70, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
+  - {name: 🇨🇳 中国联通节点1, server: 115.231.220.33, port: 5443, type: trojan, password: 3bc7cc8f-2e0a-488a-85b5-a0c3ed35fa12, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US-03-1A, server: node.bluexray.net, port: 36000, type: hysteria2, password: 02120e73-c6df-4e0a-b337-950ee3277d80, auth: 02120e73-c6df-4e0a-b337-950ee3277d80, sni: node.bluexray.net, skip-cert-verify: false, obfs: salamander, obfs-password: f4ck, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-004-1A, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: ef63a329-9734-4a1d-89be-82a55181e262, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
+  - {name: M0-EBH, server: empty.node, port: 443, type: trojan, password: 553bd48b-fb04-4657-acba-4e9abb40286a, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 HY-02 | US, server: usflare1.cloudaddy.top, port: 30003, type: hysteria2, password: 4452d633-e8f4-4281-bc3d-09b95b893fb2, auth: 4452d633-e8f4-4281-bc3d-09b95b893fb2, sni: www.iq.com, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 SG-001-VLESS-1A, server: 13.229.46.36, port: 443, type: vless, uuid: e4162d54-87a1-447a-8346-c2c02b9936ea, tls: true, reality-opts: {public-key: vnatjkngs-SXz4qE6B13brErmJFSxCOhVYRNKLGa4hY}, servername: gateway.icloud.com, client-fingerprint: safari, network: tcp, udp: true}
+  - {name: NODE1-VPN-1C, server: node1-vpn.hrzy.me, port: 443, type: trojan, password: e96cee19-b099-408c-b493-9bddf3eae857, skip-cert-verify: false, udp: true}
+  - {name: 🇺🇸 US-05-1A, server: cf.090227.xyz, port: 8443, type: vless, uuid: 02120e73-c6df-4e0a-b337-950ee3277d80, tls: true, servername: vps.bluexray.net, client-fingerprint: chrome, network: ws, ws-opts: {path: /vless-cf, headers: {Host: vps.bluexray.net}}, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-002-1B, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: deb38512-2378-400a-8ae2-866494fc3b70, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-004-1B, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: deb38512-2378-400a-8ae2-866494fc3b70, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
+  - {name: 🇺🇸 US-01-1B, server: cloud.bluexray.net, port: 5501, type: ss, cipher: chacha20-ietf-poly1305, password: 04f34ad4-c64d-481f-8313-fbf149889a5a, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-001-1A, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: ef63a329-9734-4a1d-89be-82a55181e262, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
+  - {name: 🇺🇸 HY-04 | US, server: usflare1.cloudaddy.top, port: 30005, type: hysteria2, password: 4452d633-e8f4-4281-bc3d-09b95b893fb2, auth: 4452d633-e8f4-4281-bc3d-09b95b893fb2, sni: www.iq.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 HY-03 | US, server: usflare1.cloudaddy.top, port: 30004, type: hysteria2, password: 4452d633-e8f4-4281-bc3d-09b95b893fb2, auth: 4452d633-e8f4-4281-bc3d-09b95b893fb2, sni: us1.cloudsegl1.ccwu.cc, skip-cert-verify: false, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-003-1A, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: ef63a329-9734-4a1d-89be-82a55181e262, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
+  - {name: NODE1-VPN-1D, server: node1-vpn.hrzy.me, port: 443, type: trojan, password: 65a3fff8-8fb3-49d7-b1ff-15d2faaf6c7c, skip-cert-verify: false, udp: true}
+  - {name: 🇸🇬 SG-001-FREE-1A, server: 13.229.46.36, port: 8443, type: hysteria2, password: e4162d54-87a1-447a-8346-c2c02b9936ea, auth: e4162d54-87a1-447a-8346-c2c02b9936ea, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 HY-05| US, server: usflare1.cloudaddy.top, port: 30006, type: hysteria2, password: 4452d633-e8f4-4281-bc3d-09b95b893fb2, auth: 4452d633-e8f4-4281-bc3d-09b95b893fb2, sni: www.iq.com, skip-cert-verify: true, udp: true}
+  - {name: NODE1-VPN-1A, server: node1-vpn.hrzy.me, port: 443, type: trojan, password: e4162d54-87a1-447a-8346-c2c02b9936ea, skip-cert-verify: false, udp: true}
+  - {name: 🇹🇼 台湾高速节点, server: 103.137.63.77, port: 443, type: trojan, password: 3bc7cc8f-2e0a-488a-85b5-a0c3ed35fa12, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 SG-001-FREE-1B, server: 13.229.46.36, port: 8443, type: hysteria2, password: 70f0512e-6e13-46bc-8877-c80c4faadb51, auth: 70f0512e-6e13-46bc-8877-c80c4faadb51, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国AI-TK-解锁BY-006-1B, server: usbyta006.tokenshiba.top, port: 29485, type: vless, uuid: 7d5760e2-056d-400a-94a6-cadc09aff284, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: OHiztfFAzICePCCNdbyvyfOltvx_e35o9But8UGtDx0, short-id: "be99e786" }, servername: swcdn.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇺🇸 美国RA-备用-02-1B, server: ra06.tokenshiba.top, port: 29854, type: vless, uuid: 7d5760e2-056d-400a-94a6-cadc09aff284, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: kwHhwbWvPgsk9zOZnc_e9mo2_7TKBxqPjVe6umCHpVI, short-id: "d9feabab" }, servername: updates.cdn-apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-004-1B, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: 53ce1a16-474d-49ed-8815-85375fc6ede3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-002-1F, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 5e764df9-e97c-4010-9328-3e04fc6d80bf, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-003-1B, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 53ce1a16-474d-49ed-8815-85375fc6ede3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
-  - {name: 🇸🇬 SG-001-FREE-1E, server: 13.229.46.36, port: 8443, type: hysteria2, password: e4162d54-87a1-447a-8346-c2c02b9936ea, auth: e4162d54-87a1-447a-8346-c2c02b9936ea, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-004-1A, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: 56a25e80-5c05-4a51-9c88-280e2c8e3dfe, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
-  - {name: 🇺🇸 美国AI-TK-加速-002-1A, server: ushya.tokenshiba.top, port: 54412, type: hysteria2, password: 414bd567-789d-4e72-afdc-eee8f796d0dc, auth: 414bd567-789d-4e72-afdc-eee8f796d0dc, sni: ushya.tokenshiba.top, skip-cert-verify: false, obfs: salamander, obfs-password: s3ki2JIf59BT2Ag7, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-001-1G, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: c194feaa-fd79-4771-806c-9e7083884361, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-003-1G, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: c194feaa-fd79-4771-806c-9e7083884361, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-002-1A, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 56a25e80-5c05-4a51-9c88-280e2c8e3dfe, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-004-1F, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: 5e764df9-e97c-4010-9328-3e04fc6d80bf, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
-  - {name: 🇹🇼 台湾高速节点3, server: 118.232.199.14, port: 443, type: trojan, password: f7082790-299d-4fbd-a355-1c59495907a7, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国AI-TK-R-014-1A, server: usrackw014.tokenshiba.top, port: 36945, type: vless, uuid: 414bd567-789d-4e72-afdc-eee8f796d0dc, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: xtLoUkoKYLpqEEta2DsCb0EzLXfRGUUFhDMe3SXaqCE, short-id: "7389bd22" }, servername: updates.cdn-apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-001-1F, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: 5e764df9-e97c-4010-9328-3e04fc6d80bf, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
-  - {name: 🇸🇬 SG-001-VLESS-1A, server: 13.229.46.36, port: 443, type: vless, uuid: e65e38c2-e459-4d7d-8429-6701a3e27503, tls: true, reality-opts: {public-key: vnatjkngs-SXz4qE6B13brErmJFSxCOhVYRNKLGa4hY}, servername: gateway.icloud.com, client-fingerprint: safari, network: tcp, udp: true}
-  - {name: 🇺🇸 HY-04 | US, server: usflare1.cloudaddy.top, port: 30005, type: hysteria2, password: 22fe308b-5d70-40d0-8d12-78661e67e893, auth: 22fe308b-5d70-40d0-8d12-78661e67e893, sni: www.iq.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US-05, server: cf.090227.xyz, port: 8443, type: vless, uuid: 02120e73-c6df-4e0a-b337-950ee3277d80, tls: true, servername: vps.bluexray.net, client-fingerprint: chrome, network: ws, ws-opts: {path: /vless-cf, headers: {Host: vps.bluexray.net}}, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-001-1H, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: 90fa0fa1-03fe-4e3f-9c7e-7e9265ce3e2d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
-  - {name: 🇺🇸 美国AI-TK-解锁BY-007-1C, server: usbytai07.tokenshiba.top, port: 29754, type: vless, uuid: a75afd6e-765e-4ef2-84b6-ffbbf949dd9d, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: GQFeNvgJn4azK00jgVmq-L-PesEvc-mI1Zg0Q2n1u1I, short-id: "02e63542" }, servername: www.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇺🇸 US-01, server: cloud.bluexray.net, port: 5501, type: ss, cipher: chacha20-ietf-poly1305, password: 02120e73-c6df-4e0a-b337-950ee3277d80, udp: true}
+  - {name: 🇸🇬 SG-001-FREE-1C, server: 13.229.46.36, port: 8443, type: hysteria2, password: e96cee19-b099-408c-b493-9bddf3eae857, auth: e96cee19-b099-408c-b493-9bddf3eae857, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-003-1B, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: deb38512-2378-400a-8ae2-866494fc3b70, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
+  - {name: 🇹🇼 台湾高速节点3, server: 118.232.199.14, port: 443, type: trojan, password: 3bc7cc8f-2e0a-488a-85b5-a0c3ed35fa12, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-002-1A, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: ef63a329-9734-4a1d-89be-82a55181e262, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
+  - {name: 🇸🇬 SG-001-VLESS-1C, server: 13.229.46.36, port: 443, type: vless, uuid: e96cee19-b099-408c-b493-9bddf3eae857, tls: true, reality-opts: {public-key: vnatjkngs-SXz4qE6B13brErmJFSxCOhVYRNKLGa4hY}, servername: gateway.icloud.com, client-fingerprint: safari, network: tcp, udp: true}
+  - {name: 🇸🇬 SG-001-FREE-1D, server: 13.229.46.36, port: 8443, type: hysteria2, password: 65a3fff8-8fb3-49d7-b1ff-15d2faaf6c7c, auth: 65a3fff8-8fb3-49d7-b1ff-15d2faaf6c7c, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US-01-1A, server: cloud.bluexray.net, port: 5501, type: ss, cipher: chacha20-ietf-poly1305, password: 02120e73-c6df-4e0a-b337-950ee3277d80, udp: true}
+  - {name: 🇸🇬 SG-001-VLESS-1D, server: 13.229.46.36, port: 443, type: vless, uuid: 65a3fff8-8fb3-49d7-b1ff-15d2faaf6c7c, tls: true, reality-opts: {public-key: vnatjkngs-SXz4qE6B13brErmJFSxCOhVYRNKLGa4hY}, servername: gateway.icloud.com, client-fingerprint: safari, network: tcp, udp: true}
+  - {name: NODE1-VPN-1B, server: node1-vpn.hrzy.me, port: 443, type: trojan, password: 70f0512e-6e13-46bc-8877-c80c4faadb51, skip-cert-verify: false, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇩🇪 德国-法兰克福-003-1F
-      - 🇩🇪 德国-法兰克福-002-1C
-      - 🇩🇪 德国-法兰克福-003-1A
-      - 🇹🇼 台湾高速节点
-      - 🇸🇬 SG-001-VLESS-1D
-      - 🇺🇸 美国-AI-TK-02-1C
-      - 🇩🇪 德国-法兰克福-003-1E
-      - 🇺🇸 美国-AI-TK-02-1B
-      - 🇩🇪 德国-法兰克福-002-1G
-      - 🇺🇸 美国AI-TK-R-014-1B
-      - NODE1-VPN-1C
-      - 🇺🇸 HY-02 | US
-      - 🇺🇸 美国RA-备用-02-1A
-      - 🇩🇪 德国-法兰克福-001-1D
-      - 🇯🇵 美国日常-R1-011-1C
-      - 🇺🇸 美国AI-TK-加速-002-1C
-      - 🇺🇸 美国AI-TK-解锁BY-007-1A
-      - NODE1-VPN-1E
-      - 🇩🇪 德国-法兰克福-002-1H
-      - 🇩🇪 德国-法兰克福-002-1E
-      - 🇩🇪 德国-法兰克福-001-1A
-      - 🇺🇸 美国RA-备用-02-1C
-      - 🇺🇸 美国AI-TK-加速-002-1B
-      - 🇸🇬 SG-001-FREE-1C
-      - 🇸🇬 SG-001-FREE-1D
-      - 🇩🇪 德国-法兰克福-004-1E
-      - 🇹🇭 泰国-B1
-      - 🇩🇪 德国-法兰克福-002-1D
-      - 🇭🇰 香港-服务器1-节点1-极速
-      - 🇺🇸 美国-服务器2-节点3-慢速
-      - 🇺🇸 美国AI-TK-解锁BY-007-1B
-      - 🇩🇪 德国-法兰克福-003-1H
-      - 🇺🇸 美国AI-TK-解锁BY-006-1C
-      - 🇯🇵 美国日常-R1-011-1B
-      - M3-LGM
-      - 🇸🇬 SG-001-VLESS-1B
-      - 🇺🇸 美国AI-TK-R-014-1C
-      - NODE1-VPN-1D
-      - 🇩🇪 德国-法兰克福-001-1C
-      - 🇩🇪 德国-法兰克福-001-1B
-      - 🇺🇸 HY-05| US
-      - 🇩🇪 德国-法兰克福-004-1H
-      - 🇩🇪 德国-法兰克福-004-1D
-      - 🇺🇸 US-03
-      - 🇨🇳 中国联通节点1
-      - NODE1-VPN-1B
-      - 🇩🇪 德国-法兰克福-001-1E
-      - 🇺🇸 美国AI-TK-解锁BY-006-1A
-      - 🇩🇪 德国-法兰克福-003-1C
-      - 🇸🇬 SG-001-VLESS-1C
-      - NODE1-VPN-1A
-      - 🇯🇵 美国日常-R1-011-1A
-      - 🇩🇪 德国-法兰克福-002-1B
+      - 🇺🇸 US-03-1B
       - 🇺🇸 美国高速节点1
-      - 🇩🇪 德国-法兰克福-004-1C
-      - 🇺🇸 HY-03 | US
-      - 🇩🇪 德国-法兰克福-003-1D
       - 🇹🇼 台湾高速节点2
-      - 🇩🇪 德国-法兰克福-004-1G
-      - 🇺🇸 美国-服务器2-节点1-极速
-      - 🇸🇬 SG-001-VLESS-1E
-      - 🇸🇬 SG-001-FREE-1A
-      - 🇺🇸 美国-AI-TK-02-1A
-      - 🇸🇬 SG-001-FREE-1B
-      - 🇺🇸 美国AI-TK-解锁BY-006-1B
-      - 🇺🇸 美国RA-备用-02-1B
-      - 🇩🇪 德国-法兰克福-004-1B
-      - 🇩🇪 德国-法兰克福-002-1F
-      - 🇩🇪 德国-法兰克福-003-1B
-      - 🇸🇬 SG-001-FREE-1E
+      - 🇺🇸 US-05-1B
+      - 🇸🇬 SG-001-VLESS-1B
+      - 🇩🇪 德国-法兰克福-001-1B
+      - 🇨🇳 中国联通节点1
+      - 🇺🇸 US-03-1A
       - 🇩🇪 德国-法兰克福-004-1A
-      - 🇺🇸 美国AI-TK-加速-002-1A
-      - 🇩🇪 德国-法兰克福-001-1G
-      - 🇩🇪 德国-法兰克福-003-1G
-      - 🇩🇪 德国-法兰克福-002-1A
-      - 🇩🇪 德国-法兰克福-004-1F
-      - 🇹🇼 台湾高速节点3
-      - 🇺🇸 美国AI-TK-R-014-1A
-      - 🇩🇪 德国-法兰克福-001-1F
+      - M0-EBH
+      - 🇺🇸 HY-02 | US
       - 🇸🇬 SG-001-VLESS-1A
+      - NODE1-VPN-1C
+      - 🇺🇸 US-05-1A
+      - 🇩🇪 德国-法兰克福-002-1B
+      - 🇩🇪 德国-法兰克福-004-1B
+      - 🇺🇸 US-01-1B
+      - 🇩🇪 德国-法兰克福-001-1A
       - 🇺🇸 HY-04 | US
-      - 🇺🇸 US-05
-      - 🇩🇪 德国-法兰克福-001-1H
-      - 🇺🇸 美国AI-TK-解锁BY-007-1C
-      - 🇺🇸 US-01
+      - 🇺🇸 HY-03 | US
+      - 🇩🇪 德国-法兰克福-003-1A
+      - NODE1-VPN-1D
+      - 🇸🇬 SG-001-FREE-1A
+      - 🇺🇸 HY-05| US
+      - NODE1-VPN-1A
+      - 🇹🇼 台湾高速节点
+      - 🇸🇬 SG-001-FREE-1B
+      - 🇸🇬 SG-001-FREE-1C
+      - 🇩🇪 德国-法兰克福-003-1B
+      - 🇹🇼 台湾高速节点3
+      - 🇩🇪 德国-法兰克福-002-1A
+      - 🇸🇬 SG-001-VLESS-1C
+      - 🇸🇬 SG-001-FREE-1D
+      - 🇺🇸 US-01-1A
+      - 🇸🇬 SG-001-VLESS-1D
+      - NODE1-VPN-1B
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇩🇪 德国-法兰克福-003-1F
-      - 🇩🇪 德国-法兰克福-002-1C
-      - 🇩🇪 德国-法兰克福-003-1A
-      - 🇹🇼 台湾高速节点
-      - 🇸🇬 SG-001-VLESS-1D
-      - 🇺🇸 美国-AI-TK-02-1C
-      - 🇩🇪 德国-法兰克福-003-1E
-      - 🇺🇸 美国-AI-TK-02-1B
-      - 🇩🇪 德国-法兰克福-002-1G
-      - 🇺🇸 美国AI-TK-R-014-1B
-      - NODE1-VPN-1C
-      - 🇺🇸 HY-02 | US
-      - 🇺🇸 美国RA-备用-02-1A
-      - 🇩🇪 德国-法兰克福-001-1D
-      - 🇯🇵 美国日常-R1-011-1C
-      - 🇺🇸 美国AI-TK-加速-002-1C
-      - 🇺🇸 美国AI-TK-解锁BY-007-1A
-      - NODE1-VPN-1E
-      - 🇩🇪 德国-法兰克福-002-1H
-      - 🇩🇪 德国-法兰克福-002-1E
-      - 🇩🇪 德国-法兰克福-001-1A
-      - 🇺🇸 美国RA-备用-02-1C
-      - 🇺🇸 美国AI-TK-加速-002-1B
-      - 🇸🇬 SG-001-FREE-1C
-      - 🇸🇬 SG-001-FREE-1D
-      - 🇩🇪 德国-法兰克福-004-1E
-      - 🇹🇭 泰国-B1
-      - 🇩🇪 德国-法兰克福-002-1D
-      - 🇭🇰 香港-服务器1-节点1-极速
-      - 🇺🇸 美国-服务器2-节点3-慢速
-      - 🇺🇸 美国AI-TK-解锁BY-007-1B
-      - 🇩🇪 德国-法兰克福-003-1H
-      - 🇺🇸 美国AI-TK-解锁BY-006-1C
-      - 🇯🇵 美国日常-R1-011-1B
-      - M3-LGM
-      - 🇸🇬 SG-001-VLESS-1B
-      - 🇺🇸 美国AI-TK-R-014-1C
-      - NODE1-VPN-1D
-      - 🇩🇪 德国-法兰克福-001-1C
-      - 🇩🇪 德国-法兰克福-001-1B
-      - 🇺🇸 HY-05| US
-      - 🇩🇪 德国-法兰克福-004-1H
-      - 🇩🇪 德国-法兰克福-004-1D
-      - 🇺🇸 US-03
-      - 🇨🇳 中国联通节点1
-      - NODE1-VPN-1B
-      - 🇩🇪 德国-法兰克福-001-1E
-      - 🇺🇸 美国AI-TK-解锁BY-006-1A
-      - 🇩🇪 德国-法兰克福-003-1C
-      - 🇸🇬 SG-001-VLESS-1C
-      - NODE1-VPN-1A
-      - 🇯🇵 美国日常-R1-011-1A
-      - 🇩🇪 德国-法兰克福-002-1B
+      - 🇺🇸 US-03-1B
       - 🇺🇸 美国高速节点1
-      - 🇩🇪 德国-法兰克福-004-1C
-      - 🇺🇸 HY-03 | US
-      - 🇩🇪 德国-法兰克福-003-1D
       - 🇹🇼 台湾高速节点2
-      - 🇩🇪 德国-法兰克福-004-1G
-      - 🇺🇸 美国-服务器2-节点1-极速
-      - 🇸🇬 SG-001-VLESS-1E
-      - 🇸🇬 SG-001-FREE-1A
-      - 🇺🇸 美国-AI-TK-02-1A
-      - 🇸🇬 SG-001-FREE-1B
-      - 🇺🇸 美国AI-TK-解锁BY-006-1B
-      - 🇺🇸 美国RA-备用-02-1B
-      - 🇩🇪 德国-法兰克福-004-1B
-      - 🇩🇪 德国-法兰克福-002-1F
-      - 🇩🇪 德国-法兰克福-003-1B
-      - 🇸🇬 SG-001-FREE-1E
+      - 🇺🇸 US-05-1B
+      - 🇸🇬 SG-001-VLESS-1B
+      - 🇩🇪 德国-法兰克福-001-1B
+      - 🇨🇳 中国联通节点1
+      - 🇺🇸 US-03-1A
       - 🇩🇪 德国-法兰克福-004-1A
-      - 🇺🇸 美国AI-TK-加速-002-1A
-      - 🇩🇪 德国-法兰克福-001-1G
-      - 🇩🇪 德国-法兰克福-003-1G
-      - 🇩🇪 德国-法兰克福-002-1A
-      - 🇩🇪 德国-法兰克福-004-1F
-      - 🇹🇼 台湾高速节点3
-      - 🇺🇸 美国AI-TK-R-014-1A
-      - 🇩🇪 德国-法兰克福-001-1F
+      - M0-EBH
+      - 🇺🇸 HY-02 | US
       - 🇸🇬 SG-001-VLESS-1A
+      - NODE1-VPN-1C
+      - 🇺🇸 US-05-1A
+      - 🇩🇪 德国-法兰克福-002-1B
+      - 🇩🇪 德国-法兰克福-004-1B
+      - 🇺🇸 US-01-1B
+      - 🇩🇪 德国-法兰克福-001-1A
       - 🇺🇸 HY-04 | US
-      - 🇺🇸 US-05
-      - 🇩🇪 德国-法兰克福-001-1H
-      - 🇺🇸 美国AI-TK-解锁BY-007-1C
-      - 🇺🇸 US-01
+      - 🇺🇸 HY-03 | US
+      - 🇩🇪 德国-法兰克福-003-1A
+      - NODE1-VPN-1D
+      - 🇸🇬 SG-001-FREE-1A
+      - 🇺🇸 HY-05| US
+      - NODE1-VPN-1A
+      - 🇹🇼 台湾高速节点
+      - 🇸🇬 SG-001-FREE-1B
+      - 🇸🇬 SG-001-FREE-1C
+      - 🇩🇪 德国-法兰克福-003-1B
+      - 🇹🇼 台湾高速节点3
+      - 🇩🇪 德国-法兰克福-002-1A
+      - 🇸🇬 SG-001-VLESS-1C
+      - 🇸🇬 SG-001-FREE-1D
+      - 🇺🇸 US-01-1A
+      - 🇸🇬 SG-001-VLESS-1D
+      - NODE1-VPN-1B
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇩🇪 德国-法兰克福-003-1F
-      - 🇩🇪 德国-法兰克福-002-1C
-      - 🇩🇪 德国-法兰克福-003-1A
-      - 🇹🇼 台湾高速节点
-      - 🇸🇬 SG-001-VLESS-1D
-      - 🇺🇸 美国-AI-TK-02-1C
-      - 🇩🇪 德国-法兰克福-003-1E
-      - 🇺🇸 美国-AI-TK-02-1B
-      - 🇩🇪 德国-法兰克福-002-1G
-      - 🇺🇸 美国AI-TK-R-014-1B
-      - NODE1-VPN-1C
-      - 🇺🇸 HY-02 | US
-      - 🇺🇸 美国RA-备用-02-1A
-      - 🇩🇪 德国-法兰克福-001-1D
-      - 🇯🇵 美国日常-R1-011-1C
-      - 🇺🇸 美国AI-TK-加速-002-1C
-      - 🇺🇸 美国AI-TK-解锁BY-007-1A
-      - NODE1-VPN-1E
-      - 🇩🇪 德国-法兰克福-002-1H
-      - 🇩🇪 德国-法兰克福-002-1E
-      - 🇩🇪 德国-法兰克福-001-1A
-      - 🇺🇸 美国RA-备用-02-1C
-      - 🇺🇸 美国AI-TK-加速-002-1B
-      - 🇸🇬 SG-001-FREE-1C
-      - 🇸🇬 SG-001-FREE-1D
-      - 🇩🇪 德国-法兰克福-004-1E
-      - 🇹🇭 泰国-B1
-      - 🇩🇪 德国-法兰克福-002-1D
-      - 🇭🇰 香港-服务器1-节点1-极速
-      - 🇺🇸 美国-服务器2-节点3-慢速
-      - 🇺🇸 美国AI-TK-解锁BY-007-1B
-      - 🇩🇪 德国-法兰克福-003-1H
-      - 🇺🇸 美国AI-TK-解锁BY-006-1C
-      - 🇯🇵 美国日常-R1-011-1B
-      - M3-LGM
-      - 🇸🇬 SG-001-VLESS-1B
-      - 🇺🇸 美国AI-TK-R-014-1C
-      - NODE1-VPN-1D
-      - 🇩🇪 德国-法兰克福-001-1C
-      - 🇩🇪 德国-法兰克福-001-1B
-      - 🇺🇸 HY-05| US
-      - 🇩🇪 德国-法兰克福-004-1H
-      - 🇩🇪 德国-法兰克福-004-1D
-      - 🇺🇸 US-03
-      - 🇨🇳 中国联通节点1
-      - NODE1-VPN-1B
-      - 🇩🇪 德国-法兰克福-001-1E
-      - 🇺🇸 美国AI-TK-解锁BY-006-1A
-      - 🇩🇪 德国-法兰克福-003-1C
-      - 🇸🇬 SG-001-VLESS-1C
-      - NODE1-VPN-1A
-      - 🇯🇵 美国日常-R1-011-1A
-      - 🇩🇪 德国-法兰克福-002-1B
+      - 🇺🇸 US-03-1B
       - 🇺🇸 美国高速节点1
-      - 🇩🇪 德国-法兰克福-004-1C
-      - 🇺🇸 HY-03 | US
-      - 🇩🇪 德国-法兰克福-003-1D
       - 🇹🇼 台湾高速节点2
-      - 🇩🇪 德国-法兰克福-004-1G
-      - 🇺🇸 美国-服务器2-节点1-极速
-      - 🇸🇬 SG-001-VLESS-1E
-      - 🇸🇬 SG-001-FREE-1A
-      - 🇺🇸 美国-AI-TK-02-1A
-      - 🇸🇬 SG-001-FREE-1B
-      - 🇺🇸 美国AI-TK-解锁BY-006-1B
-      - 🇺🇸 美国RA-备用-02-1B
-      - 🇩🇪 德国-法兰克福-004-1B
-      - 🇩🇪 德国-法兰克福-002-1F
-      - 🇩🇪 德国-法兰克福-003-1B
-      - 🇸🇬 SG-001-FREE-1E
+      - 🇺🇸 US-05-1B
+      - 🇸🇬 SG-001-VLESS-1B
+      - 🇩🇪 德国-法兰克福-001-1B
+      - 🇨🇳 中国联通节点1
+      - 🇺🇸 US-03-1A
       - 🇩🇪 德国-法兰克福-004-1A
-      - 🇺🇸 美国AI-TK-加速-002-1A
-      - 🇩🇪 德国-法兰克福-001-1G
-      - 🇩🇪 德国-法兰克福-003-1G
-      - 🇩🇪 德国-法兰克福-002-1A
-      - 🇩🇪 德国-法兰克福-004-1F
-      - 🇹🇼 台湾高速节点3
-      - 🇺🇸 美国AI-TK-R-014-1A
-      - 🇩🇪 德国-法兰克福-001-1F
+      - M0-EBH
+      - 🇺🇸 HY-02 | US
       - 🇸🇬 SG-001-VLESS-1A
+      - NODE1-VPN-1C
+      - 🇺🇸 US-05-1A
+      - 🇩🇪 德国-法兰克福-002-1B
+      - 🇩🇪 德国-法兰克福-004-1B
+      - 🇺🇸 US-01-1B
+      - 🇩🇪 德国-法兰克福-001-1A
       - 🇺🇸 HY-04 | US
-      - 🇺🇸 US-05
-      - 🇩🇪 德国-法兰克福-001-1H
-      - 🇺🇸 美国AI-TK-解锁BY-007-1C
-      - 🇺🇸 US-01
+      - 🇺🇸 HY-03 | US
+      - 🇩🇪 德国-法兰克福-003-1A
+      - NODE1-VPN-1D
+      - 🇸🇬 SG-001-FREE-1A
+      - 🇺🇸 HY-05| US
+      - NODE1-VPN-1A
+      - 🇹🇼 台湾高速节点
+      - 🇸🇬 SG-001-FREE-1B
+      - 🇸🇬 SG-001-FREE-1C
+      - 🇩🇪 德国-法兰克福-003-1B
+      - 🇹🇼 台湾高速节点3
+      - 🇩🇪 德国-法兰克福-002-1A
+      - 🇸🇬 SG-001-VLESS-1C
+      - 🇸🇬 SG-001-FREE-1D
+      - 🇺🇸 US-01-1A
+      - 🇸🇬 SG-001-VLESS-1D
+      - NODE1-VPN-1B
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -380,98 +184,48 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇩🇪 德国-法兰克福-003-1F
-      - 🇩🇪 德国-法兰克福-002-1C
-      - 🇩🇪 德国-法兰克福-003-1A
-      - 🇹🇼 台湾高速节点
-      - 🇸🇬 SG-001-VLESS-1D
-      - 🇺🇸 美国-AI-TK-02-1C
-      - 🇩🇪 德国-法兰克福-003-1E
-      - 🇺🇸 美国-AI-TK-02-1B
-      - 🇩🇪 德国-法兰克福-002-1G
-      - 🇺🇸 美国AI-TK-R-014-1B
-      - NODE1-VPN-1C
-      - 🇺🇸 HY-02 | US
-      - 🇺🇸 美国RA-备用-02-1A
-      - 🇩🇪 德国-法兰克福-001-1D
-      - 🇯🇵 美国日常-R1-011-1C
-      - 🇺🇸 美国AI-TK-加速-002-1C
-      - 🇺🇸 美国AI-TK-解锁BY-007-1A
-      - NODE1-VPN-1E
-      - 🇩🇪 德国-法兰克福-002-1H
-      - 🇩🇪 德国-法兰克福-002-1E
-      - 🇩🇪 德国-法兰克福-001-1A
-      - 🇺🇸 美国RA-备用-02-1C
-      - 🇺🇸 美国AI-TK-加速-002-1B
-      - 🇸🇬 SG-001-FREE-1C
-      - 🇸🇬 SG-001-FREE-1D
-      - 🇩🇪 德国-法兰克福-004-1E
-      - 🇹🇭 泰国-B1
-      - 🇩🇪 德国-法兰克福-002-1D
-      - 🇭🇰 香港-服务器1-节点1-极速
-      - 🇺🇸 美国-服务器2-节点3-慢速
-      - 🇺🇸 美国AI-TK-解锁BY-007-1B
-      - 🇩🇪 德国-法兰克福-003-1H
-      - 🇺🇸 美国AI-TK-解锁BY-006-1C
-      - 🇯🇵 美国日常-R1-011-1B
-      - M3-LGM
-      - 🇸🇬 SG-001-VLESS-1B
-      - 🇺🇸 美国AI-TK-R-014-1C
-      - NODE1-VPN-1D
-      - 🇩🇪 德国-法兰克福-001-1C
-      - 🇩🇪 德国-法兰克福-001-1B
-      - 🇺🇸 HY-05| US
-      - 🇩🇪 德国-法兰克福-004-1H
-      - 🇩🇪 德国-法兰克福-004-1D
-      - 🇺🇸 US-03
-      - 🇨🇳 中国联通节点1
-      - NODE1-VPN-1B
-      - 🇩🇪 德国-法兰克福-001-1E
-      - 🇺🇸 美国AI-TK-解锁BY-006-1A
-      - 🇩🇪 德国-法兰克福-003-1C
-      - 🇸🇬 SG-001-VLESS-1C
-      - NODE1-VPN-1A
-      - 🇯🇵 美国日常-R1-011-1A
-      - 🇩🇪 德国-法兰克福-002-1B
+      - 🇺🇸 US-03-1B
       - 🇺🇸 美国高速节点1
-      - 🇩🇪 德国-法兰克福-004-1C
-      - 🇺🇸 HY-03 | US
-      - 🇩🇪 德国-法兰克福-003-1D
       - 🇹🇼 台湾高速节点2
-      - 🇩🇪 德国-法兰克福-004-1G
-      - 🇺🇸 美国-服务器2-节点1-极速
-      - 🇸🇬 SG-001-VLESS-1E
-      - 🇸🇬 SG-001-FREE-1A
-      - 🇺🇸 美国-AI-TK-02-1A
-      - 🇸🇬 SG-001-FREE-1B
-      - 🇺🇸 美国AI-TK-解锁BY-006-1B
-      - 🇺🇸 美国RA-备用-02-1B
-      - 🇩🇪 德国-法兰克福-004-1B
-      - 🇩🇪 德国-法兰克福-002-1F
-      - 🇩🇪 德国-法兰克福-003-1B
-      - 🇸🇬 SG-001-FREE-1E
+      - 🇺🇸 US-05-1B
+      - 🇸🇬 SG-001-VLESS-1B
+      - 🇩🇪 德国-法兰克福-001-1B
+      - 🇨🇳 中国联通节点1
+      - 🇺🇸 US-03-1A
       - 🇩🇪 德国-法兰克福-004-1A
-      - 🇺🇸 美国AI-TK-加速-002-1A
-      - 🇩🇪 德国-法兰克福-001-1G
-      - 🇩🇪 德国-法兰克福-003-1G
-      - 🇩🇪 德国-法兰克福-002-1A
-      - 🇩🇪 德国-法兰克福-004-1F
-      - 🇹🇼 台湾高速节点3
-      - 🇺🇸 美国AI-TK-R-014-1A
-      - 🇩🇪 德国-法兰克福-001-1F
+      - M0-EBH
+      - 🇺🇸 HY-02 | US
       - 🇸🇬 SG-001-VLESS-1A
+      - NODE1-VPN-1C
+      - 🇺🇸 US-05-1A
+      - 🇩🇪 德国-法兰克福-002-1B
+      - 🇩🇪 德国-法兰克福-004-1B
+      - 🇺🇸 US-01-1B
+      - 🇩🇪 德国-法兰克福-001-1A
       - 🇺🇸 HY-04 | US
-      - 🇺🇸 US-05
-      - 🇩🇪 德国-法兰克福-001-1H
-      - 🇺🇸 美国AI-TK-解锁BY-007-1C
-      - 🇺🇸 US-01
+      - 🇺🇸 HY-03 | US
+      - 🇩🇪 德国-法兰克福-003-1A
+      - NODE1-VPN-1D
+      - 🇸🇬 SG-001-FREE-1A
+      - 🇺🇸 HY-05| US
+      - NODE1-VPN-1A
+      - 🇹🇼 台湾高速节点
+      - 🇸🇬 SG-001-FREE-1B
+      - 🇸🇬 SG-001-FREE-1C
+      - 🇩🇪 德国-法兰克福-003-1B
+      - 🇹🇼 台湾高速节点3
+      - 🇩🇪 德国-法兰克福-002-1A
+      - 🇸🇬 SG-001-VLESS-1C
+      - 🇸🇬 SG-001-FREE-1D
+      - 🇺🇸 US-01-1A
+      - 🇸🇬 SG-001-VLESS-1D
+      - NODE1-VPN-1B
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇹🇼 台湾高速节点
-      - 🇭🇰 香港-服务器1-节点1-极速
       - 🇹🇼 台湾高速节点2
+      - 🇹🇼 台湾高速节点
       - 🇹🇼 台湾高速节点3
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
@@ -479,272 +233,125 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇩🇪 德国-法兰克福-003-1F
-      - 🇩🇪 德国-法兰克福-002-1C
-      - 🇩🇪 德国-法兰克福-003-1A
-      - 🇹🇼 台湾高速节点
-      - 🇸🇬 SG-001-VLESS-1D
-      - 🇺🇸 美国-AI-TK-02-1C
-      - 🇩🇪 德国-法兰克福-003-1E
-      - 🇺🇸 美国-AI-TK-02-1B
-      - 🇩🇪 德国-法兰克福-002-1G
-      - 🇺🇸 美国AI-TK-R-014-1B
-      - NODE1-VPN-1C
-      - 🇺🇸 HY-02 | US
-      - 🇺🇸 美国RA-备用-02-1A
-      - 🇩🇪 德国-法兰克福-001-1D
-      - 🇯🇵 美国日常-R1-011-1C
-      - 🇺🇸 美国AI-TK-加速-002-1C
-      - 🇺🇸 美国AI-TK-解锁BY-007-1A
-      - NODE1-VPN-1E
-      - 🇩🇪 德国-法兰克福-002-1H
-      - 🇩🇪 德国-法兰克福-002-1E
-      - 🇩🇪 德国-法兰克福-001-1A
-      - 🇺🇸 美国RA-备用-02-1C
-      - 🇺🇸 美国AI-TK-加速-002-1B
-      - 🇸🇬 SG-001-FREE-1C
-      - 🇸🇬 SG-001-FREE-1D
-      - 🇩🇪 德国-法兰克福-004-1E
-      - 🇹🇭 泰国-B1
-      - 🇩🇪 德国-法兰克福-002-1D
-      - 🇭🇰 香港-服务器1-节点1-极速
-      - 🇺🇸 美国-服务器2-节点3-慢速
-      - 🇺🇸 美国AI-TK-解锁BY-007-1B
-      - 🇩🇪 德国-法兰克福-003-1H
-      - 🇺🇸 美国AI-TK-解锁BY-006-1C
-      - 🇯🇵 美国日常-R1-011-1B
-      - M3-LGM
-      - 🇸🇬 SG-001-VLESS-1B
-      - 🇺🇸 美国AI-TK-R-014-1C
-      - NODE1-VPN-1D
-      - 🇩🇪 德国-法兰克福-001-1C
-      - 🇩🇪 德国-法兰克福-001-1B
-      - 🇺🇸 HY-05| US
-      - 🇩🇪 德国-法兰克福-004-1H
-      - 🇩🇪 德国-法兰克福-004-1D
-      - 🇺🇸 US-03
-      - 🇨🇳 中国联通节点1
-      - NODE1-VPN-1B
-      - 🇩🇪 德国-法兰克福-001-1E
-      - 🇺🇸 美国AI-TK-解锁BY-006-1A
-      - 🇩🇪 德国-法兰克福-003-1C
-      - 🇸🇬 SG-001-VLESS-1C
-      - NODE1-VPN-1A
-      - 🇯🇵 美国日常-R1-011-1A
-      - 🇩🇪 德国-法兰克福-002-1B
+      - 🇺🇸 US-03-1B
       - 🇺🇸 美国高速节点1
-      - 🇩🇪 德国-法兰克福-004-1C
-      - 🇺🇸 HY-03 | US
-      - 🇩🇪 德国-法兰克福-003-1D
       - 🇹🇼 台湾高速节点2
-      - 🇩🇪 德国-法兰克福-004-1G
-      - 🇺🇸 美国-服务器2-节点1-极速
-      - 🇸🇬 SG-001-VLESS-1E
-      - 🇸🇬 SG-001-FREE-1A
-      - 🇺🇸 美国-AI-TK-02-1A
-      - 🇸🇬 SG-001-FREE-1B
-      - 🇺🇸 美国AI-TK-解锁BY-006-1B
-      - 🇺🇸 美国RA-备用-02-1B
-      - 🇩🇪 德国-法兰克福-004-1B
-      - 🇩🇪 德国-法兰克福-002-1F
-      - 🇩🇪 德国-法兰克福-003-1B
-      - 🇸🇬 SG-001-FREE-1E
+      - 🇺🇸 US-05-1B
+      - 🇸🇬 SG-001-VLESS-1B
+      - 🇩🇪 德国-法兰克福-001-1B
+      - 🇨🇳 中国联通节点1
+      - 🇺🇸 US-03-1A
       - 🇩🇪 德国-法兰克福-004-1A
-      - 🇺🇸 美国AI-TK-加速-002-1A
-      - 🇩🇪 德国-法兰克福-001-1G
-      - 🇩🇪 德国-法兰克福-003-1G
-      - 🇩🇪 德国-法兰克福-002-1A
-      - 🇩🇪 德国-法兰克福-004-1F
-      - 🇹🇼 台湾高速节点3
-      - 🇺🇸 美国AI-TK-R-014-1A
-      - 🇩🇪 德国-法兰克福-001-1F
+      - M0-EBH
+      - 🇺🇸 HY-02 | US
       - 🇸🇬 SG-001-VLESS-1A
+      - NODE1-VPN-1C
+      - 🇺🇸 US-05-1A
+      - 🇩🇪 德国-法兰克福-002-1B
+      - 🇩🇪 德国-法兰克福-004-1B
+      - 🇺🇸 US-01-1B
+      - 🇩🇪 德国-法兰克福-001-1A
       - 🇺🇸 HY-04 | US
-      - 🇺🇸 US-05
-      - 🇩🇪 德国-法兰克福-001-1H
-      - 🇺🇸 美国AI-TK-解锁BY-007-1C
-      - 🇺🇸 US-01
+      - 🇺🇸 HY-03 | US
+      - 🇩🇪 德国-法兰克福-003-1A
+      - NODE1-VPN-1D
+      - 🇸🇬 SG-001-FREE-1A
+      - 🇺🇸 HY-05| US
+      - NODE1-VPN-1A
+      - 🇹🇼 台湾高速节点
+      - 🇸🇬 SG-001-FREE-1B
+      - 🇸🇬 SG-001-FREE-1C
+      - 🇩🇪 德国-法兰克福-003-1B
+      - 🇹🇼 台湾高速节点3
+      - 🇩🇪 德国-法兰克福-002-1A
+      - 🇸🇬 SG-001-VLESS-1C
+      - 🇸🇬 SG-001-FREE-1D
+      - 🇺🇸 US-01-1A
+      - 🇸🇬 SG-001-VLESS-1D
+      - NODE1-VPN-1B
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇩🇪 德国-法兰克福-003-1F
-      - 🇩🇪 德国-法兰克福-002-1C
-      - 🇩🇪 德国-法兰克福-003-1A
-      - 🇹🇼 台湾高速节点
-      - 🇸🇬 SG-001-VLESS-1D
-      - 🇺🇸 美国-AI-TK-02-1C
-      - 🇩🇪 德国-法兰克福-003-1E
-      - 🇺🇸 美国-AI-TK-02-1B
-      - 🇩🇪 德国-法兰克福-002-1G
-      - 🇺🇸 美国AI-TK-R-014-1B
-      - NODE1-VPN-1C
-      - 🇺🇸 HY-02 | US
-      - 🇺🇸 美国RA-备用-02-1A
-      - 🇩🇪 德国-法兰克福-001-1D
-      - 🇯🇵 美国日常-R1-011-1C
-      - 🇺🇸 美国AI-TK-加速-002-1C
-      - 🇺🇸 美国AI-TK-解锁BY-007-1A
-      - NODE1-VPN-1E
-      - 🇩🇪 德国-法兰克福-002-1H
-      - 🇩🇪 德国-法兰克福-002-1E
-      - 🇩🇪 德国-法兰克福-001-1A
-      - 🇺🇸 美国RA-备用-02-1C
-      - 🇺🇸 美国AI-TK-加速-002-1B
-      - 🇸🇬 SG-001-FREE-1C
-      - 🇸🇬 SG-001-FREE-1D
-      - 🇩🇪 德国-法兰克福-004-1E
-      - 🇹🇭 泰国-B1
-      - 🇩🇪 德国-法兰克福-002-1D
-      - 🇭🇰 香港-服务器1-节点1-极速
-      - 🇺🇸 美国-服务器2-节点3-慢速
-      - 🇺🇸 美国AI-TK-解锁BY-007-1B
-      - 🇩🇪 德国-法兰克福-003-1H
-      - 🇺🇸 美国AI-TK-解锁BY-006-1C
-      - 🇯🇵 美国日常-R1-011-1B
-      - M3-LGM
-      - 🇸🇬 SG-001-VLESS-1B
-      - 🇺🇸 美国AI-TK-R-014-1C
-      - NODE1-VPN-1D
-      - 🇩🇪 德国-法兰克福-001-1C
-      - 🇩🇪 德国-法兰克福-001-1B
-      - 🇺🇸 HY-05| US
-      - 🇩🇪 德国-法兰克福-004-1H
-      - 🇩🇪 德国-法兰克福-004-1D
-      - 🇺🇸 US-03
-      - 🇨🇳 中国联通节点1
-      - NODE1-VPN-1B
-      - 🇩🇪 德国-法兰克福-001-1E
-      - 🇺🇸 美国AI-TK-解锁BY-006-1A
-      - 🇩🇪 德国-法兰克福-003-1C
-      - 🇸🇬 SG-001-VLESS-1C
-      - NODE1-VPN-1A
-      - 🇯🇵 美国日常-R1-011-1A
-      - 🇩🇪 德国-法兰克福-002-1B
+      - 🇺🇸 US-03-1B
       - 🇺🇸 美国高速节点1
-      - 🇩🇪 德国-法兰克福-004-1C
-      - 🇺🇸 HY-03 | US
-      - 🇩🇪 德国-法兰克福-003-1D
       - 🇹🇼 台湾高速节点2
-      - 🇩🇪 德国-法兰克福-004-1G
-      - 🇺🇸 美国-服务器2-节点1-极速
-      - 🇸🇬 SG-001-VLESS-1E
-      - 🇸🇬 SG-001-FREE-1A
-      - 🇺🇸 美国-AI-TK-02-1A
-      - 🇸🇬 SG-001-FREE-1B
-      - 🇺🇸 美国AI-TK-解锁BY-006-1B
-      - 🇺🇸 美国RA-备用-02-1B
-      - 🇩🇪 德国-法兰克福-004-1B
-      - 🇩🇪 德国-法兰克福-002-1F
-      - 🇩🇪 德国-法兰克福-003-1B
-      - 🇸🇬 SG-001-FREE-1E
+      - 🇺🇸 US-05-1B
+      - 🇸🇬 SG-001-VLESS-1B
+      - 🇩🇪 德国-法兰克福-001-1B
+      - 🇨🇳 中国联通节点1
+      - 🇺🇸 US-03-1A
       - 🇩🇪 德国-法兰克福-004-1A
-      - 🇺🇸 美国AI-TK-加速-002-1A
-      - 🇩🇪 德国-法兰克福-001-1G
-      - 🇩🇪 德国-法兰克福-003-1G
-      - 🇩🇪 德国-法兰克福-002-1A
-      - 🇩🇪 德国-法兰克福-004-1F
-      - 🇹🇼 台湾高速节点3
-      - 🇺🇸 美国AI-TK-R-014-1A
-      - 🇩🇪 德国-法兰克福-001-1F
+      - M0-EBH
+      - 🇺🇸 HY-02 | US
       - 🇸🇬 SG-001-VLESS-1A
+      - NODE1-VPN-1C
+      - 🇺🇸 US-05-1A
+      - 🇩🇪 德国-法兰克福-002-1B
+      - 🇩🇪 德国-法兰克福-004-1B
+      - 🇺🇸 US-01-1B
+      - 🇩🇪 德国-法兰克福-001-1A
       - 🇺🇸 HY-04 | US
-      - 🇺🇸 US-05
-      - 🇩🇪 德国-法兰克福-001-1H
-      - 🇺🇸 美国AI-TK-解锁BY-007-1C
-      - 🇺🇸 US-01
+      - 🇺🇸 HY-03 | US
+      - 🇩🇪 德国-法兰克福-003-1A
+      - NODE1-VPN-1D
+      - 🇸🇬 SG-001-FREE-1A
+      - 🇺🇸 HY-05| US
+      - NODE1-VPN-1A
+      - 🇹🇼 台湾高速节点
+      - 🇸🇬 SG-001-FREE-1B
+      - 🇸🇬 SG-001-FREE-1C
+      - 🇩🇪 德国-法兰克福-003-1B
+      - 🇹🇼 台湾高速节点3
+      - 🇩🇪 德国-法兰克福-002-1A
+      - 🇸🇬 SG-001-VLESS-1C
+      - 🇸🇬 SG-001-FREE-1D
+      - 🇺🇸 US-01-1A
+      - 🇸🇬 SG-001-VLESS-1D
+      - NODE1-VPN-1B
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇩🇪 德国-法兰克福-003-1F
-      - 🇩🇪 德国-法兰克福-002-1C
-      - 🇩🇪 德国-法兰克福-003-1A
-      - 🇹🇼 台湾高速节点
-      - 🇸🇬 SG-001-VLESS-1D
-      - 🇺🇸 美国-AI-TK-02-1C
-      - 🇩🇪 德国-法兰克福-003-1E
-      - 🇺🇸 美国-AI-TK-02-1B
-      - 🇩🇪 德国-法兰克福-002-1G
-      - 🇺🇸 美国AI-TK-R-014-1B
-      - NODE1-VPN-1C
-      - 🇺🇸 HY-02 | US
-      - 🇺🇸 美国RA-备用-02-1A
-      - 🇩🇪 德国-法兰克福-001-1D
-      - 🇯🇵 美国日常-R1-011-1C
-      - 🇺🇸 美国AI-TK-加速-002-1C
-      - 🇺🇸 美国AI-TK-解锁BY-007-1A
-      - NODE1-VPN-1E
-      - 🇩🇪 德国-法兰克福-002-1H
-      - 🇩🇪 德国-法兰克福-002-1E
-      - 🇩🇪 德国-法兰克福-001-1A
-      - 🇺🇸 美国RA-备用-02-1C
-      - 🇺🇸 美国AI-TK-加速-002-1B
-      - 🇸🇬 SG-001-FREE-1C
-      - 🇸🇬 SG-001-FREE-1D
-      - 🇩🇪 德国-法兰克福-004-1E
-      - 🇹🇭 泰国-B1
-      - 🇩🇪 德国-法兰克福-002-1D
-      - 🇭🇰 香港-服务器1-节点1-极速
-      - 🇺🇸 美国-服务器2-节点3-慢速
-      - 🇺🇸 美国AI-TK-解锁BY-007-1B
-      - 🇩🇪 德国-法兰克福-003-1H
-      - 🇺🇸 美国AI-TK-解锁BY-006-1C
-      - 🇯🇵 美国日常-R1-011-1B
-      - M3-LGM
-      - 🇸🇬 SG-001-VLESS-1B
-      - 🇺🇸 美国AI-TK-R-014-1C
-      - NODE1-VPN-1D
-      - 🇩🇪 德国-法兰克福-001-1C
-      - 🇩🇪 德国-法兰克福-001-1B
-      - 🇺🇸 HY-05| US
-      - 🇩🇪 德国-法兰克福-004-1H
-      - 🇩🇪 德国-法兰克福-004-1D
-      - 🇺🇸 US-03
-      - 🇨🇳 中国联通节点1
-      - NODE1-VPN-1B
-      - 🇩🇪 德国-法兰克福-001-1E
-      - 🇺🇸 美国AI-TK-解锁BY-006-1A
-      - 🇩🇪 德国-法兰克福-003-1C
-      - 🇸🇬 SG-001-VLESS-1C
-      - NODE1-VPN-1A
-      - 🇯🇵 美国日常-R1-011-1A
-      - 🇩🇪 德国-法兰克福-002-1B
+      - 🇺🇸 US-03-1B
       - 🇺🇸 美国高速节点1
-      - 🇩🇪 德国-法兰克福-004-1C
-      - 🇺🇸 HY-03 | US
-      - 🇩🇪 德国-法兰克福-003-1D
       - 🇹🇼 台湾高速节点2
-      - 🇩🇪 德国-法兰克福-004-1G
-      - 🇺🇸 美国-服务器2-节点1-极速
-      - 🇸🇬 SG-001-VLESS-1E
-      - 🇸🇬 SG-001-FREE-1A
-      - 🇺🇸 美国-AI-TK-02-1A
-      - 🇸🇬 SG-001-FREE-1B
-      - 🇺🇸 美国AI-TK-解锁BY-006-1B
-      - 🇺🇸 美国RA-备用-02-1B
-      - 🇩🇪 德国-法兰克福-004-1B
-      - 🇩🇪 德国-法兰克福-002-1F
-      - 🇩🇪 德国-法兰克福-003-1B
-      - 🇸🇬 SG-001-FREE-1E
+      - 🇺🇸 US-05-1B
+      - 🇸🇬 SG-001-VLESS-1B
+      - 🇩🇪 德国-法兰克福-001-1B
+      - 🇨🇳 中国联通节点1
+      - 🇺🇸 US-03-1A
       - 🇩🇪 德国-法兰克福-004-1A
-      - 🇺🇸 美国AI-TK-加速-002-1A
-      - 🇩🇪 德国-法兰克福-001-1G
-      - 🇩🇪 德国-法兰克福-003-1G
-      - 🇩🇪 德国-法兰克福-002-1A
-      - 🇩🇪 德国-法兰克福-004-1F
-      - 🇹🇼 台湾高速节点3
-      - 🇺🇸 美国AI-TK-R-014-1A
-      - 🇩🇪 德国-法兰克福-001-1F
+      - M0-EBH
+      - 🇺🇸 HY-02 | US
       - 🇸🇬 SG-001-VLESS-1A
+      - NODE1-VPN-1C
+      - 🇺🇸 US-05-1A
+      - 🇩🇪 德国-法兰克福-002-1B
+      - 🇩🇪 德国-法兰克福-004-1B
+      - 🇺🇸 US-01-1B
+      - 🇩🇪 德国-法兰克福-001-1A
       - 🇺🇸 HY-04 | US
-      - 🇺🇸 US-05
-      - 🇩🇪 德国-法兰克福-001-1H
-      - 🇺🇸 美国AI-TK-解锁BY-007-1C
-      - 🇺🇸 US-01
+      - 🇺🇸 HY-03 | US
+      - 🇩🇪 德国-法兰克福-003-1A
+      - NODE1-VPN-1D
+      - 🇸🇬 SG-001-FREE-1A
+      - 🇺🇸 HY-05| US
+      - NODE1-VPN-1A
+      - 🇹🇼 台湾高速节点
+      - 🇸🇬 SG-001-FREE-1B
+      - 🇸🇬 SG-001-FREE-1C
+      - 🇩🇪 德国-法兰克福-003-1B
+      - 🇹🇼 台湾高速节点3
+      - 🇩🇪 德国-法兰克福-002-1A
+      - 🇸🇬 SG-001-VLESS-1C
+      - 🇸🇬 SG-001-FREE-1D
+      - 🇺🇸 US-01-1A
+      - 🇸🇬 SG-001-VLESS-1D
+      - NODE1-VPN-1B
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -760,91 +367,42 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇩🇪 德国-法兰克福-003-1F
-      - 🇩🇪 德国-法兰克福-002-1C
-      - 🇩🇪 德国-法兰克福-003-1A
-      - 🇹🇼 台湾高速节点
-      - 🇸🇬 SG-001-VLESS-1D
-      - 🇺🇸 美国-AI-TK-02-1C
-      - 🇩🇪 德国-法兰克福-003-1E
-      - 🇺🇸 美国-AI-TK-02-1B
-      - 🇩🇪 德国-法兰克福-002-1G
-      - 🇺🇸 美国AI-TK-R-014-1B
-      - NODE1-VPN-1C
-      - 🇺🇸 HY-02 | US
-      - 🇺🇸 美国RA-备用-02-1A
-      - 🇩🇪 德国-法兰克福-001-1D
-      - 🇯🇵 美国日常-R1-011-1C
-      - 🇺🇸 美国AI-TK-加速-002-1C
-      - 🇺🇸 美国AI-TK-解锁BY-007-1A
-      - NODE1-VPN-1E
-      - 🇩🇪 德国-法兰克福-002-1H
-      - 🇩🇪 德国-法兰克福-002-1E
-      - 🇩🇪 德国-法兰克福-001-1A
-      - 🇺🇸 美国RA-备用-02-1C
-      - 🇺🇸 美国AI-TK-加速-002-1B
-      - 🇸🇬 SG-001-FREE-1C
-      - 🇸🇬 SG-001-FREE-1D
-      - 🇩🇪 德国-法兰克福-004-1E
-      - 🇹🇭 泰国-B1
-      - 🇩🇪 德国-法兰克福-002-1D
-      - 🇭🇰 香港-服务器1-节点1-极速
-      - 🇺🇸 美国-服务器2-节点3-慢速
-      - 🇺🇸 美国AI-TK-解锁BY-007-1B
-      - 🇩🇪 德国-法兰克福-003-1H
-      - 🇺🇸 美国AI-TK-解锁BY-006-1C
-      - 🇯🇵 美国日常-R1-011-1B
-      - M3-LGM
-      - 🇸🇬 SG-001-VLESS-1B
-      - 🇺🇸 美国AI-TK-R-014-1C
-      - NODE1-VPN-1D
-      - 🇩🇪 德国-法兰克福-001-1C
-      - 🇩🇪 德国-法兰克福-001-1B
-      - 🇺🇸 HY-05| US
-      - 🇩🇪 德国-法兰克福-004-1H
-      - 🇩🇪 德国-法兰克福-004-1D
-      - 🇺🇸 US-03
-      - 🇨🇳 中国联通节点1
-      - NODE1-VPN-1B
-      - 🇩🇪 德国-法兰克福-001-1E
-      - 🇺🇸 美国AI-TK-解锁BY-006-1A
-      - 🇩🇪 德国-法兰克福-003-1C
-      - 🇸🇬 SG-001-VLESS-1C
-      - NODE1-VPN-1A
-      - 🇯🇵 美国日常-R1-011-1A
-      - 🇩🇪 德国-法兰克福-002-1B
+      - 🇺🇸 US-03-1B
       - 🇺🇸 美国高速节点1
-      - 🇩🇪 德国-法兰克福-004-1C
-      - 🇺🇸 HY-03 | US
-      - 🇩🇪 德国-法兰克福-003-1D
       - 🇹🇼 台湾高速节点2
-      - 🇩🇪 德国-法兰克福-004-1G
-      - 🇺🇸 美国-服务器2-节点1-极速
-      - 🇸🇬 SG-001-VLESS-1E
-      - 🇸🇬 SG-001-FREE-1A
-      - 🇺🇸 美国-AI-TK-02-1A
-      - 🇸🇬 SG-001-FREE-1B
-      - 🇺🇸 美国AI-TK-解锁BY-006-1B
-      - 🇺🇸 美国RA-备用-02-1B
-      - 🇩🇪 德国-法兰克福-004-1B
-      - 🇩🇪 德国-法兰克福-002-1F
-      - 🇩🇪 德国-法兰克福-003-1B
-      - 🇸🇬 SG-001-FREE-1E
+      - 🇺🇸 US-05-1B
+      - 🇸🇬 SG-001-VLESS-1B
+      - 🇩🇪 德国-法兰克福-001-1B
+      - 🇨🇳 中国联通节点1
+      - 🇺🇸 US-03-1A
       - 🇩🇪 德国-法兰克福-004-1A
-      - 🇺🇸 美国AI-TK-加速-002-1A
-      - 🇩🇪 德国-法兰克福-001-1G
-      - 🇩🇪 德国-法兰克福-003-1G
-      - 🇩🇪 德国-法兰克福-002-1A
-      - 🇩🇪 德国-法兰克福-004-1F
-      - 🇹🇼 台湾高速节点3
-      - 🇺🇸 美国AI-TK-R-014-1A
-      - 🇩🇪 德国-法兰克福-001-1F
+      - M0-EBH
+      - 🇺🇸 HY-02 | US
       - 🇸🇬 SG-001-VLESS-1A
+      - NODE1-VPN-1C
+      - 🇺🇸 US-05-1A
+      - 🇩🇪 德国-法兰克福-002-1B
+      - 🇩🇪 德国-法兰克福-004-1B
+      - 🇺🇸 US-01-1B
+      - 🇩🇪 德国-法兰克福-001-1A
       - 🇺🇸 HY-04 | US
-      - 🇺🇸 US-05
-      - 🇩🇪 德国-法兰克福-001-1H
-      - 🇺🇸 美国AI-TK-解锁BY-007-1C
-      - 🇺🇸 US-01
+      - 🇺🇸 HY-03 | US
+      - 🇩🇪 德国-法兰克福-003-1A
+      - NODE1-VPN-1D
+      - 🇸🇬 SG-001-FREE-1A
+      - 🇺🇸 HY-05| US
+      - NODE1-VPN-1A
+      - 🇹🇼 台湾高速节点
+      - 🇸🇬 SG-001-FREE-1B
+      - 🇸🇬 SG-001-FREE-1C
+      - 🇩🇪 德国-法兰克福-003-1B
+      - 🇹🇼 台湾高速节点3
+      - 🇩🇪 德国-法兰克福-002-1A
+      - 🇸🇬 SG-001-VLESS-1C
+      - 🇸🇬 SG-001-FREE-1D
+      - 🇺🇸 US-01-1A
+      - 🇸🇬 SG-001-VLESS-1D
+      - NODE1-VPN-1B
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
