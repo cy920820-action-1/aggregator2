@@ -5,807 +5,847 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: SMART TURBO 02-1G, server: media.globalschool.edu.kg, port: 10002, type: vless, uuid: d70351ad-7fa0-4540-8ae1-a4af355e4a94, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: G90QHqX9hS3dcSfGKSZtxfjW_eFiaIeEMzw3BKIzwkg, short-id: "8a430229" }, servername: www.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇬🇧 UK RELAY-1D, server: 31.77.238.30, port: 520, type: vless, uuid: 79b1be73-4f78-4349-912c-46a232412011, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: RFA_9kIf6Gr0SpDKsILGI4igXWZxxTYCE1MWpk0oVmA, short-id: "fb0a6872" }, servername: www.amazon.co.uk, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇳🇱 NL AMS-02-1J, server: 87.199.205.95, port: 39154, type: vless, uuid: 9df8b8a0-1705-4010-aabb-9bac28050e1d, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: WEMJ-tqGjsjNEAV85q2AIr1jLR2aLfFLCWkkHSb3ViU, short-id: "d68bea4c" }, servername: ozon.ru, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-004-1F, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: e5881e41-d679-4c7f-95a9-a5bbe41348d0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-003-1A, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 500b806a-5fab-4ebc-9e58-01a668b4b80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
-  - {name: FI HELSINKI UDP-1C, server: 188.241.54.30, port: 443, type: hysteria2, password: d6525532-97bc-4bd3-b6f6-114cedeb4d87, auth: d6525532-97bc-4bd3-b6f6-114cedeb4d87, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-obfs-2026, udp: true}
-  - {name: 🇺🇦 V8-UAK, server: vpn2.cc.node2.top, port: 22001, type: vless, uuid: 85c5821b-032c-499b-9a54-a6aef54255e3, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA, short-id: "dfa28122" }, servername: itunes.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇳🇱 NL AMS-02 UDP-1I, server: 87.199.205.95, port: 443, type: hysteria2, password: 8836a873-4727-469e-b3d9-e15d20608692, auth: 8836a873-4727-469e-b3d9-e15d20608692, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-ams02, udp: true}
-  - {name: FI HELSINKI UDP-1B, server: 188.241.54.30, port: 443, type: hysteria2, password: 6fb780ea-8a83-48e5-ba49-5825ba04abbd, auth: 6fb780ea-8a83-48e5-ba49-5825ba04abbd, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-obfs-2026, udp: true}
-  - {name: 🇳🇱 NL AMS-02-1L, server: 87.199.205.95, port: 39154, type: vless, uuid: 11452e66-cd4e-4479-86ba-34d1a55180c6, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: WEMJ-tqGjsjNEAV85q2AIr1jLR2aLfFLCWkkHSb3ViU, short-id: "d68bea4c" }, servername: ozon.ru, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇳🇱 NL AMS-01 UDP-1L, server: 195.63.143.185, port: 443, type: hysteria2, password: 11452e66-cd4e-4479-86ba-34d1a55180c6, auth: 11452e66-cd4e-4479-86ba-34d1a55180c6, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-ams01, udp: true}
-  - {name: FI HELSINKI UDP-1J, server: 188.241.54.30, port: 443, type: hysteria2, password: 9df8b8a0-1705-4010-aabb-9bac28050e1d, auth: 9df8b8a0-1705-4010-aabb-9bac28050e1d, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-obfs-2026, udp: true}
-  - {name: SMART TURBO 01-1I, server: cdn.globalschool.edu.kg, port: 10001, type: vless, uuid: 8836a873-4727-469e-b3d9-e15d20608692, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: ShgC38ulwKG4MApqt3kb85py9GgEVHWmqZzaiAWtvns, short-id: "1299373a" }, servername: www.icloud.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇳🇱 NL AMS-01 UDP-1C, server: 195.63.143.185, port: 443, type: hysteria2, password: d6525532-97bc-4bd3-b6f6-114cedeb4d87, auth: d6525532-97bc-4bd3-b6f6-114cedeb4d87, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-ams01, udp: true}
-  - {name: 🇳🇱 NL AMS-02-1G, server: 87.199.205.95, port: 39154, type: vless, uuid: d70351ad-7fa0-4540-8ae1-a4af355e4a94, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: WEMJ-tqGjsjNEAV85q2AIr1jLR2aLfFLCWkkHSb3ViU, short-id: "d68bea4c" }, servername: ozon.ru, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-002-1C, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 893dcbf4-8b0c-470b-b116-f5417a4aca6a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-003-1F, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: e5881e41-d679-4c7f-95a9-a5bbe41348d0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
-  - {name: 🇳🇱 NL AMS-01 UDP-1E, server: 195.63.143.185, port: 443, type: hysteria2, password: b1810f69-b6f8-40e6-bc25-07f470e9ee6e, auth: b1810f69-b6f8-40e6-bc25-07f470e9ee6e, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-ams01, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-003-1E, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 0f465d57-694f-406a-8e4a-3516655fbe71, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
-  - {name: 🇳🇱 NL AMS-02-1I, server: 87.199.205.95, port: 39154, type: vless, uuid: 8836a873-4727-469e-b3d9-e15d20608692, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: WEMJ-tqGjsjNEAV85q2AIr1jLR2aLfFLCWkkHSb3ViU, short-id: "d68bea4c" }, servername: ozon.ru, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-004-1C, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: 893dcbf4-8b0c-470b-b116-f5417a4aca6a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
-  - {name: 🇳🇱 NL AMS-01-1A, server: 195.63.143.185, port: 26017, type: vless, uuid: e056bdc3-3a40-4060-8c11-239e8e733050, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: snnMwSpENuf47GWK2JdxShaz-GvK8G93SnURv-SY5Gg, short-id: "675cad89" }, servername: ok.ru, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇳🇱 NL AMS-01-1C, server: ams1.globalschool.edu.kg, port: 26017, type: vless, uuid: d6525532-97bc-4bd3-b6f6-114cedeb4d87, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: snnMwSpENuf47GWK2JdxShaz-GvK8G93SnURv-SY5Gg, short-id: "675cad89" }, servername: ok.ru, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇬🇧 UK RELAY-1F, server: 31.77.238.30, port: 520, type: vless, uuid: e777a2e4-0277-4fc2-8b68-bc66edf07331, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: RFA_9kIf6Gr0SpDKsILGI4igXWZxxTYCE1MWpk0oVmA, short-id: "fb0a6872" }, servername: www.amazon.co.uk, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇺🇸 美国纽约 原生IP, server: 167.99.228.94, port: 443, type: vless, uuid: 2087dcba-6e1b-4ad9-8655-01300b2ff2be, tls: true, servername: www.bing.com, client-fingerprint: firefox, network: tcp, udp: true}
-  - {name: UDP EDGE-05-1F, server: 23.144.20.235, port: 443, type: hysteria2, password: e777a2e4-0277-4fc2-8b68-bc66edf07331, auth: e777a2e4-0277-4fc2-8b68-bc66edf07331, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e235, udp: true}
-  - {name: UDP EDGE-05-1J, server: 23.144.20.235, port: 443, type: hysteria2, password: 9df8b8a0-1705-4010-aabb-9bac28050e1d, auth: 9df8b8a0-1705-4010-aabb-9bac28050e1d, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e235, udp: true}
-  - {name: 🇹🇼 台湾高速节点2, server: 118.232.199.29, port: 443, type: trojan, password: 7f717a74-d54f-4013-ad7d-7e57f5dba5de, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 UK RELAY-1K, server: 31.77.238.30, port: 520, type: vless, uuid: 2abb27b1-dd84-402a-a0d3-300020e04a6d, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: RFA_9kIf6Gr0SpDKsILGI4igXWZxxTYCE1MWpk0oVmA, short-id: "fb0a6872" }, servername: www.amazon.co.uk, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-002-1A, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 500b806a-5fab-4ebc-9e58-01a668b4b80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
-  - {name: UDP EDGE-05-1G, server: 23.144.20.235, port: 443, type: hysteria2, password: d70351ad-7fa0-4540-8ae1-a4af355e4a94, auth: d70351ad-7fa0-4540-8ae1-a4af355e4a94, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e235, udp: true}
-  - {name: FV2026-7-7-1A, server: 101.43.62.88, port: 22001, type: vless, uuid: 85c5821b-032c-499b-9a54-a6aef54255e3, tls: false, network: tcp, udp: true}
-  - {name: 🇺🇸 HY-05| US, server: usflare1.cloudaddy.top, port: 30006, type: hysteria2, password: 6ea371e3-3d20-4890-8c08-8fbc2c0c87b8, auth: 6ea371e3-3d20-4890-8c08-8fbc2c0c87b8, sni: www.iq.com, skip-cert-verify: true, udp: true}
-  - {name: UDP EDGE-04-1G, server: 185.81.29.188, port: 443, type: hysteria2, password: d70351ad-7fa0-4540-8ae1-a4af355e4a94, auth: d70351ad-7fa0-4540-8ae1-a4af355e4a94, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e188, udp: true}
-  - {name: 🇬🇧 UK RELAY-1B, server: 31.77.238.30, port: 520, type: vless, uuid: 6fb780ea-8a83-48e5-ba49-5825ba04abbd, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: RFA_9kIf6Gr0SpDKsILGI4igXWZxxTYCE1MWpk0oVmA, short-id: "fb0a6872" }, servername: www.amazon.co.uk, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-003-1G, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 8c884804-2d53-452e-ad85-f86ad7023845, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
-  - {name: 🇺🇸 HY-02 | US, server: usflare1.cloudaddy.top, port: 30003, type: hysteria2, password: 6ea371e3-3d20-4890-8c08-8fbc2c0c87b8, auth: 6ea371e3-3d20-4890-8c08-8fbc2c0c87b8, sni: www.iq.com, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇼 台湾高速节点, server: 103.137.63.77, port: 443, type: trojan, password: 7f717a74-d54f-4013-ad7d-7e57f5dba5de, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
-  - {name: SMART TURBO 01-1C, server: cdn.globalschool.edu.kg, port: 10001, type: vless, uuid: d6525532-97bc-4bd3-b6f6-114cedeb4d87, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: ShgC38ulwKG4MApqt3kb85py9GgEVHWmqZzaiAWtvns, short-id: "1299373a" }, servername: www.icloud.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-002-1E, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 0f465d57-694f-406a-8e4a-3516655fbe71, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
-  - {name: FI HELSINKI UDP-1H, server: 188.241.54.30, port: 443, type: hysteria2, password: 3c6e47ed-b781-41e2-92af-aa901d2b9f0b, auth: 3c6e47ed-b781-41e2-92af-aa901d2b9f0b, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-obfs-2026, udp: true}
-  - {name: 🇺🇸 美国-洛杉矶-PRO, server: 5.253.38.67, port: 40444, type: vless, uuid: 2adaf967-2983-4f4c-950d-df85fba6df07, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: ZZK_Oo5-iDDgoWzxIURTLWoKPbC8NFto3Mk7OvAZgRU, short-id: "b3f2a1c9" }, servername: www.lovelive-anime.jp, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: SMART TURBO 02-1C, server: media.globalschool.edu.kg, port: 10002, type: vless, uuid: d6525532-97bc-4bd3-b6f6-114cedeb4d87, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: G90QHqX9hS3dcSfGKSZtxfjW_eFiaIeEMzw3BKIzwkg, short-id: "8a430229" }, servername: www.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇳🇱 NL AMS-01-1G, server: 195.63.143.185, port: 26017, type: vless, uuid: d70351ad-7fa0-4540-8ae1-a4af355e4a94, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: snnMwSpENuf47GWK2JdxShaz-GvK8G93SnURv-SY5Gg, short-id: "675cad89" }, servername: ok.ru, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: UDP EDGE-03-1L, server: 212.135.39.110, port: 443, type: hysteria2, password: 11452e66-cd4e-4479-86ba-34d1a55180c6, auth: 11452e66-cd4e-4479-86ba-34d1a55180c6, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e110, udp: true}
-  - {name: FV2026-7-7-1E, server: 101.43.62.88, port: 22001, type: vless, uuid: 932c7e8e-42cf-4179-b213-c8e70c3207d9, tls: false, network: tcp, udp: true}
-  - {name: SMART TURBO 02-1I, server: media.globalschool.edu.kg, port: 10002, type: vless, uuid: 8836a873-4727-469e-b3d9-e15d20608692, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: G90QHqX9hS3dcSfGKSZtxfjW_eFiaIeEMzw3BKIzwkg, short-id: "8a430229" }, servername: www.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇬🇧 UK RELAY-1A, server: 31.77.238.30, port: 520, type: vless, uuid: e056bdc3-3a40-4060-8c11-239e8e733050, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: RFA_9kIf6Gr0SpDKsILGI4igXWZxxTYCE1MWpk0oVmA, short-id: "fb0a6872" }, servername: www.amazon.co.uk, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: SMART TURBO 02-1A, server: media.globalschool.edu.kg, port: 10002, type: vless, uuid: e056bdc3-3a40-4060-8c11-239e8e733050, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: G90QHqX9hS3dcSfGKSZtxfjW_eFiaIeEMzw3BKIzwkg, short-id: "8a430229" }, servername: www.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇳🇱 NL AMS-01-1J, server: 195.63.143.185, port: 26017, type: vless, uuid: 9df8b8a0-1705-4010-aabb-9bac28050e1d, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: snnMwSpENuf47GWK2JdxShaz-GvK8G93SnURv-SY5Gg, short-id: "675cad89" }, servername: ok.ru, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇬🇧 UK RELAY-1G, server: 31.77.238.30, port: 520, type: vless, uuid: d70351ad-7fa0-4540-8ae1-a4af355e4a94, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: RFA_9kIf6Gr0SpDKsILGI4igXWZxxTYCE1MWpk0oVmA, short-id: "fb0a6872" }, servername: www.amazon.co.uk, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇳🇱 NL AMS-01-1L, server: 195.63.143.185, port: 26017, type: vless, uuid: 11452e66-cd4e-4479-86ba-34d1a55180c6, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: snnMwSpENuf47GWK2JdxShaz-GvK8G93SnURv-SY5Gg, short-id: "675cad89" }, servername: ok.ru, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: UDP EDGE-04-1C, server: 185.81.29.188, port: 443, type: hysteria2, password: d6525532-97bc-4bd3-b6f6-114cedeb4d87, auth: d6525532-97bc-4bd3-b6f6-114cedeb4d87, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e188, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-004-1B, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: c509be18-78ca-484d-868c-de164277b473, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-003-1D, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 4015e90a-9b52-405b-897b-a83932fcc246, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
-  - {name: FI HELSINKI UDP-1E, server: 188.241.54.30, port: 443, type: hysteria2, password: b1810f69-b6f8-40e6-bc25-07f470e9ee6e, auth: b1810f69-b6f8-40e6-bc25-07f470e9ee6e, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-obfs-2026, udp: true}
-  - {name: SMART TURBO 01-1G, server: cdn.globalschool.edu.kg, port: 10001, type: vless, uuid: d70351ad-7fa0-4540-8ae1-a4af355e4a94, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: ShgC38ulwKG4MApqt3kb85py9GgEVHWmqZzaiAWtvns, short-id: "1299373a" }, servername: www.icloud.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: UDP EDGE-05-1H, server: 23.144.20.235, port: 443, type: hysteria2, password: 3c6e47ed-b781-41e2-92af-aa901d2b9f0b, auth: 3c6e47ed-b781-41e2-92af-aa901d2b9f0b, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e235, udp: true}
-  - {name: UDP EDGE-04-1F, server: 185.81.29.188, port: 443, type: hysteria2, password: e777a2e4-0277-4fc2-8b68-bc66edf07331, auth: e777a2e4-0277-4fc2-8b68-bc66edf07331, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e188, udp: true}
-  - {name: SMART TURBO 01-1L, server: cdn.globalschool.edu.kg, port: 10001, type: vless, uuid: 11452e66-cd4e-4479-86ba-34d1a55180c6, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: ShgC38ulwKG4MApqt3kb85py9GgEVHWmqZzaiAWtvns, short-id: "1299373a" }, servername: www.icloud.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇭🇰 TTC9999 香港-1B, server: ww2.ttc9999.com, port: 443, type: vmess, uuid: 9b2730b7-cba6-44d4-afcd-1ea41f57fc27, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: ww2.ttc9999.com}}, udp: true}
-  - {name: UDP EDGE-04-1E, server: 185.81.29.188, port: 443, type: hysteria2, password: b1810f69-b6f8-40e6-bc25-07f470e9ee6e, auth: b1810f69-b6f8-40e6-bc25-07f470e9ee6e, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e188, udp: true}
-  - {name: UDP EDGE-04-1K, server: 185.81.29.188, port: 443, type: hysteria2, password: 2abb27b1-dd84-402a-a0d3-300020e04a6d, auth: 2abb27b1-dd84-402a-a0d3-300020e04a6d, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e188, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-002-1B, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: c509be18-78ca-484d-868c-de164277b473, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
-  - {name: 🇳🇱 NL AMS-01 UDP-1K, server: 195.63.143.185, port: 443, type: hysteria2, password: 2abb27b1-dd84-402a-a0d3-300020e04a6d, auth: 2abb27b1-dd84-402a-a0d3-300020e04a6d, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-ams01, udp: true}
-  - {name: 🇳🇱 NL AMS-02-1K, server: 87.199.205.95, port: 39154, type: vless, uuid: 2abb27b1-dd84-402a-a0d3-300020e04a6d, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: WEMJ-tqGjsjNEAV85q2AIr1jLR2aLfFLCWkkHSb3ViU, short-id: "d68bea4c" }, servername: ozon.ru, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-001-1G, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: 8c884804-2d53-452e-ad85-f86ad7023845, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
-  - {name: UV-ZDT, server: vpn2.cc.node2.top, port: 22001, type: vless, uuid: 932c7e8e-42cf-4179-b213-c8e70c3207d9, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA, short-id: "dfa28122" }, servername: itunes.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: SMART TURBO 01-1J, server: cdn.globalschool.edu.kg, port: 10001, type: vless, uuid: 9df8b8a0-1705-4010-aabb-9bac28050e1d, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: ShgC38ulwKG4MApqt3kb85py9GgEVHWmqZzaiAWtvns, short-id: "1299373a" }, servername: www.icloud.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇭🇰 TTC9999 香港-1A, server: ww2.ttc9999.com, port: 443, type: vmess, uuid: 0707671e-f2ae-4354-b26d-fad81e6e2e65, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: ww2.ttc9999.com}}, udp: true}
-  - {name: FV2026-7-7-1D, server: 101.43.62.88, port: 22001, type: vless, uuid: 714a8081-27e0-43b5-882d-9c6d6246abf4, tls: false, network: tcp, udp: true}
-  - {name: SMART TURBO 01-1F, server: cdn.globalschool.edu.kg, port: 10001, type: vless, uuid: e777a2e4-0277-4fc2-8b68-bc66edf07331, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: ShgC38ulwKG4MApqt3kb85py9GgEVHWmqZzaiAWtvns, short-id: "1299373a" }, servername: www.icloud.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: FI HELSINKI UDP-1G, server: 188.241.54.30, port: 443, type: hysteria2, password: d70351ad-7fa0-4540-8ae1-a4af355e4a94, auth: d70351ad-7fa0-4540-8ae1-a4af355e4a94, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-obfs-2026, udp: true}
-  - {name: 🇳🇱 NL AMS-01-1E, server: 195.63.143.185, port: 26017, type: vless, uuid: b1810f69-b6f8-40e6-bc25-07f470e9ee6e, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: snnMwSpENuf47GWK2JdxShaz-GvK8G93SnURv-SY5Gg, short-id: "675cad89" }, servername: ok.ru, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: FV2026-7-7-1F, server: 101.43.62.88, port: 22001, type: vless, uuid: b0fd0842-e765-47c2-81c8-b4ea73f00e69, tls: false, network: tcp, udp: true}
-  - {name: 🇳🇱 NL AMS-02 UDP-1B, server: 87.199.205.95, port: 443, type: hysteria2, password: 6fb780ea-8a83-48e5-ba49-5825ba04abbd, auth: 6fb780ea-8a83-48e5-ba49-5825ba04abbd, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-ams02, udp: true}
-  - {name: MP-FTP, server: empty.node, port: 443, type: trojan, password: 2a19b37b-c403-4af6-aa83-1e31d40bb463, sni: empty.node, skip-cert-verify: false, udp: true}
-  - {name: UDP EDGE-03-1C, server: 212.135.39.110, port: 443, type: hysteria2, password: d6525532-97bc-4bd3-b6f6-114cedeb4d87, auth: d6525532-97bc-4bd3-b6f6-114cedeb4d87, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e110, udp: true}
-  - {name: 🇳🇱 NL AMS-02 UDP-1K, server: 87.199.205.95, port: 443, type: hysteria2, password: 2abb27b1-dd84-402a-a0d3-300020e04a6d, auth: 2abb27b1-dd84-402a-a0d3-300020e04a6d, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-ams02, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-003-1B, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: c509be18-78ca-484d-868c-de164277b473, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
-  - {name: SMART TURBO 02-1K, server: media.globalschool.edu.kg, port: 10002, type: vless, uuid: 2abb27b1-dd84-402a-a0d3-300020e04a6d, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: G90QHqX9hS3dcSfGKSZtxfjW_eFiaIeEMzw3BKIzwkg, short-id: "8a430229" }, servername: www.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇸🇬 新加坡 BGP优化, server: 43.245.198.39, port: 443, type: vless, uuid: 2087dcba-6e1b-4ad9-8655-01300b2ff2be, tls: true, servername: www.bing.com, client-fingerprint: edge, network: tcp, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-004-1A, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: 500b806a-5fab-4ebc-9e58-01a668b4b80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
-  - {name: 🇳🇱 NL AMS-01-1H, server: 195.63.143.185, port: 26017, type: vless, uuid: 3c6e47ed-b781-41e2-92af-aa901d2b9f0b, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: snnMwSpENuf47GWK2JdxShaz-GvK8G93SnURv-SY5Gg, short-id: "675cad89" }, servername: ok.ru, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇳🇱 NL AMS-01 UDP-1F, server: 195.63.143.185, port: 443, type: hysteria2, password: e777a2e4-0277-4fc2-8b68-bc66edf07331, auth: e777a2e4-0277-4fc2-8b68-bc66edf07331, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-ams01, udp: true}
-  - {name: SMART TURBO 01-1A, server: cdn.globalschool.edu.kg, port: 10001, type: vless, uuid: e056bdc3-3a40-4060-8c11-239e8e733050, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: ShgC38ulwKG4MApqt3kb85py9GgEVHWmqZzaiAWtvns, short-id: "1299373a" }, servername: www.icloud.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇳🇱 NL AMS-01-1D, server: 195.63.143.185, port: 26017, type: vless, uuid: 79b1be73-4f78-4349-912c-46a232412011, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: snnMwSpENuf47GWK2JdxShaz-GvK8G93SnURv-SY5Gg, short-id: "675cad89" }, servername: ok.ru, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇬🇧 UK RELAY-1C, server: 193.124.112.67, port: 520, type: vless, uuid: d6525532-97bc-4bd3-b6f6-114cedeb4d87, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: RFA_9kIf6Gr0SpDKsILGI4igXWZxxTYCE1MWpk0oVmA, short-id: "fb0a6872" }, servername: www.amazon.co.uk, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: FI HELSINKI UDP-1A, server: 188.241.54.30, port: 443, type: hysteria2, password: e056bdc3-3a40-4060-8c11-239e8e733050, auth: e056bdc3-3a40-4060-8c11-239e8e733050, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-obfs-2026, udp: true}
-  - {name: 🇳🇱 NL AMS-01-1B, server: 195.63.143.185, port: 26017, type: vless, uuid: 6fb780ea-8a83-48e5-ba49-5825ba04abbd, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: snnMwSpENuf47GWK2JdxShaz-GvK8G93SnURv-SY5Gg, short-id: "675cad89" }, servername: ok.ru, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: G I C A B N H T H N, server: expired.example.com, port: 80, type: vmess, uuid: 34860077-e0c9-46b5-815a-c014a7512ee4, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /expired, headers: {Host: expired.example.com}}, udp: true}
-  - {name: SMART TURBO 01-1B, server: cdn.globalschool.edu.kg, port: 10001, type: vless, uuid: 6fb780ea-8a83-48e5-ba49-5825ba04abbd, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: ShgC38ulwKG4MApqt3kb85py9GgEVHWmqZzaiAWtvns, short-id: "1299373a" }, servername: www.icloud.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: UDP EDGE-05-1B, server: 23.144.20.235, port: 443, type: hysteria2, password: 6fb780ea-8a83-48e5-ba49-5825ba04abbd, auth: 6fb780ea-8a83-48e5-ba49-5825ba04abbd, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e235, udp: true}
-  - {name: 🇳🇱 NL AMS-02 UDP-1D, server: 87.199.205.95, port: 443, type: hysteria2, password: 79b1be73-4f78-4349-912c-46a232412011, auth: 79b1be73-4f78-4349-912c-46a232412011, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-ams02, udp: true}
-  - {name: UDP EDGE-03-1G, server: 212.135.39.110, port: 443, type: hysteria2, password: d70351ad-7fa0-4540-8ae1-a4af355e4a94, auth: d70351ad-7fa0-4540-8ae1-a4af355e4a94, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e110, udp: true}
-  - {name: SMART TURBO 01-1H, server: cdn.globalschool.edu.kg, port: 10001, type: vless, uuid: 3c6e47ed-b781-41e2-92af-aa901d2b9f0b, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: ShgC38ulwKG4MApqt3kb85py9GgEVHWmqZzaiAWtvns, short-id: "1299373a" }, servername: www.icloud.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇳🇱 NL AMS-02-1D, server: 87.199.205.95, port: 39154, type: vless, uuid: 79b1be73-4f78-4349-912c-46a232412011, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: WEMJ-tqGjsjNEAV85q2AIr1jLR2aLfFLCWkkHSb3ViU, short-id: "d68bea4c" }, servername: ozon.ru, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇰🇷 韩国节点-B, server: kr-b.bnsss.cc, port: 8080, type: vless, uuid: 11e0a354-d6c1-4fe4-bef1-3fb3bfacdd4a, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: GP-JgvD9yK2QmWphYepITYbwqecHp1XeqHcCB-wlaC4, short-id: "1e92c68e" }, servername: aws.amazon.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-001-1E, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: 0f465d57-694f-406a-8e4a-3516655fbe71, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
-  - {name: UDP EDGE-04-1H, server: 185.81.29.188, port: 443, type: hysteria2, password: 3c6e47ed-b781-41e2-92af-aa901d2b9f0b, auth: 3c6e47ed-b781-41e2-92af-aa901d2b9f0b, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e188, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-001-1H, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: 02db3e20-c80e-4c49-81b3-3af7666276c3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
-  - {name: UDP EDGE-04-1A, server: 185.81.29.188, port: 443, type: hysteria2, password: e056bdc3-3a40-4060-8c11-239e8e733050, auth: e056bdc3-3a40-4060-8c11-239e8e733050, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e188, udp: true}
-  - {name: 🇬🇧 UK RELAY-1I, server: 31.77.238.30, port: 520, type: vless, uuid: 8836a873-4727-469e-b3d9-e15d20608692, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: RFA_9kIf6Gr0SpDKsILGI4igXWZxxTYCE1MWpk0oVmA, short-id: "fb0a6872" }, servername: www.amazon.co.uk, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: UDP EDGE-05-1I, server: 23.144.20.235, port: 443, type: hysteria2, password: 8836a873-4727-469e-b3d9-e15d20608692, auth: 8836a873-4727-469e-b3d9-e15d20608692, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e235, udp: true}
-  - {name: 🇳🇱 NL AMS-02-1C, server: ams2.globalschool.edu.kg, port: 39154, type: vless, uuid: d6525532-97bc-4bd3-b6f6-114cedeb4d87, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: WEMJ-tqGjsjNEAV85q2AIr1jLR2aLfFLCWkkHSb3ViU, short-id: "d68bea4c" }, servername: ozon.ru, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇳🇱 NL AMS-01-1F, server: 195.63.143.185, port: 26017, type: vless, uuid: e777a2e4-0277-4fc2-8b68-bc66edf07331, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: snnMwSpENuf47GWK2JdxShaz-GvK8G93SnURv-SY5Gg, short-id: "675cad89" }, servername: ok.ru, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: UDP EDGE-03-1F, server: 212.135.39.110, port: 443, type: hysteria2, password: e777a2e4-0277-4fc2-8b68-bc66edf07331, auth: e777a2e4-0277-4fc2-8b68-bc66edf07331, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e110, udp: true}
-  - {name: 🇨🇦 加拿大 三网优化, server: 65.49.231.59, port: 443, type: vless, uuid: 2087dcba-6e1b-4ad9-8655-01300b2ff2be, tls: true, servername: www.bing.com, client-fingerprint: safari, network: tcp, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-001-1A, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: 500b806a-5fab-4ebc-9e58-01a668b4b80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
-  - {name: DY-JHU, server: vpn2.cc.node2.top, port: 22001, type: vless, uuid: 714a8081-27e0-43b5-882d-9c6d6246abf4, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA, short-id: "dfa28122" }, servername: itunes.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: SMART TURBO 02-1D, server: media.globalschool.edu.kg, port: 10002, type: vless, uuid: 79b1be73-4f78-4349-912c-46a232412011, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: G90QHqX9hS3dcSfGKSZtxfjW_eFiaIeEMzw3BKIzwkg, short-id: "8a430229" }, servername: www.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: UDP EDGE-05-1K, server: 23.144.20.235, port: 443, type: hysteria2, password: 2abb27b1-dd84-402a-a0d3-300020e04a6d, auth: 2abb27b1-dd84-402a-a0d3-300020e04a6d, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e235, udp: true}
-  - {name: 🇳🇱 NL AMS-02 UDP-1H, server: 87.199.205.95, port: 443, type: hysteria2, password: 3c6e47ed-b781-41e2-92af-aa901d2b9f0b, auth: 3c6e47ed-b781-41e2-92af-aa901d2b9f0b, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-ams02, udp: true}
-  - {name: 🇺🇸 美国高速节点1, server: 144.34.178.66, port: 1443, type: trojan, password: 7f717a74-d54f-4013-ad7d-7e57f5dba5de, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
-  - {name: 🇳🇱 NL AMS-01 UDP-1J, server: 195.63.143.185, port: 443, type: hysteria2, password: 9df8b8a0-1705-4010-aabb-9bac28050e1d, auth: 9df8b8a0-1705-4010-aabb-9bac28050e1d, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-ams01, udp: true}
-  - {name: YI-QRF, server: vpn2.cc.node2.top, port: 22001, type: vless, uuid: 2e4e5bae-d954-4672-ba92-79f77972be2c, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA, short-id: "dfa28122" }, servername: itunes.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: UDP EDGE-05-1E, server: 23.144.20.235, port: 443, type: hysteria2, password: b1810f69-b6f8-40e6-bc25-07f470e9ee6e, auth: b1810f69-b6f8-40e6-bc25-07f470e9ee6e, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e235, udp: true}
-  - {name: UDP EDGE-04-1D, server: 185.81.29.188, port: 443, type: hysteria2, password: 79b1be73-4f78-4349-912c-46a232412011, auth: 79b1be73-4f78-4349-912c-46a232412011, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e188, udp: true}
-  - {name: FI HELSINKI UDP-1I, server: 188.241.54.30, port: 443, type: hysteria2, password: 8836a873-4727-469e-b3d9-e15d20608692, auth: 8836a873-4727-469e-b3d9-e15d20608692, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-obfs-2026, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-004-1G, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: 8c884804-2d53-452e-ad85-f86ad7023845, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
-  - {name: 🇳🇱 NL AMS-01 UDP-1H, server: 195.63.143.185, port: 443, type: hysteria2, password: 3c6e47ed-b781-41e2-92af-aa901d2b9f0b, auth: 3c6e47ed-b781-41e2-92af-aa901d2b9f0b, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-ams01, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-001-1B, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: c509be18-78ca-484d-868c-de164277b473, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-002-1H, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 02db3e20-c80e-4c49-81b3-3af7666276c3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
-  - {name: 🇳🇱 NL AMS-02 UDP-1J, server: 87.199.205.95, port: 443, type: hysteria2, password: 9df8b8a0-1705-4010-aabb-9bac28050e1d, auth: 9df8b8a0-1705-4010-aabb-9bac28050e1d, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-ams02, udp: true}
-  - {name: 🇹🇼 台湾高速节点3, server: 118.232.199.14, port: 443, type: trojan, password: 7f717a74-d54f-4013-ad7d-7e57f5dba5de, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
-  - {name: UDP EDGE-04-1L, server: 185.81.29.188, port: 443, type: hysteria2, password: 11452e66-cd4e-4479-86ba-34d1a55180c6, auth: 11452e66-cd4e-4479-86ba-34d1a55180c6, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e188, udp: true}
-  - {name: UDP EDGE-03-1H, server: 212.135.39.110, port: 443, type: hysteria2, password: 3c6e47ed-b781-41e2-92af-aa901d2b9f0b, auth: 3c6e47ed-b781-41e2-92af-aa901d2b9f0b, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e110, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-004-1D, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: 4015e90a-9b52-405b-897b-a83932fcc246, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
-  - {name: SMART TURBO 01-1D, server: cdn.globalschool.edu.kg, port: 10001, type: vless, uuid: 79b1be73-4f78-4349-912c-46a232412011, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: ShgC38ulwKG4MApqt3kb85py9GgEVHWmqZzaiAWtvns, short-id: "1299373a" }, servername: www.icloud.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-003-1H, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 02db3e20-c80e-4c49-81b3-3af7666276c3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
-  - {name: 🇳🇱 NL AMS-01 UDP-1G, server: 195.63.143.185, port: 443, type: hysteria2, password: d70351ad-7fa0-4540-8ae1-a4af355e4a94, auth: d70351ad-7fa0-4540-8ae1-a4af355e4a94, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-ams01, udp: true}
-  - {name: 🇳🇱 NL AMS-01 UDP-1A, server: 195.63.143.185, port: 443, type: hysteria2, password: e056bdc3-3a40-4060-8c11-239e8e733050, auth: e056bdc3-3a40-4060-8c11-239e8e733050, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-ams01, udp: true}
-  - {name: SMART TURBO 02-1E, server: media.globalschool.edu.kg, port: 10002, type: vless, uuid: b1810f69-b6f8-40e6-bc25-07f470e9ee6e, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: G90QHqX9hS3dcSfGKSZtxfjW_eFiaIeEMzw3BKIzwkg, short-id: "8a430229" }, servername: www.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: SMART TURBO 01-1E, server: cdn.globalschool.edu.kg, port: 10001, type: vless, uuid: b1810f69-b6f8-40e6-bc25-07f470e9ee6e, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: ShgC38ulwKG4MApqt3kb85py9GgEVHWmqZzaiAWtvns, short-id: "1299373a" }, servername: www.icloud.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: UDP EDGE-03-1K, server: 212.135.39.110, port: 443, type: hysteria2, password: 2abb27b1-dd84-402a-a0d3-300020e04a6d, auth: 2abb27b1-dd84-402a-a0d3-300020e04a6d, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e110, udp: true}
-  - {name: 🇬🇧 UK RELAY-1J, server: 31.77.238.30, port: 520, type: vless, uuid: 9df8b8a0-1705-4010-aabb-9bac28050e1d, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: RFA_9kIf6Gr0SpDKsILGI4igXWZxxTYCE1MWpk0oVmA, short-id: "fb0a6872" }, servername: www.amazon.co.uk, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: FV2026-7-7-1B, server: 101.43.62.88, port: 22001, type: vless, uuid: 2e4e5bae-d954-4672-ba92-79f77972be2c, tls: false, network: tcp, udp: true}
-  - {name: UDP EDGE-03-1B, server: 212.135.39.110, port: 443, type: hysteria2, password: 6fb780ea-8a83-48e5-ba49-5825ba04abbd, auth: 6fb780ea-8a83-48e5-ba49-5825ba04abbd, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e110, udp: true}
-  - {name: FI HELSINKI UDP-1L, server: 188.241.54.30, port: 443, type: hysteria2, password: 11452e66-cd4e-4479-86ba-34d1a55180c6, auth: 11452e66-cd4e-4479-86ba-34d1a55180c6, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-obfs-2026, udp: true}
-  - {name: UDP EDGE-03-1E, server: 212.135.39.110, port: 443, type: hysteria2, password: b1810f69-b6f8-40e6-bc25-07f470e9ee6e, auth: b1810f69-b6f8-40e6-bc25-07f470e9ee6e, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e110, udp: true}
-  - {name: OV-NPH, server: vpn2.cc.node2.top, port: 22001, type: vless, uuid: bf4082f9-4030-475d-87f5-bc9a5c4a0b5e, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA, short-id: "dfa28122" }, servername: itunes.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-001-1C, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: 893dcbf4-8b0c-470b-b116-f5417a4aca6a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
-  - {name: UDP EDGE-04-1I, server: 185.81.29.188, port: 443, type: hysteria2, password: 8836a873-4727-469e-b3d9-e15d20608692, auth: 8836a873-4727-469e-b3d9-e15d20608692, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e188, udp: true}
-  - {name: SMART TURBO 01-1K, server: cdn.globalschool.edu.kg, port: 10001, type: vless, uuid: 2abb27b1-dd84-402a-a0d3-300020e04a6d, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: ShgC38ulwKG4MApqt3kb85py9GgEVHWmqZzaiAWtvns, short-id: "1299373a" }, servername: www.icloud.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-004-1E, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: 0f465d57-694f-406a-8e4a-3516655fbe71, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
-  - {name: FI HELSINKI UDP-1D, server: 188.241.54.30, port: 443, type: hysteria2, password: 79b1be73-4f78-4349-912c-46a232412011, auth: 79b1be73-4f78-4349-912c-46a232412011, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-obfs-2026, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-001-1F, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: e5881e41-d679-4c7f-95a9-a5bbe41348d0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
-  - {name: 🇹🇼 台湾 IEPL专线, server: 188.253.6.207, port: 443, type: vless, uuid: 2087dcba-6e1b-4ad9-8655-01300b2ff2be, tls: true, servername: www.bing.com, client-fingerprint: ios, network: tcp, udp: true}
-  - {name: FV2026-7-7-1C, server: 101.43.62.88, port: 22001, type: vless, uuid: bf4082f9-4030-475d-87f5-bc9a5c4a0b5e, tls: false, network: tcp, udp: true}
-  - {name: 🇳🇱 NL AMS-02-1H, server: 87.199.205.95, port: 39154, type: vless, uuid: 3c6e47ed-b781-41e2-92af-aa901d2b9f0b, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: WEMJ-tqGjsjNEAV85q2AIr1jLR2aLfFLCWkkHSb3ViU, short-id: "d68bea4c" }, servername: ozon.ru, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: UDP EDGE-05-1L, server: 23.144.20.235, port: 443, type: hysteria2, password: 11452e66-cd4e-4479-86ba-34d1a55180c6, auth: 11452e66-cd4e-4479-86ba-34d1a55180c6, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e235, udp: true}
-  - {name: UDP EDGE-04-1J, server: 185.81.29.188, port: 443, type: hysteria2, password: 9df8b8a0-1705-4010-aabb-9bac28050e1d, auth: 9df8b8a0-1705-4010-aabb-9bac28050e1d, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e188, udp: true}
-  - {name: SMART TURBO 02-1L, server: media.globalschool.edu.kg, port: 10002, type: vless, uuid: 11452e66-cd4e-4479-86ba-34d1a55180c6, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: G90QHqX9hS3dcSfGKSZtxfjW_eFiaIeEMzw3BKIzwkg, short-id: "8a430229" }, servername: www.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇳🇱 NL AMS-02 UDP-1F, server: 87.199.205.95, port: 443, type: hysteria2, password: e777a2e4-0277-4fc2-8b68-bc66edf07331, auth: e777a2e4-0277-4fc2-8b68-bc66edf07331, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-ams02, udp: true}
-  - {name: 🇳🇱 NL AMS-01 UDP-1I, server: 195.63.143.185, port: 443, type: hysteria2, password: 8836a873-4727-469e-b3d9-e15d20608692, auth: 8836a873-4727-469e-b3d9-e15d20608692, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-ams01, udp: true}
-  - {name: UDP EDGE-04-1B, server: 185.81.29.188, port: 443, type: hysteria2, password: 6fb780ea-8a83-48e5-ba49-5825ba04abbd, auth: 6fb780ea-8a83-48e5-ba49-5825ba04abbd, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e188, udp: true}
-  - {name: 🇳🇱 NL AMS-02 UDP-1G, server: 87.199.205.95, port: 443, type: hysteria2, password: d70351ad-7fa0-4540-8ae1-a4af355e4a94, auth: d70351ad-7fa0-4540-8ae1-a4af355e4a94, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-ams02, udp: true}
-  - {name: 🇳🇱 NL AMS-02-1B, server: 87.199.205.95, port: 39154, type: vless, uuid: 6fb780ea-8a83-48e5-ba49-5825ba04abbd, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: WEMJ-tqGjsjNEAV85q2AIr1jLR2aLfFLCWkkHSb3ViU, short-id: "d68bea4c" }, servername: ozon.ru, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-002-1D, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 4015e90a-9b52-405b-897b-a83932fcc246, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
-  - {name: UDP EDGE-03-1J, server: 212.135.39.110, port: 443, type: hysteria2, password: 9df8b8a0-1705-4010-aabb-9bac28050e1d, auth: 9df8b8a0-1705-4010-aabb-9bac28050e1d, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e110, udp: true}
-  - {name: 🇭🇰 HK-A, server: 207.57.128.27, port: 8081, type: vless, uuid: 11e0a354-d6c1-4fe4-bef1-3fb3bfacdd4a, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: bilDohzULHmvZE7BP9ym6URVT6R1DM06v2LLqNo7lh0, short-id: "a1b2c3d4" }, servername: aws.amazon.com, client-fingerprint: edge, network: tcp, udp: true}
-  - {name: UDP EDGE-03-1A, server: 212.135.39.110, port: 443, type: hysteria2, password: e056bdc3-3a40-4060-8c11-239e8e733050, auth: e056bdc3-3a40-4060-8c11-239e8e733050, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e110, udp: true}
-  - {name: SMART TURBO 02-1F, server: media.globalschool.edu.kg, port: 10002, type: vless, uuid: e777a2e4-0277-4fc2-8b68-bc66edf07331, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: G90QHqX9hS3dcSfGKSZtxfjW_eFiaIeEMzw3BKIzwkg, short-id: "8a430229" }, servername: www.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: UDP EDGE-03-1I, server: 212.135.39.110, port: 443, type: hysteria2, password: 8836a873-4727-469e-b3d9-e15d20608692, auth: 8836a873-4727-469e-b3d9-e15d20608692, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e110, udp: true}
-  - {name: SMART TURBO 02-1J, server: media.globalschool.edu.kg, port: 10002, type: vless, uuid: 9df8b8a0-1705-4010-aabb-9bac28050e1d, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: G90QHqX9hS3dcSfGKSZtxfjW_eFiaIeEMzw3BKIzwkg, short-id: "8a430229" }, servername: www.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: FI HELSINKI UDP-1K, server: 188.241.54.30, port: 443, type: hysteria2, password: 2abb27b1-dd84-402a-a0d3-300020e04a6d, auth: 2abb27b1-dd84-402a-a0d3-300020e04a6d, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-obfs-2026, udp: true}
-  - {name: 🇳🇱 NL AMS-02 UDP-1L, server: 87.199.205.95, port: 443, type: hysteria2, password: 11452e66-cd4e-4479-86ba-34d1a55180c6, auth: 11452e66-cd4e-4479-86ba-34d1a55180c6, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-ams02, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-004-1H, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: 02db3e20-c80e-4c49-81b3-3af7666276c3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
-  - {name: 🇬🇧 UK RELAY-1H, server: 31.77.238.30, port: 520, type: vless, uuid: 3c6e47ed-b781-41e2-92af-aa901d2b9f0b, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: RFA_9kIf6Gr0SpDKsILGI4igXWZxxTYCE1MWpk0oVmA, short-id: "fb0a6872" }, servername: www.amazon.co.uk, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: UDP EDGE-05-1A, server: 23.144.20.235, port: 443, type: hysteria2, password: e056bdc3-3a40-4060-8c11-239e8e733050, auth: e056bdc3-3a40-4060-8c11-239e8e733050, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e235, udp: true}
-  - {name: 🇺🇸 HY-03 | US, server: usflare1.cloudaddy.top, port: 30004, type: hysteria2, password: 6ea371e3-3d20-4890-8c08-8fbc2c0c87b8, auth: 6ea371e3-3d20-4890-8c08-8fbc2c0c87b8, sni: us1.cloudsegl1.ccwu.cc, skip-cert-verify: false, udp: true}
-  - {name: AO-REH, server: vpn2.cc.node2.top, port: 22001, type: vless, uuid: b0fd0842-e765-47c2-81c8-b4ea73f00e69, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA, short-id: "dfa28122" }, servername: itunes.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: UDP EDGE-05-1C, server: 23.144.20.235, port: 443, type: hysteria2, password: d6525532-97bc-4bd3-b6f6-114cedeb4d87, auth: d6525532-97bc-4bd3-b6f6-114cedeb4d87, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e235, udp: true}
-  - {name: 🇬🇧 UK RELAY-1L, server: 31.77.238.30, port: 520, type: vless, uuid: 11452e66-cd4e-4479-86ba-34d1a55180c6, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: RFA_9kIf6Gr0SpDKsILGI4igXWZxxTYCE1MWpk0oVmA, short-id: "fb0a6872" }, servername: www.amazon.co.uk, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇳🇱 NL AMS-02-1F, server: 87.199.205.95, port: 39154, type: vless, uuid: 11452e66-cd4e-4479-86ba-34d1a55180c6, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: WEMJ-tqGjsjNEAV85q2AIr1jLR2aLfFLCWkkHSb3ViU, short-id: "d68bea4c" }, servername: ozon.ru, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇬🇧 UK RELAY-1H, server: 193.124.112.67, port: 520, type: vless, uuid: d6525532-97bc-4bd3-b6f6-114cedeb4d87, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: RFA_9kIf6Gr0SpDKsILGI4igXWZxxTYCE1MWpk0oVmA, short-id: "fb0a6872" }, servername: www.amazon.co.uk, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: FI HELSINKI UDP-1K, server: 188.241.54.30, port: 443, type: hysteria2, password: e777a2e4-0277-4fc2-8b68-bc66edf07331, auth: e777a2e4-0277-4fc2-8b68-bc66edf07331, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-obfs-2026, udp: true}
+  - {name: 🇳🇱 NL AMS-01 UDP-1L, server: 195.63.143.185, port: 443, type: hysteria2, password: 8836a873-4727-469e-b3d9-e15d20608692, auth: 8836a873-4727-469e-b3d9-e15d20608692, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-ams01, udp: true}
+  - {name: 🇭🇰 TTC9999 香港-1B, server: ww2.ttc9999.com, port: 443, type: vmess, uuid: 7d3d5b49-0e52-4442-aa9e-5023a065aabd, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: ww2.ttc9999.com}}, udp: true}
   - {name: 🇳🇱 NL AMS-01 UDP-1D, server: 195.63.143.185, port: 443, type: hysteria2, password: 79b1be73-4f78-4349-912c-46a232412011, auth: 79b1be73-4f78-4349-912c-46a232412011, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-ams01, udp: true}
-  - {name: SMART TURBO 02-1B, server: media.globalschool.edu.kg, port: 10002, type: vless, uuid: 6fb780ea-8a83-48e5-ba49-5825ba04abbd, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: G90QHqX9hS3dcSfGKSZtxfjW_eFiaIeEMzw3BKIzwkg, short-id: "8a430229" }, servername: www.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇳🇱 NL AMS-01-1I, server: 195.63.143.185, port: 26017, type: vless, uuid: 8836a873-4727-469e-b3d9-e15d20608692, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: snnMwSpENuf47GWK2JdxShaz-GvK8G93SnURv-SY5Gg, short-id: "675cad89" }, servername: ok.ru, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇳🇱 NL AMS-02 UDP-1C, server: 87.199.205.95, port: 443, type: hysteria2, password: d6525532-97bc-4bd3-b6f6-114cedeb4d87, auth: d6525532-97bc-4bd3-b6f6-114cedeb4d87, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-ams02, udp: true}
-  - {name: 🇳🇱 NL AMS-02 UDP-1A, server: 87.199.205.95, port: 443, type: hysteria2, password: e056bdc3-3a40-4060-8c11-239e8e733050, auth: e056bdc3-3a40-4060-8c11-239e8e733050, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-ams02, udp: true}
-  - {name: 🇨🇳 中国联通节点1, server: 115.231.220.33, port: 5443, type: trojan, password: 7f717a74-d54f-4013-ad7d-7e57f5dba5de, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
+  - {name: SMART TURBO 01-1H, server: cdn.globalschool.edu.kg, port: 10001, type: vless, uuid: d6525532-97bc-4bd3-b6f6-114cedeb4d87, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: ShgC38ulwKG4MApqt3kb85py9GgEVHWmqZzaiAWtvns, short-id: "1299373a" }, servername: www.icloud.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: FI HELSINKI UDP-1E, server: 188.241.54.30, port: 443, type: hysteria2, password: e056bdc3-3a40-4060-8c11-239e8e733050, auth: e056bdc3-3a40-4060-8c11-239e8e733050, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-obfs-2026, udp: true}
+  - {name: UDP EDGE-03-1A, server: 212.135.39.110, port: 443, type: hysteria2, password: 6fb780ea-8a83-48e5-ba49-5825ba04abbd, auth: 6fb780ea-8a83-48e5-ba49-5825ba04abbd, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e110, udp: true}
+  - {name: UDP EDGE-03-1B, server: 212.135.39.110, port: 443, type: hysteria2, password: d70351ad-7fa0-4540-8ae1-a4af355e4a94, auth: d70351ad-7fa0-4540-8ae1-a4af355e4a94, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e110, udp: true}
+  - {name: UDP EDGE-05-1C, server: 23.144.20.235, port: 443, type: hysteria2, password: 9df8b8a0-1705-4010-aabb-9bac28050e1d, auth: 9df8b8a0-1705-4010-aabb-9bac28050e1d, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e235, udp: true}
+  - {name: 🇳🇱 NL AMS-01-1L, server: 195.63.143.185, port: 26017, type: vless, uuid: 8836a873-4727-469e-b3d9-e15d20608692, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: snnMwSpENuf47GWK2JdxShaz-GvK8G93SnURv-SY5Gg, short-id: "675cad89" }, servername: ok.ru, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-001-1E, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: 0f465d57-694f-406a-8e4a-3516655fbe71, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
+  - {name: 🇳🇱 NL AMS-01-1E, server: 195.63.143.185, port: 26017, type: vless, uuid: e056bdc3-3a40-4060-8c11-239e8e733050, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: snnMwSpENuf47GWK2JdxShaz-GvK8G93SnURv-SY5Gg, short-id: "675cad89" }, servername: ok.ru, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-003-1G, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 8c884804-2d53-452e-ad85-f86ad7023845, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
+  - {name: FI HELSINKI UDP-1I, server: 188.241.54.30, port: 443, type: hysteria2, password: 2abb27b1-dd84-402a-a0d3-300020e04a6d, auth: 2abb27b1-dd84-402a-a0d3-300020e04a6d, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-obfs-2026, udp: true}
+  - {name: 🇬🇧 UK RELAY-1G, server: 31.77.238.30, port: 520, type: vless, uuid: 3c6e47ed-b781-41e2-92af-aa901d2b9f0b, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: RFA_9kIf6Gr0SpDKsILGI4igXWZxxTYCE1MWpk0oVmA, short-id: "fb0a6872" }, servername: www.amazon.co.uk, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-003-1A, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 4015e90a-9b52-405b-897b-a83932fcc246, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
+  - {name: SMART TURBO 02-1J, server: media.globalschool.edu.kg, port: 10002, type: vless, uuid: b1810f69-b6f8-40e6-bc25-07f470e9ee6e, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: G90QHqX9hS3dcSfGKSZtxfjW_eFiaIeEMzw3BKIzwkg, short-id: "8a430229" }, servername: www.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: SMART TURBO 02-1H, server: media.globalschool.edu.kg, port: 10002, type: vless, uuid: d6525532-97bc-4bd3-b6f6-114cedeb4d87, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: G90QHqX9hS3dcSfGKSZtxfjW_eFiaIeEMzw3BKIzwkg, short-id: "8a430229" }, servername: www.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: SMART TURBO 01-1A, server: cdn.globalschool.edu.kg, port: 10001, type: vless, uuid: 6fb780ea-8a83-48e5-ba49-5825ba04abbd, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: ShgC38ulwKG4MApqt3kb85py9GgEVHWmqZzaiAWtvns, short-id: "1299373a" }, servername: www.icloud.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: UDP EDGE-05-1A, server: 23.144.20.235, port: 443, type: hysteria2, password: 6fb780ea-8a83-48e5-ba49-5825ba04abbd, auth: 6fb780ea-8a83-48e5-ba49-5825ba04abbd, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e235, udp: true}
+  - {name: 🇳🇱 NL AMS-01-1A, server: 195.63.143.185, port: 26017, type: vless, uuid: 6fb780ea-8a83-48e5-ba49-5825ba04abbd, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: snnMwSpENuf47GWK2JdxShaz-GvK8G93SnURv-SY5Gg, short-id: "675cad89" }, servername: ok.ru, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: FV2026-7-7-1D, server: 101.43.62.88, port: 22001, type: vless, uuid: 932c7e8e-42cf-4179-b213-c8e70c3207d9, tls: false, network: tcp, udp: true}
+  - {name: SMART TURBO 02-1E, server: media.globalschool.edu.kg, port: 10002, type: vless, uuid: e056bdc3-3a40-4060-8c11-239e8e733050, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: G90QHqX9hS3dcSfGKSZtxfjW_eFiaIeEMzw3BKIzwkg, short-id: "8a430229" }, servername: www.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇳🇱 NL AMS-01-1D, server: 195.63.143.185, port: 26017, type: vless, uuid: 79b1be73-4f78-4349-912c-46a232412011, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: snnMwSpENuf47GWK2JdxShaz-GvK8G93SnURv-SY5Gg, short-id: "675cad89" }, servername: ok.ru, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-002-1J, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: f5a5f1a1-2640-4fef-a47e-4aef74aab321, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
+  - {name: FI HELSINKI UDP-1B, server: 188.241.54.30, port: 443, type: hysteria2, password: d70351ad-7fa0-4540-8ae1-a4af355e4a94, auth: d70351ad-7fa0-4540-8ae1-a4af355e4a94, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-obfs-2026, udp: true}
+  - {name: GY-EYC, server: vpn2.cc.node2.top, port: 22001, type: vless, uuid: 2e4e5bae-d954-4672-ba92-79f77972be2c, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA, short-id: "dfa28122" }, servername: itunes.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: SMART TURBO 01-1I, server: cdn.globalschool.edu.kg, port: 10001, type: vless, uuid: 2abb27b1-dd84-402a-a0d3-300020e04a6d, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: ShgC38ulwKG4MApqt3kb85py9GgEVHWmqZzaiAWtvns, short-id: "1299373a" }, servername: www.icloud.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇹🇼 台湾高速节点2, server: 118.232.199.29, port: 443, type: trojan, password: 4380b91f-97e7-40ae-8f6d-ea4d325f9108, sni: node2.yuntongclouds.com, skip-cert-verify: true, udp: true}
+  - {name: UDP EDGE-05-1F, server: 23.144.20.235, port: 443, type: hysteria2, password: 11452e66-cd4e-4479-86ba-34d1a55180c6, auth: 11452e66-cd4e-4479-86ba-34d1a55180c6, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e235, udp: true}
+  - {name: 🇳🇱 NL AMS-02-1I, server: 87.199.205.95, port: 39154, type: vless, uuid: 2abb27b1-dd84-402a-a0d3-300020e04a6d, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: WEMJ-tqGjsjNEAV85q2AIr1jLR2aLfFLCWkkHSb3ViU, short-id: "d68bea4c" }, servername: ozon.ru, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 8F-FDB, server: vpn2.cc.node2.top, port: 22001, type: vless, uuid: 714a8081-27e0-43b5-882d-9c6d6246abf4, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA, short-id: "dfa28122" }, servername: itunes.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: SMART TURBO 02-1L, server: media.globalschool.edu.kg, port: 10002, type: vless, uuid: 8836a873-4727-469e-b3d9-e15d20608692, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: G90QHqX9hS3dcSfGKSZtxfjW_eFiaIeEMzw3BKIzwkg, short-id: "8a430229" }, servername: www.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: SMART TURBO 02-1F, server: media.globalschool.edu.kg, port: 10002, type: vless, uuid: 11452e66-cd4e-4479-86ba-34d1a55180c6, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: G90QHqX9hS3dcSfGKSZtxfjW_eFiaIeEMzw3BKIzwkg, short-id: "8a430229" }, servername: www.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-001-1I, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: 95aa4cb0-49ae-4282-a384-428e8e221d14, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
+  - {name: FV2026-7-7-1B, server: 101.43.62.88, port: 22001, type: vless, uuid: b0fd0842-e765-47c2-81c8-b4ea73f00e69, tls: false, network: tcp, udp: true}
+  - {name: UDP EDGE-03-1I, server: 212.135.39.110, port: 443, type: hysteria2, password: 2abb27b1-dd84-402a-a0d3-300020e04a6d, auth: 2abb27b1-dd84-402a-a0d3-300020e04a6d, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e110, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-002-1H, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: e5881e41-d679-4c7f-95a9-a5bbe41348d0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
+  - {name: 🇳🇱 NL AMS-02 UDP-1F, server: 87.199.205.95, port: 443, type: hysteria2, password: 11452e66-cd4e-4479-86ba-34d1a55180c6, auth: 11452e66-cd4e-4479-86ba-34d1a55180c6, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-ams02, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-004-1D, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: 500b806a-5fab-4ebc-9e58-01a668b4b80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
+  - {name: UDP EDGE-05-1B, server: 23.144.20.235, port: 443, type: hysteria2, password: d70351ad-7fa0-4540-8ae1-a4af355e4a94, auth: d70351ad-7fa0-4540-8ae1-a4af355e4a94, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e235, udp: true}
+  - {name: UDP EDGE-04-1C, server: 185.81.29.188, port: 443, type: hysteria2, password: 9df8b8a0-1705-4010-aabb-9bac28050e1d, auth: 9df8b8a0-1705-4010-aabb-9bac28050e1d, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e188, udp: true}
+  - {name: A1-YDJ, server: vpn2.cc.node2.top, port: 22001, type: vless, uuid: 1016365a-6961-4fed-ae4d-e60cf6d26f75, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA, short-id: "dfa28122" }, servername: itunes.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇬🇧 UK RELAY-1K, server: 31.77.238.30, port: 520, type: vless, uuid: e777a2e4-0277-4fc2-8b68-bc66edf07331, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: RFA_9kIf6Gr0SpDKsILGI4igXWZxxTYCE1MWpk0oVmA, short-id: "fb0a6872" }, servername: www.amazon.co.uk, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: UDP EDGE-03-1H, server: 212.135.39.110, port: 443, type: hysteria2, password: d6525532-97bc-4bd3-b6f6-114cedeb4d87, auth: d6525532-97bc-4bd3-b6f6-114cedeb4d87, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e110, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-004-1A, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: 4015e90a-9b52-405b-897b-a83932fcc246, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
+  - {name: 🇳🇱 NL AMS-02 UDP-1A, server: 87.199.205.95, port: 443, type: hysteria2, password: 6fb780ea-8a83-48e5-ba49-5825ba04abbd, auth: 6fb780ea-8a83-48e5-ba49-5825ba04abbd, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-ams02, udp: true}
   - {name: 🇩🇪 德国-法兰克福-003-1C, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 893dcbf4-8b0c-470b-b116-f5417a4aca6a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
-  - {name: 🇬🇧 UK RELAY-1E, server: 31.77.238.30, port: 520, type: vless, uuid: b1810f69-b6f8-40e6-bc25-07f470e9ee6e, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: RFA_9kIf6Gr0SpDKsILGI4igXWZxxTYCE1MWpk0oVmA, short-id: "fb0a6872" }, servername: www.amazon.co.uk, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇳🇱 NL AMS-01-1K, server: 195.63.143.185, port: 26017, type: vless, uuid: 2abb27b1-dd84-402a-a0d3-300020e04a6d, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: snnMwSpENuf47GWK2JdxShaz-GvK8G93SnURv-SY5Gg, short-id: "675cad89" }, servername: ok.ru, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇳🇱 NL AMS-02 UDP-1D, server: 87.199.205.95, port: 443, type: hysteria2, password: 79b1be73-4f78-4349-912c-46a232412011, auth: 79b1be73-4f78-4349-912c-46a232412011, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-ams02, udp: true}
+  - {name: 🇺🇸 美国纽约 原生IP, server: 167.99.228.94, port: 443, type: vless, uuid: 2087dcba-6e1b-4ad9-8655-01300b2ff2be, tls: true, servername: www.bing.com, client-fingerprint: safari, network: tcp, udp: true}
+  - {name: SMART TURBO 01-1C, server: cdn.globalschool.edu.kg, port: 10001, type: vless, uuid: 9df8b8a0-1705-4010-aabb-9bac28050e1d, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: ShgC38ulwKG4MApqt3kb85py9GgEVHWmqZzaiAWtvns, short-id: "1299373a" }, servername: www.icloud.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: UDP EDGE-05-1H, server: 23.144.20.235, port: 443, type: hysteria2, password: d6525532-97bc-4bd3-b6f6-114cedeb4d87, auth: d6525532-97bc-4bd3-b6f6-114cedeb4d87, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e235, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-004-1C, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: 893dcbf4-8b0c-470b-b116-f5417a4aca6a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-001-1C, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: 893dcbf4-8b0c-470b-b116-f5417a4aca6a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
+  - {name: UDP EDGE-03-1K, server: 212.135.39.110, port: 443, type: hysteria2, password: e777a2e4-0277-4fc2-8b68-bc66edf07331, auth: e777a2e4-0277-4fc2-8b68-bc66edf07331, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e110, udp: true}
+  - {name: 🇳🇱 NL AMS-01 UDP-1H, server: 195.63.143.185, port: 443, type: hysteria2, password: d6525532-97bc-4bd3-b6f6-114cedeb4d87, auth: d6525532-97bc-4bd3-b6f6-114cedeb4d87, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-ams01, udp: true}
+  - {name: UDP EDGE-04-1E, server: 185.81.29.188, port: 443, type: hysteria2, password: e056bdc3-3a40-4060-8c11-239e8e733050, auth: e056bdc3-3a40-4060-8c11-239e8e733050, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e188, udp: true}
+  - {name: 🇳🇱 NL AMS-01 UDP-1G, server: 195.63.143.185, port: 443, type: hysteria2, password: 3c6e47ed-b781-41e2-92af-aa901d2b9f0b, auth: 3c6e47ed-b781-41e2-92af-aa901d2b9f0b, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-ams01, udp: true}
+  - {name: UDP EDGE-05-1J, server: 23.144.20.235, port: 443, type: hysteria2, password: b1810f69-b6f8-40e6-bc25-07f470e9ee6e, auth: b1810f69-b6f8-40e6-bc25-07f470e9ee6e, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e235, udp: true}
+  - {name: UDP EDGE-03-1G, server: 212.135.39.110, port: 443, type: hysteria2, password: 3c6e47ed-b781-41e2-92af-aa901d2b9f0b, auth: 3c6e47ed-b781-41e2-92af-aa901d2b9f0b, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e110, udp: true}
+  - {name: 🇭🇰 TTC9999 香港-1A, server: ww2.ttc9999.com, port: 443, type: vmess, uuid: ec417221-570d-417c-b771-3ca557f6aa66, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: ww2.ttc9999.com}}, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-002-1A, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 4015e90a-9b52-405b-897b-a83932fcc246, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
+  - {name: 🇬🇧 UK RELAY-1B, server: 31.77.238.30, port: 520, type: vless, uuid: d70351ad-7fa0-4540-8ae1-a4af355e4a94, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: RFA_9kIf6Gr0SpDKsILGI4igXWZxxTYCE1MWpk0oVmA, short-id: "fb0a6872" }, servername: www.amazon.co.uk, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇳🇱 NL AMS-01-1G, server: 195.63.143.185, port: 26017, type: vless, uuid: 3c6e47ed-b781-41e2-92af-aa901d2b9f0b, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: snnMwSpENuf47GWK2JdxShaz-GvK8G93SnURv-SY5Gg, short-id: "675cad89" }, servername: ok.ru, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇳🇱 NL AMS-02 UDP-1J, server: 87.199.205.95, port: 443, type: hysteria2, password: b1810f69-b6f8-40e6-bc25-07f470e9ee6e, auth: b1810f69-b6f8-40e6-bc25-07f470e9ee6e, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-ams02, udp: true}
+  - {name: 🇳🇱 NL AMS-02-1J, server: 87.199.205.95, port: 39154, type: vless, uuid: b1810f69-b6f8-40e6-bc25-07f470e9ee6e, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: WEMJ-tqGjsjNEAV85q2AIr1jLR2aLfFLCWkkHSb3ViU, short-id: "d68bea4c" }, servername: ozon.ru, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: UDP EDGE-05-1K, server: 23.144.20.235, port: 443, type: hysteria2, password: e777a2e4-0277-4fc2-8b68-bc66edf07331, auth: e777a2e4-0277-4fc2-8b68-bc66edf07331, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e235, udp: true}
+  - {name: SMART TURBO 02-1G, server: media.globalschool.edu.kg, port: 10002, type: vless, uuid: 3c6e47ed-b781-41e2-92af-aa901d2b9f0b, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: G90QHqX9hS3dcSfGKSZtxfjW_eFiaIeEMzw3BKIzwkg, short-id: "8a430229" }, servername: www.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇹🇼 台湾 IEPL专线, server: 188.253.6.207, port: 443, type: vless, uuid: 2087dcba-6e1b-4ad9-8655-01300b2ff2be, tls: true, servername: www.bing.com, client-fingerprint: qq, network: tcp, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-004-1J, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: f5a5f1a1-2640-4fef-a47e-4aef74aab321, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-003-1D, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 500b806a-5fab-4ebc-9e58-01a668b4b80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
+  - {name: FI HELSINKI UDP-1L, server: 188.241.54.30, port: 443, type: hysteria2, password: 8836a873-4727-469e-b3d9-e15d20608692, auth: 8836a873-4727-469e-b3d9-e15d20608692, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-obfs-2026, udp: true}
+  - {name: 🇳🇱 NL AMS-01-1K, server: 195.63.143.185, port: 26017, type: vless, uuid: e777a2e4-0277-4fc2-8b68-bc66edf07331, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: snnMwSpENuf47GWK2JdxShaz-GvK8G93SnURv-SY5Gg, short-id: "675cad89" }, servername: ok.ru, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇰🇷 韩国节点-B, server: kr-b.bnsss.cc, port: 8080, type: vless, uuid: 11e0a354-d6c1-4fe4-bef1-3fb3bfacdd4a, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: GP-JgvD9yK2QmWphYepITYbwqecHp1XeqHcCB-wlaC4, short-id: "1e92c68e" }, servername: aws.amazon.com, client-fingerprint: qq, network: tcp, udp: true}
+  - {name: 🇳🇱 NL AMS-01-1H, server: ams1.globalschool.edu.kg, port: 26017, type: vless, uuid: d6525532-97bc-4bd3-b6f6-114cedeb4d87, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: snnMwSpENuf47GWK2JdxShaz-GvK8G93SnURv-SY5Gg, short-id: "675cad89" }, servername: ok.ru, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: UDP EDGE-05-1I, server: 23.144.20.235, port: 443, type: hysteria2, password: 2abb27b1-dd84-402a-a0d3-300020e04a6d, auth: 2abb27b1-dd84-402a-a0d3-300020e04a6d, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e235, udp: true}
+  - {name: MH-CKJ, server: empty.node, port: 443, type: trojan, password: a1af8d46-24cd-4498-87bc-1159775cb2bd, sni: empty.node, skip-cert-verify: false, udp: true}
+  - {name: UDP EDGE-03-1L, server: 212.135.39.110, port: 443, type: hysteria2, password: 8836a873-4727-469e-b3d9-e15d20608692, auth: 8836a873-4727-469e-b3d9-e15d20608692, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e110, udp: true}
+  - {name: 🇭🇰 HK-A, server: 207.57.128.27, port: 8081, type: vless, uuid: 11e0a354-d6c1-4fe4-bef1-3fb3bfacdd4a, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: bilDohzULHmvZE7BP9ym6URVT6R1DM06v2LLqNo7lh0, short-id: "a1b2c3d4" }, servername: aws.amazon.com, client-fingerprint: edge, network: tcp, udp: true}
+  - {name: 🇳🇱 NL AMS-02 UDP-1K, server: 87.199.205.95, port: 443, type: hysteria2, password: e777a2e4-0277-4fc2-8b68-bc66edf07331, auth: e777a2e4-0277-4fc2-8b68-bc66edf07331, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-ams02, udp: true}
+  - {name: 🇬🇧 UK RELAY-1I, server: 31.77.238.30, port: 520, type: vless, uuid: 2abb27b1-dd84-402a-a0d3-300020e04a6d, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: RFA_9kIf6Gr0SpDKsILGI4igXWZxxTYCE1MWpk0oVmA, short-id: "fb0a6872" }, servername: www.amazon.co.uk, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇳🇱 NL AMS-02 UDP-1G, server: 87.199.205.95, port: 443, type: hysteria2, password: 3c6e47ed-b781-41e2-92af-aa901d2b9f0b, auth: 3c6e47ed-b781-41e2-92af-aa901d2b9f0b, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-ams02, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-003-1E, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 0f465d57-694f-406a-8e4a-3516655fbe71, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
+  - {name: 🇳🇱 NL AMS-01 UDP-1F, server: 195.63.143.185, port: 443, type: hysteria2, password: 11452e66-cd4e-4479-86ba-34d1a55180c6, auth: 11452e66-cd4e-4479-86ba-34d1a55180c6, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-ams01, udp: true}
+  - {name: UDP EDGE-04-1K, server: 185.81.29.188, port: 443, type: hysteria2, password: e777a2e4-0277-4fc2-8b68-bc66edf07331, auth: e777a2e4-0277-4fc2-8b68-bc66edf07331, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e188, udp: true}
+  - {name: FI HELSINKI UDP-1G, server: 188.241.54.30, port: 443, type: hysteria2, password: 3c6e47ed-b781-41e2-92af-aa901d2b9f0b, auth: 3c6e47ed-b781-41e2-92af-aa901d2b9f0b, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-obfs-2026, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-001-1G, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: 8c884804-2d53-452e-ad85-f86ad7023845, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-001-1H, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: e5881e41-d679-4c7f-95a9-a5bbe41348d0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
+  - {name: UDP EDGE-03-1C, server: 212.135.39.110, port: 443, type: hysteria2, password: 9df8b8a0-1705-4010-aabb-9bac28050e1d, auth: 9df8b8a0-1705-4010-aabb-9bac28050e1d, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e110, udp: true}
+  - {name: SMART TURBO 01-1B, server: cdn.globalschool.edu.kg, port: 10001, type: vless, uuid: d70351ad-7fa0-4540-8ae1-a4af355e4a94, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: ShgC38ulwKG4MApqt3kb85py9GgEVHWmqZzaiAWtvns, short-id: "1299373a" }, servername: www.icloud.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇳🇱 NL AMS-02-1B, server: 87.199.205.95, port: 39154, type: vless, uuid: d70351ad-7fa0-4540-8ae1-a4af355e4a94, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: WEMJ-tqGjsjNEAV85q2AIr1jLR2aLfFLCWkkHSb3ViU, short-id: "d68bea4c" }, servername: ozon.ru, client-fingerprint: chrome, network: tcp, udp: true}
   - {name: UDP EDGE-03-1D, server: 212.135.39.110, port: 443, type: hysteria2, password: 79b1be73-4f78-4349-912c-46a232412011, auth: 79b1be73-4f78-4349-912c-46a232412011, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e110, udp: true}
-  - {name: 🇳🇱 NL AMS-02 UDP-1E, server: 87.199.205.95, port: 443, type: hysteria2, password: b1810f69-b6f8-40e6-bc25-07f470e9ee6e, auth: b1810f69-b6f8-40e6-bc25-07f470e9ee6e, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-ams02, udp: true}
-  - {name: 🇺🇸 HY-04 | US, server: usflare1.cloudaddy.top, port: 30005, type: hysteria2, password: 6ea371e3-3d20-4890-8c08-8fbc2c0c87b8, auth: 6ea371e3-3d20-4890-8c08-8fbc2c0c87b8, sni: www.iq.com, skip-cert-verify: true, udp: true}
-  - {name: 🇳🇱 NL AMS-02-1A, server: 87.199.205.95, port: 39154, type: vless, uuid: e056bdc3-3a40-4060-8c11-239e8e733050, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: WEMJ-tqGjsjNEAV85q2AIr1jLR2aLfFLCWkkHSb3ViU, short-id: "d68bea4c" }, servername: ozon.ru, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇳🇱 NL AMS-02-1F, server: 87.199.205.95, port: 39154, type: vless, uuid: e777a2e4-0277-4fc2-8b68-bc66edf07331, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: WEMJ-tqGjsjNEAV85q2AIr1jLR2aLfFLCWkkHSb3ViU, short-id: "d68bea4c" }, servername: ozon.ru, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: UDP EDGE-05-1D, server: 23.144.20.235, port: 443, type: hysteria2, password: 79b1be73-4f78-4349-912c-46a232412011, auth: 79b1be73-4f78-4349-912c-46a232412011, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e235, udp: true}
-  - {name: 🇳🇱 NL AMS-02-1E, server: 87.199.205.95, port: 39154, type: vless, uuid: b1810f69-b6f8-40e6-bc25-07f470e9ee6e, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: WEMJ-tqGjsjNEAV85q2AIr1jLR2aLfFLCWkkHSb3ViU, short-id: "d68bea4c" }, servername: ozon.ru, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: 🇳🇱 NL AMS-01 UDP-1B, server: 195.63.143.185, port: 443, type: hysteria2, password: 6fb780ea-8a83-48e5-ba49-5825ba04abbd, auth: 6fb780ea-8a83-48e5-ba49-5825ba04abbd, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-ams01, udp: true}
-  - {name: SMART TURBO 02-1H, server: media.globalschool.edu.kg, port: 10002, type: vless, uuid: 3c6e47ed-b781-41e2-92af-aa901d2b9f0b, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: G90QHqX9hS3dcSfGKSZtxfjW_eFiaIeEMzw3BKIzwkg, short-id: "8a430229" }, servername: www.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: FI HELSINKI UDP-1F, server: 188.241.54.30, port: 443, type: hysteria2, password: e777a2e4-0277-4fc2-8b68-bc66edf07331, auth: e777a2e4-0277-4fc2-8b68-bc66edf07331, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-obfs-2026, udp: true}
   - {name: 🇩🇪 德国-法兰克福-002-1G, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 8c884804-2d53-452e-ad85-f86ad7023845, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-001-1D, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: 4015e90a-9b52-405b-897b-a83932fcc246, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
-  - {name: 🇩🇪 德国-法兰克福-002-1F, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: e5881e41-d679-4c7f-95a9-a5bbe41348d0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-001-1J, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: f5a5f1a1-2640-4fef-a47e-4aef74aab321, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-001-1F, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: 02db3e20-c80e-4c49-81b3-3af7666276c3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
+  - {name: UDP EDGE-04-1H, server: 185.81.29.188, port: 443, type: hysteria2, password: d6525532-97bc-4bd3-b6f6-114cedeb4d87, auth: d6525532-97bc-4bd3-b6f6-114cedeb4d87, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e188, udp: true}
+  - {name: 🇳🇱 NL AMS-01-1F, server: 195.63.143.185, port: 26017, type: vless, uuid: 11452e66-cd4e-4479-86ba-34d1a55180c6, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: snnMwSpENuf47GWK2JdxShaz-GvK8G93SnURv-SY5Gg, short-id: "675cad89" }, servername: ok.ru, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇨🇳 中国联通节点1, server: 115.231.220.33, port: 5443, type: trojan, password: 4380b91f-97e7-40ae-8f6d-ea4d325f9108, sni: nodecn1.jiayinetwork.es, skip-cert-verify: true, udp: true}
+  - {name: SMART TURBO 02-1A, server: media.globalschool.edu.kg, port: 10002, type: vless, uuid: 6fb780ea-8a83-48e5-ba49-5825ba04abbd, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: G90QHqX9hS3dcSfGKSZtxfjW_eFiaIeEMzw3BKIzwkg, short-id: "8a430229" }, servername: www.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇳🇱 NL AMS-02-1L, server: 87.199.205.95, port: 39154, type: vless, uuid: 8836a873-4727-469e-b3d9-e15d20608692, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: WEMJ-tqGjsjNEAV85q2AIr1jLR2aLfFLCWkkHSb3ViU, short-id: "d68bea4c" }, servername: ozon.ru, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: SMART TURBO 01-1F, server: cdn.globalschool.edu.kg, port: 10001, type: vless, uuid: 11452e66-cd4e-4479-86ba-34d1a55180c6, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: ShgC38ulwKG4MApqt3kb85py9GgEVHWmqZzaiAWtvns, short-id: "1299373a" }, servername: www.icloud.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇬🇧 UK RELAY-1C, server: 31.77.238.30, port: 520, type: vless, uuid: 9df8b8a0-1705-4010-aabb-9bac28050e1d, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: RFA_9kIf6Gr0SpDKsILGI4igXWZxxTYCE1MWpk0oVmA, short-id: "fb0a6872" }, servername: www.amazon.co.uk, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: UDP EDGE-03-1J, server: 212.135.39.110, port: 443, type: hysteria2, password: b1810f69-b6f8-40e6-bc25-07f470e9ee6e, auth: b1810f69-b6f8-40e6-bc25-07f470e9ee6e, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e110, udp: true}
+  - {name: 🇬🇧 UK RELAY-1D, server: 31.77.238.30, port: 520, type: vless, uuid: 79b1be73-4f78-4349-912c-46a232412011, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: RFA_9kIf6Gr0SpDKsILGI4igXWZxxTYCE1MWpk0oVmA, short-id: "fb0a6872" }, servername: www.amazon.co.uk, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: SMART TURBO 02-1D, server: media.globalschool.edu.kg, port: 10002, type: vless, uuid: 79b1be73-4f78-4349-912c-46a232412011, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: G90QHqX9hS3dcSfGKSZtxfjW_eFiaIeEMzw3BKIzwkg, short-id: "8a430229" }, servername: www.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: SMART TURBO 02-1C, server: media.globalschool.edu.kg, port: 10002, type: vless, uuid: 9df8b8a0-1705-4010-aabb-9bac28050e1d, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: G90QHqX9hS3dcSfGKSZtxfjW_eFiaIeEMzw3BKIzwkg, short-id: "8a430229" }, servername: www.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇳🇱 NL AMS-01-1I, server: 195.63.143.185, port: 26017, type: vless, uuid: 2abb27b1-dd84-402a-a0d3-300020e04a6d, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: snnMwSpENuf47GWK2JdxShaz-GvK8G93SnURv-SY5Gg, short-id: "675cad89" }, servername: ok.ru, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇳🇱 NL AMS-02-1D, server: 87.199.205.95, port: 39154, type: vless, uuid: 79b1be73-4f78-4349-912c-46a232412011, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: WEMJ-tqGjsjNEAV85q2AIr1jLR2aLfFLCWkkHSb3ViU, short-id: "d68bea4c" }, servername: ozon.ru, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇺🇸 HY-05| US, server: usflare1.cloudaddy.top, port: 30006, type: hysteria2, password: d12d1a72-f325-46de-a346-5de700a81925, auth: d12d1a72-f325-46de-a346-5de700a81925, sni: www.iq.com, skip-cert-verify: true, udp: true}
+  - {name: 🇳🇱 NL AMS-02 UDP-1B, server: 87.199.205.95, port: 443, type: hysteria2, password: d70351ad-7fa0-4540-8ae1-a4af355e4a94, auth: d70351ad-7fa0-4540-8ae1-a4af355e4a94, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-ams02, udp: true}
+  - {name: SMART TURBO 02-1I, server: media.globalschool.edu.kg, port: 10002, type: vless, uuid: 2abb27b1-dd84-402a-a0d3-300020e04a6d, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: G90QHqX9hS3dcSfGKSZtxfjW_eFiaIeEMzw3BKIzwkg, short-id: "8a430229" }, servername: www.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: UDP EDGE-04-1G, server: 185.81.29.188, port: 443, type: hysteria2, password: 3c6e47ed-b781-41e2-92af-aa901d2b9f0b, auth: 3c6e47ed-b781-41e2-92af-aa901d2b9f0b, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e188, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-004-1G, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: 8c884804-2d53-452e-ad85-f86ad7023845, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
+  - {name: 🇸🇬 新加坡 BGP优化, server: 43.245.198.39, port: 443, type: vless, uuid: 2087dcba-6e1b-4ad9-8655-01300b2ff2be, tls: true, servername: www.bing.com, client-fingerprint: firefox, network: tcp, udp: true}
+  - {name: UDP EDGE-05-1D, server: 23.144.20.235, port: 443, type: hysteria2, password: 79b1be73-4f78-4349-912c-46a232412011, auth: 79b1be73-4f78-4349-912c-46a232412011, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e235, udp: true}
+  - {name: 🇳🇱 NL AMS-01-1B, server: 195.63.143.185, port: 26017, type: vless, uuid: d70351ad-7fa0-4540-8ae1-a4af355e4a94, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: snnMwSpENuf47GWK2JdxShaz-GvK8G93SnURv-SY5Gg, short-id: "675cad89" }, servername: ok.ru, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-002-1F, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 02db3e20-c80e-4c49-81b3-3af7666276c3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
+  - {name: 🇬🇧 UK RELAY-1L, server: 31.77.238.30, port: 520, type: vless, uuid: 8836a873-4727-469e-b3d9-e15d20608692, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: RFA_9kIf6Gr0SpDKsILGI4igXWZxxTYCE1MWpk0oVmA, short-id: "fb0a6872" }, servername: www.amazon.co.uk, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-002-1I, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 95aa4cb0-49ae-4282-a384-428e8e221d14, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
+  - {name: FI HELSINKI UDP-1J, server: 188.241.54.30, port: 443, type: hysteria2, password: b1810f69-b6f8-40e6-bc25-07f470e9ee6e, auth: b1810f69-b6f8-40e6-bc25-07f470e9ee6e, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-obfs-2026, udp: true}
+  - {name: FI HELSINKI UDP-1H, server: 188.241.54.30, port: 443, type: hysteria2, password: d6525532-97bc-4bd3-b6f6-114cedeb4d87, auth: d6525532-97bc-4bd3-b6f6-114cedeb4d87, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-obfs-2026, udp: true}
+  - {name: UDP EDGE-05-1L, server: 23.144.20.235, port: 443, type: hysteria2, password: 8836a873-4727-469e-b3d9-e15d20608692, auth: 8836a873-4727-469e-b3d9-e15d20608692, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e235, udp: true}
+  - {name: 🇬🇧 UK RELAY-1A, server: 31.77.238.30, port: 520, type: vless, uuid: 6fb780ea-8a83-48e5-ba49-5825ba04abbd, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: RFA_9kIf6Gr0SpDKsILGI4igXWZxxTYCE1MWpk0oVmA, short-id: "fb0a6872" }, servername: www.amazon.co.uk, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-003-1J, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: f5a5f1a1-2640-4fef-a47e-4aef74aab321, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
+  - {name: 🇳🇱 NL AMS-02 UDP-1H, server: 87.199.205.95, port: 443, type: hysteria2, password: d6525532-97bc-4bd3-b6f6-114cedeb4d87, auth: d6525532-97bc-4bd3-b6f6-114cedeb4d87, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-ams02, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-002-1E, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 0f465d57-694f-406a-8e4a-3516655fbe71, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
+  - {name: 🇳🇱 NL AMS-02-1H, server: ams2.globalschool.edu.kg, port: 39154, type: vless, uuid: d6525532-97bc-4bd3-b6f6-114cedeb4d87, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: WEMJ-tqGjsjNEAV85q2AIr1jLR2aLfFLCWkkHSb3ViU, short-id: "d68bea4c" }, servername: ozon.ru, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇺🇸 HY-04 | US, server: usflare1.cloudaddy.top, port: 30005, type: hysteria2, password: d12d1a72-f325-46de-a346-5de700a81925, auth: d12d1a72-f325-46de-a346-5de700a81925, sni: www.iq.com, skip-cert-verify: true, udp: true}
+  - {name: 🇳🇱 NL AMS-01 UDP-1J, server: 195.63.143.185, port: 443, type: hysteria2, password: b1810f69-b6f8-40e6-bc25-07f470e9ee6e, auth: b1810f69-b6f8-40e6-bc25-07f470e9ee6e, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-ams01, udp: true}
+  - {name: SMART TURBO 01-1E, server: cdn.globalschool.edu.kg, port: 10001, type: vless, uuid: e056bdc3-3a40-4060-8c11-239e8e733050, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: ShgC38ulwKG4MApqt3kb85py9GgEVHWmqZzaiAWtvns, short-id: "1299373a" }, servername: www.icloud.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: FV2026-7-7-1G, server: 101.43.62.88, port: 22001, type: vless, uuid: 1016365a-6961-4fed-ae4d-e60cf6d26f75, tls: false, network: tcp, udp: true}
+  - {name: 🇳🇱 NL AMS-01 UDP-1C, server: 195.63.143.185, port: 443, type: hysteria2, password: 9df8b8a0-1705-4010-aabb-9bac28050e1d, auth: 9df8b8a0-1705-4010-aabb-9bac28050e1d, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-ams01, udp: true}
+  - {name: UDP EDGE-04-1F, server: 185.81.29.188, port: 443, type: hysteria2, password: 11452e66-cd4e-4479-86ba-34d1a55180c6, auth: 11452e66-cd4e-4479-86ba-34d1a55180c6, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e188, udp: true}
+  - {name: 🇳🇱 NL AMS-02 UDP-1C, server: 87.199.205.95, port: 443, type: hysteria2, password: 9df8b8a0-1705-4010-aabb-9bac28050e1d, auth: 9df8b8a0-1705-4010-aabb-9bac28050e1d, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-ams02, udp: true}
+  - {name: 🇳🇱 NL AMS-01 UDP-1A, server: 195.63.143.185, port: 443, type: hysteria2, password: 6fb780ea-8a83-48e5-ba49-5825ba04abbd, auth: 6fb780ea-8a83-48e5-ba49-5825ba04abbd, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-ams01, udp: true}
+  - {name: FI HELSINKI UDP-1D, server: 188.241.54.30, port: 443, type: hysteria2, password: 79b1be73-4f78-4349-912c-46a232412011, auth: 79b1be73-4f78-4349-912c-46a232412011, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-obfs-2026, udp: true}
+  - {name: 🇺🇸 美国-洛杉矶-PRO, server: 5.253.38.67, port: 40444, type: vless, uuid: 2adaf967-2983-4f4c-950d-df85fba6df07, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: ZZK_Oo5-iDDgoWzxIURTLWoKPbC8NFto3Mk7OvAZgRU, short-id: "b3f2a1c9" }, servername: www.lovelive-anime.jp, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: SMART TURBO 01-1L, server: cdn.globalschool.edu.kg, port: 10001, type: vless, uuid: 8836a873-4727-469e-b3d9-e15d20608692, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: ShgC38ulwKG4MApqt3kb85py9GgEVHWmqZzaiAWtvns, short-id: "1299373a" }, servername: www.icloud.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-004-1B, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: c509be18-78ca-484d-868c-de164277b473, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
+  - {name: JQ-ACU, server: vpn2.cc.node2.top, port: 22001, type: vless, uuid: b0fd0842-e765-47c2-81c8-b4ea73f00e69, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA, short-id: "dfa28122" }, servername: itunes.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-001-1B, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: c509be18-78ca-484d-868c-de164277b473, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-004-1E, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: 0f465d57-694f-406a-8e4a-3516655fbe71, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
+  - {name: 🇳🇱 NL AMS-01-1C, server: 195.63.143.185, port: 26017, type: vless, uuid: 9df8b8a0-1705-4010-aabb-9bac28050e1d, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: snnMwSpENuf47GWK2JdxShaz-GvK8G93SnURv-SY5Gg, short-id: "675cad89" }, servername: ok.ru, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: UDP EDGE-05-1G, server: 23.144.20.235, port: 443, type: hysteria2, password: 3c6e47ed-b781-41e2-92af-aa901d2b9f0b, auth: 3c6e47ed-b781-41e2-92af-aa901d2b9f0b, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e235, udp: true}
+  - {name: 🇬🇧 UK RELAY-1E, server: 31.77.238.30, port: 520, type: vless, uuid: e056bdc3-3a40-4060-8c11-239e8e733050, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: RFA_9kIf6Gr0SpDKsILGI4igXWZxxTYCE1MWpk0oVmA, short-id: "fb0a6872" }, servername: www.amazon.co.uk, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇬🇧 UK RELAY-1J, server: 31.77.238.30, port: 520, type: vless, uuid: b1810f69-b6f8-40e6-bc25-07f470e9ee6e, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: RFA_9kIf6Gr0SpDKsILGI4igXWZxxTYCE1MWpk0oVmA, short-id: "fb0a6872" }, servername: www.amazon.co.uk, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇺🇸 HY-03 | US, server: usflare1.cloudaddy.top, port: 30004, type: hysteria2, password: d12d1a72-f325-46de-a346-5de700a81925, auth: d12d1a72-f325-46de-a346-5de700a81925, sni: us1.cloudsegl1.ccwu.cc, skip-cert-verify: false, udp: true}
+  - {name: SMART TURBO 02-1K, server: media.globalschool.edu.kg, port: 10002, type: vless, uuid: e777a2e4-0277-4fc2-8b68-bc66edf07331, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: G90QHqX9hS3dcSfGKSZtxfjW_eFiaIeEMzw3BKIzwkg, short-id: "8a430229" }, servername: www.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: UDP EDGE-03-1E, server: 212.135.39.110, port: 443, type: hysteria2, password: e056bdc3-3a40-4060-8c11-239e8e733050, auth: e056bdc3-3a40-4060-8c11-239e8e733050, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e110, udp: true}
+  - {name: 🇳🇱 NL AMS-01 UDP-1K, server: 195.63.143.185, port: 443, type: hysteria2, password: e777a2e4-0277-4fc2-8b68-bc66edf07331, auth: e777a2e4-0277-4fc2-8b68-bc66edf07331, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-ams01, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-001-1D, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: 500b806a-5fab-4ebc-9e58-01a668b4b80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
+  - {name: 🇹🇼 台湾高速节点, server: 103.137.63.77, port: 443, type: trojan, password: 4380b91f-97e7-40ae-8f6d-ea4d325f9108, sni: node1.yuntongclouds.com, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-003-1B, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: c509be18-78ca-484d-868c-de164277b473, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
+  - {name: UDP EDGE-04-1B, server: 185.81.29.188, port: 443, type: hysteria2, password: d70351ad-7fa0-4540-8ae1-a4af355e4a94, auth: d70351ad-7fa0-4540-8ae1-a4af355e4a94, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e188, udp: true}
+  - {name: 🇳🇱 NL AMS-02-1G, server: 87.199.205.95, port: 39154, type: vless, uuid: 3c6e47ed-b781-41e2-92af-aa901d2b9f0b, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: WEMJ-tqGjsjNEAV85q2AIr1jLR2aLfFLCWkkHSb3ViU, short-id: "d68bea4c" }, servername: ozon.ru, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇳🇱 NL AMS-02-1E, server: 87.199.205.95, port: 39154, type: vless, uuid: e056bdc3-3a40-4060-8c11-239e8e733050, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: WEMJ-tqGjsjNEAV85q2AIr1jLR2aLfFLCWkkHSb3ViU, short-id: "d68bea4c" }, servername: ozon.ru, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇳🇱 NL AMS-01 UDP-1I, server: 195.63.143.185, port: 443, type: hysteria2, password: 2abb27b1-dd84-402a-a0d3-300020e04a6d, auth: 2abb27b1-dd84-402a-a0d3-300020e04a6d, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-ams01, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-002-1C, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 893dcbf4-8b0c-470b-b116-f5417a4aca6a, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-002-1D, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: 500b806a-5fab-4ebc-9e58-01a668b4b80b, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
+  - {name: FV2026-7-7-1C, server: 101.43.62.88, port: 22001, type: vless, uuid: 714a8081-27e0-43b5-882d-9c6d6246abf4, tls: false, network: tcp, udp: true}
+  - {name: 🇺🇸 美国高速节点1, server: 144.34.178.66, port: 1443, type: trojan, password: 4380b91f-97e7-40ae-8f6d-ea4d325f9108, sni: node4.yuntongclouds.com, skip-cert-verify: true, udp: true}
+  - {name: SMART TURBO 02-1B, server: media.globalschool.edu.kg, port: 10002, type: vless, uuid: d70351ad-7fa0-4540-8ae1-a4af355e4a94, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: G90QHqX9hS3dcSfGKSZtxfjW_eFiaIeEMzw3BKIzwkg, short-id: "8a430229" }, servername: www.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: UDP EDGE-05-1E, server: 23.144.20.235, port: 443, type: hysteria2, password: e056bdc3-3a40-4060-8c11-239e8e733050, auth: e056bdc3-3a40-4060-8c11-239e8e733050, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e235, udp: true}
+  - {name: 🇳🇱 NL AMS-02 UDP-1I, server: 87.199.205.95, port: 443, type: hysteria2, password: 2abb27b1-dd84-402a-a0d3-300020e04a6d, auth: 2abb27b1-dd84-402a-a0d3-300020e04a6d, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-ams02, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-004-1F, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: 02db3e20-c80e-4c49-81b3-3af7666276c3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
+  - {name: 🇨🇦 加拿大 三网优化, server: 65.49.231.59, port: 443, type: vless, uuid: 2087dcba-6e1b-4ad9-8655-01300b2ff2be, tls: true, servername: www.bing.com, client-fingerprint: safari, network: tcp, udp: true}
+  - {name: FI HELSINKI UDP-1C, server: 188.241.54.30, port: 443, type: hysteria2, password: 9df8b8a0-1705-4010-aabb-9bac28050e1d, auth: 9df8b8a0-1705-4010-aabb-9bac28050e1d, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-obfs-2026, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-001-1A, server: cxsfvn.uhomdex.shop, port: 443, type: vmess, uuid: 4015e90a-9b52-405b-897b-a83932fcc246, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: cxsfvn.uhomdex.shop}}, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-003-1H, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: e5881e41-d679-4c7f-95a9-a5bbe41348d0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
+  - {name: FV2026-7-7-1F, server: 101.43.62.88, port: 22001, type: vless, uuid: 85c5821b-032c-499b-9a54-a6aef54255e3, tls: false, network: tcp, udp: true}
+  - {name: G I C A B N H T H N, server: expired.example.com, port: 80, type: vmess, uuid: ca4583be-4e94-48d3-8cc0-b701a101c61f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /expired, headers: {Host: expired.example.com}}, udp: true}
+  - {name: 🇺🇸 HY-02 | US, server: usflare1.cloudaddy.top, port: 30003, type: hysteria2, password: d12d1a72-f325-46de-a346-5de700a81925, auth: d12d1a72-f325-46de-a346-5de700a81925, sni: www.iq.com, skip-cert-verify: true, udp: true}
+  - {name: FI HELSINKI UDP-1F, server: 188.241.54.30, port: 443, type: hysteria2, password: 11452e66-cd4e-4479-86ba-34d1a55180c6, auth: 11452e66-cd4e-4479-86ba-34d1a55180c6, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-obfs-2026, udp: true}
+  - {name: 🇳🇱 NL AMS-02 UDP-1L, server: 87.199.205.95, port: 443, type: hysteria2, password: 8836a873-4727-469e-b3d9-e15d20608692, auth: 8836a873-4727-469e-b3d9-e15d20608692, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-ams02, udp: true}
+  - {name: FV2026-7-7-1A, server: 101.43.62.88, port: 22001, type: vless, uuid: bf4082f9-4030-475d-87f5-bc9a5c4a0b5e, tls: false, network: tcp, udp: true}
+  - {name: SMART TURBO 01-1D, server: cdn.globalschool.edu.kg, port: 10001, type: vless, uuid: 79b1be73-4f78-4349-912c-46a232412011, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: ShgC38ulwKG4MApqt3kb85py9GgEVHWmqZzaiAWtvns, short-id: "1299373a" }, servername: www.icloud.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: UDP EDGE-04-1A, server: 185.81.29.188, port: 443, type: hysteria2, password: 6fb780ea-8a83-48e5-ba49-5825ba04abbd, auth: 6fb780ea-8a83-48e5-ba49-5825ba04abbd, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e188, udp: true}
+  - {name: 🇳🇱 NL AMS-02-1K, server: 87.199.205.95, port: 39154, type: vless, uuid: e777a2e4-0277-4fc2-8b68-bc66edf07331, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: WEMJ-tqGjsjNEAV85q2AIr1jLR2aLfFLCWkkHSb3ViU, short-id: "d68bea4c" }, servername: ozon.ru, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: UDP EDGE-04-1D, server: 185.81.29.188, port: 443, type: hysteria2, password: 79b1be73-4f78-4349-912c-46a232412011, auth: 79b1be73-4f78-4349-912c-46a232412011, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e188, udp: true}
+  - {name: UDP EDGE-04-1L, server: 185.81.29.188, port: 443, type: hysteria2, password: 8836a873-4727-469e-b3d9-e15d20608692, auth: 8836a873-4727-469e-b3d9-e15d20608692, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e188, udp: true}
+  - {name: RN-TJR, server: vpn2.cc.node2.top, port: 22001, type: vless, uuid: bf4082f9-4030-475d-87f5-bc9a5c4a0b5e, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA, short-id: "dfa28122" }, servername: itunes.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇬🇧 UK RELAY-1F, server: 31.77.238.30, port: 520, type: vless, uuid: 11452e66-cd4e-4479-86ba-34d1a55180c6, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: RFA_9kIf6Gr0SpDKsILGI4igXWZxxTYCE1MWpk0oVmA, short-id: "fb0a6872" }, servername: www.amazon.co.uk, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇳🇱 NL AMS-01 UDP-1E, server: 195.63.143.185, port: 443, type: hysteria2, password: e056bdc3-3a40-4060-8c11-239e8e733050, auth: e056bdc3-3a40-4060-8c11-239e8e733050, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-ams01, udp: true}
+  - {name: SMART TURBO 01-1J, server: cdn.globalschool.edu.kg, port: 10001, type: vless, uuid: b1810f69-b6f8-40e6-bc25-07f470e9ee6e, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: ShgC38ulwKG4MApqt3kb85py9GgEVHWmqZzaiAWtvns, short-id: "1299373a" }, servername: www.icloud.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-004-1I, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: 95aa4cb0-49ae-4282-a384-428e8e221d14, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
+  - {name: SMART TURBO 01-1K, server: cdn.globalschool.edu.kg, port: 10001, type: vless, uuid: e777a2e4-0277-4fc2-8b68-bc66edf07331, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: ShgC38ulwKG4MApqt3kb85py9GgEVHWmqZzaiAWtvns, short-id: "1299373a" }, servername: www.icloud.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: XA-NDC, server: vpn2.cc.node2.top, port: 22001, type: vless, uuid: 932c7e8e-42cf-4179-b213-c8e70c3207d9, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA, short-id: "dfa28122" }, servername: itunes.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇹🇼 台湾高速节点3, server: 118.232.199.14, port: 443, type: trojan, password: 4380b91f-97e7-40ae-8f6d-ea4d325f9108, sni: node3.yuntongclouds.com, skip-cert-verify: true, udp: true}
+  - {name: UDP EDGE-04-1J, server: 185.81.29.188, port: 443, type: hysteria2, password: b1810f69-b6f8-40e6-bc25-07f470e9ee6e, auth: b1810f69-b6f8-40e6-bc25-07f470e9ee6e, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e188, udp: true}
+  - {name: 🇳🇱 NL AMS-01 UDP-1B, server: 195.63.143.185, port: 443, type: hysteria2, password: d70351ad-7fa0-4540-8ae1-a4af355e4a94, auth: d70351ad-7fa0-4540-8ae1-a4af355e4a94, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-ams01, udp: true}
+  - {name: 🇳🇱 NL AMS-02 UDP-1E, server: 87.199.205.95, port: 443, type: hysteria2, password: e056bdc3-3a40-4060-8c11-239e8e733050, auth: e056bdc3-3a40-4060-8c11-239e8e733050, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-ams02, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-003-1F, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 02db3e20-c80e-4c49-81b3-3af7666276c3, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
+  - {name: 🇳🇱 NL AMS-02-1A, server: 87.199.205.95, port: 39154, type: vless, uuid: 6fb780ea-8a83-48e5-ba49-5825ba04abbd, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: WEMJ-tqGjsjNEAV85q2AIr1jLR2aLfFLCWkkHSb3ViU, short-id: "d68bea4c" }, servername: ozon.ru, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: FV2026-7-7-1E, server: 101.43.62.88, port: 22001, type: vless, uuid: 2e4e5bae-d954-4672-ba92-79f77972be2c, tls: false, network: tcp, udp: true}
+  - {name: 🇳🇱 NL AMS-02-1C, server: 87.199.205.95, port: 39154, type: vless, uuid: 9df8b8a0-1705-4010-aabb-9bac28050e1d, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: WEMJ-tqGjsjNEAV85q2AIr1jLR2aLfFLCWkkHSb3ViU, short-id: "d68bea4c" }, servername: ozon.ru, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: UDP EDGE-04-1I, server: 185.81.29.188, port: 443, type: hysteria2, password: 2abb27b1-dd84-402a-a0d3-300020e04a6d, auth: 2abb27b1-dd84-402a-a0d3-300020e04a6d, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e188, udp: true}
+  - {name: 🇳🇱 NL AMS-01-1J, server: 195.63.143.185, port: 26017, type: vless, uuid: b1810f69-b6f8-40e6-bc25-07f470e9ee6e, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: snnMwSpENuf47GWK2JdxShaz-GvK8G93SnURv-SY5Gg, short-id: "675cad89" }, servername: ok.ru, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: Y7-ZNY, server: vpn2.cc.node2.top, port: 22001, type: vless, uuid: 85c5821b-032c-499b-9a54-a6aef54255e3, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA, short-id: "dfa28122" }, servername: itunes.apple.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: UDP EDGE-03-1F, server: 212.135.39.110, port: 443, type: hysteria2, password: 11452e66-cd4e-4479-86ba-34d1a55180c6, auth: 11452e66-cd4e-4479-86ba-34d1a55180c6, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-hy-e110, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-002-1B, server: zzrt.uhomdex.shop, port: 8443, type: vmess, uuid: c509be18-78ca-484d-868c-de164277b473, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: zzrt.uhomdex.shop}}, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-004-1H, server: qvxbtx.uhomdex.shop, port: 443, type: vmess, uuid: e5881e41-d679-4c7f-95a9-a5bbe41348d0, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: qvxbtx.uhomdex.shop}}, udp: true}
+  - {name: FI HELSINKI UDP-1A, server: 188.241.54.30, port: 443, type: hysteria2, password: 6fb780ea-8a83-48e5-ba49-5825ba04abbd, auth: 6fb780ea-8a83-48e5-ba49-5825ba04abbd, sni: ok.ru, skip-cert-verify: true, obfs: salamander, obfs-password: whale-obfs-2026, udp: true}
+  - {name: SMART TURBO 01-1G, server: cdn.globalschool.edu.kg, port: 10001, type: vless, uuid: 3c6e47ed-b781-41e2-92af-aa901d2b9f0b, tls: true, flow: xtls-rprx-vision, reality-opts: {public-key: ShgC38ulwKG4MApqt3kb85py9GgEVHWmqZzaiAWtvns, short-id: "1299373a" }, servername: www.icloud.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: 🇩🇪 德国-法兰克福-003-1I, server: hwtqcp.uhomdex.shop, port: 8443, type: vmess, uuid: 95aa4cb0-49ae-4282-a384-428e8e221d14, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: hwtqcp.uhomdex.shop}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - SMART TURBO 02-1G
-      - 🇬🇧 UK RELAY-1D
-      - 🇳🇱 NL AMS-02-1J
-      - 🇩🇪 德国-法兰克福-004-1F
-      - 🇩🇪 德国-法兰克福-003-1A
-      - FI HELSINKI UDP-1C
-      - 🇺🇦 V8-UAK
-      - 🇳🇱 NL AMS-02 UDP-1I
-      - FI HELSINKI UDP-1B
-      - 🇳🇱 NL AMS-02-1L
-      - 🇳🇱 NL AMS-01 UDP-1L
-      - FI HELSINKI UDP-1J
-      - SMART TURBO 01-1I
-      - 🇳🇱 NL AMS-01 UDP-1C
-      - 🇳🇱 NL AMS-02-1G
-      - 🇩🇪 德国-法兰克福-002-1C
-      - 🇩🇪 德国-法兰克福-003-1F
-      - 🇳🇱 NL AMS-01 UDP-1E
-      - 🇩🇪 德国-法兰克福-003-1E
-      - 🇳🇱 NL AMS-02-1I
-      - 🇩🇪 德国-法兰克福-004-1C
-      - 🇳🇱 NL AMS-01-1A
-      - 🇳🇱 NL AMS-01-1C
-      - 🇬🇧 UK RELAY-1F
-      - 🇺🇸 美国纽约 原生IP
-      - UDP EDGE-05-1F
-      - UDP EDGE-05-1J
-      - 🇹🇼 台湾高速节点2
-      - 🇬🇧 UK RELAY-1K
-      - 🇩🇪 德国-法兰克福-002-1A
-      - UDP EDGE-05-1G
-      - FV2026-7-7-1A
-      - 🇺🇸 HY-05| US
-      - UDP EDGE-04-1G
-      - 🇬🇧 UK RELAY-1B
-      - 🇩🇪 德国-法兰克福-003-1G
-      - 🇺🇸 HY-02 | US
-      - 🇹🇼 台湾高速节点
-      - SMART TURBO 01-1C
-      - 🇩🇪 德国-法兰克福-002-1E
-      - FI HELSINKI UDP-1H
-      - 🇺🇸 美国-洛杉矶-PRO
-      - SMART TURBO 02-1C
-      - 🇳🇱 NL AMS-01-1G
-      - UDP EDGE-03-1L
-      - FV2026-7-7-1E
-      - SMART TURBO 02-1I
-      - 🇬🇧 UK RELAY-1A
-      - SMART TURBO 02-1A
-      - 🇳🇱 NL AMS-01-1J
-      - 🇬🇧 UK RELAY-1G
-      - 🇳🇱 NL AMS-01-1L
-      - UDP EDGE-04-1C
-      - 🇩🇪 德国-法兰克福-004-1B
-      - 🇩🇪 德国-法兰克福-003-1D
-      - FI HELSINKI UDP-1E
-      - SMART TURBO 01-1G
-      - UDP EDGE-05-1H
-      - UDP EDGE-04-1F
-      - SMART TURBO 01-1L
-      - 🇭🇰 TTC9999 香港-1B
-      - UDP EDGE-04-1E
-      - UDP EDGE-04-1K
-      - 🇩🇪 德国-法兰克福-002-1B
-      - 🇳🇱 NL AMS-01 UDP-1K
-      - 🇳🇱 NL AMS-02-1K
-      - 🇩🇪 德国-法兰克福-001-1G
-      - UV-ZDT
-      - SMART TURBO 01-1J
-      - 🇭🇰 TTC9999 香港-1A
-      - FV2026-7-7-1D
-      - SMART TURBO 01-1F
-      - FI HELSINKI UDP-1G
-      - 🇳🇱 NL AMS-01-1E
-      - FV2026-7-7-1F
-      - 🇳🇱 NL AMS-02 UDP-1B
-      - MP-FTP
-      - UDP EDGE-03-1C
-      - 🇳🇱 NL AMS-02 UDP-1K
-      - 🇩🇪 德国-法兰克福-003-1B
-      - SMART TURBO 02-1K
-      - 🇸🇬 新加坡 BGP优化
-      - 🇩🇪 德国-法兰克福-004-1A
-      - 🇳🇱 NL AMS-01-1H
-      - 🇳🇱 NL AMS-01 UDP-1F
-      - SMART TURBO 01-1A
-      - 🇳🇱 NL AMS-01-1D
-      - 🇬🇧 UK RELAY-1C
-      - FI HELSINKI UDP-1A
-      - 🇳🇱 NL AMS-01-1B
-      - G I C A B N H T H N
-      - SMART TURBO 01-1B
-      - UDP EDGE-05-1B
-      - 🇳🇱 NL AMS-02 UDP-1D
-      - UDP EDGE-03-1G
-      - SMART TURBO 01-1H
-      - 🇳🇱 NL AMS-02-1D
-      - 🇰🇷 韩国节点-B
-      - 🇩🇪 德国-法兰克福-001-1E
-      - UDP EDGE-04-1H
-      - 🇩🇪 德国-法兰克福-001-1H
-      - UDP EDGE-04-1A
-      - 🇬🇧 UK RELAY-1I
-      - UDP EDGE-05-1I
-      - 🇳🇱 NL AMS-02-1C
-      - 🇳🇱 NL AMS-01-1F
-      - UDP EDGE-03-1F
-      - 🇨🇦 加拿大 三网优化
-      - 🇩🇪 德国-法兰克福-001-1A
-      - DY-JHU
-      - SMART TURBO 02-1D
-      - UDP EDGE-05-1K
-      - 🇳🇱 NL AMS-02 UDP-1H
-      - 🇺🇸 美国高速节点1
-      - 🇳🇱 NL AMS-01 UDP-1J
-      - YI-QRF
-      - UDP EDGE-05-1E
-      - UDP EDGE-04-1D
-      - FI HELSINKI UDP-1I
-      - 🇩🇪 德国-法兰克福-004-1G
-      - 🇳🇱 NL AMS-01 UDP-1H
-      - 🇩🇪 德国-法兰克福-001-1B
-      - 🇩🇪 德国-法兰克福-002-1H
-      - 🇳🇱 NL AMS-02 UDP-1J
-      - 🇹🇼 台湾高速节点3
-      - UDP EDGE-04-1L
-      - UDP EDGE-03-1H
-      - 🇩🇪 德国-法兰克福-004-1D
-      - SMART TURBO 01-1D
-      - 🇩🇪 德国-法兰克福-003-1H
-      - 🇳🇱 NL AMS-01 UDP-1G
-      - 🇳🇱 NL AMS-01 UDP-1A
-      - SMART TURBO 02-1E
-      - SMART TURBO 01-1E
-      - UDP EDGE-03-1K
-      - 🇬🇧 UK RELAY-1J
-      - FV2026-7-7-1B
-      - UDP EDGE-03-1B
-      - FI HELSINKI UDP-1L
-      - UDP EDGE-03-1E
-      - OV-NPH
-      - 🇩🇪 德国-法兰克福-001-1C
-      - UDP EDGE-04-1I
-      - SMART TURBO 01-1K
-      - 🇩🇪 德国-法兰克福-004-1E
-      - FI HELSINKI UDP-1D
-      - 🇩🇪 德国-法兰克福-001-1F
-      - 🇹🇼 台湾 IEPL专线
-      - FV2026-7-7-1C
-      - 🇳🇱 NL AMS-02-1H
-      - UDP EDGE-05-1L
-      - UDP EDGE-04-1J
-      - SMART TURBO 02-1L
-      - 🇳🇱 NL AMS-02 UDP-1F
-      - 🇳🇱 NL AMS-01 UDP-1I
-      - UDP EDGE-04-1B
-      - 🇳🇱 NL AMS-02 UDP-1G
-      - 🇳🇱 NL AMS-02-1B
-      - 🇩🇪 德国-法兰克福-002-1D
-      - UDP EDGE-03-1J
-      - 🇭🇰 HK-A
-      - UDP EDGE-03-1A
-      - SMART TURBO 02-1F
-      - UDP EDGE-03-1I
-      - SMART TURBO 02-1J
-      - FI HELSINKI UDP-1K
-      - 🇳🇱 NL AMS-02 UDP-1L
-      - 🇩🇪 德国-法兰克福-004-1H
-      - 🇬🇧 UK RELAY-1H
-      - UDP EDGE-05-1A
-      - 🇺🇸 HY-03 | US
-      - AO-REH
-      - UDP EDGE-05-1C
-      - 🇬🇧 UK RELAY-1L
-      - 🇳🇱 NL AMS-01 UDP-1D
-      - SMART TURBO 02-1B
-      - 🇳🇱 NL AMS-01-1I
-      - 🇳🇱 NL AMS-02 UDP-1C
-      - 🇳🇱 NL AMS-02 UDP-1A
-      - 🇨🇳 中国联通节点1
-      - 🇩🇪 德国-法兰克福-003-1C
-      - 🇬🇧 UK RELAY-1E
-      - 🇳🇱 NL AMS-01-1K
-      - UDP EDGE-03-1D
-      - 🇳🇱 NL AMS-02 UDP-1E
-      - 🇺🇸 HY-04 | US
-      - 🇳🇱 NL AMS-02-1A
       - 🇳🇱 NL AMS-02-1F
-      - UDP EDGE-05-1D
-      - 🇳🇱 NL AMS-02-1E
-      - 🇳🇱 NL AMS-01 UDP-1B
+      - 🇬🇧 UK RELAY-1H
+      - FI HELSINKI UDP-1K
+      - 🇳🇱 NL AMS-01 UDP-1L
+      - 🇭🇰 TTC9999 香港-1B
+      - 🇳🇱 NL AMS-01 UDP-1D
+      - SMART TURBO 01-1H
+      - FI HELSINKI UDP-1E
+      - UDP EDGE-03-1A
+      - UDP EDGE-03-1B
+      - UDP EDGE-05-1C
+      - 🇳🇱 NL AMS-01-1L
+      - 🇩🇪 德国-法兰克福-001-1E
+      - 🇳🇱 NL AMS-01-1E
+      - 🇩🇪 德国-法兰克福-003-1G
+      - FI HELSINKI UDP-1I
+      - 🇬🇧 UK RELAY-1G
+      - 🇩🇪 德国-法兰克福-003-1A
+      - SMART TURBO 02-1J
       - SMART TURBO 02-1H
-      - FI HELSINKI UDP-1F
+      - SMART TURBO 01-1A
+      - UDP EDGE-05-1A
+      - 🇳🇱 NL AMS-01-1A
+      - FV2026-7-7-1D
+      - SMART TURBO 02-1E
+      - 🇳🇱 NL AMS-01-1D
+      - 🇩🇪 德国-法兰克福-002-1J
+      - FI HELSINKI UDP-1B
+      - GY-EYC
+      - SMART TURBO 01-1I
+      - 🇹🇼 台湾高速节点2
+      - UDP EDGE-05-1F
+      - 🇳🇱 NL AMS-02-1I
+      - 8F-FDB
+      - SMART TURBO 02-1L
+      - SMART TURBO 02-1F
+      - 🇩🇪 德国-法兰克福-001-1I
+      - FV2026-7-7-1B
+      - UDP EDGE-03-1I
+      - 🇩🇪 德国-法兰克福-002-1H
+      - 🇳🇱 NL AMS-02 UDP-1F
+      - 🇩🇪 德国-法兰克福-004-1D
+      - UDP EDGE-05-1B
+      - UDP EDGE-04-1C
+      - A1-YDJ
+      - 🇬🇧 UK RELAY-1K
+      - UDP EDGE-03-1H
+      - 🇩🇪 德国-法兰克福-004-1A
+      - 🇳🇱 NL AMS-02 UDP-1A
+      - 🇩🇪 德国-法兰克福-003-1C
+      - 🇳🇱 NL AMS-02 UDP-1D
+      - 🇺🇸 美国纽约 原生IP
+      - SMART TURBO 01-1C
+      - UDP EDGE-05-1H
+      - 🇩🇪 德国-法兰克福-004-1C
+      - 🇩🇪 德国-法兰克福-001-1C
+      - UDP EDGE-03-1K
+      - 🇳🇱 NL AMS-01 UDP-1H
+      - UDP EDGE-04-1E
+      - 🇳🇱 NL AMS-01 UDP-1G
+      - UDP EDGE-05-1J
+      - UDP EDGE-03-1G
+      - 🇭🇰 TTC9999 香港-1A
+      - 🇩🇪 德国-法兰克福-002-1A
+      - 🇬🇧 UK RELAY-1B
+      - 🇳🇱 NL AMS-01-1G
+      - 🇳🇱 NL AMS-02 UDP-1J
+      - 🇳🇱 NL AMS-02-1J
+      - UDP EDGE-05-1K
+      - SMART TURBO 02-1G
+      - 🇹🇼 台湾 IEPL专线
+      - 🇩🇪 德国-法兰克福-004-1J
+      - 🇩🇪 德国-法兰克福-003-1D
+      - FI HELSINKI UDP-1L
+      - 🇳🇱 NL AMS-01-1K
+      - 🇰🇷 韩国节点-B
+      - 🇳🇱 NL AMS-01-1H
+      - UDP EDGE-05-1I
+      - MH-CKJ
+      - UDP EDGE-03-1L
+      - 🇭🇰 HK-A
+      - 🇳🇱 NL AMS-02 UDP-1K
+      - 🇬🇧 UK RELAY-1I
+      - 🇳🇱 NL AMS-02 UDP-1G
+      - 🇩🇪 德国-法兰克福-003-1E
+      - 🇳🇱 NL AMS-01 UDP-1F
+      - UDP EDGE-04-1K
+      - FI HELSINKI UDP-1G
+      - 🇩🇪 德国-法兰克福-001-1G
+      - 🇩🇪 德国-法兰克福-001-1H
+      - UDP EDGE-03-1C
+      - SMART TURBO 01-1B
+      - 🇳🇱 NL AMS-02-1B
+      - UDP EDGE-03-1D
       - 🇩🇪 德国-法兰克福-002-1G
-      - 🇩🇪 德国-法兰克福-001-1D
+      - 🇩🇪 德国-法兰克福-001-1J
+      - 🇩🇪 德国-法兰克福-001-1F
+      - UDP EDGE-04-1H
+      - 🇳🇱 NL AMS-01-1F
+      - 🇨🇳 中国联通节点1
+      - SMART TURBO 02-1A
+      - 🇳🇱 NL AMS-02-1L
+      - SMART TURBO 01-1F
+      - 🇬🇧 UK RELAY-1C
+      - UDP EDGE-03-1J
+      - 🇬🇧 UK RELAY-1D
+      - SMART TURBO 02-1D
+      - SMART TURBO 02-1C
+      - 🇳🇱 NL AMS-01-1I
+      - 🇳🇱 NL AMS-02-1D
+      - 🇺🇸 HY-05| US
+      - 🇳🇱 NL AMS-02 UDP-1B
+      - SMART TURBO 02-1I
+      - UDP EDGE-04-1G
+      - 🇩🇪 德国-法兰克福-004-1G
+      - 🇸🇬 新加坡 BGP优化
+      - UDP EDGE-05-1D
+      - 🇳🇱 NL AMS-01-1B
       - 🇩🇪 德国-法兰克福-002-1F
+      - 🇬🇧 UK RELAY-1L
+      - 🇩🇪 德国-法兰克福-002-1I
+      - FI HELSINKI UDP-1J
+      - FI HELSINKI UDP-1H
+      - UDP EDGE-05-1L
+      - 🇬🇧 UK RELAY-1A
+      - 🇩🇪 德国-法兰克福-003-1J
+      - 🇳🇱 NL AMS-02 UDP-1H
+      - 🇩🇪 德国-法兰克福-002-1E
+      - 🇳🇱 NL AMS-02-1H
+      - 🇺🇸 HY-04 | US
+      - 🇳🇱 NL AMS-01 UDP-1J
+      - SMART TURBO 01-1E
+      - FV2026-7-7-1G
+      - 🇳🇱 NL AMS-01 UDP-1C
+      - UDP EDGE-04-1F
+      - 🇳🇱 NL AMS-02 UDP-1C
+      - 🇳🇱 NL AMS-01 UDP-1A
+      - FI HELSINKI UDP-1D
+      - 🇺🇸 美国-洛杉矶-PRO
+      - SMART TURBO 01-1L
+      - 🇩🇪 德国-法兰克福-004-1B
+      - JQ-ACU
+      - 🇩🇪 德国-法兰克福-001-1B
+      - 🇩🇪 德国-法兰克福-004-1E
+      - 🇳🇱 NL AMS-01-1C
+      - UDP EDGE-05-1G
+      - 🇬🇧 UK RELAY-1E
+      - 🇬🇧 UK RELAY-1J
+      - 🇺🇸 HY-03 | US
+      - SMART TURBO 02-1K
+      - UDP EDGE-03-1E
+      - 🇳🇱 NL AMS-01 UDP-1K
+      - 🇩🇪 德国-法兰克福-001-1D
+      - 🇹🇼 台湾高速节点
+      - 🇩🇪 德国-法兰克福-003-1B
+      - UDP EDGE-04-1B
+      - 🇳🇱 NL AMS-02-1G
+      - 🇳🇱 NL AMS-02-1E
+      - 🇳🇱 NL AMS-01 UDP-1I
+      - 🇩🇪 德国-法兰克福-002-1C
+      - 🇩🇪 德国-法兰克福-002-1D
+      - FV2026-7-7-1C
+      - 🇺🇸 美国高速节点1
+      - SMART TURBO 02-1B
+      - UDP EDGE-05-1E
+      - 🇳🇱 NL AMS-02 UDP-1I
+      - 🇩🇪 德国-法兰克福-004-1F
+      - 🇨🇦 加拿大 三网优化
+      - FI HELSINKI UDP-1C
+      - 🇩🇪 德国-法兰克福-001-1A
+      - 🇩🇪 德国-法兰克福-003-1H
+      - FV2026-7-7-1F
+      - G I C A B N H T H N
+      - 🇺🇸 HY-02 | US
+      - FI HELSINKI UDP-1F
+      - 🇳🇱 NL AMS-02 UDP-1L
+      - FV2026-7-7-1A
+      - SMART TURBO 01-1D
+      - UDP EDGE-04-1A
+      - 🇳🇱 NL AMS-02-1K
+      - UDP EDGE-04-1D
+      - UDP EDGE-04-1L
+      - RN-TJR
+      - 🇬🇧 UK RELAY-1F
+      - 🇳🇱 NL AMS-01 UDP-1E
+      - SMART TURBO 01-1J
+      - 🇩🇪 德国-法兰克福-004-1I
+      - SMART TURBO 01-1K
+      - XA-NDC
+      - 🇹🇼 台湾高速节点3
+      - UDP EDGE-04-1J
+      - 🇳🇱 NL AMS-01 UDP-1B
+      - 🇳🇱 NL AMS-02 UDP-1E
+      - 🇩🇪 德国-法兰克福-003-1F
+      - 🇳🇱 NL AMS-02-1A
+      - FV2026-7-7-1E
+      - 🇳🇱 NL AMS-02-1C
+      - UDP EDGE-04-1I
+      - 🇳🇱 NL AMS-01-1J
+      - Y7-ZNY
+      - UDP EDGE-03-1F
+      - 🇩🇪 德国-法兰克福-002-1B
+      - 🇩🇪 德国-法兰克福-004-1H
+      - FI HELSINKI UDP-1A
+      - SMART TURBO 01-1G
+      - 🇩🇪 德国-法兰克福-003-1I
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - SMART TURBO 02-1G
-      - 🇬🇧 UK RELAY-1D
-      - 🇳🇱 NL AMS-02-1J
-      - 🇩🇪 德国-法兰克福-004-1F
-      - 🇩🇪 德国-法兰克福-003-1A
-      - FI HELSINKI UDP-1C
-      - 🇺🇦 V8-UAK
-      - 🇳🇱 NL AMS-02 UDP-1I
-      - FI HELSINKI UDP-1B
-      - 🇳🇱 NL AMS-02-1L
-      - 🇳🇱 NL AMS-01 UDP-1L
-      - FI HELSINKI UDP-1J
-      - SMART TURBO 01-1I
-      - 🇳🇱 NL AMS-01 UDP-1C
-      - 🇳🇱 NL AMS-02-1G
-      - 🇩🇪 德国-法兰克福-002-1C
-      - 🇩🇪 德国-法兰克福-003-1F
-      - 🇳🇱 NL AMS-01 UDP-1E
-      - 🇩🇪 德国-法兰克福-003-1E
-      - 🇳🇱 NL AMS-02-1I
-      - 🇩🇪 德国-法兰克福-004-1C
-      - 🇳🇱 NL AMS-01-1A
-      - 🇳🇱 NL AMS-01-1C
-      - 🇬🇧 UK RELAY-1F
-      - 🇺🇸 美国纽约 原生IP
-      - UDP EDGE-05-1F
-      - UDP EDGE-05-1J
-      - 🇹🇼 台湾高速节点2
-      - 🇬🇧 UK RELAY-1K
-      - 🇩🇪 德国-法兰克福-002-1A
-      - UDP EDGE-05-1G
-      - FV2026-7-7-1A
-      - 🇺🇸 HY-05| US
-      - UDP EDGE-04-1G
-      - 🇬🇧 UK RELAY-1B
-      - 🇩🇪 德国-法兰克福-003-1G
-      - 🇺🇸 HY-02 | US
-      - 🇹🇼 台湾高速节点
-      - SMART TURBO 01-1C
-      - 🇩🇪 德国-法兰克福-002-1E
-      - FI HELSINKI UDP-1H
-      - 🇺🇸 美国-洛杉矶-PRO
-      - SMART TURBO 02-1C
-      - 🇳🇱 NL AMS-01-1G
-      - UDP EDGE-03-1L
-      - FV2026-7-7-1E
-      - SMART TURBO 02-1I
-      - 🇬🇧 UK RELAY-1A
-      - SMART TURBO 02-1A
-      - 🇳🇱 NL AMS-01-1J
-      - 🇬🇧 UK RELAY-1G
-      - 🇳🇱 NL AMS-01-1L
-      - UDP EDGE-04-1C
-      - 🇩🇪 德国-法兰克福-004-1B
-      - 🇩🇪 德国-法兰克福-003-1D
-      - FI HELSINKI UDP-1E
-      - SMART TURBO 01-1G
-      - UDP EDGE-05-1H
-      - UDP EDGE-04-1F
-      - SMART TURBO 01-1L
-      - 🇭🇰 TTC9999 香港-1B
-      - UDP EDGE-04-1E
-      - UDP EDGE-04-1K
-      - 🇩🇪 德国-法兰克福-002-1B
-      - 🇳🇱 NL AMS-01 UDP-1K
-      - 🇳🇱 NL AMS-02-1K
-      - 🇩🇪 德国-法兰克福-001-1G
-      - UV-ZDT
-      - SMART TURBO 01-1J
-      - 🇭🇰 TTC9999 香港-1A
-      - FV2026-7-7-1D
-      - SMART TURBO 01-1F
-      - FI HELSINKI UDP-1G
-      - 🇳🇱 NL AMS-01-1E
-      - FV2026-7-7-1F
-      - 🇳🇱 NL AMS-02 UDP-1B
-      - MP-FTP
-      - UDP EDGE-03-1C
-      - 🇳🇱 NL AMS-02 UDP-1K
-      - 🇩🇪 德国-法兰克福-003-1B
-      - SMART TURBO 02-1K
-      - 🇸🇬 新加坡 BGP优化
-      - 🇩🇪 德国-法兰克福-004-1A
-      - 🇳🇱 NL AMS-01-1H
-      - 🇳🇱 NL AMS-01 UDP-1F
-      - SMART TURBO 01-1A
-      - 🇳🇱 NL AMS-01-1D
-      - 🇬🇧 UK RELAY-1C
-      - FI HELSINKI UDP-1A
-      - 🇳🇱 NL AMS-01-1B
-      - G I C A B N H T H N
-      - SMART TURBO 01-1B
-      - UDP EDGE-05-1B
-      - 🇳🇱 NL AMS-02 UDP-1D
-      - UDP EDGE-03-1G
-      - SMART TURBO 01-1H
-      - 🇳🇱 NL AMS-02-1D
-      - 🇰🇷 韩国节点-B
-      - 🇩🇪 德国-法兰克福-001-1E
-      - UDP EDGE-04-1H
-      - 🇩🇪 德国-法兰克福-001-1H
-      - UDP EDGE-04-1A
-      - 🇬🇧 UK RELAY-1I
-      - UDP EDGE-05-1I
-      - 🇳🇱 NL AMS-02-1C
-      - 🇳🇱 NL AMS-01-1F
-      - UDP EDGE-03-1F
-      - 🇨🇦 加拿大 三网优化
-      - 🇩🇪 德国-法兰克福-001-1A
-      - DY-JHU
-      - SMART TURBO 02-1D
-      - UDP EDGE-05-1K
-      - 🇳🇱 NL AMS-02 UDP-1H
-      - 🇺🇸 美国高速节点1
-      - 🇳🇱 NL AMS-01 UDP-1J
-      - YI-QRF
-      - UDP EDGE-05-1E
-      - UDP EDGE-04-1D
-      - FI HELSINKI UDP-1I
-      - 🇩🇪 德国-法兰克福-004-1G
-      - 🇳🇱 NL AMS-01 UDP-1H
-      - 🇩🇪 德国-法兰克福-001-1B
-      - 🇩🇪 德国-法兰克福-002-1H
-      - 🇳🇱 NL AMS-02 UDP-1J
-      - 🇹🇼 台湾高速节点3
-      - UDP EDGE-04-1L
-      - UDP EDGE-03-1H
-      - 🇩🇪 德国-法兰克福-004-1D
-      - SMART TURBO 01-1D
-      - 🇩🇪 德国-法兰克福-003-1H
-      - 🇳🇱 NL AMS-01 UDP-1G
-      - 🇳🇱 NL AMS-01 UDP-1A
-      - SMART TURBO 02-1E
-      - SMART TURBO 01-1E
-      - UDP EDGE-03-1K
-      - 🇬🇧 UK RELAY-1J
-      - FV2026-7-7-1B
-      - UDP EDGE-03-1B
-      - FI HELSINKI UDP-1L
-      - UDP EDGE-03-1E
-      - OV-NPH
-      - 🇩🇪 德国-法兰克福-001-1C
-      - UDP EDGE-04-1I
-      - SMART TURBO 01-1K
-      - 🇩🇪 德国-法兰克福-004-1E
-      - FI HELSINKI UDP-1D
-      - 🇩🇪 德国-法兰克福-001-1F
-      - 🇹🇼 台湾 IEPL专线
-      - FV2026-7-7-1C
-      - 🇳🇱 NL AMS-02-1H
-      - UDP EDGE-05-1L
-      - UDP EDGE-04-1J
-      - SMART TURBO 02-1L
-      - 🇳🇱 NL AMS-02 UDP-1F
-      - 🇳🇱 NL AMS-01 UDP-1I
-      - UDP EDGE-04-1B
-      - 🇳🇱 NL AMS-02 UDP-1G
-      - 🇳🇱 NL AMS-02-1B
-      - 🇩🇪 德国-法兰克福-002-1D
-      - UDP EDGE-03-1J
-      - 🇭🇰 HK-A
-      - UDP EDGE-03-1A
-      - SMART TURBO 02-1F
-      - UDP EDGE-03-1I
-      - SMART TURBO 02-1J
-      - FI HELSINKI UDP-1K
-      - 🇳🇱 NL AMS-02 UDP-1L
-      - 🇩🇪 德国-法兰克福-004-1H
-      - 🇬🇧 UK RELAY-1H
-      - UDP EDGE-05-1A
-      - 🇺🇸 HY-03 | US
-      - AO-REH
-      - UDP EDGE-05-1C
-      - 🇬🇧 UK RELAY-1L
-      - 🇳🇱 NL AMS-01 UDP-1D
-      - SMART TURBO 02-1B
-      - 🇳🇱 NL AMS-01-1I
-      - 🇳🇱 NL AMS-02 UDP-1C
-      - 🇳🇱 NL AMS-02 UDP-1A
-      - 🇨🇳 中国联通节点1
-      - 🇩🇪 德国-法兰克福-003-1C
-      - 🇬🇧 UK RELAY-1E
-      - 🇳🇱 NL AMS-01-1K
-      - UDP EDGE-03-1D
-      - 🇳🇱 NL AMS-02 UDP-1E
-      - 🇺🇸 HY-04 | US
-      - 🇳🇱 NL AMS-02-1A
       - 🇳🇱 NL AMS-02-1F
-      - UDP EDGE-05-1D
-      - 🇳🇱 NL AMS-02-1E
-      - 🇳🇱 NL AMS-01 UDP-1B
+      - 🇬🇧 UK RELAY-1H
+      - FI HELSINKI UDP-1K
+      - 🇳🇱 NL AMS-01 UDP-1L
+      - 🇭🇰 TTC9999 香港-1B
+      - 🇳🇱 NL AMS-01 UDP-1D
+      - SMART TURBO 01-1H
+      - FI HELSINKI UDP-1E
+      - UDP EDGE-03-1A
+      - UDP EDGE-03-1B
+      - UDP EDGE-05-1C
+      - 🇳🇱 NL AMS-01-1L
+      - 🇩🇪 德国-法兰克福-001-1E
+      - 🇳🇱 NL AMS-01-1E
+      - 🇩🇪 德国-法兰克福-003-1G
+      - FI HELSINKI UDP-1I
+      - 🇬🇧 UK RELAY-1G
+      - 🇩🇪 德国-法兰克福-003-1A
+      - SMART TURBO 02-1J
       - SMART TURBO 02-1H
-      - FI HELSINKI UDP-1F
+      - SMART TURBO 01-1A
+      - UDP EDGE-05-1A
+      - 🇳🇱 NL AMS-01-1A
+      - FV2026-7-7-1D
+      - SMART TURBO 02-1E
+      - 🇳🇱 NL AMS-01-1D
+      - 🇩🇪 德国-法兰克福-002-1J
+      - FI HELSINKI UDP-1B
+      - GY-EYC
+      - SMART TURBO 01-1I
+      - 🇹🇼 台湾高速节点2
+      - UDP EDGE-05-1F
+      - 🇳🇱 NL AMS-02-1I
+      - 8F-FDB
+      - SMART TURBO 02-1L
+      - SMART TURBO 02-1F
+      - 🇩🇪 德国-法兰克福-001-1I
+      - FV2026-7-7-1B
+      - UDP EDGE-03-1I
+      - 🇩🇪 德国-法兰克福-002-1H
+      - 🇳🇱 NL AMS-02 UDP-1F
+      - 🇩🇪 德国-法兰克福-004-1D
+      - UDP EDGE-05-1B
+      - UDP EDGE-04-1C
+      - A1-YDJ
+      - 🇬🇧 UK RELAY-1K
+      - UDP EDGE-03-1H
+      - 🇩🇪 德国-法兰克福-004-1A
+      - 🇳🇱 NL AMS-02 UDP-1A
+      - 🇩🇪 德国-法兰克福-003-1C
+      - 🇳🇱 NL AMS-02 UDP-1D
+      - 🇺🇸 美国纽约 原生IP
+      - SMART TURBO 01-1C
+      - UDP EDGE-05-1H
+      - 🇩🇪 德国-法兰克福-004-1C
+      - 🇩🇪 德国-法兰克福-001-1C
+      - UDP EDGE-03-1K
+      - 🇳🇱 NL AMS-01 UDP-1H
+      - UDP EDGE-04-1E
+      - 🇳🇱 NL AMS-01 UDP-1G
+      - UDP EDGE-05-1J
+      - UDP EDGE-03-1G
+      - 🇭🇰 TTC9999 香港-1A
+      - 🇩🇪 德国-法兰克福-002-1A
+      - 🇬🇧 UK RELAY-1B
+      - 🇳🇱 NL AMS-01-1G
+      - 🇳🇱 NL AMS-02 UDP-1J
+      - 🇳🇱 NL AMS-02-1J
+      - UDP EDGE-05-1K
+      - SMART TURBO 02-1G
+      - 🇹🇼 台湾 IEPL专线
+      - 🇩🇪 德国-法兰克福-004-1J
+      - 🇩🇪 德国-法兰克福-003-1D
+      - FI HELSINKI UDP-1L
+      - 🇳🇱 NL AMS-01-1K
+      - 🇰🇷 韩国节点-B
+      - 🇳🇱 NL AMS-01-1H
+      - UDP EDGE-05-1I
+      - MH-CKJ
+      - UDP EDGE-03-1L
+      - 🇭🇰 HK-A
+      - 🇳🇱 NL AMS-02 UDP-1K
+      - 🇬🇧 UK RELAY-1I
+      - 🇳🇱 NL AMS-02 UDP-1G
+      - 🇩🇪 德国-法兰克福-003-1E
+      - 🇳🇱 NL AMS-01 UDP-1F
+      - UDP EDGE-04-1K
+      - FI HELSINKI UDP-1G
+      - 🇩🇪 德国-法兰克福-001-1G
+      - 🇩🇪 德国-法兰克福-001-1H
+      - UDP EDGE-03-1C
+      - SMART TURBO 01-1B
+      - 🇳🇱 NL AMS-02-1B
+      - UDP EDGE-03-1D
       - 🇩🇪 德国-法兰克福-002-1G
-      - 🇩🇪 德国-法兰克福-001-1D
+      - 🇩🇪 德国-法兰克福-001-1J
+      - 🇩🇪 德国-法兰克福-001-1F
+      - UDP EDGE-04-1H
+      - 🇳🇱 NL AMS-01-1F
+      - 🇨🇳 中国联通节点1
+      - SMART TURBO 02-1A
+      - 🇳🇱 NL AMS-02-1L
+      - SMART TURBO 01-1F
+      - 🇬🇧 UK RELAY-1C
+      - UDP EDGE-03-1J
+      - 🇬🇧 UK RELAY-1D
+      - SMART TURBO 02-1D
+      - SMART TURBO 02-1C
+      - 🇳🇱 NL AMS-01-1I
+      - 🇳🇱 NL AMS-02-1D
+      - 🇺🇸 HY-05| US
+      - 🇳🇱 NL AMS-02 UDP-1B
+      - SMART TURBO 02-1I
+      - UDP EDGE-04-1G
+      - 🇩🇪 德国-法兰克福-004-1G
+      - 🇸🇬 新加坡 BGP优化
+      - UDP EDGE-05-1D
+      - 🇳🇱 NL AMS-01-1B
       - 🇩🇪 德国-法兰克福-002-1F
+      - 🇬🇧 UK RELAY-1L
+      - 🇩🇪 德国-法兰克福-002-1I
+      - FI HELSINKI UDP-1J
+      - FI HELSINKI UDP-1H
+      - UDP EDGE-05-1L
+      - 🇬🇧 UK RELAY-1A
+      - 🇩🇪 德国-法兰克福-003-1J
+      - 🇳🇱 NL AMS-02 UDP-1H
+      - 🇩🇪 德国-法兰克福-002-1E
+      - 🇳🇱 NL AMS-02-1H
+      - 🇺🇸 HY-04 | US
+      - 🇳🇱 NL AMS-01 UDP-1J
+      - SMART TURBO 01-1E
+      - FV2026-7-7-1G
+      - 🇳🇱 NL AMS-01 UDP-1C
+      - UDP EDGE-04-1F
+      - 🇳🇱 NL AMS-02 UDP-1C
+      - 🇳🇱 NL AMS-01 UDP-1A
+      - FI HELSINKI UDP-1D
+      - 🇺🇸 美国-洛杉矶-PRO
+      - SMART TURBO 01-1L
+      - 🇩🇪 德国-法兰克福-004-1B
+      - JQ-ACU
+      - 🇩🇪 德国-法兰克福-001-1B
+      - 🇩🇪 德国-法兰克福-004-1E
+      - 🇳🇱 NL AMS-01-1C
+      - UDP EDGE-05-1G
+      - 🇬🇧 UK RELAY-1E
+      - 🇬🇧 UK RELAY-1J
+      - 🇺🇸 HY-03 | US
+      - SMART TURBO 02-1K
+      - UDP EDGE-03-1E
+      - 🇳🇱 NL AMS-01 UDP-1K
+      - 🇩🇪 德国-法兰克福-001-1D
+      - 🇹🇼 台湾高速节点
+      - 🇩🇪 德国-法兰克福-003-1B
+      - UDP EDGE-04-1B
+      - 🇳🇱 NL AMS-02-1G
+      - 🇳🇱 NL AMS-02-1E
+      - 🇳🇱 NL AMS-01 UDP-1I
+      - 🇩🇪 德国-法兰克福-002-1C
+      - 🇩🇪 德国-法兰克福-002-1D
+      - FV2026-7-7-1C
+      - 🇺🇸 美国高速节点1
+      - SMART TURBO 02-1B
+      - UDP EDGE-05-1E
+      - 🇳🇱 NL AMS-02 UDP-1I
+      - 🇩🇪 德国-法兰克福-004-1F
+      - 🇨🇦 加拿大 三网优化
+      - FI HELSINKI UDP-1C
+      - 🇩🇪 德国-法兰克福-001-1A
+      - 🇩🇪 德国-法兰克福-003-1H
+      - FV2026-7-7-1F
+      - G I C A B N H T H N
+      - 🇺🇸 HY-02 | US
+      - FI HELSINKI UDP-1F
+      - 🇳🇱 NL AMS-02 UDP-1L
+      - FV2026-7-7-1A
+      - SMART TURBO 01-1D
+      - UDP EDGE-04-1A
+      - 🇳🇱 NL AMS-02-1K
+      - UDP EDGE-04-1D
+      - UDP EDGE-04-1L
+      - RN-TJR
+      - 🇬🇧 UK RELAY-1F
+      - 🇳🇱 NL AMS-01 UDP-1E
+      - SMART TURBO 01-1J
+      - 🇩🇪 德国-法兰克福-004-1I
+      - SMART TURBO 01-1K
+      - XA-NDC
+      - 🇹🇼 台湾高速节点3
+      - UDP EDGE-04-1J
+      - 🇳🇱 NL AMS-01 UDP-1B
+      - 🇳🇱 NL AMS-02 UDP-1E
+      - 🇩🇪 德国-法兰克福-003-1F
+      - 🇳🇱 NL AMS-02-1A
+      - FV2026-7-7-1E
+      - 🇳🇱 NL AMS-02-1C
+      - UDP EDGE-04-1I
+      - 🇳🇱 NL AMS-01-1J
+      - Y7-ZNY
+      - UDP EDGE-03-1F
+      - 🇩🇪 德国-法兰克福-002-1B
+      - 🇩🇪 德国-法兰克福-004-1H
+      - FI HELSINKI UDP-1A
+      - SMART TURBO 01-1G
+      - 🇩🇪 德国-法兰克福-003-1I
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - SMART TURBO 02-1G
-      - 🇬🇧 UK RELAY-1D
-      - 🇳🇱 NL AMS-02-1J
-      - 🇩🇪 德国-法兰克福-004-1F
-      - 🇩🇪 德国-法兰克福-003-1A
-      - FI HELSINKI UDP-1C
-      - 🇺🇦 V8-UAK
-      - 🇳🇱 NL AMS-02 UDP-1I
-      - FI HELSINKI UDP-1B
-      - 🇳🇱 NL AMS-02-1L
-      - 🇳🇱 NL AMS-01 UDP-1L
-      - FI HELSINKI UDP-1J
-      - SMART TURBO 01-1I
-      - 🇳🇱 NL AMS-01 UDP-1C
-      - 🇳🇱 NL AMS-02-1G
-      - 🇩🇪 德国-法兰克福-002-1C
-      - 🇩🇪 德国-法兰克福-003-1F
-      - 🇳🇱 NL AMS-01 UDP-1E
-      - 🇩🇪 德国-法兰克福-003-1E
-      - 🇳🇱 NL AMS-02-1I
-      - 🇩🇪 德国-法兰克福-004-1C
-      - 🇳🇱 NL AMS-01-1A
-      - 🇳🇱 NL AMS-01-1C
-      - 🇬🇧 UK RELAY-1F
-      - 🇺🇸 美国纽约 原生IP
-      - UDP EDGE-05-1F
-      - UDP EDGE-05-1J
-      - 🇹🇼 台湾高速节点2
-      - 🇬🇧 UK RELAY-1K
-      - 🇩🇪 德国-法兰克福-002-1A
-      - UDP EDGE-05-1G
-      - FV2026-7-7-1A
-      - 🇺🇸 HY-05| US
-      - UDP EDGE-04-1G
-      - 🇬🇧 UK RELAY-1B
-      - 🇩🇪 德国-法兰克福-003-1G
-      - 🇺🇸 HY-02 | US
-      - 🇹🇼 台湾高速节点
-      - SMART TURBO 01-1C
-      - 🇩🇪 德国-法兰克福-002-1E
-      - FI HELSINKI UDP-1H
-      - 🇺🇸 美国-洛杉矶-PRO
-      - SMART TURBO 02-1C
-      - 🇳🇱 NL AMS-01-1G
-      - UDP EDGE-03-1L
-      - FV2026-7-7-1E
-      - SMART TURBO 02-1I
-      - 🇬🇧 UK RELAY-1A
-      - SMART TURBO 02-1A
-      - 🇳🇱 NL AMS-01-1J
-      - 🇬🇧 UK RELAY-1G
-      - 🇳🇱 NL AMS-01-1L
-      - UDP EDGE-04-1C
-      - 🇩🇪 德国-法兰克福-004-1B
-      - 🇩🇪 德国-法兰克福-003-1D
-      - FI HELSINKI UDP-1E
-      - SMART TURBO 01-1G
-      - UDP EDGE-05-1H
-      - UDP EDGE-04-1F
-      - SMART TURBO 01-1L
-      - 🇭🇰 TTC9999 香港-1B
-      - UDP EDGE-04-1E
-      - UDP EDGE-04-1K
-      - 🇩🇪 德国-法兰克福-002-1B
-      - 🇳🇱 NL AMS-01 UDP-1K
-      - 🇳🇱 NL AMS-02-1K
-      - 🇩🇪 德国-法兰克福-001-1G
-      - UV-ZDT
-      - SMART TURBO 01-1J
-      - 🇭🇰 TTC9999 香港-1A
-      - FV2026-7-7-1D
-      - SMART TURBO 01-1F
-      - FI HELSINKI UDP-1G
-      - 🇳🇱 NL AMS-01-1E
-      - FV2026-7-7-1F
-      - 🇳🇱 NL AMS-02 UDP-1B
-      - MP-FTP
-      - UDP EDGE-03-1C
-      - 🇳🇱 NL AMS-02 UDP-1K
-      - 🇩🇪 德国-法兰克福-003-1B
-      - SMART TURBO 02-1K
-      - 🇸🇬 新加坡 BGP优化
-      - 🇩🇪 德国-法兰克福-004-1A
-      - 🇳🇱 NL AMS-01-1H
-      - 🇳🇱 NL AMS-01 UDP-1F
-      - SMART TURBO 01-1A
-      - 🇳🇱 NL AMS-01-1D
-      - 🇬🇧 UK RELAY-1C
-      - FI HELSINKI UDP-1A
-      - 🇳🇱 NL AMS-01-1B
-      - G I C A B N H T H N
-      - SMART TURBO 01-1B
-      - UDP EDGE-05-1B
-      - 🇳🇱 NL AMS-02 UDP-1D
-      - UDP EDGE-03-1G
-      - SMART TURBO 01-1H
-      - 🇳🇱 NL AMS-02-1D
-      - 🇰🇷 韩国节点-B
-      - 🇩🇪 德国-法兰克福-001-1E
-      - UDP EDGE-04-1H
-      - 🇩🇪 德国-法兰克福-001-1H
-      - UDP EDGE-04-1A
-      - 🇬🇧 UK RELAY-1I
-      - UDP EDGE-05-1I
-      - 🇳🇱 NL AMS-02-1C
-      - 🇳🇱 NL AMS-01-1F
-      - UDP EDGE-03-1F
-      - 🇨🇦 加拿大 三网优化
-      - 🇩🇪 德国-法兰克福-001-1A
-      - DY-JHU
-      - SMART TURBO 02-1D
-      - UDP EDGE-05-1K
-      - 🇳🇱 NL AMS-02 UDP-1H
-      - 🇺🇸 美国高速节点1
-      - 🇳🇱 NL AMS-01 UDP-1J
-      - YI-QRF
-      - UDP EDGE-05-1E
-      - UDP EDGE-04-1D
-      - FI HELSINKI UDP-1I
-      - 🇩🇪 德国-法兰克福-004-1G
-      - 🇳🇱 NL AMS-01 UDP-1H
-      - 🇩🇪 德国-法兰克福-001-1B
-      - 🇩🇪 德国-法兰克福-002-1H
-      - 🇳🇱 NL AMS-02 UDP-1J
-      - 🇹🇼 台湾高速节点3
-      - UDP EDGE-04-1L
-      - UDP EDGE-03-1H
-      - 🇩🇪 德国-法兰克福-004-1D
-      - SMART TURBO 01-1D
-      - 🇩🇪 德国-法兰克福-003-1H
-      - 🇳🇱 NL AMS-01 UDP-1G
-      - 🇳🇱 NL AMS-01 UDP-1A
-      - SMART TURBO 02-1E
-      - SMART TURBO 01-1E
-      - UDP EDGE-03-1K
-      - 🇬🇧 UK RELAY-1J
-      - FV2026-7-7-1B
-      - UDP EDGE-03-1B
-      - FI HELSINKI UDP-1L
-      - UDP EDGE-03-1E
-      - OV-NPH
-      - 🇩🇪 德国-法兰克福-001-1C
-      - UDP EDGE-04-1I
-      - SMART TURBO 01-1K
-      - 🇩🇪 德国-法兰克福-004-1E
-      - FI HELSINKI UDP-1D
-      - 🇩🇪 德国-法兰克福-001-1F
-      - 🇹🇼 台湾 IEPL专线
-      - FV2026-7-7-1C
-      - 🇳🇱 NL AMS-02-1H
-      - UDP EDGE-05-1L
-      - UDP EDGE-04-1J
-      - SMART TURBO 02-1L
-      - 🇳🇱 NL AMS-02 UDP-1F
-      - 🇳🇱 NL AMS-01 UDP-1I
-      - UDP EDGE-04-1B
-      - 🇳🇱 NL AMS-02 UDP-1G
-      - 🇳🇱 NL AMS-02-1B
-      - 🇩🇪 德国-法兰克福-002-1D
-      - UDP EDGE-03-1J
-      - 🇭🇰 HK-A
-      - UDP EDGE-03-1A
-      - SMART TURBO 02-1F
-      - UDP EDGE-03-1I
-      - SMART TURBO 02-1J
-      - FI HELSINKI UDP-1K
-      - 🇳🇱 NL AMS-02 UDP-1L
-      - 🇩🇪 德国-法兰克福-004-1H
-      - 🇬🇧 UK RELAY-1H
-      - UDP EDGE-05-1A
-      - 🇺🇸 HY-03 | US
-      - AO-REH
-      - UDP EDGE-05-1C
-      - 🇬🇧 UK RELAY-1L
-      - 🇳🇱 NL AMS-01 UDP-1D
-      - SMART TURBO 02-1B
-      - 🇳🇱 NL AMS-01-1I
-      - 🇳🇱 NL AMS-02 UDP-1C
-      - 🇳🇱 NL AMS-02 UDP-1A
-      - 🇨🇳 中国联通节点1
-      - 🇩🇪 德国-法兰克福-003-1C
-      - 🇬🇧 UK RELAY-1E
-      - 🇳🇱 NL AMS-01-1K
-      - UDP EDGE-03-1D
-      - 🇳🇱 NL AMS-02 UDP-1E
-      - 🇺🇸 HY-04 | US
-      - 🇳🇱 NL AMS-02-1A
       - 🇳🇱 NL AMS-02-1F
-      - UDP EDGE-05-1D
-      - 🇳🇱 NL AMS-02-1E
-      - 🇳🇱 NL AMS-01 UDP-1B
+      - 🇬🇧 UK RELAY-1H
+      - FI HELSINKI UDP-1K
+      - 🇳🇱 NL AMS-01 UDP-1L
+      - 🇭🇰 TTC9999 香港-1B
+      - 🇳🇱 NL AMS-01 UDP-1D
+      - SMART TURBO 01-1H
+      - FI HELSINKI UDP-1E
+      - UDP EDGE-03-1A
+      - UDP EDGE-03-1B
+      - UDP EDGE-05-1C
+      - 🇳🇱 NL AMS-01-1L
+      - 🇩🇪 德国-法兰克福-001-1E
+      - 🇳🇱 NL AMS-01-1E
+      - 🇩🇪 德国-法兰克福-003-1G
+      - FI HELSINKI UDP-1I
+      - 🇬🇧 UK RELAY-1G
+      - 🇩🇪 德国-法兰克福-003-1A
+      - SMART TURBO 02-1J
       - SMART TURBO 02-1H
-      - FI HELSINKI UDP-1F
+      - SMART TURBO 01-1A
+      - UDP EDGE-05-1A
+      - 🇳🇱 NL AMS-01-1A
+      - FV2026-7-7-1D
+      - SMART TURBO 02-1E
+      - 🇳🇱 NL AMS-01-1D
+      - 🇩🇪 德国-法兰克福-002-1J
+      - FI HELSINKI UDP-1B
+      - GY-EYC
+      - SMART TURBO 01-1I
+      - 🇹🇼 台湾高速节点2
+      - UDP EDGE-05-1F
+      - 🇳🇱 NL AMS-02-1I
+      - 8F-FDB
+      - SMART TURBO 02-1L
+      - SMART TURBO 02-1F
+      - 🇩🇪 德国-法兰克福-001-1I
+      - FV2026-7-7-1B
+      - UDP EDGE-03-1I
+      - 🇩🇪 德国-法兰克福-002-1H
+      - 🇳🇱 NL AMS-02 UDP-1F
+      - 🇩🇪 德国-法兰克福-004-1D
+      - UDP EDGE-05-1B
+      - UDP EDGE-04-1C
+      - A1-YDJ
+      - 🇬🇧 UK RELAY-1K
+      - UDP EDGE-03-1H
+      - 🇩🇪 德国-法兰克福-004-1A
+      - 🇳🇱 NL AMS-02 UDP-1A
+      - 🇩🇪 德国-法兰克福-003-1C
+      - 🇳🇱 NL AMS-02 UDP-1D
+      - 🇺🇸 美国纽约 原生IP
+      - SMART TURBO 01-1C
+      - UDP EDGE-05-1H
+      - 🇩🇪 德国-法兰克福-004-1C
+      - 🇩🇪 德国-法兰克福-001-1C
+      - UDP EDGE-03-1K
+      - 🇳🇱 NL AMS-01 UDP-1H
+      - UDP EDGE-04-1E
+      - 🇳🇱 NL AMS-01 UDP-1G
+      - UDP EDGE-05-1J
+      - UDP EDGE-03-1G
+      - 🇭🇰 TTC9999 香港-1A
+      - 🇩🇪 德国-法兰克福-002-1A
+      - 🇬🇧 UK RELAY-1B
+      - 🇳🇱 NL AMS-01-1G
+      - 🇳🇱 NL AMS-02 UDP-1J
+      - 🇳🇱 NL AMS-02-1J
+      - UDP EDGE-05-1K
+      - SMART TURBO 02-1G
+      - 🇹🇼 台湾 IEPL专线
+      - 🇩🇪 德国-法兰克福-004-1J
+      - 🇩🇪 德国-法兰克福-003-1D
+      - FI HELSINKI UDP-1L
+      - 🇳🇱 NL AMS-01-1K
+      - 🇰🇷 韩国节点-B
+      - 🇳🇱 NL AMS-01-1H
+      - UDP EDGE-05-1I
+      - MH-CKJ
+      - UDP EDGE-03-1L
+      - 🇭🇰 HK-A
+      - 🇳🇱 NL AMS-02 UDP-1K
+      - 🇬🇧 UK RELAY-1I
+      - 🇳🇱 NL AMS-02 UDP-1G
+      - 🇩🇪 德国-法兰克福-003-1E
+      - 🇳🇱 NL AMS-01 UDP-1F
+      - UDP EDGE-04-1K
+      - FI HELSINKI UDP-1G
+      - 🇩🇪 德国-法兰克福-001-1G
+      - 🇩🇪 德国-法兰克福-001-1H
+      - UDP EDGE-03-1C
+      - SMART TURBO 01-1B
+      - 🇳🇱 NL AMS-02-1B
+      - UDP EDGE-03-1D
       - 🇩🇪 德国-法兰克福-002-1G
-      - 🇩🇪 德国-法兰克福-001-1D
+      - 🇩🇪 德国-法兰克福-001-1J
+      - 🇩🇪 德国-法兰克福-001-1F
+      - UDP EDGE-04-1H
+      - 🇳🇱 NL AMS-01-1F
+      - 🇨🇳 中国联通节点1
+      - SMART TURBO 02-1A
+      - 🇳🇱 NL AMS-02-1L
+      - SMART TURBO 01-1F
+      - 🇬🇧 UK RELAY-1C
+      - UDP EDGE-03-1J
+      - 🇬🇧 UK RELAY-1D
+      - SMART TURBO 02-1D
+      - SMART TURBO 02-1C
+      - 🇳🇱 NL AMS-01-1I
+      - 🇳🇱 NL AMS-02-1D
+      - 🇺🇸 HY-05| US
+      - 🇳🇱 NL AMS-02 UDP-1B
+      - SMART TURBO 02-1I
+      - UDP EDGE-04-1G
+      - 🇩🇪 德国-法兰克福-004-1G
+      - 🇸🇬 新加坡 BGP优化
+      - UDP EDGE-05-1D
+      - 🇳🇱 NL AMS-01-1B
       - 🇩🇪 德国-法兰克福-002-1F
+      - 🇬🇧 UK RELAY-1L
+      - 🇩🇪 德国-法兰克福-002-1I
+      - FI HELSINKI UDP-1J
+      - FI HELSINKI UDP-1H
+      - UDP EDGE-05-1L
+      - 🇬🇧 UK RELAY-1A
+      - 🇩🇪 德国-法兰克福-003-1J
+      - 🇳🇱 NL AMS-02 UDP-1H
+      - 🇩🇪 德国-法兰克福-002-1E
+      - 🇳🇱 NL AMS-02-1H
+      - 🇺🇸 HY-04 | US
+      - 🇳🇱 NL AMS-01 UDP-1J
+      - SMART TURBO 01-1E
+      - FV2026-7-7-1G
+      - 🇳🇱 NL AMS-01 UDP-1C
+      - UDP EDGE-04-1F
+      - 🇳🇱 NL AMS-02 UDP-1C
+      - 🇳🇱 NL AMS-01 UDP-1A
+      - FI HELSINKI UDP-1D
+      - 🇺🇸 美国-洛杉矶-PRO
+      - SMART TURBO 01-1L
+      - 🇩🇪 德国-法兰克福-004-1B
+      - JQ-ACU
+      - 🇩🇪 德国-法兰克福-001-1B
+      - 🇩🇪 德国-法兰克福-004-1E
+      - 🇳🇱 NL AMS-01-1C
+      - UDP EDGE-05-1G
+      - 🇬🇧 UK RELAY-1E
+      - 🇬🇧 UK RELAY-1J
+      - 🇺🇸 HY-03 | US
+      - SMART TURBO 02-1K
+      - UDP EDGE-03-1E
+      - 🇳🇱 NL AMS-01 UDP-1K
+      - 🇩🇪 德国-法兰克福-001-1D
+      - 🇹🇼 台湾高速节点
+      - 🇩🇪 德国-法兰克福-003-1B
+      - UDP EDGE-04-1B
+      - 🇳🇱 NL AMS-02-1G
+      - 🇳🇱 NL AMS-02-1E
+      - 🇳🇱 NL AMS-01 UDP-1I
+      - 🇩🇪 德国-法兰克福-002-1C
+      - 🇩🇪 德国-法兰克福-002-1D
+      - FV2026-7-7-1C
+      - 🇺🇸 美国高速节点1
+      - SMART TURBO 02-1B
+      - UDP EDGE-05-1E
+      - 🇳🇱 NL AMS-02 UDP-1I
+      - 🇩🇪 德国-法兰克福-004-1F
+      - 🇨🇦 加拿大 三网优化
+      - FI HELSINKI UDP-1C
+      - 🇩🇪 德国-法兰克福-001-1A
+      - 🇩🇪 德国-法兰克福-003-1H
+      - FV2026-7-7-1F
+      - G I C A B N H T H N
+      - 🇺🇸 HY-02 | US
+      - FI HELSINKI UDP-1F
+      - 🇳🇱 NL AMS-02 UDP-1L
+      - FV2026-7-7-1A
+      - SMART TURBO 01-1D
+      - UDP EDGE-04-1A
+      - 🇳🇱 NL AMS-02-1K
+      - UDP EDGE-04-1D
+      - UDP EDGE-04-1L
+      - RN-TJR
+      - 🇬🇧 UK RELAY-1F
+      - 🇳🇱 NL AMS-01 UDP-1E
+      - SMART TURBO 01-1J
+      - 🇩🇪 德国-法兰克福-004-1I
+      - SMART TURBO 01-1K
+      - XA-NDC
+      - 🇹🇼 台湾高速节点3
+      - UDP EDGE-04-1J
+      - 🇳🇱 NL AMS-01 UDP-1B
+      - 🇳🇱 NL AMS-02 UDP-1E
+      - 🇩🇪 德国-法兰克福-003-1F
+      - 🇳🇱 NL AMS-02-1A
+      - FV2026-7-7-1E
+      - 🇳🇱 NL AMS-02-1C
+      - UDP EDGE-04-1I
+      - 🇳🇱 NL AMS-01-1J
+      - Y7-ZNY
+      - UDP EDGE-03-1F
+      - 🇩🇪 德国-法兰克福-002-1B
+      - 🇩🇪 德国-法兰克福-004-1H
+      - FI HELSINKI UDP-1A
+      - SMART TURBO 01-1G
+      - 🇩🇪 德国-法兰克福-003-1I
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -824,817 +864,857 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - SMART TURBO 02-1G
-      - 🇬🇧 UK RELAY-1D
-      - 🇳🇱 NL AMS-02-1J
-      - 🇩🇪 德国-法兰克福-004-1F
-      - 🇩🇪 德国-法兰克福-003-1A
-      - FI HELSINKI UDP-1C
-      - 🇺🇦 V8-UAK
-      - 🇳🇱 NL AMS-02 UDP-1I
-      - FI HELSINKI UDP-1B
-      - 🇳🇱 NL AMS-02-1L
-      - 🇳🇱 NL AMS-01 UDP-1L
-      - FI HELSINKI UDP-1J
-      - SMART TURBO 01-1I
-      - 🇳🇱 NL AMS-01 UDP-1C
-      - 🇳🇱 NL AMS-02-1G
-      - 🇩🇪 德国-法兰克福-002-1C
-      - 🇩🇪 德国-法兰克福-003-1F
-      - 🇳🇱 NL AMS-01 UDP-1E
-      - 🇩🇪 德国-法兰克福-003-1E
-      - 🇳🇱 NL AMS-02-1I
-      - 🇩🇪 德国-法兰克福-004-1C
-      - 🇳🇱 NL AMS-01-1A
-      - 🇳🇱 NL AMS-01-1C
-      - 🇬🇧 UK RELAY-1F
-      - 🇺🇸 美国纽约 原生IP
-      - UDP EDGE-05-1F
-      - UDP EDGE-05-1J
-      - 🇹🇼 台湾高速节点2
-      - 🇬🇧 UK RELAY-1K
-      - 🇩🇪 德国-法兰克福-002-1A
-      - UDP EDGE-05-1G
-      - FV2026-7-7-1A
-      - 🇺🇸 HY-05| US
-      - UDP EDGE-04-1G
-      - 🇬🇧 UK RELAY-1B
-      - 🇩🇪 德国-法兰克福-003-1G
-      - 🇺🇸 HY-02 | US
-      - 🇹🇼 台湾高速节点
-      - SMART TURBO 01-1C
-      - 🇩🇪 德国-法兰克福-002-1E
-      - FI HELSINKI UDP-1H
-      - 🇺🇸 美国-洛杉矶-PRO
-      - SMART TURBO 02-1C
-      - 🇳🇱 NL AMS-01-1G
-      - UDP EDGE-03-1L
-      - FV2026-7-7-1E
-      - SMART TURBO 02-1I
-      - 🇬🇧 UK RELAY-1A
-      - SMART TURBO 02-1A
-      - 🇳🇱 NL AMS-01-1J
-      - 🇬🇧 UK RELAY-1G
-      - 🇳🇱 NL AMS-01-1L
-      - UDP EDGE-04-1C
-      - 🇩🇪 德国-法兰克福-004-1B
-      - 🇩🇪 德国-法兰克福-003-1D
-      - FI HELSINKI UDP-1E
-      - SMART TURBO 01-1G
-      - UDP EDGE-05-1H
-      - UDP EDGE-04-1F
-      - SMART TURBO 01-1L
-      - 🇭🇰 TTC9999 香港-1B
-      - UDP EDGE-04-1E
-      - UDP EDGE-04-1K
-      - 🇩🇪 德国-法兰克福-002-1B
-      - 🇳🇱 NL AMS-01 UDP-1K
-      - 🇳🇱 NL AMS-02-1K
-      - 🇩🇪 德国-法兰克福-001-1G
-      - UV-ZDT
-      - SMART TURBO 01-1J
-      - 🇭🇰 TTC9999 香港-1A
-      - FV2026-7-7-1D
-      - SMART TURBO 01-1F
-      - FI HELSINKI UDP-1G
-      - 🇳🇱 NL AMS-01-1E
-      - FV2026-7-7-1F
-      - 🇳🇱 NL AMS-02 UDP-1B
-      - MP-FTP
-      - UDP EDGE-03-1C
-      - 🇳🇱 NL AMS-02 UDP-1K
-      - 🇩🇪 德国-法兰克福-003-1B
-      - SMART TURBO 02-1K
-      - 🇸🇬 新加坡 BGP优化
-      - 🇩🇪 德国-法兰克福-004-1A
-      - 🇳🇱 NL AMS-01-1H
-      - 🇳🇱 NL AMS-01 UDP-1F
-      - SMART TURBO 01-1A
-      - 🇳🇱 NL AMS-01-1D
-      - 🇬🇧 UK RELAY-1C
-      - FI HELSINKI UDP-1A
-      - 🇳🇱 NL AMS-01-1B
-      - G I C A B N H T H N
-      - SMART TURBO 01-1B
-      - UDP EDGE-05-1B
-      - 🇳🇱 NL AMS-02 UDP-1D
-      - UDP EDGE-03-1G
-      - SMART TURBO 01-1H
-      - 🇳🇱 NL AMS-02-1D
-      - 🇰🇷 韩国节点-B
-      - 🇩🇪 德国-法兰克福-001-1E
-      - UDP EDGE-04-1H
-      - 🇩🇪 德国-法兰克福-001-1H
-      - UDP EDGE-04-1A
-      - 🇬🇧 UK RELAY-1I
-      - UDP EDGE-05-1I
-      - 🇳🇱 NL AMS-02-1C
-      - 🇳🇱 NL AMS-01-1F
-      - UDP EDGE-03-1F
-      - 🇨🇦 加拿大 三网优化
-      - 🇩🇪 德国-法兰克福-001-1A
-      - DY-JHU
-      - SMART TURBO 02-1D
-      - UDP EDGE-05-1K
-      - 🇳🇱 NL AMS-02 UDP-1H
-      - 🇺🇸 美国高速节点1
-      - 🇳🇱 NL AMS-01 UDP-1J
-      - YI-QRF
-      - UDP EDGE-05-1E
-      - UDP EDGE-04-1D
-      - FI HELSINKI UDP-1I
-      - 🇩🇪 德国-法兰克福-004-1G
-      - 🇳🇱 NL AMS-01 UDP-1H
-      - 🇩🇪 德国-法兰克福-001-1B
-      - 🇩🇪 德国-法兰克福-002-1H
-      - 🇳🇱 NL AMS-02 UDP-1J
-      - 🇹🇼 台湾高速节点3
-      - UDP EDGE-04-1L
-      - UDP EDGE-03-1H
-      - 🇩🇪 德国-法兰克福-004-1D
-      - SMART TURBO 01-1D
-      - 🇩🇪 德国-法兰克福-003-1H
-      - 🇳🇱 NL AMS-01 UDP-1G
-      - 🇳🇱 NL AMS-01 UDP-1A
-      - SMART TURBO 02-1E
-      - SMART TURBO 01-1E
-      - UDP EDGE-03-1K
-      - 🇬🇧 UK RELAY-1J
-      - FV2026-7-7-1B
-      - UDP EDGE-03-1B
-      - FI HELSINKI UDP-1L
-      - UDP EDGE-03-1E
-      - OV-NPH
-      - 🇩🇪 德国-法兰克福-001-1C
-      - UDP EDGE-04-1I
-      - SMART TURBO 01-1K
-      - 🇩🇪 德国-法兰克福-004-1E
-      - FI HELSINKI UDP-1D
-      - 🇩🇪 德国-法兰克福-001-1F
-      - 🇹🇼 台湾 IEPL专线
-      - FV2026-7-7-1C
-      - 🇳🇱 NL AMS-02-1H
-      - UDP EDGE-05-1L
-      - UDP EDGE-04-1J
-      - SMART TURBO 02-1L
-      - 🇳🇱 NL AMS-02 UDP-1F
-      - 🇳🇱 NL AMS-01 UDP-1I
-      - UDP EDGE-04-1B
-      - 🇳🇱 NL AMS-02 UDP-1G
-      - 🇳🇱 NL AMS-02-1B
-      - 🇩🇪 德国-法兰克福-002-1D
-      - UDP EDGE-03-1J
-      - 🇭🇰 HK-A
-      - UDP EDGE-03-1A
-      - SMART TURBO 02-1F
-      - UDP EDGE-03-1I
-      - SMART TURBO 02-1J
-      - FI HELSINKI UDP-1K
-      - 🇳🇱 NL AMS-02 UDP-1L
-      - 🇩🇪 德国-法兰克福-004-1H
-      - 🇬🇧 UK RELAY-1H
-      - UDP EDGE-05-1A
-      - 🇺🇸 HY-03 | US
-      - AO-REH
-      - UDP EDGE-05-1C
-      - 🇬🇧 UK RELAY-1L
-      - 🇳🇱 NL AMS-01 UDP-1D
-      - SMART TURBO 02-1B
-      - 🇳🇱 NL AMS-01-1I
-      - 🇳🇱 NL AMS-02 UDP-1C
-      - 🇳🇱 NL AMS-02 UDP-1A
-      - 🇨🇳 中国联通节点1
-      - 🇩🇪 德国-法兰克福-003-1C
-      - 🇬🇧 UK RELAY-1E
-      - 🇳🇱 NL AMS-01-1K
-      - UDP EDGE-03-1D
-      - 🇳🇱 NL AMS-02 UDP-1E
-      - 🇺🇸 HY-04 | US
-      - 🇳🇱 NL AMS-02-1A
       - 🇳🇱 NL AMS-02-1F
-      - UDP EDGE-05-1D
-      - 🇳🇱 NL AMS-02-1E
-      - 🇳🇱 NL AMS-01 UDP-1B
+      - 🇬🇧 UK RELAY-1H
+      - FI HELSINKI UDP-1K
+      - 🇳🇱 NL AMS-01 UDP-1L
+      - 🇭🇰 TTC9999 香港-1B
+      - 🇳🇱 NL AMS-01 UDP-1D
+      - SMART TURBO 01-1H
+      - FI HELSINKI UDP-1E
+      - UDP EDGE-03-1A
+      - UDP EDGE-03-1B
+      - UDP EDGE-05-1C
+      - 🇳🇱 NL AMS-01-1L
+      - 🇩🇪 德国-法兰克福-001-1E
+      - 🇳🇱 NL AMS-01-1E
+      - 🇩🇪 德国-法兰克福-003-1G
+      - FI HELSINKI UDP-1I
+      - 🇬🇧 UK RELAY-1G
+      - 🇩🇪 德国-法兰克福-003-1A
+      - SMART TURBO 02-1J
       - SMART TURBO 02-1H
-      - FI HELSINKI UDP-1F
+      - SMART TURBO 01-1A
+      - UDP EDGE-05-1A
+      - 🇳🇱 NL AMS-01-1A
+      - FV2026-7-7-1D
+      - SMART TURBO 02-1E
+      - 🇳🇱 NL AMS-01-1D
+      - 🇩🇪 德国-法兰克福-002-1J
+      - FI HELSINKI UDP-1B
+      - GY-EYC
+      - SMART TURBO 01-1I
+      - 🇹🇼 台湾高速节点2
+      - UDP EDGE-05-1F
+      - 🇳🇱 NL AMS-02-1I
+      - 8F-FDB
+      - SMART TURBO 02-1L
+      - SMART TURBO 02-1F
+      - 🇩🇪 德国-法兰克福-001-1I
+      - FV2026-7-7-1B
+      - UDP EDGE-03-1I
+      - 🇩🇪 德国-法兰克福-002-1H
+      - 🇳🇱 NL AMS-02 UDP-1F
+      - 🇩🇪 德国-法兰克福-004-1D
+      - UDP EDGE-05-1B
+      - UDP EDGE-04-1C
+      - A1-YDJ
+      - 🇬🇧 UK RELAY-1K
+      - UDP EDGE-03-1H
+      - 🇩🇪 德国-法兰克福-004-1A
+      - 🇳🇱 NL AMS-02 UDP-1A
+      - 🇩🇪 德国-法兰克福-003-1C
+      - 🇳🇱 NL AMS-02 UDP-1D
+      - 🇺🇸 美国纽约 原生IP
+      - SMART TURBO 01-1C
+      - UDP EDGE-05-1H
+      - 🇩🇪 德国-法兰克福-004-1C
+      - 🇩🇪 德国-法兰克福-001-1C
+      - UDP EDGE-03-1K
+      - 🇳🇱 NL AMS-01 UDP-1H
+      - UDP EDGE-04-1E
+      - 🇳🇱 NL AMS-01 UDP-1G
+      - UDP EDGE-05-1J
+      - UDP EDGE-03-1G
+      - 🇭🇰 TTC9999 香港-1A
+      - 🇩🇪 德国-法兰克福-002-1A
+      - 🇬🇧 UK RELAY-1B
+      - 🇳🇱 NL AMS-01-1G
+      - 🇳🇱 NL AMS-02 UDP-1J
+      - 🇳🇱 NL AMS-02-1J
+      - UDP EDGE-05-1K
+      - SMART TURBO 02-1G
+      - 🇹🇼 台湾 IEPL专线
+      - 🇩🇪 德国-法兰克福-004-1J
+      - 🇩🇪 德国-法兰克福-003-1D
+      - FI HELSINKI UDP-1L
+      - 🇳🇱 NL AMS-01-1K
+      - 🇰🇷 韩国节点-B
+      - 🇳🇱 NL AMS-01-1H
+      - UDP EDGE-05-1I
+      - MH-CKJ
+      - UDP EDGE-03-1L
+      - 🇭🇰 HK-A
+      - 🇳🇱 NL AMS-02 UDP-1K
+      - 🇬🇧 UK RELAY-1I
+      - 🇳🇱 NL AMS-02 UDP-1G
+      - 🇩🇪 德国-法兰克福-003-1E
+      - 🇳🇱 NL AMS-01 UDP-1F
+      - UDP EDGE-04-1K
+      - FI HELSINKI UDP-1G
+      - 🇩🇪 德国-法兰克福-001-1G
+      - 🇩🇪 德国-法兰克福-001-1H
+      - UDP EDGE-03-1C
+      - SMART TURBO 01-1B
+      - 🇳🇱 NL AMS-02-1B
+      - UDP EDGE-03-1D
       - 🇩🇪 德国-法兰克福-002-1G
-      - 🇩🇪 德国-法兰克福-001-1D
+      - 🇩🇪 德国-法兰克福-001-1J
+      - 🇩🇪 德国-法兰克福-001-1F
+      - UDP EDGE-04-1H
+      - 🇳🇱 NL AMS-01-1F
+      - 🇨🇳 中国联通节点1
+      - SMART TURBO 02-1A
+      - 🇳🇱 NL AMS-02-1L
+      - SMART TURBO 01-1F
+      - 🇬🇧 UK RELAY-1C
+      - UDP EDGE-03-1J
+      - 🇬🇧 UK RELAY-1D
+      - SMART TURBO 02-1D
+      - SMART TURBO 02-1C
+      - 🇳🇱 NL AMS-01-1I
+      - 🇳🇱 NL AMS-02-1D
+      - 🇺🇸 HY-05| US
+      - 🇳🇱 NL AMS-02 UDP-1B
+      - SMART TURBO 02-1I
+      - UDP EDGE-04-1G
+      - 🇩🇪 德国-法兰克福-004-1G
+      - 🇸🇬 新加坡 BGP优化
+      - UDP EDGE-05-1D
+      - 🇳🇱 NL AMS-01-1B
       - 🇩🇪 德国-法兰克福-002-1F
+      - 🇬🇧 UK RELAY-1L
+      - 🇩🇪 德国-法兰克福-002-1I
+      - FI HELSINKI UDP-1J
+      - FI HELSINKI UDP-1H
+      - UDP EDGE-05-1L
+      - 🇬🇧 UK RELAY-1A
+      - 🇩🇪 德国-法兰克福-003-1J
+      - 🇳🇱 NL AMS-02 UDP-1H
+      - 🇩🇪 德国-法兰克福-002-1E
+      - 🇳🇱 NL AMS-02-1H
+      - 🇺🇸 HY-04 | US
+      - 🇳🇱 NL AMS-01 UDP-1J
+      - SMART TURBO 01-1E
+      - FV2026-7-7-1G
+      - 🇳🇱 NL AMS-01 UDP-1C
+      - UDP EDGE-04-1F
+      - 🇳🇱 NL AMS-02 UDP-1C
+      - 🇳🇱 NL AMS-01 UDP-1A
+      - FI HELSINKI UDP-1D
+      - 🇺🇸 美国-洛杉矶-PRO
+      - SMART TURBO 01-1L
+      - 🇩🇪 德国-法兰克福-004-1B
+      - JQ-ACU
+      - 🇩🇪 德国-法兰克福-001-1B
+      - 🇩🇪 德国-法兰克福-004-1E
+      - 🇳🇱 NL AMS-01-1C
+      - UDP EDGE-05-1G
+      - 🇬🇧 UK RELAY-1E
+      - 🇬🇧 UK RELAY-1J
+      - 🇺🇸 HY-03 | US
+      - SMART TURBO 02-1K
+      - UDP EDGE-03-1E
+      - 🇳🇱 NL AMS-01 UDP-1K
+      - 🇩🇪 德国-法兰克福-001-1D
+      - 🇹🇼 台湾高速节点
+      - 🇩🇪 德国-法兰克福-003-1B
+      - UDP EDGE-04-1B
+      - 🇳🇱 NL AMS-02-1G
+      - 🇳🇱 NL AMS-02-1E
+      - 🇳🇱 NL AMS-01 UDP-1I
+      - 🇩🇪 德国-法兰克福-002-1C
+      - 🇩🇪 德国-法兰克福-002-1D
+      - FV2026-7-7-1C
+      - 🇺🇸 美国高速节点1
+      - SMART TURBO 02-1B
+      - UDP EDGE-05-1E
+      - 🇳🇱 NL AMS-02 UDP-1I
+      - 🇩🇪 德国-法兰克福-004-1F
+      - 🇨🇦 加拿大 三网优化
+      - FI HELSINKI UDP-1C
+      - 🇩🇪 德国-法兰克福-001-1A
+      - 🇩🇪 德国-法兰克福-003-1H
+      - FV2026-7-7-1F
+      - G I C A B N H T H N
+      - 🇺🇸 HY-02 | US
+      - FI HELSINKI UDP-1F
+      - 🇳🇱 NL AMS-02 UDP-1L
+      - FV2026-7-7-1A
+      - SMART TURBO 01-1D
+      - UDP EDGE-04-1A
+      - 🇳🇱 NL AMS-02-1K
+      - UDP EDGE-04-1D
+      - UDP EDGE-04-1L
+      - RN-TJR
+      - 🇬🇧 UK RELAY-1F
+      - 🇳🇱 NL AMS-01 UDP-1E
+      - SMART TURBO 01-1J
+      - 🇩🇪 德国-法兰克福-004-1I
+      - SMART TURBO 01-1K
+      - XA-NDC
+      - 🇹🇼 台湾高速节点3
+      - UDP EDGE-04-1J
+      - 🇳🇱 NL AMS-01 UDP-1B
+      - 🇳🇱 NL AMS-02 UDP-1E
+      - 🇩🇪 德国-法兰克福-003-1F
+      - 🇳🇱 NL AMS-02-1A
+      - FV2026-7-7-1E
+      - 🇳🇱 NL AMS-02-1C
+      - UDP EDGE-04-1I
+      - 🇳🇱 NL AMS-01-1J
+      - Y7-ZNY
+      - UDP EDGE-03-1F
+      - 🇩🇪 德国-法兰克福-002-1B
+      - 🇩🇪 德国-法兰克福-004-1H
+      - FI HELSINKI UDP-1A
+      - SMART TURBO 01-1G
+      - 🇩🇪 德国-法兰克福-003-1I
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇹🇼 台湾高速节点2
-      - 🇹🇼 台湾高速节点
       - 🇭🇰 TTC9999 香港-1B
+      - 🇹🇼 台湾高速节点2
       - 🇭🇰 TTC9999 香港-1A
-      - 🇹🇼 台湾高速节点3
       - 🇹🇼 台湾 IEPL专线
+      - 🇹🇼 台湾高速节点
+      - 🇹🇼 台湾高速节点3
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - SMART TURBO 02-1G
-      - 🇬🇧 UK RELAY-1D
-      - 🇳🇱 NL AMS-02-1J
-      - 🇩🇪 德国-法兰克福-004-1F
-      - 🇩🇪 德国-法兰克福-003-1A
-      - FI HELSINKI UDP-1C
-      - 🇺🇦 V8-UAK
-      - 🇳🇱 NL AMS-02 UDP-1I
-      - FI HELSINKI UDP-1B
-      - 🇳🇱 NL AMS-02-1L
-      - 🇳🇱 NL AMS-01 UDP-1L
-      - FI HELSINKI UDP-1J
-      - SMART TURBO 01-1I
-      - 🇳🇱 NL AMS-01 UDP-1C
-      - 🇳🇱 NL AMS-02-1G
-      - 🇩🇪 德国-法兰克福-002-1C
-      - 🇩🇪 德国-法兰克福-003-1F
-      - 🇳🇱 NL AMS-01 UDP-1E
-      - 🇩🇪 德国-法兰克福-003-1E
-      - 🇳🇱 NL AMS-02-1I
-      - 🇩🇪 德国-法兰克福-004-1C
-      - 🇳🇱 NL AMS-01-1A
-      - 🇳🇱 NL AMS-01-1C
-      - 🇬🇧 UK RELAY-1F
-      - 🇺🇸 美国纽约 原生IP
-      - UDP EDGE-05-1F
-      - UDP EDGE-05-1J
-      - 🇹🇼 台湾高速节点2
-      - 🇬🇧 UK RELAY-1K
-      - 🇩🇪 德国-法兰克福-002-1A
-      - UDP EDGE-05-1G
-      - FV2026-7-7-1A
-      - 🇺🇸 HY-05| US
-      - UDP EDGE-04-1G
-      - 🇬🇧 UK RELAY-1B
-      - 🇩🇪 德国-法兰克福-003-1G
-      - 🇺🇸 HY-02 | US
-      - 🇹🇼 台湾高速节点
-      - SMART TURBO 01-1C
-      - 🇩🇪 德国-法兰克福-002-1E
-      - FI HELSINKI UDP-1H
-      - 🇺🇸 美国-洛杉矶-PRO
-      - SMART TURBO 02-1C
-      - 🇳🇱 NL AMS-01-1G
-      - UDP EDGE-03-1L
-      - FV2026-7-7-1E
-      - SMART TURBO 02-1I
-      - 🇬🇧 UK RELAY-1A
-      - SMART TURBO 02-1A
-      - 🇳🇱 NL AMS-01-1J
-      - 🇬🇧 UK RELAY-1G
-      - 🇳🇱 NL AMS-01-1L
-      - UDP EDGE-04-1C
-      - 🇩🇪 德国-法兰克福-004-1B
-      - 🇩🇪 德国-法兰克福-003-1D
-      - FI HELSINKI UDP-1E
-      - SMART TURBO 01-1G
-      - UDP EDGE-05-1H
-      - UDP EDGE-04-1F
-      - SMART TURBO 01-1L
-      - 🇭🇰 TTC9999 香港-1B
-      - UDP EDGE-04-1E
-      - UDP EDGE-04-1K
-      - 🇩🇪 德国-法兰克福-002-1B
-      - 🇳🇱 NL AMS-01 UDP-1K
-      - 🇳🇱 NL AMS-02-1K
-      - 🇩🇪 德国-法兰克福-001-1G
-      - UV-ZDT
-      - SMART TURBO 01-1J
-      - 🇭🇰 TTC9999 香港-1A
-      - FV2026-7-7-1D
-      - SMART TURBO 01-1F
-      - FI HELSINKI UDP-1G
-      - 🇳🇱 NL AMS-01-1E
-      - FV2026-7-7-1F
-      - 🇳🇱 NL AMS-02 UDP-1B
-      - MP-FTP
-      - UDP EDGE-03-1C
-      - 🇳🇱 NL AMS-02 UDP-1K
-      - 🇩🇪 德国-法兰克福-003-1B
-      - SMART TURBO 02-1K
-      - 🇸🇬 新加坡 BGP优化
-      - 🇩🇪 德国-法兰克福-004-1A
-      - 🇳🇱 NL AMS-01-1H
-      - 🇳🇱 NL AMS-01 UDP-1F
-      - SMART TURBO 01-1A
-      - 🇳🇱 NL AMS-01-1D
-      - 🇬🇧 UK RELAY-1C
-      - FI HELSINKI UDP-1A
-      - 🇳🇱 NL AMS-01-1B
-      - G I C A B N H T H N
-      - SMART TURBO 01-1B
-      - UDP EDGE-05-1B
-      - 🇳🇱 NL AMS-02 UDP-1D
-      - UDP EDGE-03-1G
-      - SMART TURBO 01-1H
-      - 🇳🇱 NL AMS-02-1D
-      - 🇰🇷 韩国节点-B
-      - 🇩🇪 德国-法兰克福-001-1E
-      - UDP EDGE-04-1H
-      - 🇩🇪 德国-法兰克福-001-1H
-      - UDP EDGE-04-1A
-      - 🇬🇧 UK RELAY-1I
-      - UDP EDGE-05-1I
-      - 🇳🇱 NL AMS-02-1C
-      - 🇳🇱 NL AMS-01-1F
-      - UDP EDGE-03-1F
-      - 🇨🇦 加拿大 三网优化
-      - 🇩🇪 德国-法兰克福-001-1A
-      - DY-JHU
-      - SMART TURBO 02-1D
-      - UDP EDGE-05-1K
-      - 🇳🇱 NL AMS-02 UDP-1H
-      - 🇺🇸 美国高速节点1
-      - 🇳🇱 NL AMS-01 UDP-1J
-      - YI-QRF
-      - UDP EDGE-05-1E
-      - UDP EDGE-04-1D
-      - FI HELSINKI UDP-1I
-      - 🇩🇪 德国-法兰克福-004-1G
-      - 🇳🇱 NL AMS-01 UDP-1H
-      - 🇩🇪 德国-法兰克福-001-1B
-      - 🇩🇪 德国-法兰克福-002-1H
-      - 🇳🇱 NL AMS-02 UDP-1J
-      - 🇹🇼 台湾高速节点3
-      - UDP EDGE-04-1L
-      - UDP EDGE-03-1H
-      - 🇩🇪 德国-法兰克福-004-1D
-      - SMART TURBO 01-1D
-      - 🇩🇪 德国-法兰克福-003-1H
-      - 🇳🇱 NL AMS-01 UDP-1G
-      - 🇳🇱 NL AMS-01 UDP-1A
-      - SMART TURBO 02-1E
-      - SMART TURBO 01-1E
-      - UDP EDGE-03-1K
-      - 🇬🇧 UK RELAY-1J
-      - FV2026-7-7-1B
-      - UDP EDGE-03-1B
-      - FI HELSINKI UDP-1L
-      - UDP EDGE-03-1E
-      - OV-NPH
-      - 🇩🇪 德国-法兰克福-001-1C
-      - UDP EDGE-04-1I
-      - SMART TURBO 01-1K
-      - 🇩🇪 德国-法兰克福-004-1E
-      - FI HELSINKI UDP-1D
-      - 🇩🇪 德国-法兰克福-001-1F
-      - 🇹🇼 台湾 IEPL专线
-      - FV2026-7-7-1C
-      - 🇳🇱 NL AMS-02-1H
-      - UDP EDGE-05-1L
-      - UDP EDGE-04-1J
-      - SMART TURBO 02-1L
-      - 🇳🇱 NL AMS-02 UDP-1F
-      - 🇳🇱 NL AMS-01 UDP-1I
-      - UDP EDGE-04-1B
-      - 🇳🇱 NL AMS-02 UDP-1G
-      - 🇳🇱 NL AMS-02-1B
-      - 🇩🇪 德国-法兰克福-002-1D
-      - UDP EDGE-03-1J
-      - 🇭🇰 HK-A
-      - UDP EDGE-03-1A
-      - SMART TURBO 02-1F
-      - UDP EDGE-03-1I
-      - SMART TURBO 02-1J
-      - FI HELSINKI UDP-1K
-      - 🇳🇱 NL AMS-02 UDP-1L
-      - 🇩🇪 德国-法兰克福-004-1H
-      - 🇬🇧 UK RELAY-1H
-      - UDP EDGE-05-1A
-      - 🇺🇸 HY-03 | US
-      - AO-REH
-      - UDP EDGE-05-1C
-      - 🇬🇧 UK RELAY-1L
-      - 🇳🇱 NL AMS-01 UDP-1D
-      - SMART TURBO 02-1B
-      - 🇳🇱 NL AMS-01-1I
-      - 🇳🇱 NL AMS-02 UDP-1C
-      - 🇳🇱 NL AMS-02 UDP-1A
-      - 🇨🇳 中国联通节点1
-      - 🇩🇪 德国-法兰克福-003-1C
-      - 🇬🇧 UK RELAY-1E
-      - 🇳🇱 NL AMS-01-1K
-      - UDP EDGE-03-1D
-      - 🇳🇱 NL AMS-02 UDP-1E
-      - 🇺🇸 HY-04 | US
-      - 🇳🇱 NL AMS-02-1A
       - 🇳🇱 NL AMS-02-1F
-      - UDP EDGE-05-1D
-      - 🇳🇱 NL AMS-02-1E
-      - 🇳🇱 NL AMS-01 UDP-1B
+      - 🇬🇧 UK RELAY-1H
+      - FI HELSINKI UDP-1K
+      - 🇳🇱 NL AMS-01 UDP-1L
+      - 🇭🇰 TTC9999 香港-1B
+      - 🇳🇱 NL AMS-01 UDP-1D
+      - SMART TURBO 01-1H
+      - FI HELSINKI UDP-1E
+      - UDP EDGE-03-1A
+      - UDP EDGE-03-1B
+      - UDP EDGE-05-1C
+      - 🇳🇱 NL AMS-01-1L
+      - 🇩🇪 德国-法兰克福-001-1E
+      - 🇳🇱 NL AMS-01-1E
+      - 🇩🇪 德国-法兰克福-003-1G
+      - FI HELSINKI UDP-1I
+      - 🇬🇧 UK RELAY-1G
+      - 🇩🇪 德国-法兰克福-003-1A
+      - SMART TURBO 02-1J
       - SMART TURBO 02-1H
-      - FI HELSINKI UDP-1F
+      - SMART TURBO 01-1A
+      - UDP EDGE-05-1A
+      - 🇳🇱 NL AMS-01-1A
+      - FV2026-7-7-1D
+      - SMART TURBO 02-1E
+      - 🇳🇱 NL AMS-01-1D
+      - 🇩🇪 德国-法兰克福-002-1J
+      - FI HELSINKI UDP-1B
+      - GY-EYC
+      - SMART TURBO 01-1I
+      - 🇹🇼 台湾高速节点2
+      - UDP EDGE-05-1F
+      - 🇳🇱 NL AMS-02-1I
+      - 8F-FDB
+      - SMART TURBO 02-1L
+      - SMART TURBO 02-1F
+      - 🇩🇪 德国-法兰克福-001-1I
+      - FV2026-7-7-1B
+      - UDP EDGE-03-1I
+      - 🇩🇪 德国-法兰克福-002-1H
+      - 🇳🇱 NL AMS-02 UDP-1F
+      - 🇩🇪 德国-法兰克福-004-1D
+      - UDP EDGE-05-1B
+      - UDP EDGE-04-1C
+      - A1-YDJ
+      - 🇬🇧 UK RELAY-1K
+      - UDP EDGE-03-1H
+      - 🇩🇪 德国-法兰克福-004-1A
+      - 🇳🇱 NL AMS-02 UDP-1A
+      - 🇩🇪 德国-法兰克福-003-1C
+      - 🇳🇱 NL AMS-02 UDP-1D
+      - 🇺🇸 美国纽约 原生IP
+      - SMART TURBO 01-1C
+      - UDP EDGE-05-1H
+      - 🇩🇪 德国-法兰克福-004-1C
+      - 🇩🇪 德国-法兰克福-001-1C
+      - UDP EDGE-03-1K
+      - 🇳🇱 NL AMS-01 UDP-1H
+      - UDP EDGE-04-1E
+      - 🇳🇱 NL AMS-01 UDP-1G
+      - UDP EDGE-05-1J
+      - UDP EDGE-03-1G
+      - 🇭🇰 TTC9999 香港-1A
+      - 🇩🇪 德国-法兰克福-002-1A
+      - 🇬🇧 UK RELAY-1B
+      - 🇳🇱 NL AMS-01-1G
+      - 🇳🇱 NL AMS-02 UDP-1J
+      - 🇳🇱 NL AMS-02-1J
+      - UDP EDGE-05-1K
+      - SMART TURBO 02-1G
+      - 🇹🇼 台湾 IEPL专线
+      - 🇩🇪 德国-法兰克福-004-1J
+      - 🇩🇪 德国-法兰克福-003-1D
+      - FI HELSINKI UDP-1L
+      - 🇳🇱 NL AMS-01-1K
+      - 🇰🇷 韩国节点-B
+      - 🇳🇱 NL AMS-01-1H
+      - UDP EDGE-05-1I
+      - MH-CKJ
+      - UDP EDGE-03-1L
+      - 🇭🇰 HK-A
+      - 🇳🇱 NL AMS-02 UDP-1K
+      - 🇬🇧 UK RELAY-1I
+      - 🇳🇱 NL AMS-02 UDP-1G
+      - 🇩🇪 德国-法兰克福-003-1E
+      - 🇳🇱 NL AMS-01 UDP-1F
+      - UDP EDGE-04-1K
+      - FI HELSINKI UDP-1G
+      - 🇩🇪 德国-法兰克福-001-1G
+      - 🇩🇪 德国-法兰克福-001-1H
+      - UDP EDGE-03-1C
+      - SMART TURBO 01-1B
+      - 🇳🇱 NL AMS-02-1B
+      - UDP EDGE-03-1D
       - 🇩🇪 德国-法兰克福-002-1G
-      - 🇩🇪 德国-法兰克福-001-1D
+      - 🇩🇪 德国-法兰克福-001-1J
+      - 🇩🇪 德国-法兰克福-001-1F
+      - UDP EDGE-04-1H
+      - 🇳🇱 NL AMS-01-1F
+      - 🇨🇳 中国联通节点1
+      - SMART TURBO 02-1A
+      - 🇳🇱 NL AMS-02-1L
+      - SMART TURBO 01-1F
+      - 🇬🇧 UK RELAY-1C
+      - UDP EDGE-03-1J
+      - 🇬🇧 UK RELAY-1D
+      - SMART TURBO 02-1D
+      - SMART TURBO 02-1C
+      - 🇳🇱 NL AMS-01-1I
+      - 🇳🇱 NL AMS-02-1D
+      - 🇺🇸 HY-05| US
+      - 🇳🇱 NL AMS-02 UDP-1B
+      - SMART TURBO 02-1I
+      - UDP EDGE-04-1G
+      - 🇩🇪 德国-法兰克福-004-1G
+      - 🇸🇬 新加坡 BGP优化
+      - UDP EDGE-05-1D
+      - 🇳🇱 NL AMS-01-1B
       - 🇩🇪 德国-法兰克福-002-1F
+      - 🇬🇧 UK RELAY-1L
+      - 🇩🇪 德国-法兰克福-002-1I
+      - FI HELSINKI UDP-1J
+      - FI HELSINKI UDP-1H
+      - UDP EDGE-05-1L
+      - 🇬🇧 UK RELAY-1A
+      - 🇩🇪 德国-法兰克福-003-1J
+      - 🇳🇱 NL AMS-02 UDP-1H
+      - 🇩🇪 德国-法兰克福-002-1E
+      - 🇳🇱 NL AMS-02-1H
+      - 🇺🇸 HY-04 | US
+      - 🇳🇱 NL AMS-01 UDP-1J
+      - SMART TURBO 01-1E
+      - FV2026-7-7-1G
+      - 🇳🇱 NL AMS-01 UDP-1C
+      - UDP EDGE-04-1F
+      - 🇳🇱 NL AMS-02 UDP-1C
+      - 🇳🇱 NL AMS-01 UDP-1A
+      - FI HELSINKI UDP-1D
+      - 🇺🇸 美国-洛杉矶-PRO
+      - SMART TURBO 01-1L
+      - 🇩🇪 德国-法兰克福-004-1B
+      - JQ-ACU
+      - 🇩🇪 德国-法兰克福-001-1B
+      - 🇩🇪 德国-法兰克福-004-1E
+      - 🇳🇱 NL AMS-01-1C
+      - UDP EDGE-05-1G
+      - 🇬🇧 UK RELAY-1E
+      - 🇬🇧 UK RELAY-1J
+      - 🇺🇸 HY-03 | US
+      - SMART TURBO 02-1K
+      - UDP EDGE-03-1E
+      - 🇳🇱 NL AMS-01 UDP-1K
+      - 🇩🇪 德国-法兰克福-001-1D
+      - 🇹🇼 台湾高速节点
+      - 🇩🇪 德国-法兰克福-003-1B
+      - UDP EDGE-04-1B
+      - 🇳🇱 NL AMS-02-1G
+      - 🇳🇱 NL AMS-02-1E
+      - 🇳🇱 NL AMS-01 UDP-1I
+      - 🇩🇪 德国-法兰克福-002-1C
+      - 🇩🇪 德国-法兰克福-002-1D
+      - FV2026-7-7-1C
+      - 🇺🇸 美国高速节点1
+      - SMART TURBO 02-1B
+      - UDP EDGE-05-1E
+      - 🇳🇱 NL AMS-02 UDP-1I
+      - 🇩🇪 德国-法兰克福-004-1F
+      - 🇨🇦 加拿大 三网优化
+      - FI HELSINKI UDP-1C
+      - 🇩🇪 德国-法兰克福-001-1A
+      - 🇩🇪 德国-法兰克福-003-1H
+      - FV2026-7-7-1F
+      - G I C A B N H T H N
+      - 🇺🇸 HY-02 | US
+      - FI HELSINKI UDP-1F
+      - 🇳🇱 NL AMS-02 UDP-1L
+      - FV2026-7-7-1A
+      - SMART TURBO 01-1D
+      - UDP EDGE-04-1A
+      - 🇳🇱 NL AMS-02-1K
+      - UDP EDGE-04-1D
+      - UDP EDGE-04-1L
+      - RN-TJR
+      - 🇬🇧 UK RELAY-1F
+      - 🇳🇱 NL AMS-01 UDP-1E
+      - SMART TURBO 01-1J
+      - 🇩🇪 德国-法兰克福-004-1I
+      - SMART TURBO 01-1K
+      - XA-NDC
+      - 🇹🇼 台湾高速节点3
+      - UDP EDGE-04-1J
+      - 🇳🇱 NL AMS-01 UDP-1B
+      - 🇳🇱 NL AMS-02 UDP-1E
+      - 🇩🇪 德国-法兰克福-003-1F
+      - 🇳🇱 NL AMS-02-1A
+      - FV2026-7-7-1E
+      - 🇳🇱 NL AMS-02-1C
+      - UDP EDGE-04-1I
+      - 🇳🇱 NL AMS-01-1J
+      - Y7-ZNY
+      - UDP EDGE-03-1F
+      - 🇩🇪 德国-法兰克福-002-1B
+      - 🇩🇪 德国-法兰克福-004-1H
+      - FI HELSINKI UDP-1A
+      - SMART TURBO 01-1G
+      - 🇩🇪 德国-法兰克福-003-1I
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - SMART TURBO 02-1G
-      - 🇬🇧 UK RELAY-1D
-      - 🇳🇱 NL AMS-02-1J
-      - 🇩🇪 德国-法兰克福-004-1F
-      - 🇩🇪 德国-法兰克福-003-1A
-      - FI HELSINKI UDP-1C
-      - 🇺🇦 V8-UAK
-      - 🇳🇱 NL AMS-02 UDP-1I
-      - FI HELSINKI UDP-1B
-      - 🇳🇱 NL AMS-02-1L
-      - 🇳🇱 NL AMS-01 UDP-1L
-      - FI HELSINKI UDP-1J
-      - SMART TURBO 01-1I
-      - 🇳🇱 NL AMS-01 UDP-1C
-      - 🇳🇱 NL AMS-02-1G
-      - 🇩🇪 德国-法兰克福-002-1C
-      - 🇩🇪 德国-法兰克福-003-1F
-      - 🇳🇱 NL AMS-01 UDP-1E
-      - 🇩🇪 德国-法兰克福-003-1E
-      - 🇳🇱 NL AMS-02-1I
-      - 🇩🇪 德国-法兰克福-004-1C
-      - 🇳🇱 NL AMS-01-1A
-      - 🇳🇱 NL AMS-01-1C
-      - 🇬🇧 UK RELAY-1F
-      - 🇺🇸 美国纽约 原生IP
-      - UDP EDGE-05-1F
-      - UDP EDGE-05-1J
-      - 🇹🇼 台湾高速节点2
-      - 🇬🇧 UK RELAY-1K
-      - 🇩🇪 德国-法兰克福-002-1A
-      - UDP EDGE-05-1G
-      - FV2026-7-7-1A
-      - 🇺🇸 HY-05| US
-      - UDP EDGE-04-1G
-      - 🇬🇧 UK RELAY-1B
-      - 🇩🇪 德国-法兰克福-003-1G
-      - 🇺🇸 HY-02 | US
-      - 🇹🇼 台湾高速节点
-      - SMART TURBO 01-1C
-      - 🇩🇪 德国-法兰克福-002-1E
-      - FI HELSINKI UDP-1H
-      - 🇺🇸 美国-洛杉矶-PRO
-      - SMART TURBO 02-1C
-      - 🇳🇱 NL AMS-01-1G
-      - UDP EDGE-03-1L
-      - FV2026-7-7-1E
-      - SMART TURBO 02-1I
-      - 🇬🇧 UK RELAY-1A
-      - SMART TURBO 02-1A
-      - 🇳🇱 NL AMS-01-1J
-      - 🇬🇧 UK RELAY-1G
-      - 🇳🇱 NL AMS-01-1L
-      - UDP EDGE-04-1C
-      - 🇩🇪 德国-法兰克福-004-1B
-      - 🇩🇪 德国-法兰克福-003-1D
-      - FI HELSINKI UDP-1E
-      - SMART TURBO 01-1G
-      - UDP EDGE-05-1H
-      - UDP EDGE-04-1F
-      - SMART TURBO 01-1L
-      - 🇭🇰 TTC9999 香港-1B
-      - UDP EDGE-04-1E
-      - UDP EDGE-04-1K
-      - 🇩🇪 德国-法兰克福-002-1B
-      - 🇳🇱 NL AMS-01 UDP-1K
-      - 🇳🇱 NL AMS-02-1K
-      - 🇩🇪 德国-法兰克福-001-1G
-      - UV-ZDT
-      - SMART TURBO 01-1J
-      - 🇭🇰 TTC9999 香港-1A
-      - FV2026-7-7-1D
-      - SMART TURBO 01-1F
-      - FI HELSINKI UDP-1G
-      - 🇳🇱 NL AMS-01-1E
-      - FV2026-7-7-1F
-      - 🇳🇱 NL AMS-02 UDP-1B
-      - MP-FTP
-      - UDP EDGE-03-1C
-      - 🇳🇱 NL AMS-02 UDP-1K
-      - 🇩🇪 德国-法兰克福-003-1B
-      - SMART TURBO 02-1K
-      - 🇸🇬 新加坡 BGP优化
-      - 🇩🇪 德国-法兰克福-004-1A
-      - 🇳🇱 NL AMS-01-1H
-      - 🇳🇱 NL AMS-01 UDP-1F
-      - SMART TURBO 01-1A
-      - 🇳🇱 NL AMS-01-1D
-      - 🇬🇧 UK RELAY-1C
-      - FI HELSINKI UDP-1A
-      - 🇳🇱 NL AMS-01-1B
-      - G I C A B N H T H N
-      - SMART TURBO 01-1B
-      - UDP EDGE-05-1B
-      - 🇳🇱 NL AMS-02 UDP-1D
-      - UDP EDGE-03-1G
-      - SMART TURBO 01-1H
-      - 🇳🇱 NL AMS-02-1D
-      - 🇰🇷 韩国节点-B
-      - 🇩🇪 德国-法兰克福-001-1E
-      - UDP EDGE-04-1H
-      - 🇩🇪 德国-法兰克福-001-1H
-      - UDP EDGE-04-1A
-      - 🇬🇧 UK RELAY-1I
-      - UDP EDGE-05-1I
-      - 🇳🇱 NL AMS-02-1C
-      - 🇳🇱 NL AMS-01-1F
-      - UDP EDGE-03-1F
-      - 🇨🇦 加拿大 三网优化
-      - 🇩🇪 德国-法兰克福-001-1A
-      - DY-JHU
-      - SMART TURBO 02-1D
-      - UDP EDGE-05-1K
-      - 🇳🇱 NL AMS-02 UDP-1H
-      - 🇺🇸 美国高速节点1
-      - 🇳🇱 NL AMS-01 UDP-1J
-      - YI-QRF
-      - UDP EDGE-05-1E
-      - UDP EDGE-04-1D
-      - FI HELSINKI UDP-1I
-      - 🇩🇪 德国-法兰克福-004-1G
-      - 🇳🇱 NL AMS-01 UDP-1H
-      - 🇩🇪 德国-法兰克福-001-1B
-      - 🇩🇪 德国-法兰克福-002-1H
-      - 🇳🇱 NL AMS-02 UDP-1J
-      - 🇹🇼 台湾高速节点3
-      - UDP EDGE-04-1L
-      - UDP EDGE-03-1H
-      - 🇩🇪 德国-法兰克福-004-1D
-      - SMART TURBO 01-1D
-      - 🇩🇪 德国-法兰克福-003-1H
-      - 🇳🇱 NL AMS-01 UDP-1G
-      - 🇳🇱 NL AMS-01 UDP-1A
-      - SMART TURBO 02-1E
-      - SMART TURBO 01-1E
-      - UDP EDGE-03-1K
-      - 🇬🇧 UK RELAY-1J
-      - FV2026-7-7-1B
-      - UDP EDGE-03-1B
-      - FI HELSINKI UDP-1L
-      - UDP EDGE-03-1E
-      - OV-NPH
-      - 🇩🇪 德国-法兰克福-001-1C
-      - UDP EDGE-04-1I
-      - SMART TURBO 01-1K
-      - 🇩🇪 德国-法兰克福-004-1E
-      - FI HELSINKI UDP-1D
-      - 🇩🇪 德国-法兰克福-001-1F
-      - 🇹🇼 台湾 IEPL专线
-      - FV2026-7-7-1C
-      - 🇳🇱 NL AMS-02-1H
-      - UDP EDGE-05-1L
-      - UDP EDGE-04-1J
-      - SMART TURBO 02-1L
-      - 🇳🇱 NL AMS-02 UDP-1F
-      - 🇳🇱 NL AMS-01 UDP-1I
-      - UDP EDGE-04-1B
-      - 🇳🇱 NL AMS-02 UDP-1G
-      - 🇳🇱 NL AMS-02-1B
-      - 🇩🇪 德国-法兰克福-002-1D
-      - UDP EDGE-03-1J
-      - 🇭🇰 HK-A
-      - UDP EDGE-03-1A
-      - SMART TURBO 02-1F
-      - UDP EDGE-03-1I
-      - SMART TURBO 02-1J
-      - FI HELSINKI UDP-1K
-      - 🇳🇱 NL AMS-02 UDP-1L
-      - 🇩🇪 德国-法兰克福-004-1H
-      - 🇬🇧 UK RELAY-1H
-      - UDP EDGE-05-1A
-      - 🇺🇸 HY-03 | US
-      - AO-REH
-      - UDP EDGE-05-1C
-      - 🇬🇧 UK RELAY-1L
-      - 🇳🇱 NL AMS-01 UDP-1D
-      - SMART TURBO 02-1B
-      - 🇳🇱 NL AMS-01-1I
-      - 🇳🇱 NL AMS-02 UDP-1C
-      - 🇳🇱 NL AMS-02 UDP-1A
-      - 🇨🇳 中国联通节点1
-      - 🇩🇪 德国-法兰克福-003-1C
-      - 🇬🇧 UK RELAY-1E
-      - 🇳🇱 NL AMS-01-1K
-      - UDP EDGE-03-1D
-      - 🇳🇱 NL AMS-02 UDP-1E
-      - 🇺🇸 HY-04 | US
-      - 🇳🇱 NL AMS-02-1A
       - 🇳🇱 NL AMS-02-1F
-      - UDP EDGE-05-1D
-      - 🇳🇱 NL AMS-02-1E
-      - 🇳🇱 NL AMS-01 UDP-1B
+      - 🇬🇧 UK RELAY-1H
+      - FI HELSINKI UDP-1K
+      - 🇳🇱 NL AMS-01 UDP-1L
+      - 🇭🇰 TTC9999 香港-1B
+      - 🇳🇱 NL AMS-01 UDP-1D
+      - SMART TURBO 01-1H
+      - FI HELSINKI UDP-1E
+      - UDP EDGE-03-1A
+      - UDP EDGE-03-1B
+      - UDP EDGE-05-1C
+      - 🇳🇱 NL AMS-01-1L
+      - 🇩🇪 德国-法兰克福-001-1E
+      - 🇳🇱 NL AMS-01-1E
+      - 🇩🇪 德国-法兰克福-003-1G
+      - FI HELSINKI UDP-1I
+      - 🇬🇧 UK RELAY-1G
+      - 🇩🇪 德国-法兰克福-003-1A
+      - SMART TURBO 02-1J
       - SMART TURBO 02-1H
-      - FI HELSINKI UDP-1F
+      - SMART TURBO 01-1A
+      - UDP EDGE-05-1A
+      - 🇳🇱 NL AMS-01-1A
+      - FV2026-7-7-1D
+      - SMART TURBO 02-1E
+      - 🇳🇱 NL AMS-01-1D
+      - 🇩🇪 德国-法兰克福-002-1J
+      - FI HELSINKI UDP-1B
+      - GY-EYC
+      - SMART TURBO 01-1I
+      - 🇹🇼 台湾高速节点2
+      - UDP EDGE-05-1F
+      - 🇳🇱 NL AMS-02-1I
+      - 8F-FDB
+      - SMART TURBO 02-1L
+      - SMART TURBO 02-1F
+      - 🇩🇪 德国-法兰克福-001-1I
+      - FV2026-7-7-1B
+      - UDP EDGE-03-1I
+      - 🇩🇪 德国-法兰克福-002-1H
+      - 🇳🇱 NL AMS-02 UDP-1F
+      - 🇩🇪 德国-法兰克福-004-1D
+      - UDP EDGE-05-1B
+      - UDP EDGE-04-1C
+      - A1-YDJ
+      - 🇬🇧 UK RELAY-1K
+      - UDP EDGE-03-1H
+      - 🇩🇪 德国-法兰克福-004-1A
+      - 🇳🇱 NL AMS-02 UDP-1A
+      - 🇩🇪 德国-法兰克福-003-1C
+      - 🇳🇱 NL AMS-02 UDP-1D
+      - 🇺🇸 美国纽约 原生IP
+      - SMART TURBO 01-1C
+      - UDP EDGE-05-1H
+      - 🇩🇪 德国-法兰克福-004-1C
+      - 🇩🇪 德国-法兰克福-001-1C
+      - UDP EDGE-03-1K
+      - 🇳🇱 NL AMS-01 UDP-1H
+      - UDP EDGE-04-1E
+      - 🇳🇱 NL AMS-01 UDP-1G
+      - UDP EDGE-05-1J
+      - UDP EDGE-03-1G
+      - 🇭🇰 TTC9999 香港-1A
+      - 🇩🇪 德国-法兰克福-002-1A
+      - 🇬🇧 UK RELAY-1B
+      - 🇳🇱 NL AMS-01-1G
+      - 🇳🇱 NL AMS-02 UDP-1J
+      - 🇳🇱 NL AMS-02-1J
+      - UDP EDGE-05-1K
+      - SMART TURBO 02-1G
+      - 🇹🇼 台湾 IEPL专线
+      - 🇩🇪 德国-法兰克福-004-1J
+      - 🇩🇪 德国-法兰克福-003-1D
+      - FI HELSINKI UDP-1L
+      - 🇳🇱 NL AMS-01-1K
+      - 🇰🇷 韩国节点-B
+      - 🇳🇱 NL AMS-01-1H
+      - UDP EDGE-05-1I
+      - MH-CKJ
+      - UDP EDGE-03-1L
+      - 🇭🇰 HK-A
+      - 🇳🇱 NL AMS-02 UDP-1K
+      - 🇬🇧 UK RELAY-1I
+      - 🇳🇱 NL AMS-02 UDP-1G
+      - 🇩🇪 德国-法兰克福-003-1E
+      - 🇳🇱 NL AMS-01 UDP-1F
+      - UDP EDGE-04-1K
+      - FI HELSINKI UDP-1G
+      - 🇩🇪 德国-法兰克福-001-1G
+      - 🇩🇪 德国-法兰克福-001-1H
+      - UDP EDGE-03-1C
+      - SMART TURBO 01-1B
+      - 🇳🇱 NL AMS-02-1B
+      - UDP EDGE-03-1D
       - 🇩🇪 德国-法兰克福-002-1G
-      - 🇩🇪 德国-法兰克福-001-1D
+      - 🇩🇪 德国-法兰克福-001-1J
+      - 🇩🇪 德国-法兰克福-001-1F
+      - UDP EDGE-04-1H
+      - 🇳🇱 NL AMS-01-1F
+      - 🇨🇳 中国联通节点1
+      - SMART TURBO 02-1A
+      - 🇳🇱 NL AMS-02-1L
+      - SMART TURBO 01-1F
+      - 🇬🇧 UK RELAY-1C
+      - UDP EDGE-03-1J
+      - 🇬🇧 UK RELAY-1D
+      - SMART TURBO 02-1D
+      - SMART TURBO 02-1C
+      - 🇳🇱 NL AMS-01-1I
+      - 🇳🇱 NL AMS-02-1D
+      - 🇺🇸 HY-05| US
+      - 🇳🇱 NL AMS-02 UDP-1B
+      - SMART TURBO 02-1I
+      - UDP EDGE-04-1G
+      - 🇩🇪 德国-法兰克福-004-1G
+      - 🇸🇬 新加坡 BGP优化
+      - UDP EDGE-05-1D
+      - 🇳🇱 NL AMS-01-1B
       - 🇩🇪 德国-法兰克福-002-1F
+      - 🇬🇧 UK RELAY-1L
+      - 🇩🇪 德国-法兰克福-002-1I
+      - FI HELSINKI UDP-1J
+      - FI HELSINKI UDP-1H
+      - UDP EDGE-05-1L
+      - 🇬🇧 UK RELAY-1A
+      - 🇩🇪 德国-法兰克福-003-1J
+      - 🇳🇱 NL AMS-02 UDP-1H
+      - 🇩🇪 德国-法兰克福-002-1E
+      - 🇳🇱 NL AMS-02-1H
+      - 🇺🇸 HY-04 | US
+      - 🇳🇱 NL AMS-01 UDP-1J
+      - SMART TURBO 01-1E
+      - FV2026-7-7-1G
+      - 🇳🇱 NL AMS-01 UDP-1C
+      - UDP EDGE-04-1F
+      - 🇳🇱 NL AMS-02 UDP-1C
+      - 🇳🇱 NL AMS-01 UDP-1A
+      - FI HELSINKI UDP-1D
+      - 🇺🇸 美国-洛杉矶-PRO
+      - SMART TURBO 01-1L
+      - 🇩🇪 德国-法兰克福-004-1B
+      - JQ-ACU
+      - 🇩🇪 德国-法兰克福-001-1B
+      - 🇩🇪 德国-法兰克福-004-1E
+      - 🇳🇱 NL AMS-01-1C
+      - UDP EDGE-05-1G
+      - 🇬🇧 UK RELAY-1E
+      - 🇬🇧 UK RELAY-1J
+      - 🇺🇸 HY-03 | US
+      - SMART TURBO 02-1K
+      - UDP EDGE-03-1E
+      - 🇳🇱 NL AMS-01 UDP-1K
+      - 🇩🇪 德国-法兰克福-001-1D
+      - 🇹🇼 台湾高速节点
+      - 🇩🇪 德国-法兰克福-003-1B
+      - UDP EDGE-04-1B
+      - 🇳🇱 NL AMS-02-1G
+      - 🇳🇱 NL AMS-02-1E
+      - 🇳🇱 NL AMS-01 UDP-1I
+      - 🇩🇪 德国-法兰克福-002-1C
+      - 🇩🇪 德国-法兰克福-002-1D
+      - FV2026-7-7-1C
+      - 🇺🇸 美国高速节点1
+      - SMART TURBO 02-1B
+      - UDP EDGE-05-1E
+      - 🇳🇱 NL AMS-02 UDP-1I
+      - 🇩🇪 德国-法兰克福-004-1F
+      - 🇨🇦 加拿大 三网优化
+      - FI HELSINKI UDP-1C
+      - 🇩🇪 德国-法兰克福-001-1A
+      - 🇩🇪 德国-法兰克福-003-1H
+      - FV2026-7-7-1F
+      - G I C A B N H T H N
+      - 🇺🇸 HY-02 | US
+      - FI HELSINKI UDP-1F
+      - 🇳🇱 NL AMS-02 UDP-1L
+      - FV2026-7-7-1A
+      - SMART TURBO 01-1D
+      - UDP EDGE-04-1A
+      - 🇳🇱 NL AMS-02-1K
+      - UDP EDGE-04-1D
+      - UDP EDGE-04-1L
+      - RN-TJR
+      - 🇬🇧 UK RELAY-1F
+      - 🇳🇱 NL AMS-01 UDP-1E
+      - SMART TURBO 01-1J
+      - 🇩🇪 德国-法兰克福-004-1I
+      - SMART TURBO 01-1K
+      - XA-NDC
+      - 🇹🇼 台湾高速节点3
+      - UDP EDGE-04-1J
+      - 🇳🇱 NL AMS-01 UDP-1B
+      - 🇳🇱 NL AMS-02 UDP-1E
+      - 🇩🇪 德国-法兰克福-003-1F
+      - 🇳🇱 NL AMS-02-1A
+      - FV2026-7-7-1E
+      - 🇳🇱 NL AMS-02-1C
+      - UDP EDGE-04-1I
+      - 🇳🇱 NL AMS-01-1J
+      - Y7-ZNY
+      - UDP EDGE-03-1F
+      - 🇩🇪 德国-法兰克福-002-1B
+      - 🇩🇪 德国-法兰克福-004-1H
+      - FI HELSINKI UDP-1A
+      - SMART TURBO 01-1G
+      - 🇩🇪 德国-法兰克福-003-1I
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - SMART TURBO 02-1G
-      - 🇬🇧 UK RELAY-1D
-      - 🇳🇱 NL AMS-02-1J
-      - 🇩🇪 德国-法兰克福-004-1F
-      - 🇩🇪 德国-法兰克福-003-1A
-      - FI HELSINKI UDP-1C
-      - 🇺🇦 V8-UAK
-      - 🇳🇱 NL AMS-02 UDP-1I
-      - FI HELSINKI UDP-1B
-      - 🇳🇱 NL AMS-02-1L
-      - 🇳🇱 NL AMS-01 UDP-1L
-      - FI HELSINKI UDP-1J
-      - SMART TURBO 01-1I
-      - 🇳🇱 NL AMS-01 UDP-1C
-      - 🇳🇱 NL AMS-02-1G
-      - 🇩🇪 德国-法兰克福-002-1C
-      - 🇩🇪 德国-法兰克福-003-1F
-      - 🇳🇱 NL AMS-01 UDP-1E
-      - 🇩🇪 德国-法兰克福-003-1E
-      - 🇳🇱 NL AMS-02-1I
-      - 🇩🇪 德国-法兰克福-004-1C
-      - 🇳🇱 NL AMS-01-1A
-      - 🇳🇱 NL AMS-01-1C
-      - 🇬🇧 UK RELAY-1F
-      - 🇺🇸 美国纽约 原生IP
-      - UDP EDGE-05-1F
-      - UDP EDGE-05-1J
-      - 🇹🇼 台湾高速节点2
-      - 🇬🇧 UK RELAY-1K
-      - 🇩🇪 德国-法兰克福-002-1A
-      - UDP EDGE-05-1G
-      - FV2026-7-7-1A
-      - 🇺🇸 HY-05| US
-      - UDP EDGE-04-1G
-      - 🇬🇧 UK RELAY-1B
-      - 🇩🇪 德国-法兰克福-003-1G
-      - 🇺🇸 HY-02 | US
-      - 🇹🇼 台湾高速节点
-      - SMART TURBO 01-1C
-      - 🇩🇪 德国-法兰克福-002-1E
-      - FI HELSINKI UDP-1H
-      - 🇺🇸 美国-洛杉矶-PRO
-      - SMART TURBO 02-1C
-      - 🇳🇱 NL AMS-01-1G
-      - UDP EDGE-03-1L
-      - FV2026-7-7-1E
-      - SMART TURBO 02-1I
-      - 🇬🇧 UK RELAY-1A
-      - SMART TURBO 02-1A
-      - 🇳🇱 NL AMS-01-1J
-      - 🇬🇧 UK RELAY-1G
-      - 🇳🇱 NL AMS-01-1L
-      - UDP EDGE-04-1C
-      - 🇩🇪 德国-法兰克福-004-1B
-      - 🇩🇪 德国-法兰克福-003-1D
-      - FI HELSINKI UDP-1E
-      - SMART TURBO 01-1G
-      - UDP EDGE-05-1H
-      - UDP EDGE-04-1F
-      - SMART TURBO 01-1L
-      - 🇭🇰 TTC9999 香港-1B
-      - UDP EDGE-04-1E
-      - UDP EDGE-04-1K
-      - 🇩🇪 德国-法兰克福-002-1B
-      - 🇳🇱 NL AMS-01 UDP-1K
-      - 🇳🇱 NL AMS-02-1K
-      - 🇩🇪 德国-法兰克福-001-1G
-      - UV-ZDT
-      - SMART TURBO 01-1J
-      - 🇭🇰 TTC9999 香港-1A
-      - FV2026-7-7-1D
-      - SMART TURBO 01-1F
-      - FI HELSINKI UDP-1G
-      - 🇳🇱 NL AMS-01-1E
-      - FV2026-7-7-1F
-      - 🇳🇱 NL AMS-02 UDP-1B
-      - MP-FTP
-      - UDP EDGE-03-1C
-      - 🇳🇱 NL AMS-02 UDP-1K
-      - 🇩🇪 德国-法兰克福-003-1B
-      - SMART TURBO 02-1K
-      - 🇸🇬 新加坡 BGP优化
-      - 🇩🇪 德国-法兰克福-004-1A
-      - 🇳🇱 NL AMS-01-1H
-      - 🇳🇱 NL AMS-01 UDP-1F
-      - SMART TURBO 01-1A
-      - 🇳🇱 NL AMS-01-1D
-      - 🇬🇧 UK RELAY-1C
-      - FI HELSINKI UDP-1A
-      - 🇳🇱 NL AMS-01-1B
-      - G I C A B N H T H N
-      - SMART TURBO 01-1B
-      - UDP EDGE-05-1B
-      - 🇳🇱 NL AMS-02 UDP-1D
-      - UDP EDGE-03-1G
-      - SMART TURBO 01-1H
-      - 🇳🇱 NL AMS-02-1D
-      - 🇰🇷 韩国节点-B
-      - 🇩🇪 德国-法兰克福-001-1E
-      - UDP EDGE-04-1H
-      - 🇩🇪 德国-法兰克福-001-1H
-      - UDP EDGE-04-1A
-      - 🇬🇧 UK RELAY-1I
-      - UDP EDGE-05-1I
-      - 🇳🇱 NL AMS-02-1C
-      - 🇳🇱 NL AMS-01-1F
-      - UDP EDGE-03-1F
-      - 🇨🇦 加拿大 三网优化
-      - 🇩🇪 德国-法兰克福-001-1A
-      - DY-JHU
-      - SMART TURBO 02-1D
-      - UDP EDGE-05-1K
-      - 🇳🇱 NL AMS-02 UDP-1H
-      - 🇺🇸 美国高速节点1
-      - 🇳🇱 NL AMS-01 UDP-1J
-      - YI-QRF
-      - UDP EDGE-05-1E
-      - UDP EDGE-04-1D
-      - FI HELSINKI UDP-1I
-      - 🇩🇪 德国-法兰克福-004-1G
-      - 🇳🇱 NL AMS-01 UDP-1H
-      - 🇩🇪 德国-法兰克福-001-1B
-      - 🇩🇪 德国-法兰克福-002-1H
-      - 🇳🇱 NL AMS-02 UDP-1J
-      - 🇹🇼 台湾高速节点3
-      - UDP EDGE-04-1L
-      - UDP EDGE-03-1H
-      - 🇩🇪 德国-法兰克福-004-1D
-      - SMART TURBO 01-1D
-      - 🇩🇪 德国-法兰克福-003-1H
-      - 🇳🇱 NL AMS-01 UDP-1G
-      - 🇳🇱 NL AMS-01 UDP-1A
-      - SMART TURBO 02-1E
-      - SMART TURBO 01-1E
-      - UDP EDGE-03-1K
-      - 🇬🇧 UK RELAY-1J
-      - FV2026-7-7-1B
-      - UDP EDGE-03-1B
-      - FI HELSINKI UDP-1L
-      - UDP EDGE-03-1E
-      - OV-NPH
-      - 🇩🇪 德国-法兰克福-001-1C
-      - UDP EDGE-04-1I
-      - SMART TURBO 01-1K
-      - 🇩🇪 德国-法兰克福-004-1E
-      - FI HELSINKI UDP-1D
-      - 🇩🇪 德国-法兰克福-001-1F
-      - 🇹🇼 台湾 IEPL专线
-      - FV2026-7-7-1C
-      - 🇳🇱 NL AMS-02-1H
-      - UDP EDGE-05-1L
-      - UDP EDGE-04-1J
-      - SMART TURBO 02-1L
-      - 🇳🇱 NL AMS-02 UDP-1F
-      - 🇳🇱 NL AMS-01 UDP-1I
-      - UDP EDGE-04-1B
-      - 🇳🇱 NL AMS-02 UDP-1G
-      - 🇳🇱 NL AMS-02-1B
-      - 🇩🇪 德国-法兰克福-002-1D
-      - UDP EDGE-03-1J
-      - 🇭🇰 HK-A
-      - UDP EDGE-03-1A
-      - SMART TURBO 02-1F
-      - UDP EDGE-03-1I
-      - SMART TURBO 02-1J
-      - FI HELSINKI UDP-1K
-      - 🇳🇱 NL AMS-02 UDP-1L
-      - 🇩🇪 德国-法兰克福-004-1H
-      - 🇬🇧 UK RELAY-1H
-      - UDP EDGE-05-1A
-      - 🇺🇸 HY-03 | US
-      - AO-REH
-      - UDP EDGE-05-1C
-      - 🇬🇧 UK RELAY-1L
-      - 🇳🇱 NL AMS-01 UDP-1D
-      - SMART TURBO 02-1B
-      - 🇳🇱 NL AMS-01-1I
-      - 🇳🇱 NL AMS-02 UDP-1C
-      - 🇳🇱 NL AMS-02 UDP-1A
-      - 🇨🇳 中国联通节点1
-      - 🇩🇪 德国-法兰克福-003-1C
-      - 🇬🇧 UK RELAY-1E
-      - 🇳🇱 NL AMS-01-1K
-      - UDP EDGE-03-1D
-      - 🇳🇱 NL AMS-02 UDP-1E
-      - 🇺🇸 HY-04 | US
-      - 🇳🇱 NL AMS-02-1A
       - 🇳🇱 NL AMS-02-1F
-      - UDP EDGE-05-1D
-      - 🇳🇱 NL AMS-02-1E
-      - 🇳🇱 NL AMS-01 UDP-1B
+      - 🇬🇧 UK RELAY-1H
+      - FI HELSINKI UDP-1K
+      - 🇳🇱 NL AMS-01 UDP-1L
+      - 🇭🇰 TTC9999 香港-1B
+      - 🇳🇱 NL AMS-01 UDP-1D
+      - SMART TURBO 01-1H
+      - FI HELSINKI UDP-1E
+      - UDP EDGE-03-1A
+      - UDP EDGE-03-1B
+      - UDP EDGE-05-1C
+      - 🇳🇱 NL AMS-01-1L
+      - 🇩🇪 德国-法兰克福-001-1E
+      - 🇳🇱 NL AMS-01-1E
+      - 🇩🇪 德国-法兰克福-003-1G
+      - FI HELSINKI UDP-1I
+      - 🇬🇧 UK RELAY-1G
+      - 🇩🇪 德国-法兰克福-003-1A
+      - SMART TURBO 02-1J
       - SMART TURBO 02-1H
-      - FI HELSINKI UDP-1F
+      - SMART TURBO 01-1A
+      - UDP EDGE-05-1A
+      - 🇳🇱 NL AMS-01-1A
+      - FV2026-7-7-1D
+      - SMART TURBO 02-1E
+      - 🇳🇱 NL AMS-01-1D
+      - 🇩🇪 德国-法兰克福-002-1J
+      - FI HELSINKI UDP-1B
+      - GY-EYC
+      - SMART TURBO 01-1I
+      - 🇹🇼 台湾高速节点2
+      - UDP EDGE-05-1F
+      - 🇳🇱 NL AMS-02-1I
+      - 8F-FDB
+      - SMART TURBO 02-1L
+      - SMART TURBO 02-1F
+      - 🇩🇪 德国-法兰克福-001-1I
+      - FV2026-7-7-1B
+      - UDP EDGE-03-1I
+      - 🇩🇪 德国-法兰克福-002-1H
+      - 🇳🇱 NL AMS-02 UDP-1F
+      - 🇩🇪 德国-法兰克福-004-1D
+      - UDP EDGE-05-1B
+      - UDP EDGE-04-1C
+      - A1-YDJ
+      - 🇬🇧 UK RELAY-1K
+      - UDP EDGE-03-1H
+      - 🇩🇪 德国-法兰克福-004-1A
+      - 🇳🇱 NL AMS-02 UDP-1A
+      - 🇩🇪 德国-法兰克福-003-1C
+      - 🇳🇱 NL AMS-02 UDP-1D
+      - 🇺🇸 美国纽约 原生IP
+      - SMART TURBO 01-1C
+      - UDP EDGE-05-1H
+      - 🇩🇪 德国-法兰克福-004-1C
+      - 🇩🇪 德国-法兰克福-001-1C
+      - UDP EDGE-03-1K
+      - 🇳🇱 NL AMS-01 UDP-1H
+      - UDP EDGE-04-1E
+      - 🇳🇱 NL AMS-01 UDP-1G
+      - UDP EDGE-05-1J
+      - UDP EDGE-03-1G
+      - 🇭🇰 TTC9999 香港-1A
+      - 🇩🇪 德国-法兰克福-002-1A
+      - 🇬🇧 UK RELAY-1B
+      - 🇳🇱 NL AMS-01-1G
+      - 🇳🇱 NL AMS-02 UDP-1J
+      - 🇳🇱 NL AMS-02-1J
+      - UDP EDGE-05-1K
+      - SMART TURBO 02-1G
+      - 🇹🇼 台湾 IEPL专线
+      - 🇩🇪 德国-法兰克福-004-1J
+      - 🇩🇪 德国-法兰克福-003-1D
+      - FI HELSINKI UDP-1L
+      - 🇳🇱 NL AMS-01-1K
+      - 🇰🇷 韩国节点-B
+      - 🇳🇱 NL AMS-01-1H
+      - UDP EDGE-05-1I
+      - MH-CKJ
+      - UDP EDGE-03-1L
+      - 🇭🇰 HK-A
+      - 🇳🇱 NL AMS-02 UDP-1K
+      - 🇬🇧 UK RELAY-1I
+      - 🇳🇱 NL AMS-02 UDP-1G
+      - 🇩🇪 德国-法兰克福-003-1E
+      - 🇳🇱 NL AMS-01 UDP-1F
+      - UDP EDGE-04-1K
+      - FI HELSINKI UDP-1G
+      - 🇩🇪 德国-法兰克福-001-1G
+      - 🇩🇪 德国-法兰克福-001-1H
+      - UDP EDGE-03-1C
+      - SMART TURBO 01-1B
+      - 🇳🇱 NL AMS-02-1B
+      - UDP EDGE-03-1D
       - 🇩🇪 德国-法兰克福-002-1G
-      - 🇩🇪 德国-法兰克福-001-1D
+      - 🇩🇪 德国-法兰克福-001-1J
+      - 🇩🇪 德国-法兰克福-001-1F
+      - UDP EDGE-04-1H
+      - 🇳🇱 NL AMS-01-1F
+      - 🇨🇳 中国联通节点1
+      - SMART TURBO 02-1A
+      - 🇳🇱 NL AMS-02-1L
+      - SMART TURBO 01-1F
+      - 🇬🇧 UK RELAY-1C
+      - UDP EDGE-03-1J
+      - 🇬🇧 UK RELAY-1D
+      - SMART TURBO 02-1D
+      - SMART TURBO 02-1C
+      - 🇳🇱 NL AMS-01-1I
+      - 🇳🇱 NL AMS-02-1D
+      - 🇺🇸 HY-05| US
+      - 🇳🇱 NL AMS-02 UDP-1B
+      - SMART TURBO 02-1I
+      - UDP EDGE-04-1G
+      - 🇩🇪 德国-法兰克福-004-1G
+      - 🇸🇬 新加坡 BGP优化
+      - UDP EDGE-05-1D
+      - 🇳🇱 NL AMS-01-1B
       - 🇩🇪 德国-法兰克福-002-1F
+      - 🇬🇧 UK RELAY-1L
+      - 🇩🇪 德国-法兰克福-002-1I
+      - FI HELSINKI UDP-1J
+      - FI HELSINKI UDP-1H
+      - UDP EDGE-05-1L
+      - 🇬🇧 UK RELAY-1A
+      - 🇩🇪 德国-法兰克福-003-1J
+      - 🇳🇱 NL AMS-02 UDP-1H
+      - 🇩🇪 德国-法兰克福-002-1E
+      - 🇳🇱 NL AMS-02-1H
+      - 🇺🇸 HY-04 | US
+      - 🇳🇱 NL AMS-01 UDP-1J
+      - SMART TURBO 01-1E
+      - FV2026-7-7-1G
+      - 🇳🇱 NL AMS-01 UDP-1C
+      - UDP EDGE-04-1F
+      - 🇳🇱 NL AMS-02 UDP-1C
+      - 🇳🇱 NL AMS-01 UDP-1A
+      - FI HELSINKI UDP-1D
+      - 🇺🇸 美国-洛杉矶-PRO
+      - SMART TURBO 01-1L
+      - 🇩🇪 德国-法兰克福-004-1B
+      - JQ-ACU
+      - 🇩🇪 德国-法兰克福-001-1B
+      - 🇩🇪 德国-法兰克福-004-1E
+      - 🇳🇱 NL AMS-01-1C
+      - UDP EDGE-05-1G
+      - 🇬🇧 UK RELAY-1E
+      - 🇬🇧 UK RELAY-1J
+      - 🇺🇸 HY-03 | US
+      - SMART TURBO 02-1K
+      - UDP EDGE-03-1E
+      - 🇳🇱 NL AMS-01 UDP-1K
+      - 🇩🇪 德国-法兰克福-001-1D
+      - 🇹🇼 台湾高速节点
+      - 🇩🇪 德国-法兰克福-003-1B
+      - UDP EDGE-04-1B
+      - 🇳🇱 NL AMS-02-1G
+      - 🇳🇱 NL AMS-02-1E
+      - 🇳🇱 NL AMS-01 UDP-1I
+      - 🇩🇪 德国-法兰克福-002-1C
+      - 🇩🇪 德国-法兰克福-002-1D
+      - FV2026-7-7-1C
+      - 🇺🇸 美国高速节点1
+      - SMART TURBO 02-1B
+      - UDP EDGE-05-1E
+      - 🇳🇱 NL AMS-02 UDP-1I
+      - 🇩🇪 德国-法兰克福-004-1F
+      - 🇨🇦 加拿大 三网优化
+      - FI HELSINKI UDP-1C
+      - 🇩🇪 德国-法兰克福-001-1A
+      - 🇩🇪 德国-法兰克福-003-1H
+      - FV2026-7-7-1F
+      - G I C A B N H T H N
+      - 🇺🇸 HY-02 | US
+      - FI HELSINKI UDP-1F
+      - 🇳🇱 NL AMS-02 UDP-1L
+      - FV2026-7-7-1A
+      - SMART TURBO 01-1D
+      - UDP EDGE-04-1A
+      - 🇳🇱 NL AMS-02-1K
+      - UDP EDGE-04-1D
+      - UDP EDGE-04-1L
+      - RN-TJR
+      - 🇬🇧 UK RELAY-1F
+      - 🇳🇱 NL AMS-01 UDP-1E
+      - SMART TURBO 01-1J
+      - 🇩🇪 德国-法兰克福-004-1I
+      - SMART TURBO 01-1K
+      - XA-NDC
+      - 🇹🇼 台湾高速节点3
+      - UDP EDGE-04-1J
+      - 🇳🇱 NL AMS-01 UDP-1B
+      - 🇳🇱 NL AMS-02 UDP-1E
+      - 🇩🇪 德国-法兰克福-003-1F
+      - 🇳🇱 NL AMS-02-1A
+      - FV2026-7-7-1E
+      - 🇳🇱 NL AMS-02-1C
+      - UDP EDGE-04-1I
+      - 🇳🇱 NL AMS-01-1J
+      - Y7-ZNY
+      - UDP EDGE-03-1F
+      - 🇩🇪 德国-法兰克福-002-1B
+      - 🇩🇪 德国-法兰克福-004-1H
+      - FI HELSINKI UDP-1A
+      - SMART TURBO 01-1G
+      - 🇩🇪 德国-法兰克福-003-1I
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1650,202 +1730,212 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - SMART TURBO 02-1G
-      - 🇬🇧 UK RELAY-1D
-      - 🇳🇱 NL AMS-02-1J
-      - 🇩🇪 德国-法兰克福-004-1F
-      - 🇩🇪 德国-法兰克福-003-1A
-      - FI HELSINKI UDP-1C
-      - 🇺🇦 V8-UAK
-      - 🇳🇱 NL AMS-02 UDP-1I
-      - FI HELSINKI UDP-1B
-      - 🇳🇱 NL AMS-02-1L
-      - 🇳🇱 NL AMS-01 UDP-1L
-      - FI HELSINKI UDP-1J
-      - SMART TURBO 01-1I
-      - 🇳🇱 NL AMS-01 UDP-1C
-      - 🇳🇱 NL AMS-02-1G
-      - 🇩🇪 德国-法兰克福-002-1C
-      - 🇩🇪 德国-法兰克福-003-1F
-      - 🇳🇱 NL AMS-01 UDP-1E
-      - 🇩🇪 德国-法兰克福-003-1E
-      - 🇳🇱 NL AMS-02-1I
-      - 🇩🇪 德国-法兰克福-004-1C
-      - 🇳🇱 NL AMS-01-1A
-      - 🇳🇱 NL AMS-01-1C
-      - 🇬🇧 UK RELAY-1F
-      - 🇺🇸 美国纽约 原生IP
-      - UDP EDGE-05-1F
-      - UDP EDGE-05-1J
-      - 🇹🇼 台湾高速节点2
-      - 🇬🇧 UK RELAY-1K
-      - 🇩🇪 德国-法兰克福-002-1A
-      - UDP EDGE-05-1G
-      - FV2026-7-7-1A
-      - 🇺🇸 HY-05| US
-      - UDP EDGE-04-1G
-      - 🇬🇧 UK RELAY-1B
-      - 🇩🇪 德国-法兰克福-003-1G
-      - 🇺🇸 HY-02 | US
-      - 🇹🇼 台湾高速节点
-      - SMART TURBO 01-1C
-      - 🇩🇪 德国-法兰克福-002-1E
-      - FI HELSINKI UDP-1H
-      - 🇺🇸 美国-洛杉矶-PRO
-      - SMART TURBO 02-1C
-      - 🇳🇱 NL AMS-01-1G
-      - UDP EDGE-03-1L
-      - FV2026-7-7-1E
-      - SMART TURBO 02-1I
-      - 🇬🇧 UK RELAY-1A
-      - SMART TURBO 02-1A
-      - 🇳🇱 NL AMS-01-1J
-      - 🇬🇧 UK RELAY-1G
-      - 🇳🇱 NL AMS-01-1L
-      - UDP EDGE-04-1C
-      - 🇩🇪 德国-法兰克福-004-1B
-      - 🇩🇪 德国-法兰克福-003-1D
-      - FI HELSINKI UDP-1E
-      - SMART TURBO 01-1G
-      - UDP EDGE-05-1H
-      - UDP EDGE-04-1F
-      - SMART TURBO 01-1L
-      - 🇭🇰 TTC9999 香港-1B
-      - UDP EDGE-04-1E
-      - UDP EDGE-04-1K
-      - 🇩🇪 德国-法兰克福-002-1B
-      - 🇳🇱 NL AMS-01 UDP-1K
-      - 🇳🇱 NL AMS-02-1K
-      - 🇩🇪 德国-法兰克福-001-1G
-      - UV-ZDT
-      - SMART TURBO 01-1J
-      - 🇭🇰 TTC9999 香港-1A
-      - FV2026-7-7-1D
-      - SMART TURBO 01-1F
-      - FI HELSINKI UDP-1G
-      - 🇳🇱 NL AMS-01-1E
-      - FV2026-7-7-1F
-      - 🇳🇱 NL AMS-02 UDP-1B
-      - MP-FTP
-      - UDP EDGE-03-1C
-      - 🇳🇱 NL AMS-02 UDP-1K
-      - 🇩🇪 德国-法兰克福-003-1B
-      - SMART TURBO 02-1K
-      - 🇸🇬 新加坡 BGP优化
-      - 🇩🇪 德国-法兰克福-004-1A
-      - 🇳🇱 NL AMS-01-1H
-      - 🇳🇱 NL AMS-01 UDP-1F
-      - SMART TURBO 01-1A
-      - 🇳🇱 NL AMS-01-1D
-      - 🇬🇧 UK RELAY-1C
-      - FI HELSINKI UDP-1A
-      - 🇳🇱 NL AMS-01-1B
-      - G I C A B N H T H N
-      - SMART TURBO 01-1B
-      - UDP EDGE-05-1B
-      - 🇳🇱 NL AMS-02 UDP-1D
-      - UDP EDGE-03-1G
-      - SMART TURBO 01-1H
-      - 🇳🇱 NL AMS-02-1D
-      - 🇰🇷 韩国节点-B
-      - 🇩🇪 德国-法兰克福-001-1E
-      - UDP EDGE-04-1H
-      - 🇩🇪 德国-法兰克福-001-1H
-      - UDP EDGE-04-1A
-      - 🇬🇧 UK RELAY-1I
-      - UDP EDGE-05-1I
-      - 🇳🇱 NL AMS-02-1C
-      - 🇳🇱 NL AMS-01-1F
-      - UDP EDGE-03-1F
-      - 🇨🇦 加拿大 三网优化
-      - 🇩🇪 德国-法兰克福-001-1A
-      - DY-JHU
-      - SMART TURBO 02-1D
-      - UDP EDGE-05-1K
-      - 🇳🇱 NL AMS-02 UDP-1H
-      - 🇺🇸 美国高速节点1
-      - 🇳🇱 NL AMS-01 UDP-1J
-      - YI-QRF
-      - UDP EDGE-05-1E
-      - UDP EDGE-04-1D
-      - FI HELSINKI UDP-1I
-      - 🇩🇪 德国-法兰克福-004-1G
-      - 🇳🇱 NL AMS-01 UDP-1H
-      - 🇩🇪 德国-法兰克福-001-1B
-      - 🇩🇪 德国-法兰克福-002-1H
-      - 🇳🇱 NL AMS-02 UDP-1J
-      - 🇹🇼 台湾高速节点3
-      - UDP EDGE-04-1L
-      - UDP EDGE-03-1H
-      - 🇩🇪 德国-法兰克福-004-1D
-      - SMART TURBO 01-1D
-      - 🇩🇪 德国-法兰克福-003-1H
-      - 🇳🇱 NL AMS-01 UDP-1G
-      - 🇳🇱 NL AMS-01 UDP-1A
-      - SMART TURBO 02-1E
-      - SMART TURBO 01-1E
-      - UDP EDGE-03-1K
-      - 🇬🇧 UK RELAY-1J
-      - FV2026-7-7-1B
-      - UDP EDGE-03-1B
-      - FI HELSINKI UDP-1L
-      - UDP EDGE-03-1E
-      - OV-NPH
-      - 🇩🇪 德国-法兰克福-001-1C
-      - UDP EDGE-04-1I
-      - SMART TURBO 01-1K
-      - 🇩🇪 德国-法兰克福-004-1E
-      - FI HELSINKI UDP-1D
-      - 🇩🇪 德国-法兰克福-001-1F
-      - 🇹🇼 台湾 IEPL专线
-      - FV2026-7-7-1C
-      - 🇳🇱 NL AMS-02-1H
-      - UDP EDGE-05-1L
-      - UDP EDGE-04-1J
-      - SMART TURBO 02-1L
-      - 🇳🇱 NL AMS-02 UDP-1F
-      - 🇳🇱 NL AMS-01 UDP-1I
-      - UDP EDGE-04-1B
-      - 🇳🇱 NL AMS-02 UDP-1G
-      - 🇳🇱 NL AMS-02-1B
-      - 🇩🇪 德国-法兰克福-002-1D
-      - UDP EDGE-03-1J
-      - 🇭🇰 HK-A
-      - UDP EDGE-03-1A
-      - SMART TURBO 02-1F
-      - UDP EDGE-03-1I
-      - SMART TURBO 02-1J
-      - FI HELSINKI UDP-1K
-      - 🇳🇱 NL AMS-02 UDP-1L
-      - 🇩🇪 德国-法兰克福-004-1H
-      - 🇬🇧 UK RELAY-1H
-      - UDP EDGE-05-1A
-      - 🇺🇸 HY-03 | US
-      - AO-REH
-      - UDP EDGE-05-1C
-      - 🇬🇧 UK RELAY-1L
-      - 🇳🇱 NL AMS-01 UDP-1D
-      - SMART TURBO 02-1B
-      - 🇳🇱 NL AMS-01-1I
-      - 🇳🇱 NL AMS-02 UDP-1C
-      - 🇳🇱 NL AMS-02 UDP-1A
-      - 🇨🇳 中国联通节点1
-      - 🇩🇪 德国-法兰克福-003-1C
-      - 🇬🇧 UK RELAY-1E
-      - 🇳🇱 NL AMS-01-1K
-      - UDP EDGE-03-1D
-      - 🇳🇱 NL AMS-02 UDP-1E
-      - 🇺🇸 HY-04 | US
-      - 🇳🇱 NL AMS-02-1A
       - 🇳🇱 NL AMS-02-1F
-      - UDP EDGE-05-1D
-      - 🇳🇱 NL AMS-02-1E
-      - 🇳🇱 NL AMS-01 UDP-1B
+      - 🇬🇧 UK RELAY-1H
+      - FI HELSINKI UDP-1K
+      - 🇳🇱 NL AMS-01 UDP-1L
+      - 🇭🇰 TTC9999 香港-1B
+      - 🇳🇱 NL AMS-01 UDP-1D
+      - SMART TURBO 01-1H
+      - FI HELSINKI UDP-1E
+      - UDP EDGE-03-1A
+      - UDP EDGE-03-1B
+      - UDP EDGE-05-1C
+      - 🇳🇱 NL AMS-01-1L
+      - 🇩🇪 德国-法兰克福-001-1E
+      - 🇳🇱 NL AMS-01-1E
+      - 🇩🇪 德国-法兰克福-003-1G
+      - FI HELSINKI UDP-1I
+      - 🇬🇧 UK RELAY-1G
+      - 🇩🇪 德国-法兰克福-003-1A
+      - SMART TURBO 02-1J
       - SMART TURBO 02-1H
-      - FI HELSINKI UDP-1F
+      - SMART TURBO 01-1A
+      - UDP EDGE-05-1A
+      - 🇳🇱 NL AMS-01-1A
+      - FV2026-7-7-1D
+      - SMART TURBO 02-1E
+      - 🇳🇱 NL AMS-01-1D
+      - 🇩🇪 德国-法兰克福-002-1J
+      - FI HELSINKI UDP-1B
+      - GY-EYC
+      - SMART TURBO 01-1I
+      - 🇹🇼 台湾高速节点2
+      - UDP EDGE-05-1F
+      - 🇳🇱 NL AMS-02-1I
+      - 8F-FDB
+      - SMART TURBO 02-1L
+      - SMART TURBO 02-1F
+      - 🇩🇪 德国-法兰克福-001-1I
+      - FV2026-7-7-1B
+      - UDP EDGE-03-1I
+      - 🇩🇪 德国-法兰克福-002-1H
+      - 🇳🇱 NL AMS-02 UDP-1F
+      - 🇩🇪 德国-法兰克福-004-1D
+      - UDP EDGE-05-1B
+      - UDP EDGE-04-1C
+      - A1-YDJ
+      - 🇬🇧 UK RELAY-1K
+      - UDP EDGE-03-1H
+      - 🇩🇪 德国-法兰克福-004-1A
+      - 🇳🇱 NL AMS-02 UDP-1A
+      - 🇩🇪 德国-法兰克福-003-1C
+      - 🇳🇱 NL AMS-02 UDP-1D
+      - 🇺🇸 美国纽约 原生IP
+      - SMART TURBO 01-1C
+      - UDP EDGE-05-1H
+      - 🇩🇪 德国-法兰克福-004-1C
+      - 🇩🇪 德国-法兰克福-001-1C
+      - UDP EDGE-03-1K
+      - 🇳🇱 NL AMS-01 UDP-1H
+      - UDP EDGE-04-1E
+      - 🇳🇱 NL AMS-01 UDP-1G
+      - UDP EDGE-05-1J
+      - UDP EDGE-03-1G
+      - 🇭🇰 TTC9999 香港-1A
+      - 🇩🇪 德国-法兰克福-002-1A
+      - 🇬🇧 UK RELAY-1B
+      - 🇳🇱 NL AMS-01-1G
+      - 🇳🇱 NL AMS-02 UDP-1J
+      - 🇳🇱 NL AMS-02-1J
+      - UDP EDGE-05-1K
+      - SMART TURBO 02-1G
+      - 🇹🇼 台湾 IEPL专线
+      - 🇩🇪 德国-法兰克福-004-1J
+      - 🇩🇪 德国-法兰克福-003-1D
+      - FI HELSINKI UDP-1L
+      - 🇳🇱 NL AMS-01-1K
+      - 🇰🇷 韩国节点-B
+      - 🇳🇱 NL AMS-01-1H
+      - UDP EDGE-05-1I
+      - MH-CKJ
+      - UDP EDGE-03-1L
+      - 🇭🇰 HK-A
+      - 🇳🇱 NL AMS-02 UDP-1K
+      - 🇬🇧 UK RELAY-1I
+      - 🇳🇱 NL AMS-02 UDP-1G
+      - 🇩🇪 德国-法兰克福-003-1E
+      - 🇳🇱 NL AMS-01 UDP-1F
+      - UDP EDGE-04-1K
+      - FI HELSINKI UDP-1G
+      - 🇩🇪 德国-法兰克福-001-1G
+      - 🇩🇪 德国-法兰克福-001-1H
+      - UDP EDGE-03-1C
+      - SMART TURBO 01-1B
+      - 🇳🇱 NL AMS-02-1B
+      - UDP EDGE-03-1D
       - 🇩🇪 德国-法兰克福-002-1G
-      - 🇩🇪 德国-法兰克福-001-1D
+      - 🇩🇪 德国-法兰克福-001-1J
+      - 🇩🇪 德国-法兰克福-001-1F
+      - UDP EDGE-04-1H
+      - 🇳🇱 NL AMS-01-1F
+      - 🇨🇳 中国联通节点1
+      - SMART TURBO 02-1A
+      - 🇳🇱 NL AMS-02-1L
+      - SMART TURBO 01-1F
+      - 🇬🇧 UK RELAY-1C
+      - UDP EDGE-03-1J
+      - 🇬🇧 UK RELAY-1D
+      - SMART TURBO 02-1D
+      - SMART TURBO 02-1C
+      - 🇳🇱 NL AMS-01-1I
+      - 🇳🇱 NL AMS-02-1D
+      - 🇺🇸 HY-05| US
+      - 🇳🇱 NL AMS-02 UDP-1B
+      - SMART TURBO 02-1I
+      - UDP EDGE-04-1G
+      - 🇩🇪 德国-法兰克福-004-1G
+      - 🇸🇬 新加坡 BGP优化
+      - UDP EDGE-05-1D
+      - 🇳🇱 NL AMS-01-1B
       - 🇩🇪 德国-法兰克福-002-1F
+      - 🇬🇧 UK RELAY-1L
+      - 🇩🇪 德国-法兰克福-002-1I
+      - FI HELSINKI UDP-1J
+      - FI HELSINKI UDP-1H
+      - UDP EDGE-05-1L
+      - 🇬🇧 UK RELAY-1A
+      - 🇩🇪 德国-法兰克福-003-1J
+      - 🇳🇱 NL AMS-02 UDP-1H
+      - 🇩🇪 德国-法兰克福-002-1E
+      - 🇳🇱 NL AMS-02-1H
+      - 🇺🇸 HY-04 | US
+      - 🇳🇱 NL AMS-01 UDP-1J
+      - SMART TURBO 01-1E
+      - FV2026-7-7-1G
+      - 🇳🇱 NL AMS-01 UDP-1C
+      - UDP EDGE-04-1F
+      - 🇳🇱 NL AMS-02 UDP-1C
+      - 🇳🇱 NL AMS-01 UDP-1A
+      - FI HELSINKI UDP-1D
+      - 🇺🇸 美国-洛杉矶-PRO
+      - SMART TURBO 01-1L
+      - 🇩🇪 德国-法兰克福-004-1B
+      - JQ-ACU
+      - 🇩🇪 德国-法兰克福-001-1B
+      - 🇩🇪 德国-法兰克福-004-1E
+      - 🇳🇱 NL AMS-01-1C
+      - UDP EDGE-05-1G
+      - 🇬🇧 UK RELAY-1E
+      - 🇬🇧 UK RELAY-1J
+      - 🇺🇸 HY-03 | US
+      - SMART TURBO 02-1K
+      - UDP EDGE-03-1E
+      - 🇳🇱 NL AMS-01 UDP-1K
+      - 🇩🇪 德国-法兰克福-001-1D
+      - 🇹🇼 台湾高速节点
+      - 🇩🇪 德国-法兰克福-003-1B
+      - UDP EDGE-04-1B
+      - 🇳🇱 NL AMS-02-1G
+      - 🇳🇱 NL AMS-02-1E
+      - 🇳🇱 NL AMS-01 UDP-1I
+      - 🇩🇪 德国-法兰克福-002-1C
+      - 🇩🇪 德国-法兰克福-002-1D
+      - FV2026-7-7-1C
+      - 🇺🇸 美国高速节点1
+      - SMART TURBO 02-1B
+      - UDP EDGE-05-1E
+      - 🇳🇱 NL AMS-02 UDP-1I
+      - 🇩🇪 德国-法兰克福-004-1F
+      - 🇨🇦 加拿大 三网优化
+      - FI HELSINKI UDP-1C
+      - 🇩🇪 德国-法兰克福-001-1A
+      - 🇩🇪 德国-法兰克福-003-1H
+      - FV2026-7-7-1F
+      - G I C A B N H T H N
+      - 🇺🇸 HY-02 | US
+      - FI HELSINKI UDP-1F
+      - 🇳🇱 NL AMS-02 UDP-1L
+      - FV2026-7-7-1A
+      - SMART TURBO 01-1D
+      - UDP EDGE-04-1A
+      - 🇳🇱 NL AMS-02-1K
+      - UDP EDGE-04-1D
+      - UDP EDGE-04-1L
+      - RN-TJR
+      - 🇬🇧 UK RELAY-1F
+      - 🇳🇱 NL AMS-01 UDP-1E
+      - SMART TURBO 01-1J
+      - 🇩🇪 德国-法兰克福-004-1I
+      - SMART TURBO 01-1K
+      - XA-NDC
+      - 🇹🇼 台湾高速节点3
+      - UDP EDGE-04-1J
+      - 🇳🇱 NL AMS-01 UDP-1B
+      - 🇳🇱 NL AMS-02 UDP-1E
+      - 🇩🇪 德国-法兰克福-003-1F
+      - 🇳🇱 NL AMS-02-1A
+      - FV2026-7-7-1E
+      - 🇳🇱 NL AMS-02-1C
+      - UDP EDGE-04-1I
+      - 🇳🇱 NL AMS-01-1J
+      - Y7-ZNY
+      - UDP EDGE-03-1F
+      - 🇩🇪 德国-法兰克福-002-1B
+      - 🇩🇪 德国-法兰克福-004-1H
+      - FI HELSINKI UDP-1A
+      - SMART TURBO 01-1G
+      - 🇩🇪 德国-法兰克福-003-1I
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
