@@ -4477,3 +4477,5 @@ https://speed.kdns.fr/
 https://board.ccwu.cc/
 https://node.board.ccwu.cc/
 https://www.xdmyyds.org/
+https://colacloud.online/
+https://portal.colacloud.net/
